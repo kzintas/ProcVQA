@@ -1,5 +1,3 @@
-Collecting workspace information# VLM4Vis
-
 A framework for evaluating Vision-Language Models (VLMs) on event sequence visualizations.
 
 !Teaser
