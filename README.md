@@ -113,12 +113,12 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 If you use this code for your research, please cite:
 
 ```
-@misc{VLM4Vis,
-  author = {Tasnim, Zinat},
-  title = {VLM4Vis: Evaluating event sequence images on open source LLMs},
-  year = {2024},
+@misc{ProcVQA,
+  author = {Zinat, Kazi Tasnim},
+  title = {ProcVQA: Benchmarking the Effects of Structural Properties in\\Mined Process Visualizations on Vision–Language Model Performance},
+  year = {2025},
   publisher = {GitHub},
-  url = {https://github.com/yourusername/VLM4Vis}
+  url = {https://github.com/kzintas/ProcVQA}
 }
 ```
 
