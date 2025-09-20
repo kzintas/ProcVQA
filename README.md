@@ -4,11 +4,11 @@ A framework for evaluating Vision-Language Models (VLMs) on event sequence visua
 
 ## Overview
 
-VLM4Vis is a comprehensive framework for evaluating how well Visual Language Models (VLMs) understand and extract information from process visualizations. The project focuses on three main visualization types:
+VLM4Vis is a comprehensive framework for evaluating how well Visual Language Models (VLMs) understand and extract information from process visualizations. The project focuses on three process visualization types:
 
-- CoreFlow: Tree diagrams showing event flow patterns
-- Sequence Synopsis: Cluster of linear sequences based visualizations
-- SentenTree: Graph-based  visualizations
+- Tree diagrams showing event flow patterns
+- Cluster of linear sequences based visualizations
+- Graph  visualizations
 
 ## Project Structure
 
@@ -40,9 +40,9 @@ VLM4Vis is a comprehensive framework for evaluating how well Visual Language Mod
 - **Comprehensive Metrics**:
   - Precision, Recall, F1 scores
   - Hallucination detection
-  - Complexity-based analysis
+  - Density-based analysis
 
-- **Result Visualization**: Tools to generate comparative analysis across models
+- **Result Visualization**: Comparative analysis across models
 
 ## Usage
 
@@ -76,14 +76,6 @@ pip install -r requirements.txt
    - Cross-model comparisons
    - Detailed hallucination analysis
 
-### Working with Custom Visualizations
-
-To evaluate models on your own visualizations:
-
-1. Add your images to the appropriate directory in `All Visual Summaries/`
-2. Create ground truth files in the proper format in GT_files
-3. Update the data processing scripts as needed
-4. Run the evaluation pipeline
 
 ## Results Analysis
 
@@ -124,4 +116,4 @@ If you use this code for your research, please cite:
 
 ## Acknowledgements
 
-This project builds upon research in visualization understanding and visual language models.
+This project builds upon previous research in visualization understanding such as Sequence Summary and visual language models.
