@@ -1,100 +1,61 @@
-A framework for evaluating Vision-Language Models (VLMs) on event sequence visualizations.
+# ProcVQA: Process Visualization Question Answering Benchmark
 
-!Teaser
-
-## Overview
-
-VLM4Vis is a comprehensive framework for evaluating how well Visual Language Models (VLMs) understand and extract information from process visualizations. The project focuses on three process visualization types:
-
-- Tree diagrams showing event flow patterns
-- Cluster of linear sequences based visualizations
-- Graph  visualizations
-
-## Project Structure
-
-```
-.
-├── vde_images/
-|-- vqa_images/                       # Source image files
-├── GT_files/                   # Ground truth files consolidated
-├── GT_JSON_files/                    # Ground truth in JSON format
-├── scripts/                    # Main evaluation and processing scripts
-    ├── mcq_outputs/            # VQA outputs
-│   ├── outputs/                # Extraction outputs
-│   ├── evaluate_scores_formatted_new.ipynb  # Main evaluation notebook
-│   └── formatting_mcq_for_llm.ipynb         # Prompt formatting for models
-├── preprocessing_and_eval/     # Preprocessing utilities
-└── outputs/                    # Output analysis results
-```
+**ProcVQA** is a benchmark designed to evaluate Vision-Language Models (VLMs) on their ability to understand **process visualizations**—node-link diagrams depicting frequent patterns mined from event sequence data. This benchmark enables systematic analysis of how structural properties (structure type and density) affect VLM performance.
 
 ## Features
 
-- **Multi-model Evaluation**: Support for evaluating multiple VLMs including:
-  - GPT-4.1
-  - Claude 3.5 (Haiku, Sonnet)
-  - Llama 3.2 and Llama 4 (Maverick, Scout)
-  - Gemini models
-  - Qwen models
-  - Gemma models
+- **118 real-world process visualizations** from 8 diverse domains (healthcare, sports, mobility, software engineering)
+- **3 visualization structure types**: Trees, Graphs, and Linear Sequence Clusters
+- **Controlled density levels**: Low, Medium, and High structural complexity
+- **2 evaluation tasks**:
+  - **Visual Data Extraction (VDE)**: Extract all node-edge relationships
+  - **Visual Question Answering (VQA)**: Answer 144 expert-validated questions
+- **4 reasoning categories**: Value Extraction, Sequential Reasoning, Value Aggregation, Unanswerable Detection
+- **Comprehensive analysis** of 21 proprietary and open-source VLMs
 
-- **Comprehensive Metrics**:
-  - Precision, Recall, F1 scores
-  - Hallucination detection
-  - Density-based analysis
+### Domain Coverage
+- Healthcare (Trauma, Emergency)
+- Sports (Basketball, Baseball)  
+- Mobility (Foursquare check-ins, VAST Challenge)
+- Software Engineering (Workflow, Bug-fix activities)
 
-- **Result Visualization**: Comparative analysis across models
+## Dataset Statistics
 
-## Usage
+| Visualization Type | Count | Avg Nodes | Avg Edges | Avg Unique Nodes |
+|-------------------|-------|-----------|-----------|------------------|
+| Trees | 34 | 11.88 | 10.88 | 5.74 |
+| Graphs | 46 | 13.17 | 14.63 | 6.48 |
+| Linear Sequences | 38 | 40.53 | 5.76 | 10.55 |
+| **Overall** | **118** | **21.61** | **10.69** | **7.58** |
 
-### Prerequisites
+## 📁 Repository Structure
 
-```bash
-# Install required packages
-pip install -r requirements.txt
 ```
-
-### Running Model Evaluations
-
-1. **Configure API Keys** (for commercial models):
-
-   Add your API keys to the appropriate configuration files or environment variables.
-
-2. **Run the Evaluation Pipeline**:
-
-   ```bash
-   # Option 1: Use the evaluation notebook
-   jupyter notebook scripts/evaluate_scores_formatted_new.ipynb
-   
-   # Option 2: Run from command line
-   python scripts/evaluate_models.py
-   ```
-
-3. **Process Results**:
-
-   The evaluation results will be stored in `outputs/extraction_results/` directory with:
-   - Individual model results
-   - Cross-model comparisons
-   - Detailed hallucination analysis
-
-
-## Results Analysis
-
-The evaluation generates several output formats:
-
-- CSV files with detailed metrics for each model
-- JSON files with overall performance statistics
-- Complexity analysis based on visualization characteristics
-- Hallucination detection reports
-
-Access these in the `outputs/extraction_results/` directory after running the evaluation.
-
-## Extending the Framework
-
-To add support for new models:
-
-1. Create a model adapter in the appropriate script format
-2. Add the model to the list of evaluated models
-3. Run the evaluation pipeline with your new model
+ProcVQA/
+├── vde_images/                    # Images for Visual Data Extraction task
+│   ├── trees/                     # Tree visualizations (34 images)
+│   ├── graphs/                    # Graph visualizations (46 images)
+│   └── linear_sequences/          # Linear sequence clusters (38 images)
+│
+├── vqa_images/                    # Images for Visual Question Answering task
+│   ├── trees/
+│   ├── graphs/
+│   └── linear_sequences/
+│
+├── vde_ground_truth/              # Ground truth for VDE task
+│   ├── trees/                     # JSON files with node-edge tuples
+│   ├── graphs/
+│   ├── linear_sequences/
+│   └── complexity_stats.csv       # Structural density classifications
+│
+├── vqa_ground_truth/              # Ground truth for VQA task
+│   └── VQA_mcq_with_prompts.csv   # 144 questions with answers
+│
+├── scripts/                       # Evaluation scripts
+│   ├── vde_outputs/               # Example model outputs for VDE
+│   ├── vqa_outputs/               # Example model outputs for VQA
+│   └── models/                    # Model configuration files
+```
 
 ## License
 
@@ -102,15 +63,29 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Citation
 
-If you use this code for your research, please cite:
+If you use ProcVQA in your research, please cite:
 
-```
-@misc{ProcVQA,
-  author = {Zinat, Kazi Tasnim},
-  title = {ProcVQA: Benchmarking the Effects of Structural Properties in\\Mined Process Visualizations on Vision–Language Model Performance},
-  year = {2025},
-  publisher = {GitHub},
-  url = {https://github.com/kzintas/ProcVQA}
+```bibtex
+@inproceedings{zinat-etal-2025-procvqa,
+    title = "{P}roc{VQA}: Benchmarking the Effects of Structural Properties in Mined Process Visualizations on Vision{--}Language Model Performance",
+    author = "Zinat, Kazi Tasnim  and
+      Abrar, Saad Mohammad  and
+      Saha, Shoumik  and
+      Duppala, Sharmila  and
+      Sakhamuri, Saimadhav Naga  and
+      Liu, Zhicheng",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2025",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-emnlp.1266/",
+    pages = "23316--23348",
+    ISBN = "979-8-89176-335-7".
 }
 ```
 
