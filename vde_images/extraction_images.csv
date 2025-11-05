@@ -1,3 +1,4 @@
+path
 ./trees/pediatric_trauma/pediatric_trauma_msp_15.png
 ./trees/pediatric_trauma/pediatric_trauma_msp_05.png
 ./trees/pediatric_trauma/pediatric_trauma_msp_30.png
@@ -54,18 +55,12 @@
 ./linear_sequences/Foursquare_NYC/Foursquare_NYC_alpha_10.png
 ./linear_sequences/test/test_alpha_05.png
 ./linear_sequences/emergency_dataset/emergency_dataset_alpha_05.png
-./linear_sequences/alpha_15.png
-./linear_sequences/alpha_05.png
-./linear_sequences/alpha_10.png
-./linear_sequences/alpha_20.png
 ./linear_sequences/umdvsunc_D2O_basketball/umdvsunc_D2O_basketball_alpha_25.png
 ./linear_sequences/umdvsunc_D2O_basketball/umdvsunc_D2O_basketball_alpha_30.png
 ./linear_sequences/umdvsunc_D2O_basketball/umdvsunc_D2O_basketball_alpha_20.png
 ./linear_sequences/umdvsunc_D2O_basketball/umdvsunc_D2O_basketball_alpha_10.png
 ./linear_sequences/umdvsunc_D2O_basketball/umdvsunc_D2O_basketball_alpha_05.png
 ./linear_sequences/umdvsunc_D2O_basketball/umdvsunc_D2O_basketball_alpha_15.png
-./linear_sequences/alpha_30.png
-./linear_sequences/alpha_25.png
 ./linear_sequences/process_mining/process_mining_alpha_30.png
 ./linear_sequences/process_mining/process_mining_alpha_25.png
 ./linear_sequences/process_mining/process_mining_alpha_20.png
