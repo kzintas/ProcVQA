@@ -1,0 +1,14 @@
+*.pyc
+*DS_Store
+__pycache__/
+**/__pycache__/
+*.egg-info/
+*.egg
+*.pyo
+*.pyd
+*.db
+*.sqlite
+*.log
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+**/.ipynb_checkpoints
