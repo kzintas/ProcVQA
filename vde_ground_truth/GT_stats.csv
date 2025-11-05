@@ -1,0 +1,175 @@
+path,total_nodes,links_count,total_unique_nodes
+../GT_JSON_files/Sequence Synopsis/pediatric_trauma/alpha_10.json,31,4,12
+../GT_JSON_files/Sequence Synopsis/pediatric_trauma/alpha_30.json,36,5,11
+../GT_JSON_files/Sequence Synopsis/pediatric_trauma/alpha_20.json,58,7,12
+../GT_JSON_files/Sequence Synopsis/pediatric_trauma/alpha_15.json,45,6,12
+../GT_JSON_files/Sequence Synopsis/pediatric_trauma/alpha_5.json,63,8,12
+../GT_JSON_files/Sequence Synopsis/pediatric_trauma/alpha_25.json,40,5,12
+../GT_JSON_files/Sequence Synopsis/career/alpha_10.json,36,3,9
+../GT_JSON_files/Sequence Synopsis/career/alpha_30.json,40,3,9
+../GT_JSON_files/Sequence Synopsis/career/alpha_20.json,37,3,9
+../GT_JSON_files/Sequence Synopsis/career/alpha_15.json,49,4,10
+../GT_JSON_files/Sequence Synopsis/career/alpha_5.json,50,4,10
+../GT_JSON_files/Sequence Synopsis/career/alpha_25.json,50,4,10
+../GT_JSON_files/Sequence Synopsis/chicago_baseball/alpha_10.json,15,3,8
+../GT_JSON_files/Sequence Synopsis/chicago_baseball/alpha_30.json,25,4,11
+../GT_JSON_files/Sequence Synopsis/chicago_baseball/alpha_20.json,21,4,10
+../GT_JSON_files/Sequence Synopsis/chicago_baseball/alpha_15.json,6,1,6
+../GT_JSON_files/Sequence Synopsis/chicago_baseball/alpha_5.json,5,1,5
+../GT_JSON_files/Sequence Synopsis/chicago_baseball/alpha_25.json,31,5,11
+../GT_JSON_files/Sequence Synopsis/Foursquare_NYC/alpha_10.json,20,5,7
+../GT_JSON_files/Sequence Synopsis/Foursquare_NYC/alpha_30.json,180,39,29
+../GT_JSON_files/Sequence Synopsis/Foursquare_NYC/alpha_20.json,124,28,29
+../GT_JSON_files/Sequence Synopsis/Foursquare_NYC/alpha_15.json,106,25,32
+../GT_JSON_files/Sequence Synopsis/Foursquare_NYC/alpha_5.json,16,4,6
+../GT_JSON_files/Sequence Synopsis/Foursquare_NYC/alpha_25.json,171,36,30
+../GT_JSON_files/Sequence Synopsis/test/alpha_10.json,24,4,10
+../GT_JSON_files/Sequence Synopsis/test/alpha_30.json,24,4,10
+../GT_JSON_files/Sequence Synopsis/test/alpha_20.json,24,4,10
+../GT_JSON_files/Sequence Synopsis/test/alpha_15.json,24,4,10
+../GT_JSON_files/Sequence Synopsis/test/alpha_5.json,24,4,10
+../GT_JSON_files/Sequence Synopsis/test/alpha_25.json,24,4,10
+../GT_JSON_files/Sequence Synopsis/emergency_dataset/alpha_10.json,25,4,8
+../GT_JSON_files/Sequence Synopsis/emergency_dataset/alpha_30.json,25,4,8
+../GT_JSON_files/Sequence Synopsis/emergency_dataset/alpha_20.json,25,4,8
+../GT_JSON_files/Sequence Synopsis/emergency_dataset/alpha_15.json,25,4,8
+../GT_JSON_files/Sequence Synopsis/emergency_dataset/alpha_5.json,25,4,8
+../GT_JSON_files/Sequence Synopsis/emergency_dataset/alpha_25.json,25,4,8
+../GT_JSON_files/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_10.json,35,5,10
+../GT_JSON_files/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_30.json,40,6,11
+../GT_JSON_files/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_20.json,25,4,9
+../GT_JSON_files/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_15.json,32,5,11
+../GT_JSON_files/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_5.json,40,6,12
+../GT_JSON_files/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_25.json,32,5,11
+../GT_JSON_files/Sequence Synopsis/process_mining/alpha_10.json,33,7,12
+../GT_JSON_files/Sequence Synopsis/process_mining/alpha_30.json,33,7,12
+../GT_JSON_files/Sequence Synopsis/process_mining/alpha_20.json,33,7,12
+../GT_JSON_files/Sequence Synopsis/process_mining/alpha_15.json,33,7,12
+../GT_JSON_files/Sequence Synopsis/process_mining/alpha_5.json,33,7,12
+../GT_JSON_files/Sequence Synopsis/process_mining/alpha_25.json,33,7,12
+../GT_JSON_files/Sequence Synopsis/VAST/alpha_10.json,96,9,8
+../GT_JSON_files/Sequence Synopsis/VAST/alpha_30.json,71,7,8
+../GT_JSON_files/Sequence Synopsis/VAST/alpha_20.json,83,8,8
+../GT_JSON_files/Sequence Synopsis/VAST/alpha_15.json,96,9,8
+../GT_JSON_files/Sequence Synopsis/VAST/alpha_5.json,96,9,8
+../GT_JSON_files/Sequence Synopsis/VAST/alpha_25.json,71,7,8
+../GT_JSON_files/CoreFlow/pediatric_trauma/msp_25.json,12,11,7
+../GT_JSON_files/CoreFlow/pediatric_trauma/msp_15.json,12,11,7
+../GT_JSON_files/CoreFlow/pediatric_trauma/msp_5.json,18,17,8
+../GT_JSON_files/CoreFlow/pediatric_trauma/msp_20.json,12,11,7
+../GT_JSON_files/CoreFlow/pediatric_trauma/msp_10.json,18,17,8
+../GT_JSON_files/CoreFlow/pediatric_trauma/msp_30.json,10,9,6
+../GT_JSON_files/CoreFlow/career/msp_25.json,10,9,6
+../GT_JSON_files/CoreFlow/career/msp_15.json,14,13,7
+../GT_JSON_files/CoreFlow/career/msp_5.json,24,23,7
+../GT_JSON_files/CoreFlow/career/msp_20.json,10,9,6
+../GT_JSON_files/CoreFlow/career/msp_10.json,20,19,7
+../GT_JSON_files/CoreFlow/career/msp_30.json,10,9,6
+../GT_JSON_files/CoreFlow/vast_1000/msp_25.json,6,5,3
+../GT_JSON_files/CoreFlow/vast_1000/msp_15.json,6,5,3
+../GT_JSON_files/CoreFlow/vast_1000/msp_5.json,8,7,4
+../GT_JSON_files/CoreFlow/vast_1000/msp_20.json,6,5,3
+../GT_JSON_files/CoreFlow/vast_1000/msp_10.json,6,5,3
+../GT_JSON_files/CoreFlow/vast_1000/msp_30.json,6,5,3
+../GT_JSON_files/CoreFlow/chicago_baseball/msp_25.json,7,6,5
+../GT_JSON_files/CoreFlow/chicago_baseball/msp_15.json,9,8,6
+../GT_JSON_files/CoreFlow/chicago_baseball/msp_5.json,23,22,10
+../GT_JSON_files/CoreFlow/chicago_baseball/msp_20.json,9,8,6
+../GT_JSON_files/CoreFlow/chicago_baseball/msp_10.json,13,12,7
+../GT_JSON_files/CoreFlow/chicago_baseball/msp_30.json,7,6,5
+../GT_JSON_files/CoreFlow/Foursquare_NYC/msp_25.json,6,5,3
+../GT_JSON_files/CoreFlow/Foursquare_NYC/msp_15.json,10,9,4
+../GT_JSON_files/CoreFlow/Foursquare_NYC/msp_5.json,20,19,5
+../GT_JSON_files/CoreFlow/Foursquare_NYC/msp_20.json,8,7,4
+../GT_JSON_files/CoreFlow/Foursquare_NYC/msp_10.json,12,11,4
+../GT_JSON_files/CoreFlow/Foursquare_NYC/msp_30.json,4,3,3
+../GT_JSON_files/CoreFlow/test/msp_25.json,9,8,6
+../GT_JSON_files/CoreFlow/test/msp_15.json,21,20,10
+../GT_JSON_files/CoreFlow/test/msp_5.json,21,20,10
+../GT_JSON_files/CoreFlow/test/msp_20.json,9,8,6
+../GT_JSON_files/CoreFlow/test/msp_10.json,21,20,10
+../GT_JSON_files/CoreFlow/test/msp_30.json,9,8,6
+../GT_JSON_files/CoreFlow/emergency_dataset/msp_25.json,9,8,7
+../GT_JSON_files/CoreFlow/emergency_dataset/msp_15.json,12,11,8
+../GT_JSON_files/CoreFlow/emergency_dataset/msp_5.json,12,11,8
+../GT_JSON_files/CoreFlow/emergency_dataset/msp_20.json,12,11,8
+../GT_JSON_files/CoreFlow/emergency_dataset/msp_10.json,12,11,8
+../GT_JSON_files/CoreFlow/emergency_dataset/msp_30.json,9,8,7
+../GT_JSON_files/CoreFlow/umdvsunc_D2O_basketball/msp_25.json,6,5,5
+../GT_JSON_files/CoreFlow/umdvsunc_D2O_basketball/msp_15.json,10,9,7
+../GT_JSON_files/CoreFlow/umdvsunc_D2O_basketball/msp_5.json,23,22,10
+../GT_JSON_files/CoreFlow/umdvsunc_D2O_basketball/msp_20.json,10,9,7
+../GT_JSON_files/CoreFlow/umdvsunc_D2O_basketball/msp_10.json,16,15,8
+../GT_JSON_files/CoreFlow/umdvsunc_D2O_basketball/msp_30.json,6,5,5
+../GT_JSON_files/CoreFlow/process_mining/msp_25.json,6,5,3
+../GT_JSON_files/CoreFlow/process_mining/msp_15.json,8,7,4
+../GT_JSON_files/CoreFlow/process_mining/msp_5.json,20,19,6
+../GT_JSON_files/CoreFlow/process_mining/msp_20.json,6,5,3
+../GT_JSON_files/CoreFlow/process_mining/msp_10.json,14,13,5
+../GT_JSON_files/CoreFlow/process_mining/msp_30.json,4,3,3
+../GT_JSON_files/CoreFlow/VAST/msp_25.json,5,4,3
+../GT_JSON_files/CoreFlow/VAST/msp_15.json,5,4,3
+../GT_JSON_files/CoreFlow/VAST/msp_5.json,7,6,4
+../GT_JSON_files/CoreFlow/VAST/msp_20.json,5,4,3
+../GT_JSON_files/CoreFlow/VAST/msp_10.json,5,4,3
+../GT_JSON_files/CoreFlow/VAST/msp_30.json,5,4,3
+../GT_JSON_files/SentenTree/pediatric_trauma/msp_25.json,8,8,8
+../GT_JSON_files/SentenTree/pediatric_trauma/msp_15.json,9,10,8
+../GT_JSON_files/SentenTree/pediatric_trauma/msp_5.json,22,30,10
+../GT_JSON_files/SentenTree/pediatric_trauma/msp_20.json,8,8,8
+../GT_JSON_files/SentenTree/pediatric_trauma/msp_10.json,14,18,10
+../GT_JSON_files/SentenTree/pediatric_trauma/msp_30.json,8,8,8
+../GT_JSON_files/SentenTree/career/msp_25.json,11,10,7
+../GT_JSON_files/SentenTree/career/msp_15.json,15,15,7
+../GT_JSON_files/SentenTree/career/msp_5.json,32,44,10
+../GT_JSON_files/SentenTree/career/msp_20.json,12,12,7
+../GT_JSON_files/SentenTree/career/msp_10.json,19,23,7
+../GT_JSON_files/SentenTree/career/msp_30.json,11,10,7
+../GT_JSON_files/SentenTree/vast_1000/msp_25.json,9,8,4
+../GT_JSON_files/SentenTree/vast_1000/msp_15.json,10,11,4
+../GT_JSON_files/SentenTree/vast_1000/msp_5.json,27,36,8
+../GT_JSON_files/SentenTree/vast_1000/msp_20.json,10,10,4
+../GT_JSON_files/SentenTree/vast_1000/msp_10.json,11,13,4
+../GT_JSON_files/SentenTree/vast_1000/msp_30.json,9,8,4
+../GT_JSON_files/SentenTree/chicago_baseball/msp_25.json,8,9,7
+../GT_JSON_files/SentenTree/chicago_baseball/msp_15.json,9,11,8
+../GT_JSON_files/SentenTree/chicago_baseball/msp_5.json,20,25,10
+../GT_JSON_files/SentenTree/chicago_baseball/msp_20.json,8,9,7
+../GT_JSON_files/SentenTree/chicago_baseball/msp_10.json,11,13,8
+../GT_JSON_files/SentenTree/chicago_baseball/msp_30.json,6,5,5
+../GT_JSON_files/SentenTree/Foursquare_NYC/msp_25.json,5,4,3
+../GT_JSON_files/SentenTree/Foursquare_NYC/msp_15.json,9,9,5
+../GT_JSON_files/SentenTree/Foursquare_NYC/msp_5.json,19,18,5
+../GT_JSON_files/SentenTree/Foursquare_NYC/msp_20.json,8,7,4
+../GT_JSON_files/SentenTree/Foursquare_NYC/msp_10.json,11,10,4
+../GT_JSON_files/SentenTree/Foursquare_NYC/msp_30.json,4,3,3
+../GT_JSON_files/SentenTree/test/msp_25.json,9,8,6
+../GT_JSON_files/SentenTree/test/msp_15.json,33,37,14
+../GT_JSON_files/SentenTree/test/msp_5.json,33,37,14
+../GT_JSON_files/SentenTree/test/msp_20.json,9,8,6
+../GT_JSON_files/SentenTree/test/msp_10.json,33,37,14
+../GT_JSON_files/SentenTree/test/msp_30.json,9,8,6
+../GT_JSON_files/SentenTree/emergency_dataset/msp_25.json,9,8,7
+../GT_JSON_files/SentenTree/emergency_dataset/msp_15.json,12,12,8
+../GT_JSON_files/SentenTree/emergency_dataset/msp_5.json,13,14,8
+../GT_JSON_files/SentenTree/emergency_dataset/msp_20.json,12,12,8
+../GT_JSON_files/SentenTree/emergency_dataset/msp_10.json,12,12,8
+../GT_JSON_files/SentenTree/emergency_dataset/msp_30.json,8,7,7
+../GT_JSON_files/SentenTree/umdvsunc_D2O_basketball/msp_25.json,8,9,7
+../GT_JSON_files/SentenTree/umdvsunc_D2O_basketball/msp_15.json,9,10,7
+../GT_JSON_files/SentenTree/umdvsunc_D2O_basketball/msp_5.json,30,35,11
+../GT_JSON_files/SentenTree/umdvsunc_D2O_basketball/msp_20.json,9,10,7
+../GT_JSON_files/SentenTree/umdvsunc_D2O_basketball/msp_10.json,16,20,8
+../GT_JSON_files/SentenTree/umdvsunc_D2O_basketball/msp_30.json,8,9,7
+../GT_JSON_files/SentenTree/process_mining/msp_25.json,6,5,3
+../GT_JSON_files/SentenTree/process_mining/msp_15.json,8,7,4
+../GT_JSON_files/SentenTree/process_mining/msp_5.json,19,20,7
+../GT_JSON_files/SentenTree/process_mining/msp_20.json,6,5,3
+../GT_JSON_files/SentenTree/process_mining/msp_10.json,13,13,5
+../GT_JSON_files/SentenTree/process_mining/msp_30.json,4,3,3
+../GT_JSON_files/SentenTree/VAST/msp_25.json,9,8,4
+../GT_JSON_files/SentenTree/VAST/msp_15.json,10,11,4
+../GT_JSON_files/SentenTree/VAST/msp_5.json,36,46,8
+../GT_JSON_files/SentenTree/VAST/msp_20.json,10,10,4
+../GT_JSON_files/SentenTree/VAST/msp_10.json,13,16,5
+../GT_JSON_files/SentenTree/VAST/msp_30.json,9,8,4
