@@ -1,0 +1,124 @@
+{
+  "events": [
+    [
+      "_Start",
+      1
+    ],
+    [
+      "_Start",
+      1
+    ],
+    [
+      "_Start",
+      2
+    ],
+    [
+      "_Start",
+      8
+    ],
+    [
+      "_Start",
+      6
+    ],
+    [
+      "_Start",
+      16
+    ],
+    [
+      "_Start",
+      7
+    ],
+    [
+      "distribute situational awareness",
+      1
+    ],
+    [
+      "ask a question",
+      1
+    ],
+    [
+      "build system update",
+      2
+    ],
+    [
+      "build system update",
+      1
+    ],
+    [
+      "commit changes",
+      8
+    ],
+    [
+      "commit changes",
+      3
+    ],
+    [
+      "commit changes",
+      2
+    ],
+    [
+      "create issue",
+      6
+    ],
+    [
+      "issue comment",
+      2
+    ],
+    [
+      "commit changes",
+      16
+    ],
+    [
+      "commit changes",
+      8
+    ],
+    [
+      "commit changes",
+      3
+    ],
+    [
+      "resolve issue",
+      3
+    ],
+    [
+      "create issue",
+      7
+    ],
+    [
+      "commit changes",
+      11
+    ],
+    [
+      "_Exit",
+      1
+    ],
+    [
+      "_Exit",
+      1
+    ],
+    [
+      "_Exit",
+      2
+    ],
+    [
+      "_Exit",
+      2
+    ],
+    [
+      "_Exit",
+      16
+    ],
+    [
+      "_Exit",
+      6
+    ],
+    [
+      "_Exit",
+      11
+    ],
+    [
+      "_Exit",
+      8
+    ]
+  ]
+}

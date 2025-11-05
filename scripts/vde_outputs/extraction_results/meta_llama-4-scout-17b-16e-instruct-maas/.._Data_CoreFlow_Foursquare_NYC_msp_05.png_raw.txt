@@ -1,0 +1,18 @@
+[
+["Start", "Fast Food", 137],
+["Fast Food", "Restaurant", 106],
+["Fast Food", "_Exit", 76],
+["Restaurant", "Exit", 43],
+["Fast Food", "Restaurant", 182],
+["Fast Food", "_Exit", 43],
+["Restaurant", "_Exit", 112],
+["Restaurant", "Exit", 50],
+["Restaurant", "Restaurant", 87],
+["Restaurant", "_Exit", 50],
+["Gym", "_Exit", 52],
+["Fast Food", "_Exit", 71],
+["_Exit", "Exit", 35],
+["Restaurant", "_Exit", 28],
+["Fast Food", "Restaurant", 43],
+["Restaurant", "Exit", 43]
+]

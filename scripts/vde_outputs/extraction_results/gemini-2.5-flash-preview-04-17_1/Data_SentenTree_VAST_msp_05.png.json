@@ -1,0 +1,279 @@
+{
+  "events": [
+    [
+      "_Start",
+      "entrance",
+      94
+    ],
+    [
+      "_Start",
+      "ranger-base",
+      6
+    ],
+    [
+      "entrance",
+      "general gate",
+      85
+    ],
+    [
+      "entrance",
+      "_Exit",
+      5
+    ],
+    [
+      "ranger-base",
+      "gate",
+      6
+    ],
+    [
+      "general gate",
+      "ranger-stop",
+      11
+    ],
+    [
+      "general gate",
+      "camping",
+      7
+    ],
+    [
+      "general gate",
+      "general gate",
+      45
+    ],
+    [
+      "general gate",
+      "ranger-stop",
+      13
+    ],
+    [
+      "general gate",
+      "general gate",
+      42
+    ],
+    [
+      "general gate",
+      "general gate",
+      30
+    ],
+    [
+      "general gate",
+      "general gate",
+      15
+    ],
+    [
+      "general gate",
+      "general gate",
+      6
+    ],
+    [
+      "general gate",
+      "camping",
+      6
+    ],
+    [
+      "general gate",
+      "camping",
+      6
+    ],
+    [
+      "general gate",
+      "camping",
+      6
+    ],
+    [
+      "gate",
+      "ranger-stop",
+      6
+    ],
+    [
+      "ranger-stop",
+      "ranger-stop",
+      63
+    ],
+    [
+      "ranger-stop",
+      "general gate",
+      4
+    ],
+    [
+      "camping",
+      "camping",
+      7
+    ],
+    [
+      "ranger-stop",
+      "ranger-stop",
+      6
+    ],
+    [
+      "general gate",
+      "general gate",
+      13
+    ],
+    [
+      "general gate",
+      "general gate",
+      10
+    ],
+    [
+      "general gate",
+      "ranger-stop",
+      7
+    ],
+    [
+      "general gate",
+      "ranger-stop",
+      7
+    ],
+    [
+      "general gate",
+      "general gate",
+      7
+    ],
+    [
+      "ranger-stop",
+      "ranger-stop",
+      11
+    ],
+    [
+      "camping",
+      "camping",
+      6
+    ],
+    [
+      "camping",
+      "general gate",
+      6
+    ],
+    [
+      "ranger-stop",
+      "ranger-stop",
+      6
+    ],
+    [
+      "ranger-stop",
+      "ranger-stop",
+      13
+    ],
+    [
+      "ranger-stop",
+      "ranger-stop",
+      6
+    ],
+    [
+      "camping",
+      "ranger-base",
+      6
+    ],
+    [
+      "camping",
+      "_Exit",
+      6
+    ],
+    [
+      "camping",
+      "camping",
+      6
+    ],
+    [
+      "camping",
+      "camping",
+      6
+    ],
+    [
+      "camping",
+      "general gate",
+      6
+    ],
+    [
+      "ranger-stop",
+      "ranger-stop",
+      6
+    ],
+    [
+      "ranger-stop",
+      "ranger-stop",
+      6
+    ],
+    [
+      "ranger-stop",
+      "ranger-stop",
+      6
+    ],
+    [
+      "ranger-stop",
+      "ranger-stop",
+      6
+    ],
+    [
+      "ranger-stop",
+      "gate",
+      6
+    ],
+    [
+      "gate",
+      "ranger-base",
+      6
+    ],
+    [
+      "ranger-base",
+      "_Exit",
+      6
+    ],
+    [
+      "ranger-stop",
+      "ranger-stop",
+      6
+    ],
+    [
+      "ranger-stop",
+      "ranger-stop",
+      7
+    ],
+    [
+      "ranger-stop",
+      "general gate",
+      7
+    ],
+    [
+      "general gate",
+      "general gate",
+      7
+    ],
+    [
+      "entrance",
+      "_Exit",
+      83
+    ],
+    [
+      "entrance",
+      "general gate",
+      3
+    ],
+    [
+      "entrance",
+      "general gate",
+      6
+    ],
+    [
+      "entrance",
+      "general gate",
+      8
+    ],
+    [
+      "entrance",
+      "general gate",
+      8
+    ],
+    [
+      "entrance",
+      "general gate",
+      14
+    ],
+    [
+      "general gate",
+      "general gate",
+      7
+    ]
+  ]
+}

@@ -1,0 +1,9 @@
+dataset,technique,parameter_value,attribute,value,gt_count,llm_count,hallucinated_count
+Foursquare_NYC,Sequence Synopsis,10.0,alcoholexit,10,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,25.0,missed shot-2,6,0.0,1.0,1.0
+emergency_dataset,Sequence Synopsis,5.0,dieexit,12,0.0,1.0,1.0
+emergency_dataset,Sequence Synopsis,5.0,discharge-aliveexit,37,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,15.0,missed shot->rebound,15,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,15.0,rebound->umd offense,24,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,15.0,unc offense->missed shot,15,0.0,1.0,1.0
+vast_1000,SentenTree,20.0,general gate->general gate,573,0.0,1.0,1.0

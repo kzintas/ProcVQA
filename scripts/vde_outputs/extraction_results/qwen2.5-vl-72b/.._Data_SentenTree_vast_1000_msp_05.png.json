@@ -1,0 +1,159 @@
+{
+  "events": [
+    [
+      "_Start",
+      "entrance",
+      947
+    ],
+    [
+      "entrance",
+      "general gate",
+      847
+    ],
+    [
+      "general gate",
+      "ranger-stop",
+      642
+    ],
+    [
+      "ranger-stop",
+      "ranger-stop",
+      515
+    ],
+    [
+      "ranger-stop",
+      "general gate",
+      429
+    ],
+    [
+      "general gate",
+      "general gate",
+      359
+    ],
+    [
+      "general gate",
+      "general gate",
+      221
+    ],
+    [
+      "general gate",
+      "general gate",
+      134
+    ],
+    [
+      "general gate",
+      "general gate",
+      98
+    ],
+    [
+      "general gate",
+      "general gate",
+      60
+    ],
+    [
+      "general gate",
+      "_Exit",
+      60
+    ],
+    [
+      "general gate",
+      "entrance",
+      161
+    ],
+    [
+      "entrance",
+      "_Exit",
+      871
+    ],
+    [
+      "ranger-stop",
+      "camping",
+      57
+    ],
+    [
+      "camping",
+      "ranger-stop",
+      57
+    ],
+    [
+      "ranger-stop",
+      "gate",
+      53
+    ],
+    [
+      "gate",
+      "ranger-base",
+      53
+    ],
+    [
+      "ranger-base",
+      "ranger-stop",
+      53
+    ],
+    [
+      "ranger-stop",
+      "gate",
+      53
+    ],
+    [
+      "gate",
+      "ranger-stop",
+      53
+    ],
+    [
+      "ranger-stop",
+      "gate",
+      51
+    ],
+    [
+      "gate",
+      "ranger-base",
+      51
+    ],
+    [
+      "ranger-base",
+      "ranger-stop",
+      51
+    ],
+    [
+      "ranger-stop",
+      "gate",
+      51
+    ],
+    [
+      "gate",
+      "ranger-stop",
+      51
+    ],
+    [
+      "ranger-stop",
+      "general gate",
+      116
+    ],
+    [
+      "general gate",
+      "entrance",
+      21
+    ],
+    [
+      "entrance",
+      "general gate",
+      18
+    ],
+    [
+      "general gate",
+      "entrance",
+      46
+    ],
+    [
+      "entrance",
+      "general gate",
+      91
+    ],
+    [
+      "general gate",
+      "entrance",
+      78
+    ]
+  ]
+}

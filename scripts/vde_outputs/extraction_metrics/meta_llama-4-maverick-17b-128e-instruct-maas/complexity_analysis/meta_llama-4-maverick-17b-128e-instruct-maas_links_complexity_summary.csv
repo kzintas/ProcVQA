@@ -1,0 +1,4 @@
+Model,Complexity_Type,Complexity_Level,Ground_Truth_Events,Extracted_Events,Correctly_Extracted,Precision,Recall,F1,Hallucinated_Events
+meta_llama-4-maverick-17b-128e-instruct-maas,links_complexity,Medium,880,885,775,0.8757062146892656,0.8806818181818182,0.8781869688385269,110
+meta_llama-4-maverick-17b-128e-instruct-maas,links_complexity,High,735,599,451,0.7529215358931552,0.6136054421768707,0.6761619190404798,148
+meta_llama-4-maverick-17b-128e-instruct-maas,links_complexity,Low,968,953,920,0.9653725078698846,0.9504132231404959,0.9578344612181156,33

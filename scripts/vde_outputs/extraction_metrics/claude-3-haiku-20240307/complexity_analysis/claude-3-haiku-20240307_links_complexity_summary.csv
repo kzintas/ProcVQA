@@ -1,0 +1,4 @@
+Model,Complexity_Type,Complexity_Level,Ground_Truth_Events,Extracted_Events,Correctly_Extracted,Precision,Recall,F1,Hallucinated_Events
+claude-3-haiku-20240307,links_complexity,Medium,880,668,577,0.8637724550898204,0.6556818181818181,0.7454780361757105,91
+claude-3-haiku-20240307,links_complexity,High,735,395,210,0.5316455696202531,0.2857142857142857,0.3716814159292035,185
+claude-3-haiku-20240307,links_complexity,Low,968,797,708,0.8883312421580929,0.731404958677686,0.8022662889518415,89

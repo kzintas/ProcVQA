@@ -1,0 +1,9 @@
+[
+["_Start", "Fast Food", 337],
+["_Start", "Restaurant", 188],
+["Fast Food", "Restaurant", 182],
+["Fast Food", "_Exit", 106],
+["Restaurant", "Gym", 155],
+["Restaurant", "_Exit", 137],
+["Gym", "_Exit", 292]
+]

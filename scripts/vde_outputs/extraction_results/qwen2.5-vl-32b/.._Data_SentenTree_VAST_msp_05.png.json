@@ -1,0 +1,184 @@
+{
+  "events": [
+    [
+      "_Start",
+      "entrance",
+      94
+    ],
+    [
+      "_Start",
+      "ranger-base",
+      6
+    ],
+    [
+      "entrance",
+      "general gate",
+      85
+    ],
+    [
+      "general gate",
+      "ranger-stop",
+      11
+    ],
+    [
+      "general gate",
+      "camping",
+      7
+    ],
+    [
+      "ranger-stop",
+      "general gate",
+      63
+    ],
+    [
+      "ranger-stop",
+      "camping",
+      11
+    ],
+    [
+      "camping",
+      "ranger-stop",
+      7
+    ],
+    [
+      "ranger-base",
+      "gate",
+      6
+    ],
+    [
+      "ranger-base",
+      "ranger-stop",
+      6
+    ],
+    [
+      "general gate",
+      "ranger-stop",
+      4
+    ],
+    [
+      "general gate",
+      "camping",
+      7
+    ],
+    [
+      "ranger-stop",
+      "ranger-stop",
+      13
+    ],
+    [
+      "ranger-stop",
+      "ranger-stop",
+      45
+    ],
+    [
+      "ranger-stop",
+      "general gate",
+      13
+    ],
+    [
+      "ranger-stop",
+      "ranger-stop",
+      7
+    ],
+    [
+      "general gate",
+      "ranger-stop",
+      42
+    ],
+    [
+      "general gate",
+      "camping",
+      6
+    ],
+    [
+      "ranger-stop",
+      "ranger-stop",
+      13
+    ],
+    [
+      "ranger-stop",
+      "ranger-stop",
+      7
+    ],
+    [
+      "ranger-stop",
+      "gate",
+      6
+    ],
+    [
+      "ranger-stop",
+      "ranger-base",
+      6
+    ],
+    [
+      "camping",
+      "ranger-base",
+      30
+    ],
+    [
+      "camping",
+      "_Exit",
+      6
+    ],
+    [
+      "ranger-base",
+      "_Exit",
+      6
+    ],
+    [
+      "general gate",
+      "camping",
+      6
+    ],
+    [
+      "general gate",
+      "camping",
+      15
+    ],
+    [
+      "camping",
+      "general gate",
+      6
+    ],
+    [
+      "camping",
+      "general gate",
+      6
+    ],
+    [
+      "general gate",
+      "general gate",
+      13
+    ],
+    [
+      "general gate",
+      "general gate",
+      10
+    ],
+    [
+      "general gate",
+      "ranger-stop",
+      7
+    ],
+    [
+      "ranger-stop",
+      "ranger-stop",
+      7
+    ],
+    [
+      "ranger-stop",
+      "general gate",
+      7
+    ],
+    [
+      "general gate",
+      "entrance",
+      83
+    ],
+    [
+      "entrance",
+      "_Exit",
+      83
+    ]
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "events": [
+    [
+      "_Start",
+      "UNC Offense",
+      69
+    ],
+    [
+      "UNC Offense",
+      "Rebound",
+      15
+    ],
+    [
+      "Rebound",
+      "Missed Shot",
+      15
+    ],
+    [
+      "Missed Shot",
+      "Rebound",
+      15
+    ],
+    [
+      "UNC Offense",
+      "Foul",
+      8
+    ],
+    [
+      "Foul",
+      "Made Free Throw",
+      5
+    ],
+    [
+      "Made Free Throw",
+      "Made Free Throw",
+      4
+    ],
+    [
+      "Made Free Throw",
+      "UMD Offense",
+      5
+    ],
+    [
+      "UNC Offense",
+      "Turnover",
+      9
+    ],
+    [
+      "Turnover",
+      "Made Free Throw",
+      4
+    ],
+    [
+      "Made Free Throw",
+      "UMD Offense",
+      4
+    ],
+    [
+      "Turnover",
+      "UMD Offense",
+      24
+    ],
+    [
+      "UNC Offense",
+      "Rebound",
+      23
+    ],
+    [
+      "Rebound",
+      "Made Shot",
+      4
+    ],
+    [
+      "Made Shot",
+      "UMD Offense",
+      27
+    ],
+    [
+      "UNC Offense",
+      "Made Shot",
+      4
+    ],
+    [
+      "Made Shot",
+      "UMD Offense",
+      27
+    ],
+    [
+      "UNC Offense",
+      "UMD Offense",
+      27
+    ],
+    [
+      "UMD Offense",
+      "Foul",
+      7
+    ],
+    [
+      "Foul",
+      "Made Free Throw",
+      4
+    ],
+    [
+      "Made Free Throw",
+      "_Exit",
+      4
+    ],
+    [
+      "Foul",
+      "_Exit",
+      7
+    ],
+    [
+      "UMD Offense",
+      "_Exit",
+      8
+    ],
+    [
+      "UMD Offense",
+      "Missed Shot",
+      16
+    ],
+    [
+      "Missed Shot",
+      "Rebound",
+      9
+    ],
+    [
+      "Rebound",
+      "Foul",
+      4
+    ],
+    [
+      "Foul",
+      "Made Free Throw",
+      4
+    ],
+    [
+      "Made Free Throw",
+      "_Exit",
+      4
+    ],
+    [
+      "Rebound",
+      "Made Shot",
+      7
+    ],
+    [
+      "Made Shot",
+      "_Exit",
+      7
+    ],
+    [
+      "Rebound",
+      "Missed Shot",
+      6
+    ],
+    [
+      "Missed Shot",
+      "_Exit",
+      6
+    ],
+    [
+      "Rebound",
+      "Turnover",
+      4
+    ],
+    [
+      "Turnover",
+      "_Exit",
+      4
+    ],
+    [
+      "UMD Offense",
+      "Steal",
+      4
+    ],
+    [
+      "Steal",
+      "_Exit",
+      4
+    ],
+    [
+      "Missed Shot",
+      "_Exit",
+      9
+    ]
+  ]
+}

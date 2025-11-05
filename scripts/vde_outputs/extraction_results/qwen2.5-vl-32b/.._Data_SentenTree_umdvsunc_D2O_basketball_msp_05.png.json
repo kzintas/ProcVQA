@@ -1,0 +1,174 @@
+{
+  "events": [
+    [
+      "_Start",
+      "UNC Offense",
+      69
+    ],
+    [
+      "UNC Offense",
+      "Rebound",
+      23
+    ],
+    [
+      "UNC Offense",
+      "Made Shot",
+      4
+    ],
+    [
+      "UNC Offense",
+      "Foul",
+      8
+    ],
+    [
+      "UNC Offense",
+      "Rebound",
+      4
+    ],
+    [
+      "Rebound",
+      "Missed Shot",
+      15
+    ],
+    [
+      "Rebound",
+      "Turnover",
+      9
+    ],
+    [
+      "Foul",
+      "Made Free Throw",
+      5
+    ],
+    [
+      "Made Free Throw",
+      "Turnover",
+      24
+    ],
+    [
+      "Made Free Throw",
+      "Made Free Throw",
+      5
+    ],
+    [
+      "Made Free Throw",
+      "Made Shot",
+      4
+    ],
+    [
+      "Rebound",
+      "Made Shot",
+      4
+    ],
+    [
+      "Rebound",
+      "Missed Shot",
+      15
+    ],
+    [
+      "Turnover",
+      "UMD Offense",
+      27
+    ],
+    [
+      "Made Free Throw",
+      "UMD Offense",
+      4
+    ],
+    [
+      "Made Shot",
+      "UMD Offense",
+      27
+    ],
+    [
+      "UMD Offense",
+      "Foul",
+      7
+    ],
+    [
+      "UMD Offense",
+      "_Exit",
+      16
+    ],
+    [
+      "UMD Offense",
+      "Missed Shot",
+      4
+    ],
+    [
+      "Foul",
+      "Made Free Throw",
+      7
+    ],
+    [
+      "Foul",
+      "_Exit",
+      4
+    ],
+    [
+      "Missed Shot",
+      "Steal",
+      9
+    ],
+    [
+      "Missed Shot",
+      "_Exit",
+      4
+    ],
+    [
+      "Made Free Throw",
+      "_Exit",
+      4
+    ],
+    [
+      "Made Free Throw",
+      "Turnover",
+      4
+    ],
+    [
+      "Made Free Throw",
+      "Made Shot",
+      4
+    ],
+    [
+      "Turnover",
+      "_Exit",
+      4
+    ],
+    [
+      "Made Shot",
+      "_Exit",
+      7
+    ],
+    [
+      "Made Shot",
+      "Foul",
+      4
+    ],
+    [
+      "Foul",
+      "_Exit",
+      4
+    ],
+    [
+      "Foul",
+      "Made Free Throw",
+      4
+    ],
+    [
+      "Made Free Throw",
+      "_Exit",
+      4
+    ],
+    [
+      "Made Free Throw",
+      "Made Shot",
+      4
+    ],
+    [
+      "Made Shot",
+      "_Exit",
+      7
+    ]
+  ]
+}

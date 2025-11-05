@@ -1,0 +1,44 @@
+{
+  "events": [
+    [
+      "Start",
+      "BS",
+      40
+    ],
+    [
+      "BS",
+      "MS",
+      40
+    ],
+    [
+      "MS",
+      "Conference",
+      40
+    ],
+    [
+      "Conference",
+      "Professor",
+      25
+    ],
+    [
+      "Professor",
+      "Conference",
+      15
+    ],
+    [
+      "Conference",
+      "Exit",
+      16
+    ],
+    [
+      "Professor",
+      "Exit",
+      9
+    ],
+    [
+      "Conference",
+      "Exit",
+      16
+    ]
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "events": [
+    [
+      "Start",
+      "intra-race",
+      1
+    ],
+    [
+      "intra-race",
+      "general gals",
+      1
+    ],
+    [
+      "general gals",
+      "general gals",
+      1
+    ],
+    [
+      "general gals",
+      "general gals",
+      1
+    ],
+    [
+      "general gals",
+      "general gals",
+      1
+    ],
+    [
+      "general gals",
+      "general gals",
+      1
+    ],
+    [
+      "general gals",
+      "general gals",
+      1
+    ],
+    [
+      "general gals",
+      "general gals",
+      1
+    ],
+    [
+      "general gals",
+      "intra-race",
+      1
+    ],
+    [
+      "intra-race",
+      "End",
+      1
+    ]
+  ]
+}

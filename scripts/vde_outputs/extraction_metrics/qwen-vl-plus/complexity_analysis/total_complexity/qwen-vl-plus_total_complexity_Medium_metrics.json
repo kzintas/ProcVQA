@@ -1,0 +1,9 @@
+{
+    "total_ground_truth": 923,
+    "total_llm_output": 434,
+    "total_matched": 317,
+    "overall_precision": 0.7304147465437788,
+    "overall_recall": 0.3434452871072589,
+    "overall_f1": 0.4672070744288872,
+    "overall_hallucinated": 117
+}

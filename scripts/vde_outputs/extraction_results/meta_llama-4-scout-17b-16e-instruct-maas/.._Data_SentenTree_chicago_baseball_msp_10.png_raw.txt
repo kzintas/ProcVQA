@@ -1,0 +1,14 @@
+[
+["_Start", "Opponent Offense", 168],
+["Opponent Offense", "Made Shot - 2", 45],
+["Opponent Offense", "Missed Shot - 2", 43],
+["Opponent Offense", "Foul", 30],
+["Made Shot - 2", "CHICAGO Offense", 49],
+["Missed Shot - 2", "CHICAGO Offense", 43],
+["Foul", "CHICAGO Offense", 30],
+["CHICAGO Offense", "Defensive Rebound", 63],
+["CHICAGO Offense", "_Exit", 104],
+["Defensive Rebound", "Made Shot - 2", 18],
+["Defensive Rebound", "_Exit", 45],
+["Made Shot - 2", "_Exit", 18]
+]

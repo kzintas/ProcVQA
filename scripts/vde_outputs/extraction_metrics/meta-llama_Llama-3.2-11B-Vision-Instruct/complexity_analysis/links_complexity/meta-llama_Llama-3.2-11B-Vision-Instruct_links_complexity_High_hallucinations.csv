@@ -1,0 +1,134 @@
+dataset,technique,parameter_value,attribute,value,gt_count,llm_count,hallucinated_count
+Foursquare_NYC,CoreFlow,5.0,fast food->restaurant,28,0.0,1.0,1.0
+Foursquare_NYC,CoreFlow,5.0,fast food->restaurant,35,0.0,1.0,1.0
+Foursquare_NYC,CoreFlow,5.0,fast food->restaurant,76,0.0,1.0,1.0
+Foursquare_NYC,CoreFlow,5.0,gym->restaurant,52,0.0,1.0,1.0
+Foursquare_NYC,CoreFlow,5.0,restaurant->fast food,43,0.0,2.0,2.0
+Foursquare_NYC,CoreFlow,5.0,restaurant->gym,52,0.0,1.0,1.0
+Foursquare_NYC,CoreFlow,5.0,restaurant->restaurant,43,0.0,1.0,1.0
+Foursquare_NYC,CoreFlow,5.0,restaurant->restaurant,50,1.0,3.0,2.0
+Foursquare_NYC,CoreFlow,5.0,restaurant->restaurant,87,0.0,1.0,1.0
+Foursquare_NYC,CoreFlow,5.0,restaurant->restaurant,112,0.0,1.0,1.0
+career,CoreFlow,5.0,conference->exit,16,0.0,1.0,1.0
+career,CoreFlow,5.0,conference->journal,7,0.0,1.0,1.0
+career,CoreFlow,5.0,exit->professor,8,0.0,1.0,1.0
+career,CoreFlow,5.0,exit->professor,25,0.0,1.0,1.0
+career,CoreFlow,5.0,journal->exit,5,0.0,1.0,1.0
+career,CoreFlow,10.0,conference->exit,16,0.0,1.0,1.0
+career,CoreFlow,10.0,conference->journal,5,0.0,1.0,1.0
+career,CoreFlow,10.0,exit->journal,2,0.0,1.0,1.0
+career,CoreFlow,10.0,exit->professor,25,0.0,1.0,1.0
+career,CoreFlow,10.0,exit->start,40,0.0,1.0,1.0
+career,CoreFlow,10.0,ms->professor,40,0.0,1.0,1.0
+career,CoreFlow,10.0,start->ms,40,0.0,1.0,1.0
+pediatric_trauma,CoreFlow,5.0,blanket->pupil,161,0.0,1.0,1.0
+pediatric_trauma,CoreFlow,5.0,breathing->start,214,0.0,1.0,1.0
+pediatric_trauma,CoreFlow,5.0,exit->exit,1,0.0,1.0,1.0
+pediatric_trauma,CoreFlow,5.0,iv->pupil,77,0.0,1.0,1.0
+pediatric_trauma,CoreFlow,5.0,pupil->breathing,199,0.0,1.0,1.0
+pediatric_trauma,CoreFlow,5.0,temp->iv,30,0.0,1.0,1.0
+pediatric_trauma,CoreFlow,5.0,temp->pupil,27,0.0,1.0,1.0
+pediatric_trauma,SentenTree,5.0,airway->breathing,16,0.0,1.0,1.0
+pediatric_trauma,SentenTree,5.0,blanket->secondarysurvey,24,0.0,1.0,1.0
+pediatric_trauma,SentenTree,5.0,breathing->pulse,38,0.0,1.0,1.0
+pediatric_trauma,SentenTree,5.0,exit->temp,11,0.0,1.0,1.0
+pediatric_trauma,SentenTree,5.0,exit->temp,13,0.0,1.0,1.0
+pediatric_trauma,SentenTree,5.0,exit->temp,14,0.0,1.0,1.0
+pediatric_trauma,SentenTree,5.0,exit->temp,21,0.0,1.0,1.0
+pediatric_trauma,SentenTree,5.0,gcs->temp,25,0.0,1.0,1.0
+pediatric_trauma,SentenTree,5.0,pulse->secondarysurvey,15,0.0,1.0,1.0
+pediatric_trauma,SentenTree,5.0,pupil->gcs,47,0.0,1.0,1.0
+pediatric_trauma,SentenTree,5.0,secondarysurvey->blanket,2,0.0,1.0,1.0
+pediatric_trauma,SentenTree,5.0,secondarysurvey->pupil,26,0.0,1.0,1.0
+pediatric_trauma,SentenTree,5.0,secondarysurvey->temp,93,0.0,1.0,1.0
+pediatric_trauma,SentenTree,5.0,temp->secondarysurvey,16,0.0,1.0,1.0
+process_mining,CoreFlow,5.0,close pull request->create issue,7,0.0,1.0,1.0
+process_mining,CoreFlow,5.0,commit changes->commit changes,1,0.0,1.0,1.0
+process_mining,CoreFlow,5.0,commit changes->commit changes,2,0.0,1.0,1.0
+process_mining,CoreFlow,5.0,commit changes->commit changes,3,3.0,4.0,1.0
+process_mining,CoreFlow,5.0,commit changes->commit changes,7,0.0,1.0,1.0
+process_mining,CoreFlow,5.0,resolve issue->close pull request,4,0.0,1.0,1.0
+test,CoreFlow,5.0,b->h,1,0.0,1.0,1.0
+test,CoreFlow,5.0,c->b,1,0.0,1.0,1.0
+test,CoreFlow,5.0,c->e,2,0.0,1.0,1.0
+test,CoreFlow,5.0,c->g,1,0.0,1.0,1.0
+test,CoreFlow,5.0,e->a,1,0.0,1.0,1.0
+test,CoreFlow,5.0,f->g,1,0.0,1.0,1.0
+test,CoreFlow,5.0,f->h,1,0.0,1.0,1.0
+test,SentenTree,5.0,a->b,1,1.0,2.0,1.0
+test,SentenTree,5.0,a->c,4,0.0,1.0,1.0
+test,SentenTree,5.0,a->d,1,0.0,1.0,1.0
+test,SentenTree,5.0,a->e,1,0.0,1.0,1.0
+test,SentenTree,5.0,a->f,1,0.0,1.0,1.0
+test,SentenTree,5.0,a->g,1,0.0,1.0,1.0
+test,SentenTree,5.0,a->h,1,0.0,1.0,1.0
+test,SentenTree,5.0,a->i,1,0.0,1.0,1.0
+test,SentenTree,5.0,a->k,1,0.0,1.0,1.0
+test,SentenTree,5.0,a->l,1,0.0,2.0,2.0
+test,SentenTree,5.0,b->a,1,1.0,2.0,1.0
+test,SentenTree,5.0,b->c,1,1.0,2.0,1.0
+test,SentenTree,5.0,b->d,1,0.0,2.0,2.0
+test,SentenTree,5.0,b->e,1,0.0,1.0,1.0
+test,SentenTree,5.0,b->f,1,0.0,1.0,1.0
+test,SentenTree,5.0,b->h,1,0.0,1.0,1.0
+test,SentenTree,5.0,b->k,1,0.0,1.0,1.0
+test,SentenTree,5.0,b->l,1,0.0,1.0,1.0
+test,SentenTree,5.0,c->b,1,1.0,2.0,1.0
+test,SentenTree,5.0,c->d,1,1.0,2.0,1.0
+test,SentenTree,5.0,c->e,1,0.0,2.0,2.0
+test,SentenTree,5.0,c->f,1,0.0,1.0,1.0
+test,SentenTree,5.0,c->g,1,0.0,1.0,1.0
+test,SentenTree,5.0,c->h,1,0.0,1.0,1.0
+test,SentenTree,5.0,c->k,1,0.0,1.0,1.0
+test,SentenTree,5.0,d->a,1,0.0,1.0,1.0
+test,SentenTree,5.0,d->b,1,0.0,2.0,2.0
+test,SentenTree,5.0,d->f,1,0.0,1.0,1.0
+test,SentenTree,5.0,d->g,1,0.0,1.0,1.0
+test,SentenTree,5.0,d->h,1,0.0,1.0,1.0
+test,SentenTree,5.0,d->k,1,0.0,1.0,1.0
+test,SentenTree,5.0,d->l,1,0.0,1.0,1.0
+test,SentenTree,5.0,e->a,1,0.0,2.0,2.0
+test,SentenTree,5.0,e->b,1,1.0,2.0,1.0
+test,SentenTree,5.0,e->c,1,0.0,1.0,1.0
+test,SentenTree,5.0,e->f,1,0.0,1.0,1.0
+test,SentenTree,5.0,e->g,1,0.0,1.0,1.0
+test,SentenTree,5.0,e->h,1,0.0,1.0,1.0
+test,SentenTree,5.0,e->k,1,0.0,2.0,2.0
+test,SentenTree,5.0,e->l,1,0.0,1.0,1.0
+test,SentenTree,5.0,f->a,1,0.0,2.0,2.0
+test,SentenTree,5.0,f->c,1,0.0,1.0,1.0
+test,SentenTree,5.0,f->d,1,0.0,1.0,1.0
+test,SentenTree,5.0,f->e,1,0.0,1.0,1.0
+test,SentenTree,5.0,g->a,1,0.0,2.0,2.0
+test,SentenTree,5.0,g->c,1,0.0,1.0,1.0
+test,SentenTree,5.0,g->d,1,0.0,1.0,1.0
+test,SentenTree,5.0,g->e,1,0.0,1.0,1.0
+test,SentenTree,5.0,h->a,1,0.0,2.0,2.0
+test,SentenTree,5.0,h->b,1,0.0,2.0,2.0
+test,SentenTree,5.0,h->c,1,0.0,1.0,1.0
+test,SentenTree,5.0,h->d,1,0.0,1.0,1.0
+test,SentenTree,5.0,h->e,1,0.0,1.0,1.0
+test,SentenTree,5.0,k->a,1,1.0,2.0,1.0
+test,SentenTree,5.0,k->b,1,0.0,1.0,1.0
+test,SentenTree,5.0,k->c,1,0.0,1.0,1.0
+test,SentenTree,5.0,k->d,1,0.0,1.0,1.0
+test,SentenTree,5.0,k->e,1,0.0,1.0,1.0
+test,SentenTree,5.0,l->a,1,0.0,2.0,2.0
+test,SentenTree,5.0,l->b,1,0.0,1.0,1.0
+test,SentenTree,5.0,l->c,1,0.0,1.0,1.0
+test,SentenTree,5.0,l->d,1,0.0,1.0,1.0
+test,SentenTree,5.0,l->e,1,0.0,1.0,1.0
+vast_1000,SentenTree,5.0,camping->ranger-base,53,0.0,1.0,1.0
+vast_1000,SentenTree,5.0,entrance->start,53,0.0,1.0,1.0
+vast_1000,SentenTree,5.0,gate->gate,51,1.0,3.0,2.0
+vast_1000,SentenTree,5.0,general gate->general gate,18,0.0,1.0,1.0
+vast_1000,SentenTree,5.0,general gate->general gate,60,1.0,2.0,1.0
+vast_1000,SentenTree,5.0,general gate->general gate,66,0.0,1.0,1.0
+vast_1000,SentenTree,5.0,general gate->general gate,78,0.0,1.0,1.0
+vast_1000,SentenTree,5.0,general gate->general gate,91,0.0,1.0,1.0
+vast_1000,SentenTree,5.0,general gate->general gate,161,0.0,1.0,1.0
+vast_1000,SentenTree,5.0,general gate->ranger-stop,515,0.0,1.0,1.0
+vast_1000,SentenTree,5.0,ranger-stop->general gate,57,0.0,1.0,1.0
+vast_1000,SentenTree,5.0,ranger-stop->ranger-stop,38,0.0,1.0,1.0
+vast_1000,SentenTree,5.0,ranger-stop->ranger-stop,642,0.0,1.0,1.0
+vast_1000,SentenTree,5.0,start->camping,57,0.0,1.0,1.0

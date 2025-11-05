@@ -1,0 +1,114 @@
+{
+  "events": [
+    [
+      "_Start",
+      "UNC Offense",
+      69
+    ],
+    [
+      "_Start",
+      "Rebound",
+      8
+    ],
+    [
+      "_Start",
+      "Foul",
+      7
+    ],
+    [
+      "_Start",
+      "_Exit",
+      7
+    ],
+    [
+      "UNC Offense",
+      "Made Shot",
+      22
+    ],
+    [
+      "UNC Offense",
+      "Missed Shot",
+      15
+    ],
+    [
+      "UNC Offense",
+      "Rebound",
+      15
+    ],
+    [
+      "UNC Offense",
+      "Foul",
+      9
+    ],
+    [
+      "UNC Offense",
+      "_Exit",
+      15
+    ],
+    [
+      "Made Shot",
+      "_Exit",
+      7
+    ],
+    [
+      "Missed Shot",
+      "Rebound",
+      15
+    ],
+    [
+      "Missed Shot",
+      "Foul",
+      8
+    ],
+    [
+      "Missed Shot",
+      "_Exit",
+      9
+    ],
+    [
+      "Rebound",
+      "Made Shot",
+      24
+    ],
+    [
+      "Rebound",
+      "_Exit",
+      7
+    ],
+    [
+      "Foul",
+      "_Exit",
+      7
+    ],
+    [
+      "Rebound",
+      "Rebound",
+      27
+    ],
+    [
+      "Rebound",
+      "_Exit",
+      7
+    ],
+    [
+      "Foul",
+      "Rebound",
+      7
+    ],
+    [
+      "Foul",
+      "_Exit",
+      7
+    ],
+    [
+      "Foul",
+      "Foul",
+      7
+    ],
+    [
+      "Foul",
+      "_Exit",
+      7
+    ]
+  ]
+}

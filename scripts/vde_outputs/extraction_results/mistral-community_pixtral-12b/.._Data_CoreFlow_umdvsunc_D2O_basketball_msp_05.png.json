@@ -1,0 +1,169 @@
+{
+  "events": [
+    [
+      "Start",
+      "UNC Offense",
+      69
+    ],
+    [
+      "Start",
+      "UMD Offense",
+      69
+    ],
+    [
+      "UNC Offense",
+      "Rebound",
+      15
+    ],
+    [
+      "UNC Offense",
+      "Rebound",
+      9
+    ],
+    [
+      "UNC Offense",
+      "Rebound",
+      6
+    ],
+    [
+      "UNC Offense",
+      "Rebound",
+      4
+    ],
+    [
+      "Rebound",
+      "Missed Shot",
+      15
+    ],
+    [
+      "Rebound",
+      "Missed Shot",
+      9
+    ],
+    [
+      "Rebound",
+      "Foul",
+      4
+    ],
+    [
+      "Rebound",
+      "Foul",
+      2
+    ],
+    [
+      "Rebound",
+      "Turnover",
+      4
+    ],
+    [
+      "Rebound",
+      "Exit",
+      4
+    ],
+    [
+      "Missed Shot",
+      "Missed Shot",
+      14
+    ],
+    [
+      "Missed Shot",
+      "Exit",
+      14
+    ],
+    [
+      "Foul",
+      "Missed Shot",
+      14
+    ],
+    [
+      "Foul",
+      "Exit",
+      6
+    ],
+    [
+      "Foul",
+      "Made Free Throw",
+      4
+    ],
+    [
+      "Foul",
+      "Exit",
+      4
+    ],
+    [
+      "Made Free Throw",
+      "Exit",
+      4
+    ],
+    [
+      "Made Free Throw",
+      "Exit",
+      4
+    ],
+    [
+      "Turnover",
+      "Exit",
+      34
+    ],
+    [
+      "UMD Offense",
+      "Missed Shot",
+      14
+    ],
+    [
+      "UMD Offense",
+      "Foul",
+      10
+    ],
+    [
+      "UMD Offense",
+      "Made Shot",
+      8
+    ],
+    [
+      "UMD Offense",
+      "Made Shot",
+      3
+    ],
+    [
+      "Missed Shot",
+      "Missed Shot",
+      14
+    ],
+    [
+      "Missed Shot",
+      "Exit",
+      14
+    ],
+    [
+      "Foul",
+      "Missed Shot",
+      6
+    ],
+    [
+      "Foul",
+      "Exit",
+      4
+    ],
+    [
+      "Foul",
+      "Made Free Throw",
+      6
+    ],
+    [
+      "Made Free Throw",
+      "Exit",
+      6
+    ],
+    [
+      "Made Shot",
+      "Exit",
+      8
+    ],
+    [
+      "Made Shot",
+      "Exit",
+      8
+    ]
+  ]
+}

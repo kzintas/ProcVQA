@@ -1,0 +1,30 @@
+dataset,technique,parameter_value,attribute,value,gt_count,llm_count,hallucinated_count
+VAST,SentenTree,10.0,general gate->entrance,13,1.0,2.0,1.0
+career,Sequence Synopsis,5.0,journal,3,2.0,3.0,1.0
+career,Sequence Synopsis,10.0,assistant professor,4,0.0,1.0,1.0
+career,Sequence Synopsis,10.0,conference,2,0.0,2.0,2.0
+career,Sequence Synopsis,10.0,conference,7,1.0,2.0,1.0
+career,Sequence Synopsis,10.0,conference,10,0.0,1.0,1.0
+career,Sequence Synopsis,10.0,conference,19,0.0,1.0,1.0
+career,Sequence Synopsis,10.0,journal,3,0.0,1.0,1.0
+career,Sequence Synopsis,10.0,journal,12,0.0,1.0,1.0
+career,Sequence Synopsis,10.0,journal,21,0.0,1.0,1.0
+career,Sequence Synopsis,10.0,phd,13,0.0,1.0,1.0
+career,Sequence Synopsis,30.0,associate professor,5,0.0,1.0,1.0
+career,Sequence Synopsis,30.0,associate professor,11,0.0,1.0,1.0
+career,Sequence Synopsis,30.0,associate professor,12,0.0,1.0,1.0
+career,Sequence Synopsis,30.0,bs,8,1.0,2.0,1.0
+career,Sequence Synopsis,30.0,conference,4,0.0,1.0,1.0
+career,Sequence Synopsis,30.0,conference,6,0.0,2.0,2.0
+career,Sequence Synopsis,30.0,conference,7,1.0,3.0,2.0
+career,Sequence Synopsis,30.0,journal,5,0.0,1.0,1.0
+career,Sequence Synopsis,30.0,journal,9,0.0,1.0,1.0
+career,Sequence Synopsis,30.0,journal,13,0.0,1.0,1.0
+career,Sequence Synopsis,30.0,phd,15,0.0,1.0,1.0
+chicago_baseball,CoreFlow,10.0,team-1 offense->exit,18,0.0,1.0,1.0
+chicago_baseball,CoreFlow,10.0,team-1 offense->team-1 foul,49,0.0,1.0,1.0
+pediatric_trauma,SentenTree,10.0,exit->blanket,67,0.0,1.0,1.0
+pediatric_trauma,Sequence Synopsis,15.0,pupil,6,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,10.0,rebound->umd offense,15,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,10.0,umd offense->exit,27,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,10.0,umd offense->rebound,8,0.0,1.0,1.0

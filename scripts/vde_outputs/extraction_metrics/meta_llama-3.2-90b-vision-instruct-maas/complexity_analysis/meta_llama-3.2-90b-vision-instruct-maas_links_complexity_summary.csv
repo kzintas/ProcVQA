@@ -1,0 +1,4 @@
+Model,Complexity_Type,Complexity_Level,Ground_Truth_Events,Extracted_Events,Correctly_Extracted,Precision,Recall,F1,Hallucinated_Events
+meta_llama-3.2-90b-vision-instruct-maas,links_complexity,Medium,880,825,819,0.9927272727272727,0.9306818181818182,0.9607038123167155,6
+meta_llama-3.2-90b-vision-instruct-maas,links_complexity,High,735,621,569,0.9162640901771336,0.7741496598639456,0.8392330383480826,52
+meta_llama-3.2-90b-vision-instruct-maas,links_complexity,Low,968,867,851,0.9815455594002307,0.8791322314049587,0.9275204359673025,16

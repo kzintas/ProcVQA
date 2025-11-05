@@ -1,0 +1,39 @@
+{
+  "events": [
+    [
+      "Start",
+      "entrance",
+      94
+    ],
+    [
+      "Start",
+      "ranger-base",
+      6
+    ],
+    [
+      "entrance",
+      "entrance",
+      94
+    ],
+    [
+      "entrance",
+      "ranger-base",
+      6
+    ],
+    [
+      "entrance",
+      "Exit",
+      94
+    ],
+    [
+      "ranger-base",
+      "ranger-base",
+      6
+    ],
+    [
+      "ranger-base",
+      "Exit",
+      6
+    ]
+  ]
+}

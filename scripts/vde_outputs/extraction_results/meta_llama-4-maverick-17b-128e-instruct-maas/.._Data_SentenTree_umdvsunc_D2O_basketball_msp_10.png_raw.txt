@@ -1,0 +1,19 @@
+[
+["_Start", "UNC Offense", 69],
+["UNC Offense", "Made Shot", 22],
+["UNC Offense", "Missed Shot", 15],
+["UNC Offense", "Rebound", 9],
+["UNC Offense", "Foul", 15],
+["Made Shot", "UMD Offense", 22],
+["Rebound", "UNC Offense", 8],
+["Missed Shot", "UMD Offense", 24],
+["Foul", "UMD Offense", 8],
+["UMD Offense", "Missed Shot", 16],
+["UMD Offense", "_Exit", 8],
+["UMD Offense", "Rebound", 7],
+["Missed Shot", "_Exit", 9],
+["Rebound", "Made Shot", 7],
+["Rebound", "_Exit", 24],
+["Made Shot", "_Exit", 7],
+["_Exit", "_Exit", 27]
+]

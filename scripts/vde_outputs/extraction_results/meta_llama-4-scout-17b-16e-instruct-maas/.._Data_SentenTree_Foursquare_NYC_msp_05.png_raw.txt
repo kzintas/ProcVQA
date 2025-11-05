@@ -1,0 +1,18 @@
+[
+["_Start", "Restaurant", 137],
+["_Start", "Gym / Fitness Center", 52],
+["Gym / Fitness Center", "_Exit", 52],
+["Gym / Fitness Center", "Restaurant", 136],
+["Restaurant", "Restaurant", 50],
+["Restaurant", "_Exit", 50],
+["Restaurant", "Fast Food", 43],
+["Fast Food", "Restaurant", 106],
+["Fast Food", "_Exit", 71],
+["Fast Food", "Restaurant", 76],
+["Restaurant", "_Exit", 43],
+["Fast Food", "_Exit", 43],
+["Fast Food", "Fast Food", 182],
+["Fast Food", "Restaurant", 112],
+["Restaurant", "_Exit", 87],
+["Restaurant", "Fast Food", 43]
+]

@@ -1,0 +1,63 @@
+dataset,technique,parameter_value,total_gt,total_llm,matched_sum,coverage,hallucinated,precision,recall,f1
+Foursquare_NYC,CoreFlow,15.0,9.0,9.0,9.0,1.0,0.0,1.0,1.0,1.0
+Foursquare_NYC,CoreFlow,20.0,7.0,7.0,7.0,1.0,0.0,1.0,1.0,1.0
+Foursquare_NYC,CoreFlow,25.0,5.0,5.0,5.0,1.0,0.0,1.0,1.0,1.0
+Foursquare_NYC,CoreFlow,30.0,3.0,3.0,3.0,1.0,0.0,1.0,1.0,1.0
+Foursquare_NYC,SentenTree,15.0,9.0,9.0,9.0,1.0,0.0,1.0,1.0,1.0
+Foursquare_NYC,SentenTree,20.0,7.0,7.0,7.0,1.0,0.0,1.0,1.0,1.0
+Foursquare_NYC,SentenTree,25.0,4.0,4.0,4.0,1.0,0.0,1.0,1.0,1.0
+Foursquare_NYC,SentenTree,30.0,3.0,3.0,3.0,1.0,0.0,1.0,1.0,1.0
+Foursquare_NYC,Sequence Synopsis,5.0,16.0,16.0,16.0,1.0,0.0,1.0,1.0,1.0
+Foursquare_NYC,Sequence Synopsis,10.0,20.0,22.0,20.0,1.0,2.0,0.9090909090909091,1.0,0.9523809523809523
+VAST,CoreFlow,5.0,6.0,6.0,6.0,1.0,0.0,1.0,1.0,1.0
+VAST,CoreFlow,10.0,4.0,4.0,4.0,1.0,0.0,1.0,1.0,1.0
+VAST,SentenTree,15.0,11.0,11.0,11.0,1.0,0.0,1.0,1.0,1.0
+VAST,SentenTree,20.0,10.0,10.0,9.0,0.9,1.0,0.9,0.9,0.9
+VAST,SentenTree,25.0,8.0,8.0,8.0,1.0,0.0,1.0,1.0,1.0
+career,CoreFlow,20.0,9.0,8.0,8.0,0.8888888888888888,0.0,1.0,0.8888888888888888,0.9411764705882353
+chicago_baseball,CoreFlow,15.0,8.0,8.0,8.0,1.0,0.0,1.0,1.0,1.0
+chicago_baseball,CoreFlow,25.0,6.0,6.0,6.0,1.0,0.0,1.0,1.0,1.0
+chicago_baseball,SentenTree,15.0,11.0,10.0,10.0,0.9090909090909091,0.0,1.0,0.9090909090909091,0.9523809523809523
+chicago_baseball,SentenTree,20.0,9.0,8.0,7.0,0.7777777777777778,1.0,0.875,0.7777777777777778,0.823529411764706
+chicago_baseball,SentenTree,30.0,5.0,5.0,5.0,1.0,0.0,1.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,5.0,5.0,5.0,5.0,1.0,0.0,1.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,10.0,15.0,15.0,15.0,1.0,0.0,1.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,15.0,6.0,6.0,6.0,1.0,0.0,1.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,20.0,21.0,21.0,21.0,1.0,0.0,1.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,25.0,31.0,32.0,31.0,1.0,1.0,0.96875,1.0,0.9841269841269841
+chicago_baseball,Sequence Synopsis,30.0,25.0,24.0,24.0,0.96,0.0,1.0,0.96,0.9795918367346939
+emergency_dataset,CoreFlow,25.0,8.0,8.0,8.0,1.0,0.0,1.0,1.0,1.0
+emergency_dataset,SentenTree,25.0,8.0,8.0,8.0,1.0,0.0,1.0,1.0,1.0
+emergency_dataset,SentenTree,30.0,7.0,7.0,7.0,1.0,0.0,1.0,1.0,1.0
+emergency_dataset,Sequence Synopsis,5.0,25.0,25.0,25.0,1.0,0.0,1.0,1.0,1.0
+pediatric_trauma,CoreFlow,30.0,9.0,9.0,9.0,1.0,0.0,1.0,1.0,1.0
+pediatric_trauma,SentenTree,15.0,10.0,10.0,5.0,0.5,5.0,0.5,0.5,0.5
+pediatric_trauma,SentenTree,20.0,8.0,8.0,8.0,1.0,0.0,1.0,1.0,1.0
+pediatric_trauma,Sequence Synopsis,10.0,31.0,31.0,31.0,1.0,0.0,1.0,1.0,1.0
+process_mining,CoreFlow,15.0,7.0,7.0,7.0,1.0,0.0,1.0,1.0,1.0
+process_mining,CoreFlow,20.0,5.0,5.0,5.0,1.0,0.0,1.0,1.0,1.0
+process_mining,CoreFlow,30.0,3.0,3.0,3.0,1.0,0.0,1.0,1.0,1.0
+process_mining,SentenTree,15.0,7.0,7.0,7.0,1.0,0.0,1.0,1.0,1.0
+process_mining,SentenTree,20.0,5.0,5.0,5.0,1.0,0.0,1.0,1.0,1.0
+process_mining,SentenTree,30.0,3.0,3.0,3.0,1.0,0.0,1.0,1.0,1.0
+process_mining,Sequence Synopsis,5.0,33.0,33.0,32.0,0.9696969696969697,1.0,0.9696969696969697,0.9696969696969697,0.9696969696969697
+process_mining,Sequence Synopsis,10.0,33.0,34.0,33.0,1.0,1.0,0.9705882352941176,1.0,0.9850746268656716
+process_mining,Sequence Synopsis,15.0,33.0,32.0,32.0,0.9696969696969697,0.0,1.0,0.9696969696969697,0.9846153846153847
+process_mining,Sequence Synopsis,20.0,33.0,34.0,33.0,1.0,1.0,0.9705882352941176,1.0,0.9850746268656716
+process_mining,Sequence Synopsis,25.0,33.0,33.0,32.0,0.9696969696969697,1.0,0.9696969696969697,0.9696969696969697,0.9696969696969697
+process_mining,Sequence Synopsis,30.0,33.0,32.0,31.0,0.9393939393939394,1.0,0.96875,0.9393939393939394,0.9538461538461539
+test,CoreFlow,20.0,8.0,8.0,8.0,1.0,0.0,1.0,1.0,1.0
+test,SentenTree,20.0,8.0,8.0,8.0,1.0,0.0,1.0,1.0,1.0
+test,Sequence Synopsis,5.0,24.0,20.0,20.0,0.8333333333333334,0.0,1.0,0.8333333333333334,0.9090909090909091
+umdvsunc_D2O_basketball,CoreFlow,15.0,9.0,9.0,9.0,1.0,0.0,1.0,1.0,1.0
+umdvsunc_D2O_basketball,CoreFlow,25.0,5.0,5.0,5.0,1.0,0.0,1.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,15.0,10.0,10.0,7.0,0.7,3.0,0.7,0.7,0.7
+umdvsunc_D2O_basketball,SentenTree,25.0,9.0,9.0,7.0,0.7777777777777778,2.0,0.7777777777777778,0.7777777777777778,0.7777777777777778
+umdvsunc_D2O_basketball,Sequence Synopsis,15.0,32.0,32.0,32.0,1.0,0.0,1.0,1.0,1.0
+umdvsunc_D2O_basketball,Sequence Synopsis,20.0,25.0,25.0,25.0,1.0,0.0,1.0,1.0,1.0
+umdvsunc_D2O_basketball,Sequence Synopsis,25.0,32.0,32.0,32.0,1.0,0.0,1.0,1.0,1.0
+vast_1000,CoreFlow,5.0,7.0,7.0,7.0,1.0,0.0,1.0,1.0,1.0
+vast_1000,CoreFlow,10.0,5.0,5.0,5.0,1.0,0.0,1.0,1.0,1.0
+vast_1000,SentenTree,15.0,11.0,11.0,10.0,0.9090909090909091,1.0,0.9090909090909091,0.9090909090909091,0.9090909090909091
+vast_1000,SentenTree,20.0,10.0,11.0,8.0,0.8,3.0,0.7272727272727273,0.8,0.761904761904762
+vast_1000,SentenTree,25.0,8.0,8.0,8.0,1.0,0.0,1.0,1.0,1.0

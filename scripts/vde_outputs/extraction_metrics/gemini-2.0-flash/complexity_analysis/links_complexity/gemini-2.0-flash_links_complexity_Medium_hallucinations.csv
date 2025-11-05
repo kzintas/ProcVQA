@@ -1,0 +1,5 @@
+dataset,technique,parameter_value,attribute,value,gt_count,llm_count,hallucinated_count
+chicago_baseball,CoreFlow,10.0,team-1 offense->exit,18,0.0,1.0,1.0
+chicago_baseball,CoreFlow,10.0,team-1 offense->team-1 foul,49,0.0,1.0,1.0
+pediatric_trauma,Sequence Synopsis,5.0,gcs,4,1.0,2.0,1.0
+pediatric_trauma,Sequence Synopsis,15.0,pulse,6,0.0,1.0,1.0

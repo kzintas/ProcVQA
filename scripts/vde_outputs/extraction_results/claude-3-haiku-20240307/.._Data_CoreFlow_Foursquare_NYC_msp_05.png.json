@@ -1,0 +1,69 @@
+{
+  "events": [
+    [
+      "Start",
+      "Fast Food",
+      337
+    ],
+    [
+      "Fast Food",
+      "Restaurant",
+      182
+    ],
+    [
+      "Fast Food",
+      "_Exit",
+      106
+    ],
+    [
+      "Restaurant",
+      "_Exit",
+      71
+    ],
+    [
+      "Fast Food",
+      "_Exit",
+      28
+    ],
+    [
+      "Restaurant",
+      "_Exit",
+      43
+    ],
+    [
+      "Restaurant",
+      "Gym",
+      50
+    ],
+    [
+      "Gym",
+      "_Exit",
+      52
+    ],
+    [
+      "Restaurant",
+      "_Exit",
+      50
+    ],
+    [
+      "_Exit",
+      "_Exit",
+      43
+    ],
+    [
+      "_Exit",
+      "_Exit",
+      50
+    ],
+    [
+      "_Exit",
+      "_Exit",
+      52
+    ],
+    [
+      "_Exit",
+      "Exit",
+      136
+    ]
+  ]
+}

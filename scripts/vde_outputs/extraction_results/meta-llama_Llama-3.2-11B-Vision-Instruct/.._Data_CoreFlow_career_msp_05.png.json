@@ -1,0 +1,44 @@
+{
+  "events": [
+    [
+      "Conference",
+      "Journal",
+      2
+    ],
+    [
+      "Conference",
+      "Journal",
+      7
+    ],
+    [
+      "Conference",
+      "Exit",
+      16
+    ],
+    [
+      "Journal",
+      "Exit",
+      4
+    ],
+    [
+      "Journal",
+      "Exit",
+      5
+    ],
+    [
+      "Journal",
+      "Exit",
+      2
+    ],
+    [
+      "Exit",
+      "Professor",
+      25
+    ],
+    [
+      "Exit",
+      "Professor",
+      8
+    ]
+  ]
+}

@@ -1,0 +1,17 @@
+[
+["iv", "_Exit", 27],
+["iv", "temp", 27],
+["temp", "_Exit", 30],
+["temp", "blanket", 57],
+["blanket", "iv", 27],
+["blanket", "iv", 77],
+["iv", "_Exit", 27],
+["_Start", "breathing", 1],
+["breathing", "_Exit", 214],
+["breathing", "pulse", 5],
+["pulse", "_Exit", 199],
+["pulse", "pupil", 10],
+["pupil", "_Exit", 23],
+["pupil", "temp", 15],
+["temp", "_Exit", 23]
+]

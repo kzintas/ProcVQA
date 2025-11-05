@@ -1,0 +1,89 @@
+{
+  "events": [
+    [
+      "_Start",
+      "Fast Food",
+      337
+    ],
+    [
+      "_Start",
+      "Restaurant",
+      137
+    ],
+    [
+      "_Start",
+      "Gym / Fitness Center",
+      52
+    ],
+    [
+      "_Start",
+      "_Exit",
+      136
+    ],
+    [
+      "Fast Food",
+      "Fast Food",
+      182
+    ],
+    [
+      "Fast Food",
+      "Restaurant",
+      43
+    ],
+    [
+      "Fast Food",
+      "_Exit",
+      112
+    ],
+    [
+      "Fast Food",
+      "Fast Food",
+      106
+    ],
+    [
+      "Fast Food",
+      "_Exit",
+      76
+    ],
+    [
+      "Fast Food",
+      "Fast Food",
+      71
+    ],
+    [
+      "Fast Food",
+      "_Exit",
+      35
+    ],
+    [
+      "Fast Food",
+      "_Exit",
+      43
+    ],
+    [
+      "Restaurant",
+      "Restaurant",
+      50
+    ],
+    [
+      "Restaurant",
+      "_Exit",
+      87
+    ],
+    [
+      "Restaurant",
+      "_Exit",
+      43
+    ],
+    [
+      "Restaurant",
+      "_Exit",
+      50
+    ],
+    [
+      "Gym / Fitness Center",
+      "_Exit",
+      52
+    ]
+  ]
+}

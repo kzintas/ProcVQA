@@ -1,0 +1,44 @@
+{
+  "events": [
+    [
+      "Start",
+      "breathing",
+      214
+    ],
+    [
+      "breathing",
+      "pulse",
+      209
+    ],
+    [
+      "pulse",
+      "pupil",
+      199
+    ],
+    [
+      "pupil",
+      "blanket",
+      161
+    ],
+    [
+      "blanket",
+      "Exit",
+      161
+    ],
+    [
+      "breathing",
+      "Exit",
+      5
+    ],
+    [
+      "pulse",
+      "Exit",
+      10
+    ],
+    [
+      "pupil",
+      "Exit",
+      38
+    ]
+  ]
+}

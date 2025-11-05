@@ -1,0 +1,26 @@
+dataset,technique,parameter_value,attribute,value,gt_count,llm_count,hallucinated_count
+Foursquare_NYC,CoreFlow,15.0,fast food->exit,182,0.0,1.0,1.0
+Foursquare_NYC,CoreFlow,15.0,fast food->restaurant,155,0.0,1.0,1.0
+Foursquare_NYC,SentenTree,10.0,start->restaurant,188,0.0,1.0,1.0
+Foursquare_NYC,SentenTree,15.0,restaurant->exit,106,0.0,1.0,1.0
+Foursquare_NYC,SentenTree,15.0,start->restaurant,188,0.0,1.0,1.0
+Foursquare_NYC,SentenTree,20.0,fast food->fast food,155,0.0,1.0,1.0
+Foursquare_NYC,SentenTree,20.0,start->restaurant,188,0.0,1.0,1.0
+VAST,SentenTree,20.0,general gate->general gate,60,0.0,1.0,1.0
+career,SentenTree,25.0,conference->conference,15,1.0,2.0,1.0
+chicago_baseball,SentenTree,15.0,made shot-2->chicago offense,49,0.0,1.0,1.0
+chicago_baseball,SentenTree,20.0,made shot-2->chicago offense,79,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,25.0,exit,26,1.0,2.0,1.0
+chicago_baseball,Sequence Synopsis,30.0,chicago offense,123,0.0,1.0,1.0
+pediatric_trauma,SentenTree,15.0,secondarysurvey->exit,73,0.0,1.0,1.0
+pediatric_trauma,SentenTree,20.0,pupil->blanket,73,0.0,1.0,1.0
+pediatric_trauma,SentenTree,20.0,pupil->secondarysurvey,67,0.0,1.0,1.0
+process_mining,SentenTree,15.0,commit changes->commit changes,17,0.0,1.0,1.0
+process_mining,SentenTree,15.0,commit changes->exit,13,1.0,2.0,1.0
+test,SentenTree,20.0,f->exit,2,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,15.0,rebound->umd offense,15,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,15.0,unc offense->missed shot,23,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,25.0,made shot->umd offense,23,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,25.0,missed shot->umd offense,22,0.0,1.0,1.0
+vast_1000,CoreFlow,5.0,entrance->ranger-base,2,0.0,1.0,1.0
+vast_1000,SentenTree,20.0,general gate->general gate,573,0.0,1.0,1.0

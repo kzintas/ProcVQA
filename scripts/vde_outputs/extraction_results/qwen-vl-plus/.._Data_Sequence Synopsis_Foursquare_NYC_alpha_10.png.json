@@ -1,0 +1,32 @@
+{
+  "events": [
+    [
+      "Alcohol",
+      10
+    ],
+    [
+      "Spiritual",
+      10
+    ],
+    [
+      "Restaurant",
+      84
+    ],
+    [
+      "Fast Food",
+      203
+    ],
+    [
+      "Apartment",
+      19
+    ],
+    [
+      "Fast Food",
+      135
+    ],
+    [
+      "Exit",
+      106
+    ]
+  ]
+}

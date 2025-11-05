@@ -1,0 +1,188 @@
+{
+  "events": [
+    [
+      "Start entrance",
+      9
+    ],
+    [
+      "Start entrance",
+      11
+    ],
+    [
+      "Start general gate",
+      11
+    ],
+    [
+      "Start general gate",
+      10
+    ],
+    [
+      "Start ranger-stop",
+      11
+    ],
+    [
+      "Start ranger-stop",
+      11
+    ],
+    [
+      "entrance _Exit",
+      11
+    ],
+    [
+      "entrance _Exit",
+      11
+    ],
+    [
+      "general gate",
+      10
+    ],
+    [
+      "general gate",
+      7
+    ],
+    [
+      "general gate",
+      7
+    ],
+    [
+      "general gate",
+      7
+    ],
+    [
+      "general gate",
+      7
+    ],
+    [
+      "general gate",
+      7
+    ],
+    [
+      "ranger-stop",
+      7
+    ],
+    [
+      "ranger-stop",
+      7
+    ],
+    [
+      "ranger-stop",
+      10
+    ],
+    [
+      "camping",
+      7
+    ],
+    [
+      "camping",
+      7
+    ],
+    [
+      "Start range-base",
+      6
+    ],
+    [
+      "Start gate",
+      6
+    ],
+    [
+      "ranger-stop",
+      5
+    ],
+    [
+      "ranger-stop",
+      4
+    ],
+    [
+      "general gate",
+      4
+    ],
+    [
+      "ranger-stop",
+      2
+    ],
+    [
+      "ranger-stop",
+      2
+    ],
+    [
+      "general gate",
+      1
+    ],
+    [
+      "ranger-base",
+      1
+    ],
+    [
+      "_Exit",
+      10
+    ],
+    [
+      "_Exit",
+      6
+    ],
+    [
+      "_Exit",
+      29
+    ],
+    [
+      "entrance",
+      12
+    ],
+    [
+      "general gate",
+      29
+    ],
+    [
+      "general gate",
+      24
+    ],
+    [
+      "general gate",
+      12
+    ],
+    [
+      "ranger-stop",
+      24
+    ],
+    [
+      "ranger-stop",
+      24
+    ],
+    [
+      "entrance",
+      29
+    ],
+    [
+      "entrance",
+      8
+    ],
+    [
+      "general gate",
+      27
+    ],
+    [
+      "general gate",
+      27
+    ],
+    [
+      "general gate",
+      27
+    ],
+    [
+      "camping",
+      14
+    ],
+    [
+      "camping",
+      14
+    ],
+    [
+      "entrance",
+      13
+    ],
+    [
+      "_Exit",
+      27
+    ]
+  ]
+}

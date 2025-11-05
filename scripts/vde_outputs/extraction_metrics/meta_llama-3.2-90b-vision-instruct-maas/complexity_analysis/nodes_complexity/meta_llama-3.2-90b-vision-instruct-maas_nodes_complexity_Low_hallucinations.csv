@@ -1,0 +1,16 @@
+dataset,technique,parameter_value,attribute,value,gt_count,llm_count,hallucinated_count
+chicago_baseball,Sequence Synopsis,25.0,chicago offense,7,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,25.0,chicago offense,12,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,25.0,defensive rebound,6,1.0,2.0,1.0
+chicago_baseball,Sequence Synopsis,25.0,defensive rebound,10,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,25.0,defensive rebound,19,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,25.0,foul,13,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,25.0,missed shot-2,8,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,25.0,offensive rebound,21,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,25.0,opponent offense,2,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,25.0,opponent offense,6,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,25.0,opponent offense,8,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,25.0,opponent offense,14,0.0,2.0,2.0
+chicago_baseball,Sequence Synopsis,25.0,opponent offense,18,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,25.0,opponent offense,46,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,25.0,opponent offense,76,0.0,1.0,1.0

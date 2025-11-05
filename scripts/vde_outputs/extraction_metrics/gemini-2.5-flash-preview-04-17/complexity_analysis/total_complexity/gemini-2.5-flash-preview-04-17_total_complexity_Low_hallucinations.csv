@@ -1,0 +1,53 @@
+dataset,technique,parameter_value,attribute,value,gt_count,llm_count,hallucinated_count
+Foursquare_NYC,Sequence Synopsis,10.0,start,7,0.0,1.0,1.0
+Foursquare_NYC,Sequence Synopsis,10.0,start,10,1.0,3.0,2.0
+Foursquare_NYC,Sequence Synopsis,10.0,start,84,0.0,1.0,1.0
+VAST,SentenTree,15.0,general gate->entrance,21,1.0,2.0,1.0
+VAST,SentenTree,15.0,general gate->general gate,37,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,5.0,opponent offense,74,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,5.0,opponent offense,133,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,10.0,team-1 defensive rebound,39,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,10.0,team-1 offense,99,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,10.0,team-2 foul,22,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,10.0,team-2 free throw,30,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,10.0,team-2 missed shot,82,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,10.0,team-2 offense,26,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,10.0,team-2 offense,32,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,10.0,team-2 offense,43,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,15.0,opponent offense,43,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,15.0,opponent offense,86,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,15.0,opponent offense,124,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,20.0,defensive rebound,46,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,20.0,foul,17,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,20.0,made free throw,27,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,20.0,made shot,94,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,20.0,missed shot,34,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,20.0,missed shot,39,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,20.0,team-1 offense,7,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,20.0,team-1 offense,27,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,20.0,team-1 offense,34,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,20.0,team-1 offense,46,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,20.0,team-1 offense,94,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,20.0,team-2 offense,17,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,20.0,team-2 offense,25,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,20.0,team-2 offense,37,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,20.0,team-2 offense,39,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,20.0,team-2 offense,55,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,20.0,team-2 offense,74,0.0,1.0,1.0
+emergency_dataset,Sequence Synopsis,5.0,die,27,0.0,1.0,1.0
+emergency_dataset,Sequence Synopsis,5.0,discharge-alive,24,0.0,1.0,1.0
+emergency_dataset,Sequence Synopsis,5.0,emergency,23,0.0,1.0,1.0
+emergency_dataset,Sequence Synopsis,5.0,floor,20,0.0,1.0,1.0
+emergency_dataset,Sequence Synopsis,5.0,floor,24,0.0,1.0,1.0
+emergency_dataset,Sequence Synopsis,5.0,icu,18,0.0,1.0,1.0
+emergency_dataset,Sequence Synopsis,5.0,icu,27,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,25.0,unc offense->umd offense,23,0.0,1.0,1.0
+umdvsunc_D2O_basketball,Sequence Synopsis,20.0,foul,11,0.0,1.0,1.0
+umdvsunc_D2O_basketball,Sequence Synopsis,20.0,made shot,26,0.0,1.0,1.0
+umdvsunc_D2O_basketball,Sequence Synopsis,20.0,missed shot,17,0.0,1.0,1.0
+umdvsunc_D2O_basketball,Sequence Synopsis,20.0,umd offense,7,0.0,1.0,1.0
+umdvsunc_D2O_basketball,Sequence Synopsis,20.0,umd offense,15,0.0,1.0,1.0
+umdvsunc_D2O_basketball,Sequence Synopsis,20.0,umd offense,18,0.0,1.0,1.0
+umdvsunc_D2O_basketball,Sequence Synopsis,20.0,unc offense,1,0.0,1.0,1.0
+umdvsunc_D2O_basketball,Sequence Synopsis,20.0,unc offense,28,0.0,1.0,1.0
+vast_1000,SentenTree,20.0,general gate->general gate,573,0.0,1.0,1.0

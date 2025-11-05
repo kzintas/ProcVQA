@@ -1,0 +1,25 @@
+dataset,technique,parameter_value,attribute,value,gt_count,llm_count,hallucinated_count
+VAST,Sequence Synopsis,25.0,entranceexit,9,0.0,1.0,1.0
+VAST,Sequence Synopsis,25.0,entranceexit,11,0.0,1.0,1.0
+career,SentenTree,15.0,conference->conference,33,0.0,1.0,1.0
+career,SentenTree,15.0,conference->journal,25,0.0,1.0,1.0
+career,SentenTree,15.0,journal->conference,20,0.0,1.0,1.0
+career,SentenTree,20.0,conference->professor,23,0.0,1.0,1.0
+chicago_baseball,CoreFlow,10.0,team-1 made shot->exit,57,0.0,1.0,1.0
+chicago_baseball,CoreFlow,10.0,team-1 offense->exit,18,0.0,1.0,1.0
+chicago_baseball,CoreFlow,10.0,team-1 offense->team-1 foul,49,0.0,1.0,1.0
+emergency_dataset,CoreFlow,5.0,discharge-alive->exit,62,0.0,1.0,1.0
+emergency_dataset,SentenTree,5.0,emergency->floor,41,0.0,1.0,1.0
+emergency_dataset,SentenTree,5.0,floor->exit,24,0.0,1.0,1.0
+emergency_dataset,SentenTree,5.0,icu->exit,8,0.0,1.0,1.0
+emergency_dataset,SentenTree,10.0,discharge-alive->exit,62,0.0,1.0,1.0
+emergency_dataset,SentenTree,10.0,emergency->floor,41,0.0,1.0,1.0
+emergency_dataset,SentenTree,15.0,discharge-alive->exit,62,0.0,1.0,1.0
+emergency_dataset,SentenTree,15.0,emergency->floor,41,0.0,1.0,1.0
+pediatric_trauma,SentenTree,10.0,pulse->gcs,129,0.0,1.0,1.0
+pediatric_trauma,SentenTree,10.0,pupil->gcs,47,0.0,1.0,1.0
+pediatric_trauma,Sequence Synopsis,15.0,pupil,8,0.0,1.0,1.0
+pediatric_trauma,Sequence Synopsis,20.0,airway,8,1.0,2.0,1.0
+process_mining,CoreFlow,10.0,commit changes->commit changes,5,1.0,2.0,1.0
+umdvsunc_D2O_basketball,SentenTree,10.0,rebound->umd offense,9,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,10.0,unc offense->missed shot,15,0.0,1.0,1.0

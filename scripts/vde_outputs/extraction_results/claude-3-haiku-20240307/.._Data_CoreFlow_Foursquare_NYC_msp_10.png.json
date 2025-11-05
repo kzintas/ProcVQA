@@ -1,0 +1,54 @@
+{
+  "events": [
+    [
+      "_Start",
+      "Fast Food",
+      337
+    ],
+    [
+      "Fast Food",
+      "Restaurant",
+      182
+    ],
+    [
+      "Fast Food",
+      "_Exit",
+      106
+    ],
+    [
+      "Fast Food",
+      "_Exit",
+      71
+    ],
+    [
+      "_Exit",
+      "Fast Food",
+      155
+    ],
+    [
+      "_Exit",
+      "_Exit",
+      76
+    ],
+    [
+      "_Exit",
+      "Restaurant",
+      137
+    ],
+    [
+      "_Exit",
+      "_Exit",
+      35
+    ],
+    [
+      "Restaurant",
+      "_Exit",
+      137
+    ],
+    [
+      "_Exit",
+      "_Exit",
+      188
+    ]
+  ]
+}

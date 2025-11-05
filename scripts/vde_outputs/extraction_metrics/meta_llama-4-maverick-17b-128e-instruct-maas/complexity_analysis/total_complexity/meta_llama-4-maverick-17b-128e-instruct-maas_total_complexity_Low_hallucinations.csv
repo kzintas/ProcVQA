@@ -1,0 +1,27 @@
+dataset,technique,parameter_value,attribute,value,gt_count,llm_count,hallucinated_count
+Foursquare_NYC,SentenTree,15.0,restaurant->exit,137,0.0,1.0,1.0
+VAST,SentenTree,15.0,general gate->entrance,21,1.0,2.0,1.0
+VAST,SentenTree,15.0,general gate->general gate,2,0.0,1.0,1.0
+VAST,SentenTree,15.0,general gate->general gate,37,0.0,1.0,1.0
+VAST,SentenTree,20.0,general gate->general gate,21,1.0,2.0,1.0
+VAST,SentenTree,20.0,general gate->general gate,60,0.0,1.0,1.0
+career,CoreFlow,20.0,conference->professor,25,0.0,1.0,1.0
+career,CoreFlow,20.0,professor->conference,9,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,5.0,chicago offense,168,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,5.0,foul,133,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,5.0,opponent offense,74,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,30.0,chicago offense,123,0.0,1.0,1.0
+pediatric_trauma,SentenTree,20.0,secondarysurvey->blanket,67,0.0,1.0,1.0
+test,SentenTree,20.0,start->c,2,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,15.0,made shot->missed shot,24,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,15.0,missed shot->umd offense,22,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,15.0,rebound->made shot,15,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,15.0,unc offense->made shot,23,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,25.0,made shot->umd offense,23,0.0,1.0,1.0
+umdvsunc_D2O_basketball,Sequence Synopsis,15.0,made shot,20,1.0,2.0,1.0
+umdvsunc_D2O_basketball,Sequence Synopsis,15.0,umd offense,9,1.0,2.0,1.0
+vast_1000,SentenTree,15.0,general gate->entrance,221,1.0,2.0,1.0
+vast_1000,SentenTree,15.0,general gate->general gate,8,0.0,1.0,1.0
+vast_1000,SentenTree,15.0,general gate->general gate,360,0.0,1.0,1.0
+vast_1000,SentenTree,20.0,general gate->entrance,221,1.0,2.0,1.0
+vast_1000,SentenTree,20.0,general gate->general gate,573,0.0,1.0,1.0

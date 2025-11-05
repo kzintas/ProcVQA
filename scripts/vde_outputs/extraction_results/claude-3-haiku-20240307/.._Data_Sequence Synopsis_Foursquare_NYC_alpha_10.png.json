@@ -1,0 +1,68 @@
+{
+  "events": [
+    [
+      "Alcohol_Exit",
+      10
+    ],
+    [
+      "_Start",
+      10
+    ],
+    [
+      "Spiritual",
+      10
+    ],
+    [
+      "Spiritual",
+      7
+    ],
+    [
+      "Restaurant",
+      7
+    ],
+    [
+      "_Exit",
+      12
+    ],
+    [
+      "_Start",
+      12
+    ],
+    [
+      "_Start",
+      19
+    ],
+    [
+      "Apartment",
+      19
+    ],
+    [
+      "Fast Food",
+      203
+    ],
+    [
+      "Fast Food",
+      135
+    ],
+    [
+      "Fast Food",
+      82
+    ],
+    [
+      "Restaurant",
+      84
+    ],
+    [
+      "Restaurant",
+      45
+    ],
+    [
+      "_Start",
+      203
+    ],
+    [
+      "_Exit",
+      106
+    ]
+  ]
+}

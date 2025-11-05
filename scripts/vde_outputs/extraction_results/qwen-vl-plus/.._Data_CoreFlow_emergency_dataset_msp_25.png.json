@@ -1,0 +1,39 @@
+{
+  "events": [
+    [
+      "Start",
+      "Arrival",
+      100
+    ],
+    [
+      "Start",
+      "Emergency",
+      100
+    ],
+    [
+      "Emergency",
+      "ICU",
+      62
+    ],
+    [
+      "Emergency",
+      "Discharge-Alive",
+      38
+    ],
+    [
+      "ICU",
+      "Die",
+      36
+    ],
+    [
+      "ICU",
+      "_Exit",
+      26
+    ],
+    [
+      "Discharge-Alive",
+      "_Exit",
+      38
+    ]
+  ]
+}

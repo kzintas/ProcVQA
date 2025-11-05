@@ -1,0 +1,40 @@
+dataset,technique,parameter_value,attribute,value,gt_count,llm_count,hallucinated_count
+Foursquare_NYC,CoreFlow,15.0,exit->exit,76,0.0,1.0,1.0
+Foursquare_NYC,CoreFlow,15.0,exit->exit,106,0.0,1.0,1.0
+Foursquare_NYC,CoreFlow,15.0,restaurant->exit,188,0.0,1.0,1.0
+Foursquare_NYC,CoreFlow,20.0,exit->exit,137,0.0,1.0,1.0
+Foursquare_NYC,CoreFlow,20.0,restaurant->exit,188,0.0,1.0,1.0
+VAST,SentenTree,15.0,general gate->general gate,21,1.0,2.0,1.0
+VAST,SentenTree,20.0,general gate->general gate,60,0.0,1.0,1.0
+VAST,SentenTree,25.0,general gate->general gate,36,1.0,2.0,1.0
+career,CoreFlow,20.0,conference->professor,25,0.0,1.0,1.0
+career,Sequence Synopsis,10.0,assistant professor,5,0.0,1.0,1.0
+career,Sequence Synopsis,10.0,conference,2,0.0,1.0,1.0
+career,Sequence Synopsis,10.0,conference,19,0.0,1.0,1.0
+career,Sequence Synopsis,10.0,journal,21,0.0,1.0,1.0
+career,Sequence Synopsis,15.0,conference,1,0.0,1.0,1.0
+career,Sequence Synopsis,15.0,conference,4,0.0,1.0,1.0
+career,Sequence Synopsis,15.0,conference,6,1.0,2.0,1.0
+career,Sequence Synopsis,15.0,ms,3,0.0,1.0,1.0
+career,Sequence Synopsis,15.0,phd,8,0.0,1.0,1.0
+career,Sequence Synopsis,25.0,conference,4,0.0,1.0,1.0
+career,Sequence Synopsis,25.0,conference,5,2.0,3.0,1.0
+career,Sequence Synopsis,30.0,conference,15,0.0,1.0,1.0
+career,Sequence Synopsis,30.0,ms,9,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,10.0,team-2 missed shot,44,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,30.0,exit,27,1.0,2.0,1.0
+emergency_dataset,Sequence Synopsis,5.0,dischargealive,20,0.0,1.0,1.0
+emergency_dataset,Sequence Synopsis,5.0,dischargealive,37,0.0,2.0,2.0
+pediatric_trauma,CoreFlow,30.0,breathing->exit,1,0.0,1.0,1.0
+pediatric_trauma,CoreFlow,30.0,pulse->exit,5,0.0,1.0,1.0
+pediatric_trauma,CoreFlow,30.0,pupil->exit,10,0.0,1.0,1.0
+pediatric_trauma,SentenTree,20.0,secondarysurvey->blanket,67,0.0,1.0,1.0
+pediatric_trauma,SentenTree,20.0,secondarysurvey->secondarysurvey,73,0.0,1.0,1.0
+pediatric_trauma,Sequence Synopsis,10.0,breathing,116,0.0,1.0,1.0
+test,Sequence Synopsis,5.0,aexit,1,0.0,1.0,1.0
+test,Sequence Synopsis,5.0,eexit,1,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,15.0,made shot->missed shot,23,0.0,1.0,1.0
+vast_1000,CoreFlow,5.0,exit->exit,18,0.0,1.0,1.0
+vast_1000,CoreFlow,5.0,ranger-base->exit,53,1.0,2.0,1.0
+vast_1000,CoreFlow,10.0,exit->exit,945,0.0,1.0,1.0
+vast_1000,SentenTree,25.0,general gate->general gate,359,1.0,2.0,1.0

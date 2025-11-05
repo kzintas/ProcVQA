@@ -1,0 +1,4 @@
+Model,Complexity_Type,Complexity_Level,Ground_Truth_Events,Extracted_Events,Correctly_Extracted,Precision,Recall,F1,Hallucinated_Events
+meta-llama_Llama-3.2-11B-Vision-Instruct,total_complexity,Medium,923,483,369,0.7639751552795031,0.39978331527627303,0.5248933143669985,114
+meta-llama_Llama-3.2-11B-Vision-Instruct,total_complexity,High,1048,310,144,0.4645161290322581,0.13740458015267176,0.21207658321060383,166
+meta-llama_Llama-3.2-11B-Vision-Instruct,total_complexity,Low,612,482,325,0.6742738589211619,0.5310457516339869,0.5941499085923216,157

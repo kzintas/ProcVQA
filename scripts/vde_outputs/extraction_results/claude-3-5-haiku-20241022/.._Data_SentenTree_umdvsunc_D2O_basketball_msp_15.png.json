@@ -1,0 +1,49 @@
+{
+  "events": [
+    [
+      "Start",
+      "UNC Offense",
+      69
+    ],
+    [
+      "UNC Offense",
+      "Made Shot",
+      22
+    ],
+    [
+      "UNC Offense",
+      "Missed Shot",
+      23
+    ],
+    [
+      "Made Shot",
+      "UMD Offense",
+      22
+    ],
+    [
+      "Missed Shot",
+      "Rebound",
+      24
+    ],
+    [
+      "Rebound",
+      "UMD Offense",
+      15
+    ],
+    [
+      "UMD Offense",
+      "Rebound",
+      34
+    ],
+    [
+      "UMD Offense",
+      "Exit",
+      35
+    ],
+    [
+      "Rebound",
+      "Exit",
+      15
+    ]
+  ]
+}

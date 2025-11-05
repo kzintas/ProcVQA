@@ -1,0 +1,34 @@
+dataset,technique,parameter_value,attribute,value,gt_count,llm_count,hallucinated_count
+Foursquare_NYC,Sequence Synopsis,15.0,exit,8,0.0,1.0,1.0
+Foursquare_NYC,Sequence Synopsis,15.0,gym/fitness center,36,1.0,2.0,1.0
+Foursquare_NYC,Sequence Synopsis,15.0,home(private)exit,1,0.0,1.0,1.0
+Foursquare_NYC,Sequence Synopsis,15.0,laundry serviceexit,2,0.0,1.0,1.0
+Foursquare_NYC,Sequence Synopsis,15.0,officeexit,1,0.0,1.0,1.0
+Foursquare_NYC,Sequence Synopsis,15.0,schoolexit,1,0.0,1.0,1.0
+Foursquare_NYC,Sequence Synopsis,15.0,start,8,0.0,1.0,1.0
+VAST,Sequence Synopsis,15.0,entrance,6,1.0,3.0,2.0
+chicago_baseball,CoreFlow,5.0,chicago offense exit->defensive rebound,63,0.0,1.0,1.0
+chicago_baseball,CoreFlow,5.0,chicago offense exit->exit,23,0.0,1.0,1.0
+chicago_baseball,CoreFlow,5.0,chicago offense exit->foul,18,0.0,1.0,1.0
+chicago_baseball,CoreFlow,5.0,chicago offense exit->made shot-2,37,0.0,1.0,1.0
+chicago_baseball,CoreFlow,5.0,chicago offense exit->missed shot-2,14,0.0,1.0,1.0
+chicago_baseball,CoreFlow,5.0,chicago offense exit->turnover,12,0.0,1.0,1.0
+chicago_baseball,CoreFlow,5.0,foul->made free throw exit,9,0.0,1.0,1.0
+chicago_baseball,CoreFlow,5.0,made free throw exit->exit,9,0.0,1.0,1.0
+chicago_baseball,CoreFlow,5.0,opponent offense->chicago offense exit,167,0.0,1.0,1.0
+chicago_baseball,CoreFlow,5.0,opponent offense->foul,1,0.0,1.0,1.0
+pediatric_trauma,CoreFlow,5.0,pupil->exit,10,0.0,1.0,1.0
+pediatric_trauma,CoreFlow,5.0,temp->exit,15,0.0,1.0,1.0
+process_mining,CoreFlow,5.0,close pull requestexit->exit,4,0.0,1.0,1.0
+process_mining,CoreFlow,5.0,commit changes->close pull requestexit,7,0.0,1.0,1.0
+process_mining,CoreFlow,5.0,commit changes->commit changesexit,6,0.0,1.0,1.0
+process_mining,CoreFlow,5.0,commit changes->commit changesexit,7,0.0,1.0,1.0
+process_mining,CoreFlow,5.0,commit changesexit->commit changes,3,0.0,1.0,1.0
+process_mining,CoreFlow,5.0,commit changesexit->commit changesexit,1,0.0,1.0,1.0
+process_mining,CoreFlow,5.0,commit changesexit->commit changesexit,2,0.0,1.0,1.0
+process_mining,CoreFlow,5.0,commit changesexit->commit changesexit,3,0.0,1.0,1.0
+process_mining,CoreFlow,5.0,commit changesexit->commit changesexit,5,0.0,1.0,1.0
+process_mining,CoreFlow,5.0,start->create issue,8,0.0,1.0,1.0
+umdvsunc_D2O_basketball,CoreFlow,5.0,foul->made free throw exit,4,0.0,1.0,1.0
+umdvsunc_D2O_basketball,CoreFlow,5.0,made free throw exit->exit,2,0.0,1.0,1.0
+umdvsunc_D2O_basketball,CoreFlow,5.0,made free throw exit->exit,4,0.0,1.0,1.0

@@ -1,0 +1,34 @@
+{
+  "events": [
+    [
+      "Start",
+      "commit changes",
+      30
+    ],
+    [
+      "Start",
+      "create issue",
+      7
+    ],
+    [
+      "commit changes",
+      "Exit",
+      13
+    ],
+    [
+      "commit changes",
+      "Exit",
+      17
+    ],
+    [
+      "create issue",
+      "Exit",
+      7
+    ],
+    [
+      "Exit",
+      "Exit",
+      8
+    ]
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "events": [
+    [
+      "_Start",
+      "entrance",
+      94
+    ],
+    [
+      "_Start",
+      "ranger-base",
+      6
+    ],
+    [
+      "entrance",
+      "general gate",
+      85
+    ],
+    [
+      "entrance",
+      "_Exit",
+      5
+    ],
+    [
+      "general gate",
+      "ranger-stop",
+      63
+    ],
+    [
+      "general gate",
+      "camping",
+      11
+    ],
+    [
+      "ranger-stop",
+      "ranger-stop",
+      11
+    ],
+    [
+      "ranger-stop",
+      "camping",
+      4
+    ],
+    [
+      "camping",
+      "general gate",
+      7
+    ],
+    [
+      "ranger-stop",
+      "general gate",
+      7
+    ],
+    [
+      "general gate",
+      "ranger-stop",
+      45
+    ],
+    [
+      "ranger-stop",
+      "ranger-stop",
+      13
+    ],
+    [
+      "ranger-stop",
+      "general gate",
+      7
+    ],
+    [
+      "general gate",
+      "general gate",
+      42
+    ],
+    [
+      "general gate",
+      "camping",
+      6
+    ],
+    [
+      "general gate",
+      "camping",
+      30
+    ],
+    [
+      "camping",
+      "general gate",
+      6
+    ],
+    [
+      "camping",
+      "_Exit",
+      6
+    ],
+    [
+      "general gate",
+      "camping",
+      6
+    ],
+    [
+      "camping",
+      "general gate",
+      15
+    ],
+    [
+      "camping",
+      "camping",
+      6
+    ],
+    [
+      "general gate",
+      "general gate",
+      13
+    ],
+    [
+      "general gate",
+      "general gate",
+      10
+    ],
+    [
+      "general gate",
+      "ranger-stop",
+      7
+    ],
+    [
+      "ranger-stop",
+      "ranger-stop",
+      7
+    ],
+    [
+      "ranger-stop",
+      "general gate",
+      7
+    ],
+    [
+      "general gate",
+      "entrance",
+      14
+    ],
+    [
+      "entrance",
+      "_Exit",
+      83
+    ],
+    [
+      "ranger-base",
+      "gate",
+      6
+    ],
+    [
+      "gate",
+      "ranger-stop",
+      6
+    ],
+    [
+      "ranger-stop",
+      "ranger-stop",
+      6
+    ],
+    [
+      "ranger-stop",
+      "ranger-stop",
+      6
+    ],
+    [
+      "ranger-stop",
+      "ranger-stop",
+      6
+    ],
+    [
+      "ranger-stop",
+      "gate",
+      6
+    ],
+    [
+      "gate",
+      "ranger-base",
+      6
+    ],
+    [
+      "ranger-base",
+      "_Exit",
+      6
+    ]
+  ]
+}

@@ -1,0 +1,21 @@
+dataset,technique,parameter_value,attribute,value,gt_count,llm_count,hallucinated_count
+career,Sequence Synopsis,15.0,conference,3,1.0,2.0,1.0
+career,Sequence Synopsis,15.0,journal,3,3.0,4.0,1.0
+pediatric_trauma,SentenTree,10.0,exit->blanket,67,0.0,1.0,1.0
+pediatric_trauma,Sequence Synopsis,15.0,pupil,6,0.0,1.0,1.0
+process_mining,Sequence Synopsis,5.0,build system update,2,1.0,2.0,1.0
+process_mining,Sequence Synopsis,5.0,commit changes,2,1.0,2.0,1.0
+process_mining,Sequence Synopsis,5.0,commit changes,3,2.0,4.0,2.0
+process_mining,Sequence Synopsis,5.0,commit changes,8,2.0,3.0,1.0
+process_mining,Sequence Synopsis,5.0,commit changes,16,1.0,2.0,1.0
+process_mining,Sequence Synopsis,5.0,create issue,6,1.0,2.0,1.0
+process_mining,Sequence Synopsis,5.0,issue comment,2,1.0,2.0,1.0
+process_mining,Sequence Synopsis,5.0,start,11,1.0,2.0,1.0
+umdvsunc_D2O_basketball,SentenTree,10.0,missed shot->rebound,15,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,10.0,rebound->umd offense,8,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,10.0,umd offense->exit,27,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,10.0,umd offense->rebound,8,0.0,1.0,1.0
+umdvsunc_D2O_basketball,Sequence Synopsis,10.0,unc offense,5,1.0,2.0,1.0
+umdvsunc_D2O_basketball,Sequence Synopsis,30.0,unc offense,12,1.0,2.0,1.0
+umdvsunc_D2O_basketball,Sequence Synopsis,30.0,unc offense,14,2.0,4.0,2.0
+umdvsunc_D2O_basketball,Sequence Synopsis,30.0,unc offense,18,1.0,2.0,1.0

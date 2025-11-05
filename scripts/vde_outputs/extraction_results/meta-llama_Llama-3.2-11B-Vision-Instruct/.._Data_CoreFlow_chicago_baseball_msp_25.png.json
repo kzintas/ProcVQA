@@ -1,0 +1,24 @@
+{
+  "events": [
+    [
+      "CHICAGO Offense",
+      "Defensive Rebound",
+      63
+    ],
+    [
+      "CHICAGO Offense",
+      "Opponent Offense",
+      167
+    ],
+    [
+      "Opponent Offense",
+      "Exit",
+      1
+    ],
+    [
+      "Defensive Rebound",
+      "Exit",
+      63
+    ]
+  ]
+}

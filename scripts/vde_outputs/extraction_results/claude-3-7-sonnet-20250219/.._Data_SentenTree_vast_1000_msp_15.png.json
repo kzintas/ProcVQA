@@ -1,0 +1,54 @@
+{
+  "events": [
+    [
+      "_Start",
+      "entrance",
+      947
+    ],
+    [
+      "entrance",
+      "general gate",
+      847
+    ],
+    [
+      "general gate",
+      "general gate",
+      794
+    ],
+    [
+      "general gate",
+      "general gate",
+      581
+    ],
+    [
+      "general gate",
+      "general gate",
+      429
+    ],
+    [
+      "general gate",
+      "general gate",
+      359
+    ],
+    [
+      "general gate",
+      "general gate",
+      221
+    ],
+    [
+      "general gate",
+      "entrance",
+      8
+    ],
+    [
+      "general gate",
+      "entrance",
+      360
+    ],
+    [
+      "entrance",
+      "_Exit",
+      586
+    ]
+  ]
+}

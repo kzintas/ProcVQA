@@ -1,0 +1,4 @@
+Model,Complexity_Type,Complexity_Level,Ground_Truth_Events,Extracted_Events,Correctly_Extracted,Precision,Recall,F1,Hallucinated_Events
+gpt-4.1,total_complexity,Medium,923,915,861,0.940983606557377,0.9328277356446371,0.9368879216539717,54
+gpt-4.1,total_complexity,High,1048,885,716,0.8090395480225989,0.683206106870229,0.7408173823072944,169
+gpt-4.1,total_complexity,Low,612,608,589,0.96875,0.9624183006535948,0.9655737704918032,19

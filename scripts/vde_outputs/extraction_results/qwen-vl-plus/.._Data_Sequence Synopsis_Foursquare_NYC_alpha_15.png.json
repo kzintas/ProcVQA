@@ -1,0 +1,104 @@
+{
+  "events": [
+    [
+      "Office",
+      1
+    ],
+    [
+      "Tea Room",
+      1
+    ],
+    [
+      "Medical Center",
+      1
+    ],
+    [
+      "Shop",
+      2
+    ],
+    [
+      "Hotel",
+      3
+    ],
+    [
+      "Restaurant",
+      42
+    ],
+    [
+      "Fast Food",
+      83
+    ],
+    [
+      "Spiritual",
+      9
+    ],
+    [
+      "General College & University",
+      159
+    ],
+    [
+      "Bank",
+      16
+    ],
+    [
+      "Store",
+      10
+    ],
+    [
+      "Outdoor Outdoor",
+      10
+    ],
+    [
+      "General College & University",
+      9
+    ],
+    [
+      "Recreation",
+      18
+    ],
+    [
+      "Laundry Service",
+      2
+    ],
+    [
+      "Event Space",
+      18
+    ],
+    [
+      "Residential Building (Apartment / Condo)",
+      25
+    ],
+    [
+      "Gym / Fitness Center",
+      69
+    ],
+    [
+      "Arts & Entertainment",
+      8
+    ],
+    [
+      "Travel & Transport",
+      38
+    ],
+    [
+      "Residential Building (Apartment / Condo)",
+      36
+    ],
+    [
+      "Gym / Fitness Center",
+      32
+    ],
+    [
+      "Fast Food",
+      32
+    ],
+    [
+      "_Exit",
+      135
+    ],
+    [
+      "_Exit",
+      10
+    ]
+  ]
+}

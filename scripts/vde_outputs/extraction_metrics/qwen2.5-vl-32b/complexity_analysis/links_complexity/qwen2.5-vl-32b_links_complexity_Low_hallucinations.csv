@@ -1,0 +1,55 @@
+dataset,technique,parameter_value,attribute,value,gt_count,llm_count,hallucinated_count
+Foursquare_NYC,CoreFlow,15.0,fast food->exit,76,0.0,1.0,1.0
+Foursquare_NYC,SentenTree,10.0,fast food->exit,71,1.0,2.0,1.0
+Foursquare_NYC,SentenTree,15.0,restaurant->exit,106,0.0,1.0,1.0
+Foursquare_NYC,SentenTree,25.0,fast food->exit,182,1.0,2.0,1.0
+VAST,CoreFlow,5.0,entrance->ranger-base,6,0.0,1.0,1.0
+VAST,SentenTree,15.0,general gate->general gate,2,0.0,1.0,1.0
+VAST,SentenTree,15.0,general gate->general gate,37,0.0,1.0,1.0
+VAST,SentenTree,20.0,general gate->entrance,44,0.0,1.0,1.0
+VAST,SentenTree,20.0,general gate->general gate,21,1.0,2.0,1.0
+VAST,SentenTree,20.0,general gate->general gate,60,0.0,1.0,1.0
+career,SentenTree,25.0,conference->journal,25,0.0,1.0,1.0
+career,SentenTree,25.0,journal->conference,20,0.0,1.0,1.0
+career,SentenTree,25.0,ms->conference,38,0.0,1.0,1.0
+career,Sequence Synopsis,5.0,assistant professor,9,1.0,2.0,1.0
+career,Sequence Synopsis,5.0,assistant professor,19,1.0,2.0,1.0
+career,Sequence Synopsis,15.0,conference,4,0.0,1.0,1.0
+career,Sequence Synopsis,25.0,conference,4,0.0,1.0,1.0
+chicago_baseball,SentenTree,20.0,made shot-2->chicago offense,79,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,10.0,exit,39,1.0,3.0,2.0
+chicago_baseball,Sequence Synopsis,10.0,team-1 offensive rebound,82,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,25.0,chicago offense,93,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,25.0,foul,10,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,25.0,made free throw,7,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,25.0,made free throw,8,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,25.0,missed shot-2,21,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,25.0,missed shot-3,12,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,25.0,opponent offense,2,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,25.0,opponent offense,6,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,25.0,opponent offense,8,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,25.0,opponent offense,13,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,25.0,opponent offense,14,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,25.0,opponent offense,46,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,25.0,opponent offense,76,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,30.0,end of period,23,0.0,1.0,1.0
+chicago_baseball,Sequence Synopsis,30.0,exit,20,0.0,1.0,1.0
+pediatric_trauma,SentenTree,15.0,secondarysurvey->blanket,111,0.0,1.0,1.0
+pediatric_trauma,SentenTree,20.0,pupil->blanket,73,0.0,1.0,1.0
+pediatric_trauma,SentenTree,20.0,secondarysurvey->exit,67,0.0,1.0,1.0
+pediatric_trauma,Sequence Synopsis,25.0,airway,58,0.0,1.0,1.0
+pediatric_trauma,Sequence Synopsis,25.0,airway,89,0.0,1.0,1.0
+pediatric_trauma,Sequence Synopsis,30.0,gcs,14,0.0,1.0,1.0
+pediatric_trauma,Sequence Synopsis,30.0,secondarysurvey,17,0.0,1.0,1.0
+test,Sequence Synopsis,5.0,eexit,1,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,15.0,made shot->rebound,22,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,15.0,missed shot->rebound,15,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,15.0,rebound->umd offense,24,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,15.0,unc offense->made shot,23,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,15.0,unc offense->missed shot,15,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,25.0,missed shot->exit,24,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,25.0,unc offense->made shot,23,0.0,1.0,1.0
+umdvsunc_D2O_basketball,Sequence Synopsis,10.0,rebound,7,1.0,2.0,1.0
+umdvsunc_D2O_basketball,Sequence Synopsis,25.0,unc offense,1,0.0,1.0,1.0
+vast_1000,SentenTree,15.0,general gate->general gate,360,0.0,1.0,1.0
+vast_1000,SentenTree,20.0,general gate->general gate,573,0.0,1.0,1.0

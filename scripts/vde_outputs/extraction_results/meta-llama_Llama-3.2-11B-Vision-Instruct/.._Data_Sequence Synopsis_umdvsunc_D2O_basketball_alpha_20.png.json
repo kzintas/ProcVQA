@@ -1,0 +1,72 @@
+{
+  "events": [
+    [
+      "Jump Ball",
+      1
+    ],
+    [
+      "Missed Shot",
+      2
+    ],
+    [
+      "Rebound",
+      19
+    ],
+    [
+      "Missed Shot",
+      19
+    ],
+    [
+      "Made Shot",
+      19
+    ],
+    [
+      "UMD Offense",
+      26
+    ],
+    [
+      "Missed Shot",
+      18
+    ],
+    [
+      "UMD Offense",
+      17
+    ],
+    [
+      "Rebound",
+      15
+    ],
+    [
+      "Made Shot",
+      7
+    ],
+    [
+      "Made Shot",
+      2
+    ],
+    [
+      "UMD Offense",
+      28
+    ],
+    [
+      "Foul",
+      15
+    ],
+    [
+      "Made Shot",
+      18
+    ],
+    [
+      "UMD Offense",
+      11
+    ],
+    [
+      "Rebound",
+      15
+    ],
+    [
+      "Made Shot",
+      7
+    ]
+  ]
+}

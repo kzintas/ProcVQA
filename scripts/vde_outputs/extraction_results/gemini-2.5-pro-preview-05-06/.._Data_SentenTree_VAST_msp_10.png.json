@@ -1,0 +1,79 @@
+{
+  "events": [
+    [
+      "_Start",
+      "entrance",
+      94
+    ],
+    [
+      "entrance",
+      "general gate",
+      85
+    ],
+    [
+      "general gate",
+      "general gate",
+      70
+    ],
+    [
+      "general gate",
+      "ranger-stop",
+      11
+    ],
+    [
+      "ranger-stop",
+      "ranger-stop",
+      11
+    ],
+    [
+      "ranger-stop",
+      "general gate",
+      11
+    ],
+    [
+      "general gate",
+      "general gate",
+      58
+    ],
+    [
+      "general gate",
+      "general gate",
+      42
+    ],
+    [
+      "general gate",
+      "entrance",
+      9
+    ],
+    [
+      "general gate",
+      "general gate",
+      36
+    ],
+    [
+      "general gate",
+      "general gate",
+      21
+    ],
+    [
+      "general gate",
+      "entrance",
+      23
+    ],
+    [
+      "general gate",
+      "general gate",
+      13
+    ],
+    [
+      "general gate",
+      "entrance",
+      13
+    ],
+    [
+      "entrance",
+      "_Exit",
+      67
+    ]
+  ]
+}

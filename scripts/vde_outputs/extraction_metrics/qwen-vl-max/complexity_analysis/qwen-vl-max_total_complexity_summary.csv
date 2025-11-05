@@ -1,0 +1,4 @@
+Model,Complexity_Type,Complexity_Level,Ground_Truth_Events,Extracted_Events,Correctly_Extracted,Precision,Recall,F1,Hallucinated_Events
+qwen-vl-max,total_complexity,Medium,923,721,686,0.9514563106796117,0.7432286023835319,0.8345498783454988,35
+qwen-vl-max,total_complexity,High,1048,714,563,0.788515406162465,0.5372137404580153,0.6390465380249717,151
+qwen-vl-max,total_complexity,Low,612,580,557,0.9603448275862069,0.9101307189542484,0.9345637583892618,23

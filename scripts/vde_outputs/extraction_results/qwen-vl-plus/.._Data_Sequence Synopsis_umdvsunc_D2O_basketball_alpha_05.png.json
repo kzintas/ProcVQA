@@ -1,0 +1,96 @@
+{
+  "events": [
+    [
+      "_Start",
+      7
+    ],
+    [
+      "_Start",
+      14
+    ],
+    [
+      "_Start",
+      4
+    ],
+    [
+      "_Start",
+      4
+    ],
+    [
+      "_Start",
+      15
+    ],
+    [
+      "_Start",
+      25
+    ],
+    [
+      "Missed Shot",
+      7
+    ],
+    [
+      "UMD Offense",
+      7
+    ],
+    [
+      "Rebound",
+      14
+    ],
+    [
+      "Turnover",
+      2
+    ],
+    [
+      "Foul",
+      3
+    ],
+    [
+      "Made Shot",
+      21
+    ],
+    [
+      "Foul",
+      15
+    ],
+    [
+      "UMD Offense",
+      23
+    ],
+    [
+      "Made Free Throw",
+      13
+    ],
+    [
+      "Made Free Throw",
+      8
+    ],
+    [
+      "UMD Offense",
+      8
+    ],
+    [
+      "_Exit",
+      4
+    ],
+    [
+      "_Exit",
+      7
+    ],
+    [
+      "_Exit",
+      11
+    ],
+    [
+      "_Exit",
+      4
+    ],
+    [
+      "_Exit",
+      15
+    ],
+    [
+      "_Exit",
+      25
+    ]
+  ]
+}

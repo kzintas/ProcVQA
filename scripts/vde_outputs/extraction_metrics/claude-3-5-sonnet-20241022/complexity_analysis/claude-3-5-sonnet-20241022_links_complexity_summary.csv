@@ -1,0 +1,4 @@
+Model,Complexity_Type,Complexity_Level,Ground_Truth_Events,Extracted_Events,Correctly_Extracted,Precision,Recall,F1,Hallucinated_Events
+claude-3-5-sonnet-20241022,links_complexity,Medium,880,812,788,0.9704433497536946,0.8954545454545455,0.9314420803782507,24
+claude-3-5-sonnet-20241022,links_complexity,High,735,567,472,0.8324514991181657,0.6421768707482993,0.7250384024577572,95
+claude-3-5-sonnet-20241022,links_complexity,Low,968,941,933,0.9914984059511158,0.9638429752066116,0.9774751178627554,8

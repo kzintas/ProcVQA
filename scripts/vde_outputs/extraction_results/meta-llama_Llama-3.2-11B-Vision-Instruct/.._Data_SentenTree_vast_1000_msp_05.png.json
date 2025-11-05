@@ -1,0 +1,154 @@
+{
+  "events": [
+    [
+      "entrance",
+      "general gate",
+      847
+    ],
+    [
+      "general gate",
+      "ranger-stop",
+      95
+    ],
+    [
+      "ranger-stop",
+      "ranger-stop",
+      642
+    ],
+    [
+      "ranger-stop",
+      "ranger-stop",
+      95
+    ],
+    [
+      "ranger-stop",
+      "ranger-stop",
+      38
+    ],
+    [
+      "ranger-stop",
+      "general gate",
+      57
+    ],
+    [
+      "general gate",
+      "general gate",
+      66
+    ],
+    [
+      "general gate",
+      "ranger-stop",
+      515
+    ],
+    [
+      "ranger-stop",
+      "general gate",
+      66
+    ],
+    [
+      "general gate",
+      "general gate",
+      429
+    ],
+    [
+      "general gate",
+      "general gate",
+      18
+    ],
+    [
+      "general gate",
+      "general gate",
+      91
+    ],
+    [
+      "general gate",
+      "general gate",
+      78
+    ],
+    [
+      "general gate",
+      "general gate",
+      161
+    ],
+    [
+      "general gate",
+      "general gate",
+      60
+    ],
+    [
+      "general gate",
+      "general gate",
+      359
+    ],
+    [
+      "general gate",
+      "general gate",
+      221
+    ],
+    [
+      "general gate",
+      "general gate",
+      134
+    ],
+    [
+      "general gate",
+      "general gate",
+      98
+    ],
+    [
+      "general gate",
+      "general gate",
+      60
+    ],
+    [
+      "entrance",
+      "Start",
+      53
+    ],
+    [
+      "Start",
+      "camping",
+      57
+    ],
+    [
+      "camping",
+      "camping",
+      57
+    ],
+    [
+      "camping",
+      "ranger-base",
+      53
+    ],
+    [
+      "ranger-base",
+      "gate",
+      53
+    ],
+    [
+      "gate",
+      "gate",
+      51
+    ],
+    [
+      "gate",
+      "gate",
+      51
+    ],
+    [
+      "gate",
+      "gate",
+      51
+    ],
+    [
+      "gate",
+      "ranger-base",
+      51
+    ],
+    [
+      "ranger-base",
+      "_Exit",
+      51
+    ]
+  ]
+}

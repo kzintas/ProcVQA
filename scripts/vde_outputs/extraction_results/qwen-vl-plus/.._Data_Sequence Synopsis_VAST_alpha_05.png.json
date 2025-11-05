@@ -1,0 +1,44 @@
+{
+  "events": [
+    [
+      "entrance",
+      9
+    ],
+    [
+      "general gate",
+      10
+    ],
+    [
+      "ranger-stop",
+      6
+    ],
+    [
+      "general gate",
+      7
+    ],
+    [
+      "camping",
+      7
+    ],
+    [
+      "general gate",
+      7
+    ],
+    [
+      "ranger-stop",
+      7
+    ],
+    [
+      "general gate",
+      7
+    ],
+    [
+      "entrance",
+      7
+    ],
+    [
+      "_Exit",
+      10
+    ]
+  ]
+}

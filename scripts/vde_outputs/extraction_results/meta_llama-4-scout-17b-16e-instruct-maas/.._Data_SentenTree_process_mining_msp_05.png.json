@@ -1,0 +1,84 @@
+{
+  "events": [
+    [
+      "_Start",
+      "open pull request",
+      30
+    ],
+    [
+      "_Start",
+      "create issue",
+      13
+    ],
+    [
+      "_Start",
+      "commit changes",
+      8
+    ],
+    [
+      "open pull request",
+      "commit changes",
+      3
+    ],
+    [
+      "open pull request",
+      "close pull request",
+      4
+    ],
+    [
+      "open pull request",
+      "resolve issue",
+      3
+    ],
+    [
+      "create issue",
+      "_Exit",
+      7
+    ],
+    [
+      "close pull request",
+      "_Exit",
+      3
+    ],
+    [
+      "resolve issue",
+      "_Exit",
+      6
+    ],
+    [
+      "commit changes",
+      "_Exit",
+      13
+    ],
+    [
+      "commit changes",
+      "commit changes",
+      6
+    ],
+    [
+      "commit changes",
+      "commit changes",
+      5
+    ],
+    [
+      "commit changes",
+      "commit changes",
+      3
+    ],
+    [
+      "commit changes",
+      "commit changes",
+      3
+    ],
+    [
+      "commit changes",
+      "commit changes",
+      3
+    ],
+    [
+      "commit changes",
+      "_Exit",
+      3
+    ]
+  ]
+}

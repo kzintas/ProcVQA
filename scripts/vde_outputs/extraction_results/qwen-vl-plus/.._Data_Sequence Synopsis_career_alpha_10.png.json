@@ -1,0 +1,64 @@
+{
+  "events": [
+    [
+      "_Start",
+      5
+    ],
+    [
+      "BS",
+      21
+    ],
+    [
+      "MS",
+      21
+    ],
+    [
+      "Conference",
+      21
+    ],
+    [
+      "PhD",
+      19
+    ],
+    [
+      "Assistant Professor",
+      19
+    ],
+    [
+      "Associate Professor",
+      19
+    ],
+    [
+      "Journal",
+      17
+    ],
+    [
+      "Conference",
+      17
+    ],
+    [
+      "Journal",
+      14
+    ],
+    [
+      "Conference",
+      14
+    ],
+    [
+      "Journal",
+      13
+    ],
+    [
+      "Conference",
+      12
+    ],
+    [
+      "Journal",
+      8
+    ],
+    [
+      "_Exit",
+      21
+    ]
+  ]
+}

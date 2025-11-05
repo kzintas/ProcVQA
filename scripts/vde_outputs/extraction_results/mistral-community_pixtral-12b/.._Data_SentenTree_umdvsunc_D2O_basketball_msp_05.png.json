@@ -1,0 +1,169 @@
+{
+  "events": [
+    [
+      "Start",
+      "UNC Offense",
+      69
+    ],
+    [
+      "UNC Offense",
+      "Rebound",
+      15
+    ],
+    [
+      "UNC Offense",
+      "Foul",
+      15
+    ],
+    [
+      "UNC Offense",
+      "Made Free Throw",
+      8
+    ],
+    [
+      "UNC Offense",
+      "Rebound",
+      23
+    ],
+    [
+      "UNC Offense",
+      "Made Shot",
+      4
+    ],
+    [
+      "Rebound",
+      "Missed Shot",
+      15
+    ],
+    [
+      "Rebound",
+      "Made Free Throw",
+      5
+    ],
+    [
+      "Rebound",
+      "Made Shot",
+      24
+    ],
+    [
+      "Missed Shot",
+      "Turnover",
+      24
+    ],
+    [
+      "Missed Shot",
+      "Made Free Throw",
+      4
+    ],
+    [
+      "Made Free Throw",
+      "Turnover",
+      5
+    ],
+    [
+      "Made Free Throw",
+      "Made Free Throw",
+      4
+    ],
+    [
+      "Made Shot",
+      "Turnover",
+      27
+    ],
+    [
+      "Made Shot",
+      "Made Free Throw",
+      4
+    ],
+    [
+      "Made Shot",
+      "Exit",
+      16
+    ],
+    [
+      "Made Shot",
+      "Missed Shot",
+      4
+    ],
+    [
+      "Made Shot",
+      "Steal",
+      4
+    ],
+    [
+      "Foul",
+      "Rebound",
+      7
+    ],
+    [
+      "Foul",
+      "Exit",
+      4
+    ],
+    [
+      "Foul",
+      "Missed Shot",
+      7
+    ],
+    [
+      "Foul",
+      "Turnover",
+      6
+    ],
+    [
+      "Foul",
+      "Exit",
+      4
+    ],
+    [
+      "Exit",
+      "Exit",
+      4
+    ],
+    [
+      "Exit",
+      "Exit",
+      7
+    ],
+    [
+      "Exit",
+      "Exit",
+      6
+    ],
+    [
+      "Exit",
+      "Exit",
+      4
+    ],
+    [
+      "Exit",
+      "Exit",
+      4
+    ],
+    [
+      "Exit",
+      "Exit",
+      4
+    ],
+    [
+      "Exit",
+      "Exit",
+      4
+    ],
+    [
+      "Exit",
+      "Exit",
+      9
+    ],
+    [
+      "Exit",
+      "Exit",
+      4
+    ],
+    [
+      "Steal",
+      "Exit",
+      4
+    ]
+  ]
+}

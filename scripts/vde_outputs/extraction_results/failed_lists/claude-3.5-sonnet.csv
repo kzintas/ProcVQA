@@ -1,0 +1,1276 @@
+question_id,Image (Image name),Question Number,Question,Final Task,correct_value,answer,full_content
+q_39,./Data/SentenTree/emergency_dataset/msp_05.png,5,How many patients went to the Floor after the ICU?,Detect Antecedent Sequealea,24,32,"Let me analyze the paths from ICU to Floor in this node-link diagram.
+
+<reasoning>
+1. Looking at the diagram, I need to find paths where ICU is followed by Floor
+
+2. Tracing from Emergency:
+- One path goes Emergency -> ICU -> Floor with 24 patients
+
+3. Tracing from Floor:
+- Another path goes Floor -> ICU -> Floor with 8 patients
+
+4. Total patients going to Floor after ICU:
+- 24 patients (from Emergency -> ICU -> Floor)
+- 8 patients (from Floor -> ICU -> Floor)
+- 24 + 8 = 32 total patients
+
+5. Verification:
+- All paths where ICU is followed by Floor have been counted
+- The numbers are clearly shown on the links
+- No other paths exist where ICU is followed by Floor
+</reasoning>
+
+<answer>32</answer>"
+q_40,./Data/SentenTree/emergency_dataset/msp_05.png,6,How many total patients were discharged alive after going to the Floor?,Summing Weights,24,37,"Let me analyze the paths leading to discharge-alive through the Floor.
+
+<reasoning>
+1. Looking at all paths that go through ""Floor"" nodes and end in ""Discharge-Alive"":
+
+Path 1: Emergency -> Floor -> Discharge-Alive
+- This path shows 21 patients going from Emergency to Floor
+- Of these, 21 patients go directly to Discharge-Alive
+
+Path 2: Emergency -> ICU -> Floor -> Discharge-Alive
+- 24 patients go from ICU to Floor
+- Of these, 16 patients go to Discharge-Alive
+
+Total calculation:
+- From first Floor path: 21 patients
+- From second Floor path through ICU: 16 patients
+- 21 + 16 = 37 total patients discharged alive after going through Floor
+</reasoning>
+
+<answer>37</answer>"
+q_44,./Data/SentenTree/emergency_dataset/msp_10.png,4,How many total patients went to the ICU after Emrgency?,Summing Weights,62,42,"Let me analyze the node-link diagram to determine how many patients went to ICU after Emergency.
+
+<reasoning>
+1. Starting from the Emergency node, I need to trace all paths that lead to ICU:
+   - One path goes from Emergency → Floor → ICU (41 patients go to Floor, then 21 of those go to ICU)
+   - Another path goes directly from Emergency → ICU (21 patients)
+
+2. To get total patients going to ICU after Emergency:
+   - Direct path to ICU: 21 patients
+   - Indirect path through Floor to ICU: 21 patients
+   - Total: 21 + 21 = 42 patients
+
+3. Verification:
+   - This matches with what we see leaving ICU (24 patients to Floor and 36 patients Die, totaling 60 patients)
+   - The numbers align with the flow through the diagram
+</reasoning>
+
+<answer>42</answer>"
+q_46,./Data/SentenTree/emergency_dataset/msp_10.png,6,How many total patients were discharged alive after going to the Floor?,Detect Antecedent Sequealea,24,45,"Let me analyze the paths leading to discharge-alive through the Floor.
+
+<reasoning>
+1. Looking at the diagram, there are two paths where patients go through ""Floor"" and end up being discharged alive:
+
+Path 1: Emergency -> Floor -> Discharge-Alive
+- From Emergency, 21 patients go to Floor
+- All 21 of these patients go directly to Discharge-Alive
+
+Path 2: Emergency -> ICU -> Floor -> Discharge-Alive
+- From Emergency, 41 patients go to ICU
+- From ICU, 24 patients go to Floor
+- All 24 of these patients go to Discharge-Alive
+
+2. To get total patients discharged alive after Floor:
+- Path 1: 21 patients
+- Path 2: 24 patients
+- Total = 21 + 24 = 45 patients
+</reasoning>
+
+<answer>45</answer>"
+q_60,./Data/SentenTree/emergency_dataset/msp_25.png,2,How many total patients were discharged alive?,Accurately Read Edge Weights,38,64,"Let me analyze the node-link diagram to determine the total number of patients discharged alive.
+
+<reasoning>
+1. Following the flow from top to bottom:
+   - Start node shows 100 total patients
+   - All 100 patients go through Arrival
+   - At Emergency, patients split into two paths:
+     * 62 patients go to ICU
+     * 38 patients go directly to Discharge-Alive
+
+2. Following the ICU path:
+   * Of the 62 ICU patients:
+     - 36 patients Die
+     - 26 patients Exit
+   * The 38 patients who went to Discharge-Alive all Exit
+
+3. To find total discharged alive:
+   * Direct discharge from Emergency: 38 patients
+   * Discharge after ICU: 26 patients
+   * Total = 38 + 26 = 64 patients discharged alive
+</reasoning>
+
+<answer>64</answer>"
+q_63,./Data/SentenTree/emergency_dataset/msp_25.png,5,How many patients went to the Floor after the ICU?,Detect if edge is present,indeterminate,0,"Let me analyze the node-link diagram to determine how many patients went to the Floor after the ICU.
+
+<reasoning>
+1. First, I'll trace all paths from ICU in the diagram:
+- From ICU, there are only two paths:
+  * ICU → Die → _Exit (36 patients)
+  * ICU → _Exit (26 patients)
+
+2. Key observation:
+- There is no path showing patients going from ICU to Floor
+- The diagram shows all paths are either to Die or directly to _Exit
+- No other connections from ICU are visible
+
+3. Analysis:
+- Since there is no link connecting ICU to Floor in the diagram
+- We cannot see any patients following this pathway
+- Therefore, based solely on the information shown in the visualization, no patients went from ICU to Floor
+</reasoning>
+
+<answer>0</answer>"
+q_69,./Data/SentenTree/emergency_dataset/msp_30.png,5,How many patients went to the Floor after the ICU?,Detect if edge is present,indeterminate,0,"Let me analyze the node-link diagram to answer your question about patients going to the Floor after ICU.
+
+<reasoning>
+1. Looking at the diagram, I can trace the path from ICU to see where patients go next:
+- From Emergency, 62 patients go to ICU
+- From ICU, 36 patients go to ""Die"" and then ""_Exit""
+- There is no path showing patients going from ICU to ""Floor""
+
+2. Key observations:
+- The diagram shows complete pathways from Start to Exit
+- All paths from ICU lead to ""Die"" and then ""_Exit""
+- There is no node labeled ""Floor"" in the diagram
+- There are no alternative paths from ICU other than to ""Die""
+
+3. Therefore:
+- The number of patients going from ICU to Floor is 0
+- This is because there is no pathway connecting ICU to Floor in the visualization
+</reasoning>
+
+<answer>0</answer>"
+q_74,./Data/Sequence Synopsis/emergency_dataset/alpha_05.png,4,How many patients went to the ICU after Emrgency?,Summing Weights,35,59,"Let me analyze the node-link diagram to determine how many patients went to the ICU after Emergency.
+
+<reasoning>
+1. I need to look at all pathways where Emergency is followed by ICU:
+
+2. Looking at each sequence from left to right:
+   - First sequence: Shows 12 patients going from Emergency to ICU
+   - Second sequence: No direct path from Emergency to ICU
+   - Third sequence: Shows 23 patients going from Emergency to ICU
+   - Fourth sequence: Shows 24 patients going from Emergency to ICU
+
+3. To get the total number:
+   12 + 23 + 24 = 59 patients total went from Emergency to ICU
+
+4. Verification:
+   - Each pathway is distinct and represents different patient groups
+   - The link widths are proportional to the counts
+   - The numbers are clearly labeled on the paths
+</reasoning>
+
+<answer>59</answer>"
+q_113,./Data/CoreFlow/umdvsunc_D2O_basketball/msp_05.png,1,How many total Rebounds were made by UMD Offense?,Accurately Read Edge Weights,34,43,"Let me analyze the node-link diagram to determine the total Rebounds made by UMD Offense.
+
+<reasoning>
+1. Starting from UMD Offense node, I need to track all paths that lead to a Rebound node.
+
+2. From UMD Offense, there are multiple initial paths:
+   - 34 sequences lead to Rebound
+   - 14 sequences lead to Missed Shot
+   - 10 sequences lead to Foul
+   - 3 sequences lead to Made Shot
+
+3. Following the Missed Shot path (14 sequences):
+   - 9 of these lead to another Rebound
+
+4. Therefore, total Rebounds from UMD Offense are:
+   - Initial Rebounds: 34
+   - Rebounds after Missed Shot: 9
+   - Total = 34 + 9 = 43 Rebounds
+
+5. I can verify this is complete because I've tracked all paths that lead to a Rebound node from UMD Offense, either directly or through other events.
+</reasoning>
+
+<answer>43</answer>"
+q_115,./Data/CoreFlow/umdvsunc_D2O_basketball/msp_05.png,3,How many times did UMD Offense not transition to a Rebound?,Summing Weights,35,25,"Let me help analyze how many times UMD Offense did not transition to a Rebound.
+
+<reasoning>
+1. First, I'll identify all paths from UMD Offense:
+   - UMD Offense → Rebound (34)
+   - UMD Offense → Missed Shot (14)
+   - UMD Offense → Foul (8)
+   - UMD Offense → Made Shot (3)
+
+2. To find times UMD Offense did not go to Rebound:
+   - Count paths to Missed Shot: 14
+   - Count paths to Foul: 8
+   - Count paths to Made Shot: 3
+   
+3. Sum all non-Rebound transitions:
+   14 + 8 + 3 = 25 times
+
+4. Verification:
+   - Total outgoing paths from UMD Offense: 34 + 14 + 8 + 3 = 69
+   - Non-Rebound paths: 25
+   - This matches with the incoming value to UMD Offense (69)
+</reasoning>
+
+<answer>25</answer>"
+q_117,./Data/CoreFlow/umdvsunc_D2O_basketball/msp_05.png,5,How many shots were made directly after a Rebound?,Detect Antecedent Sequealea,15,24,"Let me analyze the node-link diagram to determine how many shots were made directly after a Rebound.
+
+<reasoning>
+1. Looking at the diagram, I need to find all paths that:
+   - Start from the ""Rebound"" node
+   - Lead directly to either ""Made Shot"" or ""Missed Shot""
+
+2. From the Rebound node, I can trace:
+   - A link going to ""Made Shot"" with value 15
+   - A link going to ""Missed Shot"" with value 9
+
+3. These represent all direct shots taken after a rebound:
+   - 15 made shots
+   - 9 missed shots
+
+4. To get total shots after a rebound:
+   15 + 9 = 24 total shots
+</reasoning>
+
+<answer>24</answer>"
+q_118,./Data/CoreFlow/umdvsunc_D2O_basketball/msp_05.png,6,How many total shots were made by UMD offense?,Summing Weights,23,24,"Let me analyze the node-link diagram to determine the total shots made by UMD offense.
+
+<reasoning>
+1. Starting from ""UMD Offense"" node, I need to track all paths that lead to successful shots.
+
+2. From UMD Offense, there are two types of successful shots:
+   - Direct ""Made Shot"" path: 3 sequences
+   - ""Made Free Throw"" after ""Foul"": 4 sequences
+
+3. Additionally, after ""Rebound"" node, there are more shots:
+   - ""Made Shot"": 15 sequences
+   - ""Made Free Throw"" after ""Foul"": 2 sequences
+
+4. To calculate total made shots:
+   - Direct made shots: 3
+   - Made free throws after fouls: 4
+   - Made shots after rebound: 15
+   - Made free throws after rebound and foul: 2
+
+5. Total = 3 + 4 + 15 + 2 = 24 successful shots
+</reasoning>
+
+<answer>24</answer>"
+q_119,./Data/CoreFlow/umdvsunc_D2O_basketball/msp_05.png,7,How many total Fouls were made by UMD Offense?,Summing Weights,16,14,"Let me analyze the node-link diagram to determine the total number of Fouls made by UMD Offense.
+
+<reasoning>
+1. Starting from UMD Offense node, I need to trace all paths that lead to ""Foul"" events
+
+2. Following the paths from UMD Offense:
+- There is a direct path to Foul with a value of 8
+- There is also a path through Rebound that leads to Foul with a value of 6
+
+3. To get total Fouls:
+- Direct Fouls: 8
+- Fouls after Rebound: 6
+- Total = 8 + 6 = 14 Fouls
+
+4. Verification:
+- All paths leading to Foul nodes have been counted
+- No other paths in the diagram lead to Fouls from UMD Offense
+</reasoning>
+
+<answer>14</answer>"
+q_120,./Data/CoreFlow/umdvsunc_D2O_basketball/msp_05.png,8,How many free throws were made in total by UMD Offense?,Summing Weights,10,6,"Let me analyze the node-link diagram to find the total number of free throws made by UMD Offense.
+
+<reasoning>
+1. Starting from UMD Offense node, I need to trace all paths that lead to ""Made Free Throw""
+
+2. Following the paths from UMD Offense:
+   - One path shows Foul → Made Free Throw with a value of 4
+   - Another path shows Rebound → Foul → Made Free Throw with a value of 2
+   - These are the only two paths leading to Made Free Throw
+
+3. Calculating total made free throws:
+   - Direct path: 4 made free throws
+   - Through rebound path: 2 made free throws
+   - Total: 4 + 2 = 6 made free throws
+
+4. This can be verified by looking at the Made Free Throw → _Exit path which shows 6 sequences, matching our calculation
+</reasoning>
+
+<answer>6</answer>"
+q_126,./Data/CoreFlow/umdvsunc_D2O_basketball/msp_10.png,6,How many total shots were made by UMD offense?,Summing Weights,23,41,"Let me analyze the diagram to determine the total shots made by UMD offense.
+
+<reasoning>
+1. Starting from ""UMD Offense"" node, I need to identify all paths that lead to shot attempts:
+
+2. Following the paths from UMD Offense:
+   - Direct ""Made Shot"" path: 3 shots
+   - ""Missed Shot"" path: 14 shots
+   - ""Rebound"" path leads to:
+     * ""Made Shot"": 15 additional shots
+     * ""Missed Shot"": 9 additional shots
+
+3. Calculating total shots:
+   - Initial Made Shots: 3
+   - Initial Missed Shots: 14
+   - Rebound Made Shots: 15
+   - Rebound Missed Shots: 9
+   - Total = 3 + 14 + 15 + 9 = 41 shots
+
+4. Verification:
+   - Each path represents a distinct shot attempt
+   - All shot attempts are either made or missed
+   - Both direct shots and shots after rebounds are counted
+</reasoning>
+
+<answer>41</answer>"
+q_127,./Data/CoreFlow/umdvsunc_D2O_basketball/msp_10.png,7,How many total Fouls were made by UMD Offense?,Summing Weights,10,8,"Let me analyze the node-link diagram to determine the total Fouls made by UMD Offense.
+
+<reasoning>
+1. Starting from the ""UMD Offense"" node, I need to trace the path to ""Foul"" outcomes
+2. Following the links downward from UMD Offense:
+   - One path leads directly to ""Foul"" with a link width labeled ""8""
+3. Looking for any other paths that might lead to additional Fouls:
+   - The other paths lead to ""Rebound"", ""Missed Shot"", ""Made Shot"", and ""_Exit""
+   - None of these branches contain additional paths to ""Foul""
+4. Therefore, there is only one path showing Fouls, with a count of 8
+</reasoning>
+
+<answer>8</answer>"
+q_128,./Data/CoreFlow/umdvsunc_D2O_basketball/msp_10.png,8,How many free throws were made in total by UMD Offense?,Detect if edge is present,indeterminate,10,"Let me analyze the node-link diagram to determine the total number of free throws made by UMD Offense.
+
+<reasoning>
+1. Looking at the diagram, I need to identify paths that lead to made free throws from UMD Offense
+
+2. From UMD Offense node, I can see several paths:
+   - 34 sequences lead to Rebound
+   - 14 sequences lead to Missed Shot
+   - 10 sequences lead to Foul
+   - 8 sequences lead to Made Shot
+   - 3 sequences lead directly to Exit
+
+3. For free throws, I need to focus on sequences following the ""Foul"" path:
+   - From the Foul node, there are 10 sequences that lead to Exit
+   - This indicates that after a foul, all 10 sequences ended, suggesting these were made free throws
+
+4. Looking at the entire diagram, there are no other paths that indicate free throw attempts or makes
+
+5. Therefore, the total number of made free throws by UMD Offense is 10
+</reasoning>
+
+<answer>10</answer>"
+q_134,./Data/CoreFlow/umdvsunc_D2O_basketball/msp_15.png,6,How many total shots were made by UMD offense?,Summing Weights,15,29,"Let me analyze the node-link diagram to determine the total shots made by UMD offense.
+
+<reasoning>
+1. Starting from the UMD Offense node, I can see three paths:
+   - 34 sequences go to Rebound
+   - 14 sequences go to Missed Shot
+   - 21 sequences go directly to _Exit
+
+2. To find total shots, I need to track both made and missed shots:
+   - Missed shots: 14 sequences (shown directly)
+   - Made shots: Following the Rebound path, 15 sequences lead to Made Shot
+   
+3. Total shots calculation:
+   - Made shots: 15
+   - Missed shots: 14
+   - Total = 15 + 14 = 29 shots
+
+4. Verification:
+   - This accounts for all paths except the 21 direct exits
+   - The numbers align with the link widths shown
+</reasoning>
+
+<answer>29</answer>"
+q_136,./Data/CoreFlow/umdvsunc_D2O_basketball/msp_15.png,8,How many free throws were made in total by UMD Offense?,Detect if edge is present,indeterminate,15,"Let me analyze the diagram to determine the total number of free throws made by UMD Offense.
+
+<reasoning>
+1. Looking at the diagram, I need to trace all paths from ""UMD Offense"" that lead to successful free throws.
+
+2. From UMD Offense, there are three main paths:
+   - 34 sequences go to ""Rebound""
+   - 14 sequences go to ""Missed Shot""
+   - 21 sequences go directly to ""_Exit""
+
+3. Following the ""Rebound"" path:
+   - From Rebound, 15 sequences go to ""Made Shot""
+   - 19 sequences go to ""_Exit""
+
+4. The ""Made Shot"" path:
+   - All 15 sequences from Made Shot go to ""_Exit""
+
+5. The ""Missed Shot"" path:
+   - All 14 sequences go to ""_Exit""
+
+6. Looking specifically for made free throws:
+   - The only successful shots are shown in the ""Made Shot"" node
+   - This shows 15 successful shots following a rebound
+
+7. Therefore, the total number of made free throws is 15
+</reasoning>
+
+<answer>15</answer>"
+q_148,./Data/CoreFlow/umdvsunc_D2O_basketball/msp_25.png,4,How many shots were missed immediately after UMD Offense?,Detect if edge is present,indeterminate,34,"Let me analyze the node-link diagram to determine how many shots were missed after UMD Offense.
+
+<reasoning>
+1. Looking at the diagram, I can see UMD Offense node has two outgoing paths:
+   - One path leads to ""Rebound"" with a value of 34
+   - One path leads to ""_Exit"" with a value of 35
+
+2. In basketball analysis, when an offensive possession leads to a rebound, this typically indicates a missed shot.
+
+3. Therefore, the path from UMD Offense to ""Rebound"" with value 34 represents missed shots that resulted in rebounds.
+
+4. The total number of missed shots immediately after UMD Offense would be represented by the link value leading to ""Rebound"", which is 34.
+</reasoning>
+
+<answer>34</answer>"
+q_149,./Data/CoreFlow/umdvsunc_D2O_basketball/msp_25.png,5,How many shots were made directly after a Rebound?,Detect if edge is present,indeterminate,0,"Let me analyze the node-link diagram to determine how many shots occurred directly after a Rebound.
+
+<reasoning>
+1. First, I locate the ""Rebound"" node in the diagram
+2. I examine all outgoing links from the ""Rebound"" node
+3. I observe that there is only one outgoing link from ""Rebound""
+4. This link leads to ""_Exit"" with a value of 34
+5. Looking at the diagram, there are no links from ""Rebound"" that lead to any shot attempts
+6. Therefore, based on the visualization, there were 0 shots made directly after a Rebound
+7. All 34 rebounds in the sequence led directly to an exit from the sequence
+</reasoning>
+
+<answer>0</answer>"
+q_150,./Data/CoreFlow/umdvsunc_D2O_basketball/msp_25.png,6,How many total shots were made by UMD offense?,Detect if edge is present,indeterminate,69,"Let me analyze the node-link diagram to determine the total shots made by UMD offense.
+
+<reasoning>
+1. Looking at the diagram, I can see UMD Offense node has two outgoing paths:
+   - One path leads to ""Rebound"" with a value of 34
+   - One path leads to ""_Exit"" with a value of 35
+
+2. To find total shots:
+   - Need to sum all immediate outcomes from UMD Offense
+   - 34 (shots leading to rebounds) + 35 (shots leading to exit)
+   - 34 + 35 = 69 total shots
+
+3. This can be verified by:
+   - The incoming flow to UMD Offense is also 69
+   - The sum of outgoing flows equals the incoming flow
+   - This confirms the calculation is correct
+</reasoning>
+
+<answer>69</answer>"
+q_152,./Data/CoreFlow/umdvsunc_D2O_basketball/msp_25.png,8,How many free throws were made in total by UMD Offense?,Detect if edge is present,indeterminate,35,"Let me analyze the node-link diagram to determine the number of free throws made by UMD Offense.
+
+<reasoning>
+1. Looking at the diagram, I need to track the paths from UMD Offense node
+
+2. From UMD Offense, there are two paths:
+   - One path leads to ""Rebound"" with 34 sequences
+   - One path leads to ""_Exit"" with 35 sequences
+
+3. In basketball, when a free throw is made, it leads to an ""_Exit"" node (possession ends)
+   When a free throw is missed, it leads to a potential ""Rebound""
+
+4. Therefore:
+   - The 35 sequences leading to ""_Exit"" represent made free throws
+   - The 34 sequences leading to ""Rebound"" represent missed free throws
+
+5. The question asks specifically for made free throws, so we only need to count the sequences leading to ""_Exit"", which is 35
+</reasoning>
+
+<answer>35</answer>"
+q_161,./Data/SentenTree/umdvsunc_D2O_basketball/msp_05.png,1,How many rebounds were made after UMD Offense?,Summing Weights,34,9,"Let me analyze the node-link diagram to find how many rebounds occurred after UMD Offense.
+
+<reasoning>
+1. First, I locate ""UMD Offense"" in the diagram
+2. From UMD Offense, I trace all possible paths:
+   - One path goes to Missed Shot (16)
+   - Another path goes to _Exit (8)
+   - Another path goes to Foul (7)
+3. Following the Missed Shot path (16):
+   - This leads to a Rebound (9)
+   - So 9 rebounds occurred after missed shots
+4. The other paths (Foul and _Exit) do not lead to rebounds
+5. Therefore, from UMD Offense, only 9 rebounds occurred, all following missed shots
+</reasoning>
+
+<answer>9</answer>"
+q_163,./Data/SentenTree/umdvsunc_D2O_basketball/msp_05.png,3,How many made shots were after UNC Offense but before UMD offense?,Detect Antecedent Sequealea,23,27,"Let me analyze the diagram to find made shots between UNC Offense and UMD Offense.
+
+<reasoning>
+1. Starting from UNC Offense, I need to trace all paths that lead to ""Made Shot"" nodes before reaching UMD Offense
+
+2. Following the paths from UNC Offense:
+- Direct path to Made Shot: 23 sequences
+- Through Rebound to Made Shot: 4 sequences
+
+3. These Made Shot nodes appear before UMD Offense in the vertical chronological order
+
+4. Adding up all Made Shot sequences:
+23 + 4 = 27 total made shots
+
+5. Verification:
+- This matches the link width value of 27 leading from Made Shot to UMD Offense
+- No other Made Shot nodes appear between UNC Offense and UMD Offense
+</reasoning>
+
+<answer>27</answer>"
+q_164,./Data/SentenTree/umdvsunc_D2O_basketball/msp_05.png,4,How many missed shots were before UMD Offense?,Detect Antecedent Sequealea,24,15,"Let me analyze the paths leading to UMD Offense in the node-link diagram.
+
+<reasoning>
+1. Looking at all paths that lead to ""UMD Offense"", I need to trace backwards to find any ""Missed Shot"" nodes that directly precede it.
+
+2. Following the paths that lead to UMD Offense:
+- From UNC Offense → Rebound → Missed Shot (15 sequences)
+- From UNC Offense → Turnover (24 sequences)
+- From UNC Offense → Made Free Throw → Made Free Throw (4 sequences)
+- From UNC Offense → Foul → Made Free Throw (5 sequences)
+
+3. Among these paths, only one contains a Missed Shot that directly precedes UMD Offense:
+- The path showing 15 sequences where UNC Offense → Rebound → Missed Shot → UMD Offense
+
+4. Therefore, there were 15 missed shots before UMD Offense.
+</reasoning>
+
+<answer>15</answer>"
+q_165,./Data/SentenTree/umdvsunc_D2O_basketball/msp_05.png,5,How many total rebounds are there in the match?,Summing Weights,53,44,"Let me analyze the node-link diagram to count all rebounds.
+
+<reasoning>
+1. Starting from the top, I'll trace all paths containing ""Rebound"" nodes:
+
+First set of rebounds:
+- From UNC Offense, there are two rebound paths:
+  * Left path shows ""Rebound"" after Missed Shot (15 sequences)
+  * Right path shows ""Rebound"" after Made Shot (23 sequences)
+
+Second set of rebounds:
+- At the bottom portion, there's another ""Rebound"" node:
+  * This rebound occurs after Missed Shot (6 sequences)
+
+2. Adding up all rebound sequences:
+- 15 (left path from top)
+- 23 (right path from top)
+- 6 (bottom path)
+- Total: 15 + 23 + 6 = 44 rebounds
+
+3. Verification:
+- Each rebound node is connected to subsequent events
+- The numbers on the links represent distinct sequences
+- No other rebound nodes appear in the diagram
+</reasoning>
+
+<answer>44</answer>"
+q_166,./Data/SentenTree/umdvsunc_D2O_basketball/msp_05.png,6,How many fouls were made after UNC Offense and before UMD offense? ,Detect Antecedent Sequealea,8,13,"Let me analyze the diagram to count the fouls between UNC Offense and UMD Offense.
+
+<reasoning>
+1. Starting from UNC Offense, I'll trace all paths that contain fouls before reaching UMD Offense:
+
+2. From UNC Offense, there is a direct ""Foul"" node with:
+- One path showing 8 sequences leading to it
+- Another path showing 5 sequences leading to it
+Total fouls directly after UNC Offense = 8 + 5 = 13 fouls
+
+3. Looking for any other foul nodes between UNC Offense and UMD Offense:
+- Following other paths (through Rebound, Missed Shot, Made Shot, etc.)
+- I don't see any additional foul nodes before reaching UMD Offense
+
+4. Therefore, there are only the 13 fouls identified in step 2 that occur between UNC Offense and UMD Offense.
+</reasoning>
+
+<answer>13</answer>"
+q_168,./Data/SentenTree/umdvsunc_D2O_basketball/msp_10.png,1,How many rebounds were made after UMD Offense?,Summing Weights,34,7,"Let me analyze the node-link diagram to determine the number of rebounds after UMD Offense.
+
+<reasoning>
+1. Looking at the diagram, I need to trace paths from ""UMD Offense"" to ""Rebound""
+
+2. From UMD Offense, there are three outgoing paths:
+   - One path going to ""_Exit"" with value 8
+   - One path going to ""Missed Shot"" with value 16
+   - One path going to ""Foul"" with value 7
+
+3. Following the ""Missed Shot"" path:
+   - From ""Missed Shot"" there is a path to ""Rebound"" with value 7
+
+4. Therefore, after UMD Offense:
+   - Only 7 sequences led to a rebound
+   - This occurred specifically after missed shots
+   - No other paths from UMD Offense led to rebounds
+
+5. The total number of rebounds following UMD Offense is 7
+</reasoning>
+
+<answer>7</answer>"
+q_169,./Data/SentenTree/umdvsunc_D2O_basketball/msp_10.png,2,How many times did UMD Offense transition from UNC Offense?,Summing Weights,69,54,"Let me analyze the transitions from UNC Offense to UMD Offense in this node-link diagram.
+
+<reasoning>
+1. Looking at the diagram, I need to find all direct paths from ""UNC Offense"" to ""UMD Offense""
+
+2. I can identify three distinct paths:
+- UNC Offense → Made Shot → UMD Offense (22 sequences)
+- UNC Offense → Missed Shot → UMD Offense (24 sequences)
+- UNC Offense → Foul → UMD Offense (8 sequences)
+
+3. To find the total transitions, I need to sum all these paths:
+22 + 24 + 8 = 54 total transitions
+
+4. This represents all possible ways UMD Offense directly followed UNC Offense in the sequences
+</reasoning>
+
+<answer>54</answer>"
+q_171,./Data/SentenTree/umdvsunc_D2O_basketball/msp_10.png,4,How many missed shots were before UMD Offense?,Detect Antecedent Sequealea,24,39,"Let me analyze the paths leading to UMD Offense to identify missed shots that occurred before it.
+
+<reasoning>
+1. Looking at paths leading to UMD Offense, I need to trace back from it to find missed shots
+
+2. Following the links upward from UMD Offense, I can see:
+- One direct path from ""Missed Shot"" (from UNC Offense) with count 24
+- One path from ""Rebound"" with count 8, which connects back to ""Missed Shot"" with count 15
+
+3. Therefore:
+- Direct missed shots: 24
+- Missed shots via rebound: 15
+- Total missed shots = 24 + 15 = 39 missed shots occurred before UMD Offense
+</reasoning>
+
+<answer>39</answer>"
+q_172,./Data/SentenTree/umdvsunc_D2O_basketball/msp_10.png,5,How many total rebounds are there in the match?,Summing Weights,49,15,"Let me analyze the node-link diagram to count all rebounds.
+
+<reasoning>
+1. Looking for ""Rebound"" nodes in the diagram:
+   - First ""Rebound"" node appears after UNC Offense, receiving 8 sequences
+   - Second ""Rebound"" node appears after UMD Offense, receiving 7 sequences
+
+2. Following the paths:
+   - From UNC Offense → Rebound: 8 sequences
+   - From UMD Offense → Rebound: 7 sequences
+
+3. Calculating total rebounds:
+   - Total rebounds = 8 + 7 = 15 rebounds
+
+4. Verification:
+   - The rebounds appear in different parts of the sequence
+   - Each rebound node has clear incoming links with labeled values
+   - No other rebound nodes appear in the diagram
+</reasoning>
+
+<answer>15</answer>"
+q_173,./Data/SentenTree/umdvsunc_D2O_basketball/msp_10.png,6,How many fouls were made after UNC Offense and before UMD offense? ,Detect Antecedent Sequealea,8,16,"Let me analyze the paths between UNC Offense and UMD Offense to count the fouls.
+
+<reasoning>
+1. Starting from UNC Offense, I need to trace all paths that:
+   - Come after UNC Offense
+   - Lead to a Foul node
+   - Occur before UMD Offense
+
+2. Looking at the diagram, from UNC Offense:
+   - There is a direct path to Foul with 8 sequences
+   - There is also a path through Missed Shot to Foul
+   - The path through Rebound also leads to some fouls
+
+3. Counting the foul sequences:
+   - Direct path to Foul: 8 sequences
+   - Through Missed Shot to Foul: 8 sequences
+   - Through Rebound to Foul: 0 sequences (no such path shown)
+
+4. Total fouls = 8 + 8 = 16 sequences that led to fouls between UNC Offense and UMD Offense
+</reasoning>
+
+<answer>16</answer>"
+q_176,./Data/SentenTree/umdvsunc_D2O_basketball/msp_15.png,2,How many times did UMD Offense transition from UNC Offense?,Summing Weights,69,46,"Let me analyze the node-link diagram to find transitions from UNC Offense to UMD Offense.
+
+<reasoning>
+1. Looking at the diagram, I need to find direct or indirect paths from ""UNC Offense"" to ""UMD Offense""
+
+2. From UNC Offense, there are three possible paths:
+   - To ""Made Shot"" (22)
+   - To ""Missed Shot"" (15)
+   - To ""Rebound"" (22)
+
+3. Following these paths:
+   - From ""Made Shot"" to ""UMD Offense"" (24)
+   - From ""Missed Shot"" to ""Rebound"" (15) and then to ""UMD Offense""
+   - From ""Rebound"" directly to ""UMD Offense""
+
+4. Adding up transitions to UMD Offense:
+   - Through Made Shot: 24
+   - Through Rebound (direct): 22
+   Total = 24 + 22 = 46 transitions
+
+Note: The path through Missed Shot->Rebound->UMD Offense is already counted in the Rebound->UMD Offense number
+</reasoning>
+
+<answer>46</answer>"
+q_179,./Data/SentenTree/umdvsunc_D2O_basketball/msp_15.png,5,How many total rebounds are there in the match?,Summing Weights,49,30,"Let me analyze the node-link diagram to determine the total number of rebounds.
+
+<reasoning>
+1. Looking at the diagram, I can see ""Rebound"" appears in two places:
+   - One rebound node follows ""Missed Shot"" with 15 sequences
+   - Another rebound node follows ""UMD Offense"" with 15 sequences
+
+2. To find total rebounds, I need to sum all sequences leading to rebound events:
+   - From Missed Shot → Rebound: 15 sequences
+   - From UMD Offense → Rebound: 15 sequences
+   - Total: 15 + 15 = 30 rebounds
+
+3. I can verify this is complete by:
+   - Checking there are no other rebound nodes in the diagram
+   - Confirming all paths leading to rebounds have been counted
+</reasoning>
+
+<answer>30</answer>"
+q_180,./Data/SentenTree/umdvsunc_D2O_basketball/msp_15.png,6,How many fouls were made after UNC Offense and before UMD offense? ,Detect if edge is present,indeterminate,0,"Let me analyze the node-link diagram to find fouls between UNC Offense and UMD Offense.
+
+<reasoning>
+1. Starting from UNC Offense, I'll trace all possible paths to UMD Offense
+2. Looking at the diagram:
+   - From UNC Offense, paths go to:
+     * Made Shot
+     * Missed Shot
+     * Rebound
+   - None of these paths show any foul events
+   - These nodes then connect to UMD Offense
+3. I cannot find any nodes labeled as ""Foul"" or any foul-related events between UNC Offense and UMD Offense in the diagram
+4. The only events shown between these points are shots (made/missed) and rebounds
+</reasoning>
+
+<answer>0</answer>
+
+The diagram shows no foul events occurring between UNC Offense and UMD Offense. The only events shown in this sequence are made shots, missed shots, and rebounds."
+q_181,./Data/SentenTree/umdvsunc_D2O_basketball/msp_15.png,7,How many steals occurred after UMD Offense?,Detect if edge is present,indeterminate,0,"Let me analyze the node-link diagram to find steals after UMD Offense.
+
+<reasoning>
+1. First, I locate ""UMD Offense"" node in the diagram
+2. I examine all outgoing paths from UMD Offense:
+   - One path goes to ""Rebound"" (34)
+   - One path goes to ""_Exit"" (35)
+3. Looking at these transitions, I don't see any paths leading to a ""Steal"" node
+4. In fact, there is no ""Steal"" node anywhere in the diagram
+5. Therefore, based on the information shown in the visualization, there are 0 steals occurring after UMD Offense
+</reasoning>
+
+<answer>0</answer>"
+q_190,./Data/SentenTree/umdvsunc_D2O_basketball/msp_25.png,2,How many times did UMD Offense transition from UNC Offense?,Summing Weights,69,46,"Let me analyze the node-link diagram to determine the transitions from UNC Offense to UMD Offense.
+
+<reasoning>
+1. Looking at the diagram, I need to find paths that go from ""UNC Offense"" to ""UMD Offense""
+
+2. I can see two possible paths from UNC Offense to UMD Offense:
+   - UNC Offense → Made Shot → UMD Offense
+   - UNC Offense → Missed Shot → UMD Offense
+
+3. Following the links and their labels:
+   - Path through Made Shot: 22 sequences
+   - Path through Missed Shot: 24 sequences
+
+4. To get total transitions, I add both paths:
+   22 + 24 = 46 total transitions from UNC Offense to UMD Offense
+</reasoning>
+
+<answer>46</answer>"
+q_194,./Data/SentenTree/umdvsunc_D2O_basketball/msp_25.png,6,How many fouls were made after UNC Offense and before UMD offense? ,Detect if edge is present,indeterminate,0,"Let me analyze the node-link diagram to answer your question.
+
+<reasoning>
+1. Starting from ""UNC Offense"", I need to track all paths that occur before ""UMD Offense"" to look for fouls
+2. From UNC Offense, the paths split into:
+   - Made Shot (22 sequences)
+   - Missed Shot (24 sequences)
+3. Both paths then lead directly to UMD Offense
+4. Looking at all nodes and links between UNC Offense and UMD Offense, I don't see any nodes labeled as ""Foul"" or anything related to fouls
+5. The only events shown between these two points are Made Shot and Missed Shot
+</reasoning>
+
+<answer>0</answer>
+
+The visualization shows no foul events occurring between UNC Offense and UMD Offense. The only events shown in this interval are Made Shot and Missed Shot."
+q_195,./Data/SentenTree/umdvsunc_D2O_basketball/msp_25.png,7,How many steals occurred after UMD Offense?,Detect if edge is present,indeterminate,0,"Let me analyze the node-link diagram to find steals after UMD Offense.
+
+<reasoning>
+1. First, I locate ""UMD Offense"" in the diagram
+2. I examine all paths/links leading out from UMD Offense
+3. I can see two paths from UMD Offense:
+   - One path leads to ""Rebound"" (34)
+   - One path leads to ""_Exit"" (22)
+4. Looking at these paths and the entire diagram, I don't see any node or path labeled as ""Steal"" following UMD Offense
+5. Since there is no ""Steal"" node or path connected to UMD Offense, the number of steals after UMD Offense is 0
+</reasoning>
+
+<answer>0</answer>"
+q_204,./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_05.png,2,How many total missed shots occur after UNC Offense but before UMD Offense?,Summing Weights,21,36,"Let me analyze the diagram to find all missed shots that occur after UNC Offense but before UMD Offense.
+
+<reasoning>
+1. Looking at all pathways starting with UNC Offense:
+
+Path 1:
+- UNC Offense (7) → Missed Shot (7) → UMD Offense
+Count: 7 missed shots
+
+Path 2:
+- UNC Offense (14) → Missed Shot (14) → UMD Offense
+Count: 14 missed shots
+
+Path 3:
+- UNC Offense (25) → Missed Shot (15) → UMD Offense
+Count: 15 missed shots
+
+2. Some UNC Offense paths have intermediate events before reaching UMD Offense:
+- UNC Offense (4) → Rebound (1) → Turnover (2) → UMD Offense
+- UNC Offense (4) → Jump Ball (1) → Foul (3)
+But these paths don't contain missed shots before UMD Offense
+
+3. Adding up all missed shots that occur after UNC Offense but before UMD Offense:
+7 + 14 + 15 = 36 total missed shots
+</reasoning>
+
+<answer>36</answer>"
+q_206,./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_05.png,4,How many total made shots were made by both teams?,Summing Weights,28,49,"Let me analyze the node-link diagram to find the total made shots by both teams.
+
+<reasoning>
+1. Looking for ""Made Shot"" nodes in the diagram:
+- In the second column, there is a Made Shot with value 7
+- In the rightmost column, there is a Made Shot with value 21
+
+2. Additionally, I need to check for made free throws since these are also made shots:
+- In the right portion, there are two ""Made Free Throw"" nodes:
+  * One with value 13
+  * Another with value 8
+
+3. Total calculation:
+- Regular made shots: 7 + 21 = 28
+- Made free throws: 13 + 8 = 21
+- Total made shots = Regular made shots + Made free throws
+- 28 + 21 = 49
+</reasoning>
+
+<answer>49</answer>"
+q_208,./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_05.png,6,How many free throws were made by UMD Offense?,Detect if edge is present,indeterminate,21,"Let me analyze the node-link diagram to determine the number of free throws made by UMD Offense.
+
+<reasoning>
+1. Looking for ""Made Free Throw"" nodes connected to UMD Offense sequences:
+   - I can see two instances of ""Made Free Throw"" nodes
+   - One shows 13 made free throws
+   - Another shows 8 made free throws
+
+2. Following the pathways:
+   - Both instances occur after fouls
+   - The first pathway shows 13 made free throws
+   - The second pathway shows 8 made free throws
+
+3. Calculating total made free throws:
+   - Total = 13 + 8 = 21 made free throws by UMD Offense
+</reasoning>
+
+<answer>21</answer>"
+q_209,./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_05.png,7,How many shots were made by only the UNC offense?,Detect Antecedent Sequealea,21,0,"Let me analyze the node-link diagram to determine how many shots were made by only the UNC offense.
+
+<reasoning>
+1. I need to look for paths that start with ""UNC Offense"" and lead directly to ""Made Shot"" nodes.
+
+2. Looking through the diagram, I can find:
+- In the second column, there's a path showing 7 made shots after a sequence of events starting with UNC Offense
+- In the rightmost column, there are 21 made shots shown
+
+3. However, I need to be careful to only count shots made directly by UNC offense, not shots that occurred after other events like rebounds or turnovers.
+
+4. Looking at the 21 made shots in the rightmost column, these come after a sequence involving UMD Offense and fouls, so these shouldn't be counted as direct UNC offense made shots.
+
+5. The 7 made shots in the second column come after a sequence involving rebounds and UMD offense, so these also shouldn't be counted.
+
+6. Looking through all paths in the diagram, I cannot find any direct path from ""UNC Offense"" to ""Made Shot"" without intermediate events.
+</reasoning>
+
+<answer>0</answer>"
+q_211,./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_10.png,2,How many total missed shots occur after UNC Offense but not after UMD Offense?,Summing Weights,21,15,"Let me analyze the diagram to find the total missed shots after UNC Offense but not after UMD Offense.
+
+<reasoning>
+1. First, I'll identify all missed shots that occur after UNC Offense:
+   - In leftmost path: UNC Offense → Missed Shot (7)
+   - In second path: UNC Offense → Missed Shot (14)
+   - In rightmost path: UNC Offense → Missed Shot (7)
+   Total = 7 + 14 + 7 = 28 missed shots after UNC Offense
+
+2. Next, I'll identify all missed shots that occur after UMD Offense:
+   - In leftmost path: UMD Offense → Missed Shot (6)
+   - In rightmost path: UMD Offense → Missed Shot (7)
+   Total = 6 + 7 = 13 missed shots after UMD Offense
+
+3. To find missed shots after UNC Offense but not after UMD Offense:
+   28 - 13 = 15 missed shots
+
+4. Double-checking: This represents the difference between missed shots following UNC Offense versus those following UMD Offense
+</reasoning>
+
+<answer>15</answer>"
+q_213,./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_10.png,4,How many total made shots were made by both teams?,Summing Weights,27,48,"Let me analyze the node-link diagram to find the total made shots by both teams.
+
+<reasoning>
+1. Looking for ""Made Shot"" nodes in the diagram:
+   - In the left branch, there is a ""Made Shot"" with value 7
+   - In the middle-right branch, there is a ""Made Shot"" with value 4
+   - In the rightmost branch, there is a ""Made Shot"" with value 16
+
+2. Additionally, need to check for ""Made Free Throw"" as these are also made shots:
+   - In the middle branch, there are two ""Made Free Throw"" nodes:
+     * One with value 13
+     * One with value 8
+
+3. Total made shots calculation:
+   Regular made shots: 7 + 4 + 16 = 27
+   Made free throws: 13 + 8 = 21
+   Total: 27 + 21 = 48
+</reasoning>
+
+<answer>48</answer>"
+q_215,./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_10.png,6,How many free throws were made by UMD Offense?,Detect if edge is present,indeterminate,21,"Let me analyze the node-link diagram to find the total number of free throws made by UMD Offense.
+
+<reasoning>
+1. Looking for ""Made Free Throw"" nodes that follow UMD Offense possessions:
+
+2. Following the pathways:
+   - One path shows 13 made free throws after a foul
+   - Another path shows 8 made free throws in a different sequence
+   
+3. To get total made free throws:
+   13 + 8 = 21 total made free throws by UMD Offense
+
+4. The diagram clearly shows these two distinct paths where UMD Offense successfully made free throws, and the numeric labels on the links provide exact counts.
+</reasoning>
+
+<answer>21</answer>"
+q_216,./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_10.png,7,How many shots were made by only the UNC offense?,Detect Antecedent Sequealea,16,27,"Let me analyze the node-link diagram to determine how many shots were made by only the UNC offense.
+
+<reasoning>
+1. I need to track all paths that:
+   - Start with ""UNC Offense""
+   - Lead to ""Made Shot""
+   - Don't involve UMD Offense
+
+2. Looking at each sequence from left to right:
+   - First sequence: UNC Offense (7) → no made shots
+   - Second sequence: UNC Offense (14) → Made Shot (7)
+   - Third sequence: UNC Offense (15) → no direct made shots
+   - Fourth sequence: UNC Offense (5) → Made Shot (4)
+   - Fifth sequence: UNC Offense (28) → Made Shot (16)
+
+3. Adding up all made shots that came directly from UNC Offense:
+   7 + 4 + 16 = 27 total made shots
+
+4. Verifying these shots weren't influenced by UMD Offense:
+   - All these paths show direct connections from UNC Offense to Made Shot
+   - No UMD Offense involvement in these particular paths
+</reasoning>
+
+<answer>27</answer>"
+q_218,./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_15.png,2,How many total missed shots occur after UNC Offense but before UMD Offense?,Summing Weights,25,27,"Let me analyze the node-link diagram to find all missed shots that occur after UNC Offense but before UMD Offense.
+
+<reasoning>
+1. I need to trace all paths from UNC Offense and look for Missed Shot nodes that appear before UMD Offense nodes.
+
+2. Going through each path from left to right:
+- Path 1: UNC Offense → Jump Ball → Missed Shot (count: 2)
+- Path 2: No missed shots between UNC Offense and UMD Offense
+- Path 3: UNC Offense → Missed Shot (count: 25) → UMD Offense
+- Path 4: UNC Offense → UMD Offense → Missed Shot (this missed shot comes after UMD Offense, so don't count)
+- Path 5: UNC Offense → Turnover → UMD Offense (no missed shots in between)
+
+3. Adding up the missed shots that qualify:
+2 + 25 = 27 total missed shots
+
+4. Double-checking that these missed shots all occur after UNC Offense but before UMD Offense appears in their respective paths.
+</reasoning>
+
+<answer>27</answer>"
+q_220,./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_15.png,4,How many total made shots were made by both teams?,Summing Weights,31,43,"Let me analyze the node-link diagram to find the total made shots by both teams.
+
+<reasoning>
+1. Looking for all ""Made Shot"" nodes in the diagram:
+   - Left path: Made Shot with value 2
+   - Middle-right path: Made Shot with value 9
+   - Right path: Made Shot with value 20
+
+2. Also need to include Made Free Throws as these are also made shots:
+   - Middle path: Made Free Throw with value 12
+
+3. Adding up all made shots:
+   - Regular made shots: 2 + 9 + 20 = 31
+   - Made free throws: 12
+   - Total: 31 + 12 = 43
+
+4. The diagram shows complete sequences for both teams (UNC Offense and UMD Offense), so this should represent all made shots in the game.
+</reasoning>
+
+<answer>43</answer>"
+q_222,./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_15.png,6,How many free throws were made by UMD Offense?,Detect if edge is present,indeterminate,12,"Let me analyze the node-link diagram to find the number of free throws made by UMD Offense.
+
+<reasoning>
+1. Looking through the diagram, I need to find paths that show free throws made by UMD Offense.
+
+2. In the second column from the left, I can see a ""Made Free Throw"" node with a value of 12 following a ""Foul"" event.
+
+3. Looking at other paths in the diagram, I don't see any other instances of made free throws by UMD Offense.
+
+4. The diagram shows only one clear instance of made free throws with a value of 12.
+
+5. Since this is the only instance of made free throws shown for UMD Offense in the diagram, and we should only use what's explicitly shown, the total number of made free throws is 12.
+</reasoning>
+
+<answer>12</answer>"
+q_223,./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_15.png,7,How many shots were made by only the UNC offense?,Summing Weights,22,31,"Let me analyze the node-link diagram to determine the number of shots made by only the UNC offense.
+
+<reasoning>
+1. I need to look for all paths that:
+   - Start with ""UNC Offense""
+   - Lead to ""Made Shot""
+   - Don't involve UMD Offense
+
+2. Looking through each sequence:
+   - In leftmost path: UNC Offense → Made Shot = 2 shots
+   - In middle paths: UNC Offense → Made Shot = 9 shots
+   - In fourth column: UNC Offense → Made Shot = 20 shots
+
+3. Adding up all made shots by UNC:
+   2 + 9 + 20 = 31 total made shots by UNC offense
+
+4. Verification:
+   - All these shots came directly after UNC Offense possession
+   - None of these paths involved UMD Offense
+   - Each path shows clear connection from UNC Offense to Made Shot
+</reasoning>
+
+<answer>31</answer>"
+q_225,./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_20.png,2,How many total missed shots occur after UNC Offense but before UMD Offense?,Detect Antecedent Sequealea,19,21,"Let me analyze the node-link diagram to count all missed shots that occur after UNC Offense but before UMD Offense.
+
+<reasoning>
+1. Looking at all sequences starting with UNC Offense:
+   - First sequence: UNC Offense → Jump Ball → Missed Shot (2 instances)
+   - Second sequence: UNC Offense → Missed Shot (19 instances)
+   - Third sequence: UNC Offense → Made Shot → UMD Offense (no missed shots in between)
+   - Fourth sequence: UNC Offense → Foul → UMD Offense (no missed shots in between)
+
+2. Counting all missed shots that occur after UNC Offense but before UMD Offense:
+   - From first sequence: 2 missed shots
+   - From second sequence: 19 missed shots
+   - From third sequence: 0 missed shots
+   - From fourth sequence: 0 missed shots
+
+3. Total calculation:
+   2 + 19 = 21 total missed shots
+</reasoning>
+
+<answer>21</answer>"
+q_227,./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_20.png,4,How many total made shots were made by both teams?,Summing Weights,35,37,"Let me analyze the node-link diagram to find the total made shots by both teams.
+
+<reasoning>
+1. Looking for ""Made Shot"" nodes across all pathways:
+
+First pathway (leftmost):
+- Shows 2 made shots
+
+Second pathway:
+- Shows 7 made shots
+
+Third pathway:
+- Shows 28 made shots
+
+Fourth pathway:
+- No made shots shown
+
+2. Adding up all made shots:
+2 + 7 + 28 = 37 total made shots
+
+3. Verification:
+- The diagram shows offensive possessions for both UNC and UMD
+- Each ""Made Shot"" node represents successful shot attempts
+- All made shots are clearly labeled with their counts
+</reasoning>
+
+<answer>37</answer>"
+q_230,./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_20.png,7,How many shots were made by only the UNC offense?,Summing Weights,28,37,"Let me analyze the node-link diagram to determine the number of shots made by only the UNC offense.
+
+<reasoning>
+1. Looking at all sequences starting with ""UNC Offense"":
+   - First sequence: 2 shots (2 made shots)
+   - Second sequence: 19 shots (7 made shots after rebound)
+   - Third sequence: 33 shots (28 made shots)
+   - Fourth sequence: 15 shots (all end in fouls, no made shots)
+
+2. Counting made shots from UNC offense:
+   - Direct made shots from first sequence: 2
+   - Made shots after rebound in second sequence: 7
+   - Direct made shots in third sequence: 28
+   - No made shots in fourth sequence: 0
+
+3. Total made shots calculation:
+   2 + 7 + 28 + 0 = 37 total made shots by UNC offense
+</reasoning>
+
+<answer>37</answer>"
+q_232,./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_25.png,2,How many total missed shots occur after UNC Offense but before UMD Offense?,Summing Weights,19,21,"Let me analyze the node-link diagram to count all missed shots that occur after UNC Offense but before UMD Offense.
+
+<reasoning>
+1. I need to trace all paths from UNC Offense and count missed shots that occur before reaching UMD Offense
+
+2. Looking at each path starting with UNC Offense:
+- Left path: UNC Offense (2) → Jump Ball (1) → Missed Shot (2)
+- Second path: UNC Offense (19) → Rebound → Missed Shot (19)
+- Third path: UNC Offense (12) → Foul (no missed shots before UMD Offense)
+- Fourth path: UNC Offense (8) → Turnover (no missed shots before UMD Offense)
+- Fifth path: UNC Offense (28) → Made Shot (no missed shots before UMD Offense)
+
+3. Counting the missed shots:
+- Left path: 2 missed shots
+- Second path: 19 missed shots
+- Other paths: 0 missed shots before UMD Offense
+
+4. Total calculation:
+2 + 19 = 21 total missed shots
+
+</reasoning>
+
+<answer>21</answer>"
+q_234,./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_25.png,4,How many total made shots were made by both teams?,Summing Weights,30,44,"Let me analyze the node-link diagram to find the total made shots by both teams.
+
+<reasoning>
+1. Looking for all ""Made Shot"" nodes in the diagram:
+   - Left path: Shows 2 made shots
+   - Middle-left path: Shows 8 made shots
+   - Right path: Shows 20 made shots
+
+2. Also need to include ""Made Free Throw"" as these are also made shots:
+   - Middle path: Shows 11 made free throws
+   - Middle-right path: Shows 3 made free throws
+
+3. Calculation:
+   Made shots = 2 + 8 + 20 = 30 (field goals)
+   Made free throws = 11 + 3 = 14
+   Total made shots = 30 + 14 = 44
+</reasoning>
+
+<answer>44</answer>"
+q_236,./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_25.png,6,How many free throws were made by UMD Offense?,Detect Antecedent Sequealea,3,14,"Let me analyze the node-link diagram to find the number of free throws made by UMD Offense.
+
+<reasoning>
+1. Looking for ""Made Free Throw"" nodes in the diagram that occur after UMD Offense possessions:
+
+2. Following the pathways:
+   - In one path, I see a ""Made Free Throw"" node with value 11 following a ""Foul"" event
+   - In another path, I see a ""Made Free Throw"" node with value 3 following a UMD Offense possession
+
+3. To get total made free throws:
+   11 + 3 = 14 made free throws total
+
+4. The diagram clearly shows these two instances of made free throws connected to UMD Offense sequences, and there are no other ""Made Free Throw"" nodes visible in the pathways.
+</reasoning>
+
+<answer>14</answer>"
+q_239,./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_30.png,2,How many total missed shots occur after UNC Offense but before UMD Offense?,Summing Weights,23,25,"Let me analyze the node-link diagram to count all missed shots that occur after UNC Offense but before UMD Offense.
+
+<reasoning>
+1. I'll examine each sequence path starting from UNC Offense and look for missed shots before UMD Offense appears:
+
+Path 1 (leftmost):
+- UNC Offense → Missed Shot (count: 2)
+
+Path 2:
+- UNC Offense → Missed Shot (count: 14)
+- This missed shot occurs before UMD Offense
+
+Path 3:
+- No missed shots before UMD Offense in this path
+
+Path 4:
+- No missed shots before UMD Offense in this path
+
+Path 5:
+- UNC Offense → Missed Shot (count: 9)
+- This occurs before UMD Offense
+
+Path 6:
+- No missed shots before UMD Offense
+
+Adding up all missed shots that occur after UNC Offense but before UMD Offense:
+2 + 14 + 9 = 25 total missed shots
+</reasoning>
+
+<answer>25</answer>"
+q_240,./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_30.png,3,How many rebounds were made in total by both teams?,Summing Weights,40,27,"Let me analyze the rebounds shown in the node-link diagram.
+
+<reasoning>
+1. Looking for all ""Rebound"" nodes in the diagram:
+   - First sequence shows no rebounds
+   - Second sequence shows a rebound with value 14
+   - Third sequence shows a rebound with value 5
+   - Fourth sequence shows no rebounds
+   - Fifth sequence shows a rebound with value 8
+   - Sixth sequence shows no rebounds
+
+2. Adding up all rebound values:
+   14 + 5 + 8 = 27 total rebounds
+
+3. Verification:
+   - Each rebound node is clearly labeled
+   - The values are distinct and connected to different sequences
+   - No other rebound events are shown in the diagram
+</reasoning>
+
+<answer>27</answer>"
+q_241,./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_30.png,4,How many total made shots were made by both teams?,Summing Weights,29,45,"Let me analyze the node-link diagram to find all made shots by both teams.
+
+<reasoning>
+1. Looking for all ""Made Shot"" nodes in the diagram:
+
+First path:
+- Made Shot with value 2 (left-most path)
+
+Second path:
+- Made Shot with value 7 (after UMD Offense)
+
+Third path:
+- Made Shot with value 3 (after UMD Offense)
+
+Fourth path:
+- Made Shot with value 17 (right-most path)
+
+2. Adding up all made shots:
+2 + 7 + 3 + 17 = 29 total made shots
+
+3. Additionally, need to check for made free throws:
+- One ""Made Free Throw"" with value 10
+- Another ""Made Free Throw"" with value 6
+
+4. Total made free throws:
+10 + 6 = 16 free throws
+
+5. Final calculation:
+Total made shots = Regular made shots + Made free throws
+29 + 16 = 45 total made shots
+</reasoning>
+
+<answer>45</answer>"
+q_243,./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_30.png,6,How many free throws were made by UMD Offense?,Detect if edge is present,indeterminate,16,"Let me analyze the node-link diagram to find the total number of free throws made by UMD Offense.
+
+<reasoning>
+1. Looking through the diagram, I need to find all instances of ""Made Free Throw"" nodes.
+
+2. Following the paths, I can find two instances of ""Made Free Throw"":
+   - One path shows 10 made free throws
+   - Another path shows 6 made free throws
+
+3. To get the total number of made free throws, I add:
+   10 + 6 = 16 made free throws
+
+4. The diagram clearly shows these values through the link widths and numeric labels, making this calculation definitive.
+</reasoning>
+
+<answer>16</answer>"
+q_244,./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_30.png,7,How many shots were made by only the UNC offense?,Summing Weights,19,2,"Let me analyze the node-link diagram to determine how many shots were made by only the UNC offense.
+
+<reasoning>
+1. I need to look for paths that start with ""UNC Offense"" and end with ""Made Shot"" without involving UMD Offense
+
+2. Looking through each sequence:
+- First sequence: UNC Offense → Jump Ball → Missed Shot → Made Shot (2 made shots)
+- Second sequence: UNC Offense → Rebound → Missed Shot → UMD Offense → Rebound → Made Shot (7 made shots, but after UMD possession)
+- Third sequence: UNC Offense → Rebound → Foul → Made Free Throw (no regular made shots)
+- Fourth sequence: UNC Offense → Steal → UMD Offense → Made Shot (3 made shots, but after UMD possession)
+- Fifth sequence: UNC Offense → Missed Shot → UMD Offense → Rebound → Missed Shot (no made shots)
+- Sixth sequence: UNC Offense → Made Shot (17 made shots, but after UMD possession)
+
+3. Looking at direct UNC offense shots:
+- Only the first sequence shows made shots (2) that came directly from UNC offense without UMD possession
+</reasoning>
+
+<answer>2</answer>"

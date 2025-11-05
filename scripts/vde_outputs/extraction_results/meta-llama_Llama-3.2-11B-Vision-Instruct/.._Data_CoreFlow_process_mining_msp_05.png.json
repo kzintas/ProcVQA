@@ -1,0 +1,64 @@
+{
+  "events": [
+    [
+      "commit changes",
+      "resolve issue",
+      6
+    ],
+    [
+      "resolve issue",
+      "close pull request",
+      4
+    ],
+    [
+      "close pull request",
+      "create issue",
+      7
+    ],
+    [
+      "commit changes",
+      "commit changes",
+      13
+    ],
+    [
+      "commit changes",
+      "commit changes",
+      7
+    ],
+    [
+      "commit changes",
+      "commit changes",
+      1
+    ],
+    [
+      "commit changes",
+      "commit changes",
+      5
+    ],
+    [
+      "commit changes",
+      "commit changes",
+      2
+    ],
+    [
+      "commit changes",
+      "commit changes",
+      3
+    ],
+    [
+      "commit changes",
+      "commit changes",
+      3
+    ],
+    [
+      "commit changes",
+      "commit changes",
+      3
+    ],
+    [
+      "commit changes",
+      "commit changes",
+      3
+    ]
+  ]
+}

@@ -1,0 +1,111 @@
+dataset,technique,parameter_value,attribute,value,gt_count,llm_count,hallucinated_count
+Foursquare_NYC,CoreFlow,5.0,exit->exit,50,0.0,1.0,1.0
+Foursquare_NYC,CoreFlow,5.0,exit->exit,52,0.0,1.0,1.0
+Foursquare_NYC,CoreFlow,5.0,fast food->exit,43,0.0,1.0,1.0
+Foursquare_NYC,CoreFlow,5.0,gym->exit,136,0.0,1.0,1.0
+Foursquare_NYC,CoreFlow,5.0,restaurant->exit,71,0.0,1.0,1.0
+VAST,SentenTree,5.0,camping->exit,30,0.0,1.0,1.0
+VAST,SentenTree,5.0,camping->ranger-base,6,0.0,1.0,1.0
+VAST,SentenTree,5.0,general gate->camping,15,0.0,1.0,1.0
+VAST,SentenTree,5.0,general gate->gate,42,0.0,1.0,1.0
+VAST,SentenTree,5.0,general gate->general gate,6,0.0,1.0,1.0
+VAST,SentenTree,5.0,general gate->general gate,8,0.0,1.0,1.0
+VAST,SentenTree,5.0,general gate->general gate,14,0.0,1.0,1.0
+VAST,SentenTree,5.0,general gate->ranger-stop,4,0.0,1.0,1.0
+VAST,SentenTree,5.0,general gate->ranger-stop,7,1.0,2.0,1.0
+VAST,SentenTree,5.0,ranger-stop->camping,7,0.0,1.0,1.0
+VAST,SentenTree,5.0,ranger-stop->ranger-stop,6,5.0,6.0,1.0
+VAST,SentenTree,5.0,start->gate,6,0.0,1.0,1.0
+VAST,Sequence Synopsis,5.0,camping,5,0.0,1.0,1.0
+VAST,Sequence Synopsis,5.0,camping,9,0.0,1.0,1.0
+VAST,Sequence Synopsis,5.0,entrance,6,1.0,2.0,1.0
+VAST,Sequence Synopsis,5.0,gate,4,0.0,1.0,1.0
+VAST,Sequence Synopsis,5.0,gate,8,0.0,1.0,1.0
+VAST,Sequence Synopsis,5.0,ranger-stop,1,0.0,1.0,1.0
+VAST,Sequence Synopsis,15.0,entrance,7,2.0,3.0,1.0
+VAST,Sequence Synopsis,20.0,camping,14,0.0,1.0,1.0
+VAST,Sequence Synopsis,20.0,general gate,2,0.0,1.0,1.0
+VAST,Sequence Synopsis,20.0,ranger-stop,6,0.0,1.0,1.0
+VAST,Sequence Synopsis,25.0,entrance,11,2.0,3.0,1.0
+VAST,Sequence Synopsis,25.0,exit,11,1.0,2.0,1.0
+VAST,Sequence Synopsis,25.0,general gate,6,1.0,2.0,1.0
+VAST,Sequence Synopsis,25.0,general gate,13,1.0,2.0,1.0
+VAST,Sequence Synopsis,25.0,ranger-stop,10,2.0,4.0,2.0
+career,CoreFlow,5.0,conference->journal,16,0.0,1.0,1.0
+career,CoreFlow,5.0,conference->professor,25,0.0,1.0,1.0
+career,CoreFlow,5.0,exit->exit,2,0.0,1.0,1.0
+career,CoreFlow,5.0,exit->exit,4,0.0,1.0,1.0
+career,CoreFlow,5.0,journal->exit,5,0.0,1.0,1.0
+career,CoreFlow,5.0,journal->exit,7,0.0,1.0,1.0
+career,CoreFlow,5.0,professor->journal,8,0.0,1.0,1.0
+career,CoreFlow,10.0,conference->exit,16,0.0,1.0,1.0
+career,CoreFlow,10.0,conference->journal,5,0.0,1.0,1.0
+career,SentenTree,10.0,conference->professor,4,0.0,1.0,1.0
+career,SentenTree,10.0,exit->exit,5,0.0,1.0,1.0
+career,SentenTree,10.0,professor->conference,7,0.0,1.0,1.0
+career,SentenTree,10.0,professor->conference,15,0.0,1.0,1.0
+chicago_baseball,CoreFlow,5.0,chicago offenseexit->defensive rebound,63,0.0,1.0,1.0
+chicago_baseball,CoreFlow,5.0,chicago offenseexit->exit,23,0.0,1.0,1.0
+chicago_baseball,CoreFlow,5.0,chicago offenseexit->foul,18,0.0,1.0,1.0
+chicago_baseball,CoreFlow,5.0,chicago offenseexit->made shot-2,37,0.0,1.0,1.0
+chicago_baseball,CoreFlow,5.0,chicago offenseexit->missed shot-2,14,0.0,1.0,1.0
+chicago_baseball,CoreFlow,5.0,chicago offenseexit->turnover,12,0.0,1.0,1.0
+chicago_baseball,CoreFlow,5.0,exit->exit,23,0.0,1.0,1.0
+chicago_baseball,CoreFlow,5.0,foul->made free throwexit,9,0.0,1.0,1.0
+chicago_baseball,CoreFlow,5.0,opponent offense->chicago offenseexit,167,0.0,1.0,1.0
+pediatric_trauma,CoreFlow,5.0,pupil->exit,23,0.0,1.0,1.0
+pediatric_trauma,CoreFlow,5.0,start->breathing,1,0.0,1.0,1.0
+pediatric_trauma,SentenTree,5.0,airway->breathing,214,0.0,1.0,1.0
+pediatric_trauma,SentenTree,5.0,airway->pulse,193,0.0,1.0,1.0
+pediatric_trauma,SentenTree,5.0,exit->exit,11,0.0,1.0,1.0
+pediatric_trauma,SentenTree,5.0,exit->exit,24,0.0,1.0,1.0
+pediatric_trauma,SentenTree,5.0,exit->temp,13,0.0,1.0,1.0
+pediatric_trauma,SentenTree,5.0,gcs->blanket,28,0.0,1.0,1.0
+pediatric_trauma,SentenTree,5.0,gcs->exit,53,0.0,1.0,1.0
+pediatric_trauma,SentenTree,5.0,gcs->secondarysurvey,47,0.0,1.0,1.0
+pediatric_trauma,SentenTree,5.0,gcs->temp,32,0.0,1.0,1.0
+pediatric_trauma,SentenTree,5.0,secondarysurvey->gcs,22,0.0,1.0,1.0
+pediatric_trauma,SentenTree,5.0,secondarysurvey->gcs,26,0.0,1.0,1.0
+pediatric_trauma,SentenTree,5.0,secondarysurvey->gcs,108,0.0,1.0,1.0
+pediatric_trauma,SentenTree,5.0,secondarysurvey->temp,24,0.0,1.0,1.0
+pediatric_trauma,SentenTree,5.0,temp->exit,93,0.0,1.0,1.0
+pediatric_trauma,Sequence Synopsis,5.0,pulse,2,0.0,1.0,1.0
+process_mining,CoreFlow,5.0,close pull requestexit->exit,4,0.0,1.0,1.0
+process_mining,CoreFlow,5.0,commit changes->close pull requestexit,4,0.0,1.0,1.0
+process_mining,CoreFlow,5.0,commit changes->commit changesexit,7,0.0,1.0,1.0
+process_mining,CoreFlow,5.0,commit changesexit->commit changes,2,0.0,1.0,1.0
+process_mining,CoreFlow,5.0,commit changesexit->commit changesexit,3,0.0,1.0,1.0
+process_mining,CoreFlow,5.0,commit changesexit->commit changesexit,5,0.0,1.0,1.0
+process_mining,CoreFlow,5.0,commit changesexit->exit,1,0.0,1.0,1.0
+process_mining,CoreFlow,5.0,create issue->exit,8,0.0,1.0,1.0
+process_mining,SentenTree,5.0,commit changes->commit changes,7,0.0,1.0,1.0
+process_mining,SentenTree,5.0,commit changes->exit,13,0.0,1.0,1.0
+process_mining,SentenTree,5.0,open pull request->close pull request,4,0.0,1.0,1.0
+process_mining,SentenTree,5.0,open pull request->exit,30,0.0,1.0,1.0
+process_mining,SentenTree,5.0,open pull request->resolve issue,6,0.0,1.0,1.0
+test,CoreFlow,5.0,b->exit,1,1.0,2.0,1.0
+test,SentenTree,5.0,a->d,1,0.0,1.0,1.0
+test,SentenTree,5.0,c->exit,1,0.0,1.0,1.0
+test,SentenTree,5.0,d->b,1,0.0,1.0,1.0
+test,SentenTree,5.0,d->exit,1,0.0,1.0,1.0
+test,SentenTree,5.0,h->b,1,0.0,1.0,1.0
+test,SentenTree,5.0,l->j,0,0.0,1.0,1.0
+test,SentenTree,5.0,start->a,4,0.0,1.0,1.0
+test,SentenTree,5.0,start->b,1,0.0,1.0,1.0
+umdvsunc_D2O_basketball,CoreFlow,5.0,foul->made free throw exit,4,0.0,1.0,1.0
+umdvsunc_D2O_basketball,CoreFlow,5.0,foul->made free throw exit,6,0.0,1.0,1.0
+umdvsunc_D2O_basketball,CoreFlow,5.0,made free throw exit->exit,4,0.0,1.0,1.0
+umdvsunc_D2O_basketball,CoreFlow,5.0,made shot exit->exit,8,0.0,1.0,1.0
+umdvsunc_D2O_basketball,CoreFlow,5.0,umd offense->made shot exit,3,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,5.0,exit->exit,4,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,5.0,foul->made shot,4,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,5.0,foul->rebound,7,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,5.0,made free throw->made shot,4,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,5.0,made free throw->umd offense,27,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,5.0,missed shot->exit,4,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,5.0,missed shot->steal,4,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,5.0,missed shot->turnover,24,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,5.0,rebound->made free throw,5,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,5.0,rebound->made shot,6,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,5.0,rebound->missed shot,9,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,5.0,umd offense->foul,27,0.0,1.0,1.0

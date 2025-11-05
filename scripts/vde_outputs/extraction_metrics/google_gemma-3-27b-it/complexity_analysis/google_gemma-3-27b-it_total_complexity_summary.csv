@@ -1,0 +1,4 @@
+Model,Complexity_Type,Complexity_Level,Ground_Truth_Events,Extracted_Events,Correctly_Extracted,Precision,Recall,F1,Hallucinated_Events
+google_gemma-3-27b-it,total_complexity,Medium,923,770,716,0.9298701298701298,0.7757313109425785,0.8458357944477259,54
+google_gemma-3-27b-it,total_complexity,High,1048,563,452,0.8028419182948491,0.4312977099236641,0.5611421477343266,111
+google_gemma-3-27b-it,total_complexity,Low,612,524,497,0.9484732824427481,0.8120915032679739,0.875,27

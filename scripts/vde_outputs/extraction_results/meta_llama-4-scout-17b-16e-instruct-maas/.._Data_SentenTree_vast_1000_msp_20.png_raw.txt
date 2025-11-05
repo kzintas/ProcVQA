@@ -1,0 +1,21 @@
+[
+["_Start", "947", 1],
+["947", "entrance", 1],
+["entrance", "847", 1],
+["847", "general gate", 1],
+["general gate", "794", 1],
+["794", "general gate", 1],
+["general gate", "581", 1],
+["581", "general gate", 1],
+["general gate", "429", 1],
+["429", "general gate", 1],
+["general gate", "359", 1],
+["359", "573", 1],
+["573", "general gate", 1],
+["general gate", "221", 1],
+["221", "general gate", 1],
+["general gate", "221", 1],
+["221", "entrance", 1],
+["entrance", "434", 1],
+["434", "_Exit", 1]
+]

@@ -1,0 +1,22 @@
+[
+[<_Start, 2],
+[<_Start, 13],
+[<_Start, 6],
+[<_Start, 4],
+[<_Start, 70],
+[<_Start, 49],
+[<_Start, 55],
+[<_Start, 16],
+[temp, 2],
+[pulse, 13],
+[pulse, 4],
+[pulse, 11],
+[secondary_survey, 2],
+[gcs, 4],
+[blanket, 3],
+[pupil, 9],
+[iv, 8],
+[_Exit, 2],
+[_Exit, 13],
+[_Exit, 6]
+]

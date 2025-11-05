@@ -1,0 +1,4 @@
+Model,Complexity_Type,Complexity_Level,Ground_Truth_Events,Extracted_Events,Correctly_Extracted,Precision,Recall,F1,Hallucinated_Events
+meta_llama-4-scout-17b-16e-instruct-maas,links_complexity,Medium,880,714,625,0.8753501400560224,0.7102272727272727,0.7841907151819323,89
+meta_llama-4-scout-17b-16e-instruct-maas,links_complexity,High,735,502,304,0.6055776892430279,0.41360544217687073,0.49151172190784154,198
+meta_llama-4-scout-17b-16e-instruct-maas,links_complexity,Low,968,865,780,0.9017341040462428,0.8057851239669421,0.851063829787234,85

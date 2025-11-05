@@ -1,0 +1,49 @@
+{
+  "events": [
+    [
+      "_Start",
+      "Opponent Offense",
+      168
+    ],
+    [
+      "Opponent Offense",
+      "Made Shot - 2",
+      45
+    ],
+    [
+      "Opponent Offense",
+      "Missed Shot - 2",
+      43
+    ],
+    [
+      "Made Shot - 2",
+      "CHICAGO Offense",
+      79
+    ],
+    [
+      "Missed Shot - 2",
+      "CHICAGO Offense",
+      43
+    ],
+    [
+      "CHICAGO Offense",
+      "Defensive Rebound",
+      63
+    ],
+    [
+      "CHICAGO Offense",
+      "_Exit",
+      104
+    ],
+    [
+      "Defensive Rebound",
+      "_Exit",
+      43
+    ],
+    [
+      "Missed Shot - 2",
+      "_Exit",
+      43
+    ]
+  ]
+}

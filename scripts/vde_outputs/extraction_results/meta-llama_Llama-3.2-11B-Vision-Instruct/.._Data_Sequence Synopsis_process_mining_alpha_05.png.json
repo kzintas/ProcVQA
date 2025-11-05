@@ -1,0 +1,64 @@
+{
+  "events": [
+    [
+      "distribute situational awareness",
+      1
+    ],
+    [
+      "ask a question",
+      1
+    ],
+    [
+      "build system update",
+      2
+    ],
+    [
+      "update question",
+      1
+    ],
+    [
+      "provide support",
+      1
+    ],
+    [
+      "ask a question",
+      1
+    ],
+    [
+      "provide support",
+      1
+    ],
+    [
+      "close pull request",
+      2
+    ],
+    [
+      "create issue",
+      6
+    ],
+    [
+      "commit changes",
+      16
+    ],
+    [
+      "issue comment",
+      2
+    ],
+    [
+      "commit changes",
+      8
+    ],
+    [
+      "commit changes",
+      3
+    ],
+    [
+      "resolve issue",
+      3
+    ],
+    [
+      "create issue",
+      7
+    ]
+  ]
+}

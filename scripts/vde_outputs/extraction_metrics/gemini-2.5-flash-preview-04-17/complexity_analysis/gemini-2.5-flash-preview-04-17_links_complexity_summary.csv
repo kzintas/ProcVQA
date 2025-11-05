@@ -1,0 +1,4 @@
+Model,Complexity_Type,Complexity_Level,Ground_Truth_Events,Extracted_Events,Correctly_Extracted,Precision,Recall,F1,Hallucinated_Events
+gemini-2.5-flash-preview-04-17,links_complexity,Medium,880,860,770,0.8953488372093024,0.875,0.8850574712643678,90
+gemini-2.5-flash-preview-04-17,links_complexity,High,735,723,614,0.8492392807745505,0.8353741496598639,0.8422496570644717,109
+gemini-2.5-flash-preview-04-17,links_complexity,Low,968,938,861,0.917910447761194,0.8894628099173554,0.9034627492130116,77

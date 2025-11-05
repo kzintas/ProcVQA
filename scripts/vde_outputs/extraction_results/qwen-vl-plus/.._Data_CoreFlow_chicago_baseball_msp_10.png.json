@@ -1,0 +1,44 @@
+{
+  "events": [
+    [
+      "_Start",
+      "Team-2 Offense",
+      168
+    ],
+    [
+      "_Start",
+      "Team-1 Offense",
+      167
+    ],
+    [
+      "Team-1 Offense",
+      "Team-1 Made Shot",
+      37
+    ],
+    [
+      "Team-1 Offense",
+      "Team-1 Foul",
+      18
+    ],
+    [
+      "Team-1 Offense",
+      "Team-1 Defensive Rebound",
+      63
+    ],
+    [
+      "Team-1 Defensive Rebound",
+      "Team-1 Made Shot",
+      43
+    ],
+    [
+      "Team-1 Made Shot",
+      "_Exit",
+      20
+    ],
+    [
+      "Team-1 Foul",
+      "_Exit",
+      18
+    ]
+  ]
+}

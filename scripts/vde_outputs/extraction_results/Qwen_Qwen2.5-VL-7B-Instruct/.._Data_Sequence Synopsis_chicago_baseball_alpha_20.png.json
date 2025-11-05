@@ -1,0 +1,72 @@
+{
+  "events": [
+    [
+      "_Start",
+      1
+    ],
+    [
+      "Team-2 Offense",
+      1
+    ],
+    [
+      "Turnover",
+      1
+    ],
+    [
+      "_Exit",
+      1
+    ],
+    [
+      "Team-1 Offense",
+      17
+    ],
+    [
+      "Made Free Throw",
+      7
+    ],
+    [
+      "Foul",
+      25
+    ],
+    [
+      "Team-2 Offense",
+      27
+    ],
+    [
+      "Missed Shot",
+      37
+    ],
+    [
+      "Defensive Rebound",
+      34
+    ],
+    [
+      "Team-1 Offense",
+      39
+    ],
+    [
+      "Made Shot",
+      55
+    ],
+    [
+      "Team-1 Offense",
+      74
+    ],
+    [
+      "_Exit",
+      94
+    ],
+    [
+      "Team-2 Offense",
+      46
+    ],
+    [
+      "_Exit",
+      46
+    ],
+    [
+      "_Start",
+      94
+    ]
+  ]
+}

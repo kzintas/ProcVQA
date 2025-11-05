@@ -1,0 +1,21 @@
+[
+["_Start", 10],
+["Alcohol", 10],
+["_Start", 12],
+["Spiritual", 10],
+["Spiritual", 7],
+["_Start", 19],
+["Apartment", 19],
+["_Start", 203],
+["Fast Food", 203],
+["_Start", 106],
+["Restaurant", 84],
+["Fast Food", 135],
+["Restaurant", 45],
+["Fast Food", 82],
+["_Exit", 10],
+["_Exit", 12],
+["_Exit", 19],
+["_Exit", 106],
+["_Exit", 203]
+]

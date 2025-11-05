@@ -1,0 +1,10 @@
+[
+["_Start", "Arrival", 100],
+["Arrival", "Emergency", 100],
+["Emergency", "ICU", 36],
+["Emergency", "Discharge-Alive", 38],
+["Emergency", "_Exit", 26],
+["ICU", "Die", 36],
+["ICU", "_Exit", 26],
+["Discharge-Alive", "_Exit", 38]
+]

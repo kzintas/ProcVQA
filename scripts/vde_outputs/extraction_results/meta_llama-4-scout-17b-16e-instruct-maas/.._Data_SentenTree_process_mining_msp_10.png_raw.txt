@@ -1,0 +1,15 @@
+[
+["_Start", "create issue", 13],
+["_Start", "commit changes", 30],
+["create issue", "_Exit", 7],
+["commit changes", "resolve issue", 11],
+["commit changes", "_Exit", 6],
+["resolve issue", "_Exit", 6],
+["commit changes", "commit changes", 13],
+["commit changes", "_Exit", 7],
+["commit changes", "commit changes", 6],
+["commit changes", "_Exit", 6],
+["commit changes", "commit changes", 5],
+["commit changes", "_Exit", 5],
+["_Start", "_Exit", 8]
+]

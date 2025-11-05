@@ -1,0 +1,29 @@
+{
+  "events": [
+    [
+      "Start",
+      "Fast Food",
+      337
+    ],
+    [
+      "Start",
+      "Restaurant",
+      188
+    ],
+    [
+      "Fast Food",
+      "_Exit",
+      182
+    ],
+    [
+      "Fast Food",
+      "Restaurant",
+      155
+    ],
+    [
+      "Restaurant",
+      "_Exit",
+      137
+    ]
+  ]
+}

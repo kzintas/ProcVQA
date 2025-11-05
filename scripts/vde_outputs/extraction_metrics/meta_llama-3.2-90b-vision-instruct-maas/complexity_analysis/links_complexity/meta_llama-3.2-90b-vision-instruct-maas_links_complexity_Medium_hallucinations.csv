@@ -1,0 +1,7 @@
+dataset,technique,parameter_value,attribute,value,gt_count,llm_count,hallucinated_count
+VAST,Sequence Synopsis,20.0,general gate,2,0.0,1.0,1.0
+pediatric_trauma,Sequence Synopsis,15.0,pupil,6,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,10.0,missed shot->rebound,15,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,10.0,rebound->umd offense,8,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,10.0,umd offense->exit,27,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,10.0,umd offense->rebound,8,0.0,1.0,1.0

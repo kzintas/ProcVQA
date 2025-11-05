@@ -1,0 +1,184 @@
+{
+  "events": [
+    [
+      "_Start",
+      "UNC Offense",
+      69
+    ],
+    [
+      "UNC Offense",
+      "Rebound",
+      15
+    ],
+    [
+      "UNC Offense",
+      "Foul",
+      9
+    ],
+    [
+      "UNC Offense",
+      "Rebound",
+      8
+    ],
+    [
+      "UNC Offense",
+      "Rebound",
+      4
+    ],
+    [
+      "UNC Offense",
+      "Foul",
+      23
+    ],
+    [
+      "Rebound",
+      "Missed Shot",
+      15
+    ],
+    [
+      "Foul",
+      "Made Free Throw",
+      5
+    ],
+    [
+      "Foul",
+      "Made Free Throw",
+      5
+    ],
+    [
+      "Rebound",
+      "Made Shot",
+      4
+    ],
+    [
+      "Made Free Throw",
+      "Turnover",
+      4
+    ],
+    [
+      "Missed Shot",
+      "Turnover",
+      24
+    ],
+    [
+      "Made Shot",
+      "UMD Offense",
+      27
+    ],
+    [
+      "Turnover",
+      "Made Free Throw",
+      5
+    ],
+    [
+      "Turnover",
+      "Made Free Throw",
+      4
+    ],
+    [
+      "Made Free Throw",
+      "UMD Offense",
+      7
+    ],
+    [
+      "Made Free Throw",
+      "UMD Offense",
+      8
+    ],
+    [
+      "UMD Offense",
+      "Foul",
+      27
+    ],
+    [
+      "UMD Offense",
+      "_Exit",
+      16
+    ],
+    [
+      "UMD Offense",
+      "Missed Shot",
+      4
+    ],
+    [
+      "Foul",
+      "Made Free Throw",
+      7
+    ],
+    [
+      "Foul",
+      "Made Free Throw",
+      4
+    ],
+    [
+      "_Exit",
+      "Steal",
+      9
+    ],
+    [
+      "Missed Shot",
+      "Rebound",
+      6
+    ],
+    [
+      "Steal",
+      "_Exit",
+      4
+    ],
+    [
+      "Made Free Throw",
+      "_Exit",
+      4
+    ],
+    [
+      "Made Free Throw",
+      "_Exit",
+      4
+    ],
+    [
+      "Rebound",
+      "Foul",
+      4
+    ],
+    [
+      "Rebound",
+      "Made Shot",
+      7
+    ],
+    [
+      "Rebound",
+      "Missed Shot",
+      4
+    ],
+    [
+      "Rebound",
+      "Turnover",
+      4
+    ],
+    [
+      "Foul",
+      "Made Free Throw",
+      4
+    ],
+    [
+      "Made Shot",
+      "_Exit",
+      7
+    ],
+    [
+      "Missed Shot",
+      "_Exit",
+      6
+    ],
+    [
+      "Turnover",
+      "_Exit",
+      4
+    ],
+    [
+      "Made Free Throw",
+      "_Exit",
+      4
+    ]
+  ]
+}

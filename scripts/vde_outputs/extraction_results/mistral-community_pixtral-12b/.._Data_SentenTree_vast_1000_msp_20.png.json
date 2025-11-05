@@ -1,0 +1,39 @@
+{
+  "events": [
+    [
+      "Start",
+      "emergence",
+      547
+    ],
+    [
+      "emergence",
+      "generic gate",
+      794
+    ],
+    [
+      "generic gate",
+      "generic gate",
+      583
+    ],
+    [
+      "generic gate",
+      "generic gate",
+      459
+    ],
+    [
+      "generic gate",
+      "generic gate",
+      276
+    ],
+    [
+      "generic gate",
+      "emergence",
+      434
+    ],
+    [
+      "emergence",
+      "End",
+      434
+    ]
+  ]
+}

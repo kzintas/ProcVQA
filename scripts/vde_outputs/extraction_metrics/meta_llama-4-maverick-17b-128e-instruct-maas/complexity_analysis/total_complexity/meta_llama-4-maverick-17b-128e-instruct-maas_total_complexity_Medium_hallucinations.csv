@@ -1,0 +1,93 @@
+dataset,technique,parameter_value,attribute,value,gt_count,llm_count,hallucinated_count
+VAST,SentenTree,10.0,general gate->entrance,13,1.0,2.0,1.0
+VAST,SentenTree,10.0,general gate->general gate,0,0.0,1.0,1.0
+VAST,SentenTree,10.0,general gate->general gate,9,0.0,1.0,1.0
+VAST,SentenTree,10.0,general gate->general gate,23,0.0,1.0,1.0
+VAST,SentenTree,10.0,ranger-stop->ranger-stop,70,0.0,1.0,1.0
+career,CoreFlow,15.0,conference->professor,25,0.0,1.0,1.0
+career,CoreFlow,15.0,professor->conference,7,0.0,1.0,1.0
+career,CoreFlow,15.0,professor->journal,8,0.0,1.0,1.0
+career,SentenTree,15.0,conference->conference,7,1.0,2.0,1.0
+career,SentenTree,15.0,conference->conference,26,0.0,1.0,1.0
+career,SentenTree,15.0,conference->conference,33,0.0,1.0,1.0
+career,SentenTree,20.0,conference->conference,23,0.0,1.0,1.0
+career,SentenTree,25.0,conference->conference,33,0.0,1.0,1.0
+career,SentenTree,25.0,conference->journal,25,0.0,1.0,1.0
+career,SentenTree,25.0,journal->conference,20,0.0,1.0,1.0
+career,SentenTree,25.0,ms->conference,38,0.0,1.0,1.0
+career,Sequence Synopsis,5.0,bs,5,1.0,2.0,1.0
+career,Sequence Synopsis,5.0,journal,5,2.0,3.0,1.0
+career,Sequence Synopsis,5.0,ms,5,1.0,2.0,1.0
+chicago_baseball,CoreFlow,10.0,team-1 defensive rebound->exit,20,0.0,1.0,1.0
+chicago_baseball,CoreFlow,10.0,team-1 defensive rebound->team-1 made shot,43,0.0,1.0,1.0
+chicago_baseball,CoreFlow,10.0,team-1 offense->exit,18,0.0,1.0,1.0
+chicago_baseball,CoreFlow,10.0,team-1 offense->team-1 foul,49,0.0,1.0,1.0
+emergency_dataset,CoreFlow,5.0,emergency->exit,2,0.0,1.0,1.0
+emergency_dataset,SentenTree,5.0,floor->icu,16,0.0,1.0,1.0
+emergency_dataset,SentenTree,5.0,floor->icu,41,0.0,1.0,1.0
+emergency_dataset,SentenTree,15.0,emergency->floor,41,0.0,1.0,1.0
+pediatric_trauma,SentenTree,10.0,airway->breathing,214,0.0,1.0,1.0
+pediatric_trauma,SentenTree,10.0,breathing->pulse,170,0.0,1.0,1.0
+pediatric_trauma,SentenTree,10.0,gcs->exit,67,0.0,1.0,1.0
+pediatric_trauma,SentenTree,10.0,gcs->secondarysurvey,47,0.0,1.0,1.0
+pediatric_trauma,SentenTree,10.0,pulse->gcs,129,0.0,1.0,1.0
+process_mining,CoreFlow,10.0,commit changes->exit,5,1.0,2.0,1.0
+process_mining,CoreFlow,10.0,commit changes->exit,6,0.0,1.0,1.0
+process_mining,CoreFlow,10.0,commit changes->resolve issue,11,0.0,1.0,1.0
+process_mining,CoreFlow,10.0,create issue->exit,8,0.0,1.0,1.0
+process_mining,Sequence Synopsis,5.0,ask a question,1,2.0,3.0,1.0
+process_mining,Sequence Synopsis,5.0,build system update,1,1.0,2.0,1.0
+process_mining,Sequence Synopsis,5.0,close pull request,2,1.0,2.0,1.0
+process_mining,Sequence Synopsis,5.0,commit changes,2,1.0,2.0,1.0
+process_mining,Sequence Synopsis,5.0,commit changes,3,2.0,4.0,2.0
+process_mining,Sequence Synopsis,5.0,commit changes,8,2.0,4.0,2.0
+process_mining,Sequence Synopsis,5.0,distribute situational awareness,1,1.0,2.0,1.0
+process_mining,Sequence Synopsis,5.0,exit,8,1.0,2.0,1.0
+process_mining,Sequence Synopsis,5.0,issue comment,2,1.0,2.0,1.0
+process_mining,Sequence Synopsis,5.0,provide support,1,2.0,4.0,2.0
+process_mining,Sequence Synopsis,5.0,resolve issue,3,1.0,2.0,1.0
+process_mining,Sequence Synopsis,5.0,update question,1,1.0,2.0,1.0
+process_mining,Sequence Synopsis,10.0,ask a question,1,2.0,3.0,1.0
+process_mining,Sequence Synopsis,10.0,build system update,1,1.0,3.0,2.0
+process_mining,Sequence Synopsis,10.0,close pull request,2,1.0,2.0,1.0
+process_mining,Sequence Synopsis,10.0,commit changes,2,1.0,2.0,1.0
+process_mining,Sequence Synopsis,10.0,commit changes,3,2.0,4.0,2.0
+process_mining,Sequence Synopsis,10.0,commit changes,8,2.0,4.0,2.0
+process_mining,Sequence Synopsis,10.0,create issue,6,1.0,2.0,1.0
+process_mining,Sequence Synopsis,10.0,create issue,7,1.0,3.0,2.0
+process_mining,Sequence Synopsis,10.0,distribute situational awareness,1,1.0,3.0,2.0
+process_mining,Sequence Synopsis,10.0,exit,1,2.0,3.0,1.0
+process_mining,Sequence Synopsis,10.0,issue comment,2,1.0,2.0,1.0
+process_mining,Sequence Synopsis,10.0,resolve issue,3,1.0,3.0,2.0
+process_mining,Sequence Synopsis,15.0,ask a question,1,2.0,4.0,2.0
+process_mining,Sequence Synopsis,15.0,build system update,1,1.0,2.0,1.0
+process_mining,Sequence Synopsis,15.0,build system update,2,1.0,2.0,1.0
+process_mining,Sequence Synopsis,15.0,close pull request,2,1.0,2.0,1.0
+process_mining,Sequence Synopsis,15.0,commit changes,2,1.0,2.0,1.0
+process_mining,Sequence Synopsis,15.0,commit changes,3,2.0,4.0,2.0
+process_mining,Sequence Synopsis,15.0,commit changes,8,2.0,3.0,1.0
+process_mining,Sequence Synopsis,15.0,commit changes,16,1.0,2.0,1.0
+process_mining,Sequence Synopsis,15.0,create issue,6,1.0,2.0,1.0
+process_mining,Sequence Synopsis,15.0,create issue,7,1.0,2.0,1.0
+process_mining,Sequence Synopsis,15.0,distribute situational awareness,1,1.0,3.0,2.0
+process_mining,Sequence Synopsis,15.0,exit,11,1.0,2.0,1.0
+process_mining,Sequence Synopsis,15.0,provide support,1,2.0,4.0,2.0
+process_mining,Sequence Synopsis,15.0,resolve issue,3,1.0,2.0,1.0
+process_mining,Sequence Synopsis,15.0,start,8,1.0,2.0,1.0
+process_mining,Sequence Synopsis,15.0,update question,1,1.0,2.0,1.0
+process_mining,Sequence Synopsis,20.0,distribute situational awareness,1,1.0,2.0,1.0
+process_mining,Sequence Synopsis,25.0,ask a question,1,2.0,3.0,1.0
+process_mining,Sequence Synopsis,25.0,commit changes,3,2.0,3.0,1.0
+process_mining,Sequence Synopsis,25.0,distribute situational awareness,1,1.0,2.0,1.0
+process_mining,Sequence Synopsis,30.0,distribute situational awareness,1,1.0,2.0,1.0
+umdvsunc_D2O_basketball,SentenTree,10.0,exit->exit,27,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,10.0,rebound->unc offense,8,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,10.0,umd offense->rebound,7,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,10.0,unc offense->foul,15,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,10.0,unc offense->missed shot,15,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,10.0,unc offense->rebound,9,0.0,1.0,1.0
+umdvsunc_D2O_basketball,Sequence Synopsis,30.0,exit,18,1.0,2.0,1.0
+umdvsunc_D2O_basketball,Sequence Synopsis,30.0,missed shot,9,1.0,2.0,1.0
+vast_1000,SentenTree,10.0,general gate->general gate,12,0.0,1.0,1.0
+vast_1000,SentenTree,10.0,general gate->general gate,88,0.0,1.0,1.0
+vast_1000,SentenTree,10.0,general gate->general gate,134,1.0,2.0,1.0

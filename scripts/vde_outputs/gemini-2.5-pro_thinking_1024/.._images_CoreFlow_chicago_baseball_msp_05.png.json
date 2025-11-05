@@ -1,0 +1,114 @@
+{
+  "events": [
+    [
+      "_Start",
+      "Opponent Offense",
+      168
+    ],
+    [
+      "Opponent Offense",
+      "CHICAGO Offense _Exit",
+      167
+    ],
+    [
+      "Opponent Offense",
+      "CHICAGO Offense _Exit",
+      1
+    ],
+    [
+      "CHICAGO Offense _Exit",
+      "Defensive Rebound",
+      63
+    ],
+    [
+      "CHICAGO Offense _Exit",
+      "Made Shot - 2",
+      37
+    ],
+    [
+      "CHICAGO Offense _Exit",
+      "Foul",
+      18
+    ],
+    [
+      "CHICAGO Offense _Exit",
+      "Missed Shot - 2",
+      14
+    ],
+    [
+      "CHICAGO Offense _Exit",
+      "Turnover",
+      12
+    ],
+    [
+      "CHICAGO Offense _Exit",
+      "_Exit",
+      23
+    ],
+    [
+      "Defensive Rebound",
+      "Made Shot - 2",
+      20
+    ],
+    [
+      "Defensive Rebound",
+      "Missed Shot - 2",
+      14
+    ],
+    [
+      "Defensive Rebound",
+      "Foul",
+      11
+    ],
+    [
+      "Defensive Rebound",
+      "_Exit",
+      18
+    ],
+    [
+      "Made Shot - 2",
+      "_Exit",
+      37
+    ],
+    [
+      "Foul",
+      "Made Free Throw",
+      9
+    ],
+    [
+      "Foul",
+      "_Exit",
+      9
+    ],
+    [
+      "Missed Shot - 2",
+      "_Exit",
+      14
+    ],
+    [
+      "Turnover",
+      "_Exit",
+      12
+    ],
+    [
+      "Made Shot - 2",
+      "_Exit",
+      20
+    ],
+    [
+      "Missed Shot - 2",
+      "_Exit",
+      14
+    ],
+    [
+      "Foul",
+      "_Exit",
+      11
+    ],
+    [
+      "Made Free Throw",
+      "_Exit",
+      9
+    ]
+  ]
+}

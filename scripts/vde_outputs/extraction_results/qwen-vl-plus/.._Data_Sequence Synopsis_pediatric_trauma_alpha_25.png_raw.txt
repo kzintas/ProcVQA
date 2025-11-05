@@ -1,0 +1,22 @@
+[
+[<_Start, 24],
+[<_Start, 61],
+[<_Start, 103],
+[<_Start, 20],
+[<_Start, 7],
+[oxygen, 24],
+[airway, 61],
+[airway, 101],
+[breathing, 58],
+[breathing, 89],
+[pulse, 57],
+[pulse, 85],
+[gcs, 57],
+[pupil, 33],
+[secondary_survey, 55],
+[temp, 27],
+[temp, 38],
+[iv, 29],
+[_Exit, 61],
+[_Exit, 103]
+]

@@ -1,0 +1,88 @@
+{
+  "events": [
+    [
+      "distribute situational awareness",
+      1
+    ],
+    [
+      "ask a question",
+      1
+    ],
+    [
+      "build system update",
+      2
+    ],
+    [
+      "update question",
+      1
+    ],
+    [
+      "provide support",
+      1
+    ],
+    [
+      "ask a question",
+      1
+    ],
+    [
+      "provide support",
+      1
+    ],
+    [
+      "_Exit",
+      2
+    ],
+    [
+      "_Start",
+      8
+    ],
+    [
+      "create issue",
+      6
+    ],
+    [
+      "commit changes",
+      16
+    ],
+    [
+      "issue comment",
+      2
+    ],
+    [
+      "commit changes",
+      3
+    ],
+    [
+      "commit changes",
+      8
+    ],
+    [
+      "commit changes",
+      2
+    ],
+    [
+      "resolve issue",
+      3
+    ],
+    [
+      "close pull request",
+      2
+    ],
+    [
+      "_Exit",
+      6
+    ],
+    [
+      "_Exit",
+      8
+    ],
+    [
+      "create issue",
+      7
+    ],
+    [
+      "_Exit",
+      11
+    ]
+  ]
+}

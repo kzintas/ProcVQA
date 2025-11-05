@@ -1,0 +1,36 @@
+dataset,technique,parameter_value,attribute,value,gt_count,llm_count,hallucinated_count
+Foursquare_NYC,SentenTree,10.0,start->restaurant,188,0.0,1.0,1.0
+VAST,SentenTree,10.0,general gate->general gate,0,0.0,1.0,1.0
+VAST,SentenTree,10.0,general gate->general gate,9,0.0,1.0,1.0
+VAST,SentenTree,10.0,general gate->general gate,23,0.0,1.0,1.0
+VAST,SentenTree,10.0,general gate->ranger-stop,70,0.0,1.0,1.0
+career,SentenTree,15.0,bs->conference,38,0.0,1.0,1.0
+career,SentenTree,15.0,conference->journal,25,0.0,1.0,1.0
+career,SentenTree,15.0,ms->conference,33,0.0,1.0,1.0
+career,SentenTree,15.0,start->ms,40,0.0,1.0,1.0
+career,SentenTree,25.0,conference->conference,15,1.0,2.0,1.0
+chicago_baseball,SentenTree,10.0,made shot-2->chicago offense,49,0.0,1.0,1.0
+emergency_dataset,CoreFlow,5.0,floor->exit,24,0.0,1.0,1.0
+emergency_dataset,SentenTree,5.0,floor->exit,21,0.0,1.0,1.0
+emergency_dataset,SentenTree,5.0,floor->icu,41,0.0,1.0,1.0
+emergency_dataset,SentenTree,5.0,icu->discharge-alive,16,0.0,1.0,1.0
+emergency_dataset,SentenTree,10.0,floor->exit,21,0.0,1.0,1.0
+emergency_dataset,SentenTree,10.0,floor->icu,41,0.0,1.0,1.0
+emergency_dataset,SentenTree,15.0,floor->exit,24,0.0,1.0,1.0
+pediatric_trauma,SentenTree,10.0,exit->blanket,125,0.0,1.0,1.0
+pediatric_trauma,SentenTree,10.0,gcs->exit,30,0.0,1.0,1.0
+pediatric_trauma,SentenTree,10.0,gcs->temp,25,0.0,1.0,1.0
+pediatric_trauma,SentenTree,10.0,pupil->exit,67,0.0,1.0,1.0
+pediatric_trauma,SentenTree,10.0,pupil->secondarysurvey,73,0.0,1.0,1.0
+pediatric_trauma,SentenTree,10.0,secondarysurvey->exit,47,0.0,1.0,1.0
+pediatric_trauma,SentenTree,10.0,secondarysurvey->gcs,26,0.0,1.0,1.0
+pediatric_trauma,Sequence Synopsis,15.0,pupil,0,0.0,1.0,1.0
+process_mining,CoreFlow,10.0,create issue->exit,8,0.0,1.0,1.0
+process_mining,Sequence Synopsis,30.0,exit,6,1.0,2.0,1.0
+process_mining,Sequence Synopsis,30.0,start,7,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,10.0,rebound->umd offense,15,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,10.0,umd offense->exit,27,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,10.0,unc offense->foul,9,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,10.0,unc offense->missed shot,15,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,10.0,unc offense->rebound,8,0.0,1.0,1.0
+vast_1000,SentenTree,10.0,general gate->general gate,88,0.0,1.0,1.0

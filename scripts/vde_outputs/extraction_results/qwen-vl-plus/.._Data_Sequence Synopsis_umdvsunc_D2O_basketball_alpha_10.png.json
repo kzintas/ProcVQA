@@ -1,0 +1,72 @@
+{
+  "events": [
+    [
+      "Start",
+      7
+    ],
+    [
+      "Start",
+      14
+    ],
+    [
+      "Start",
+      15
+    ],
+    [
+      "Start",
+      5
+    ],
+    [
+      "Start",
+      28
+    ],
+    [
+      "Rebound",
+      14
+    ],
+    [
+      "Missed Shot",
+      7
+    ],
+    [
+      "UMD Offense",
+      7
+    ],
+    [
+      "Rebound",
+      7
+    ],
+    [
+      "UMD Offense",
+      13
+    ],
+    [
+      "Made Free Throw",
+      13
+    ],
+    [
+      "Made Free Throw",
+      8
+    ],
+    [
+      "UMD Offense",
+      8
+    ],
+    [
+      "Made Shot",
+      7
+    ],
+    [
+      "Exit",
+      7
+    ],
+    [
+      "Exit",
+      14
+    ],
+    [
+      "Exit",
+      15
+    ]
+  ]
+}

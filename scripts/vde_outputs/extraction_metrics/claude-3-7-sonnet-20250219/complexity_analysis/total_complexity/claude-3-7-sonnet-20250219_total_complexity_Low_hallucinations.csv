@@ -1,0 +1,4 @@
+dataset,technique,parameter_value,attribute,value,gt_count,llm_count,hallucinated_count
+umdvsunc_D2O_basketball,SentenTree,15.0,unc offense->missed shot,15,0.0,1.0,1.0
+umdvsunc_D2O_basketball,SentenTree,15.0,unc offense->rebound,22,0.0,1.0,1.0
+vast_1000,SentenTree,20.0,general gate->general gate,221,1.0,2.0,1.0

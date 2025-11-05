@@ -1,0 +1,174 @@
+{
+  "events": [
+    [
+      "Start",
+      "entrance",
+      947
+    ],
+    [
+      "Start",
+      "ranger-base",
+      53
+    ],
+    [
+      "entrance",
+      "general gate",
+      847
+    ],
+    [
+      "entrance",
+      "ranger-stop",
+      95
+    ],
+    [
+      "entrance",
+      "ranger-stop",
+      642
+    ],
+    [
+      "entrance",
+      "ranger-stop",
+      38
+    ],
+    [
+      "ranger-base",
+      "gate",
+      53
+    ],
+    [
+      "general gate",
+      "ranger-stop",
+      57
+    ],
+    [
+      "general gate",
+      "gate",
+      95
+    ],
+    [
+      "general gate",
+      "gate",
+      66
+    ],
+    [
+      "general gate",
+      "general gate",
+      515
+    ],
+    [
+      "general gate",
+      "general gate",
+      429
+    ],
+    [
+      "general gate",
+      "general gate",
+      359
+    ],
+    [
+      "general gate",
+      "general gate",
+      221
+    ],
+    [
+      "general gate",
+      "general gate",
+      161
+    ],
+    [
+      "ranger-stop",
+      "camping",
+      57
+    ],
+    [
+      "ranger-stop",
+      "camping",
+      53
+    ],
+    [
+      "ranger-stop",
+      "gate",
+      95
+    ],
+    [
+      "ranger-stop",
+      "ranger-base",
+      66
+    ],
+    [
+      "camping",
+      "ranger-stop",
+      53
+    ],
+    [
+      "gate",
+      "ranger-stop",
+      51
+    ],
+    [
+      "gate",
+      "ranger-stop",
+      51
+    ],
+    [
+      "ranger-base",
+      "Exit",
+      51
+    ],
+    [
+      "general gate",
+      "Exit",
+      134
+    ],
+    [
+      "general gate",
+      "Exit",
+      98
+    ],
+    [
+      "general gate",
+      "Exit",
+      60
+    ],
+    [
+      "general gate",
+      "Exit",
+      60
+    ],
+    [
+      "entrance",
+      "Exit",
+      871
+    ],
+    [
+      "Start",
+      "Exit",
+      116
+    ],
+    [
+      "Start",
+      "Exit",
+      21
+    ],
+    [
+      "Start",
+      "Exit",
+      18
+    ],
+    [
+      "Start",
+      "Exit",
+      46
+    ],
+    [
+      "Start",
+      "Exit",
+      91
+    ],
+    [
+      "Start",
+      "Exit",
+      78
+    ]
+  ]
+}

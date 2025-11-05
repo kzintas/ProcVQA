@@ -1,0 +1,13 @@
+dataset,technique,parameter_value,attribute,value,gt_count,llm_count,hallucinated_count
+chicago_baseball,Sequence Synopsis,15.0,opponent offense,168,1.0,3.0,2.0
+emergency_dataset,Sequence Synopsis,5.0,discharge-alive exit,37,0.0,1.0,1.0
+process_mining,Sequence Synopsis,5.0,build system update,2,1.0,2.0,1.0
+process_mining,Sequence Synopsis,5.0,commit changes,2,1.0,2.0,1.0
+process_mining,Sequence Synopsis,5.0,commit changes,3,2.0,4.0,2.0
+process_mining,Sequence Synopsis,5.0,commit changes,8,2.0,3.0,1.0
+process_mining,Sequence Synopsis,5.0,commit changes,16,1.0,2.0,1.0
+process_mining,Sequence Synopsis,5.0,create issue,6,1.0,2.0,1.0
+process_mining,Sequence Synopsis,5.0,issue comment,2,1.0,2.0,1.0
+process_mining,Sequence Synopsis,5.0,start,11,1.0,2.0,1.0
+umdvsunc_D2O_basketball,SentenTree,25.0,unc offense->umd offense,23,0.0,1.0,1.0
+umdvsunc_D2O_basketball,Sequence Synopsis,15.0,made shotexit,2,0.0,1.0,1.0

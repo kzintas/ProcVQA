@@ -1,0 +1,44 @@
+{
+  "events": [
+    [
+      "_Start",
+      "airway",
+      170
+    ],
+    [
+      "airway",
+      "breathing",
+      170
+    ],
+    [
+      "breathing",
+      "pulse",
+      209
+    ],
+    [
+      "pulse",
+      "secondary_survey",
+      38
+    ],
+    [
+      "secondary_survey",
+      "pupil",
+      161
+    ],
+    [
+      "pupil",
+      "secondary_survey",
+      38
+    ],
+    [
+      "secondary_survey",
+      "blanket",
+      73
+    ],
+    [
+      "blanket",
+      "_Exit",
+      67
+    ]
+  ]
+}

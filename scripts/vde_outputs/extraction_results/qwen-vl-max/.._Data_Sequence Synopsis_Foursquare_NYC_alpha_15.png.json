@@ -1,0 +1,164 @@
+{
+  "events": [
+    [
+      "Office",
+      1
+    ],
+    [
+      "Moving Target",
+      1
+    ],
+    [
+      "Tea Room",
+      1
+    ],
+    [
+      "Beach _Exit",
+      1
+    ],
+    [
+      "Medical Center",
+      1
+    ],
+    [
+      "Shop _Exit",
+      2
+    ],
+    [
+      "Hotel _Exit",
+      3
+    ],
+    [
+      "Fast Food",
+      42
+    ],
+    [
+      "Restaurant",
+      83
+    ],
+    [
+      "Fast Food",
+      17
+    ],
+    [
+      "Restaurant",
+      44
+    ],
+    [
+      "Fast Food",
+      84
+    ],
+    [
+      "_Exit",
+      95
+    ],
+    [
+      "Bank Switch",
+      16
+    ],
+    [
+      "Subway",
+      10
+    ],
+    [
+      "General College & University",
+      10
+    ],
+    [
+      "Recreation",
+      18
+    ],
+    [
+      "Event Space Indoor",
+      18
+    ],
+    [
+      "Laundry Service _Exit",
+      2
+    ],
+    [
+      "Neighborhood",
+      4
+    ],
+    [
+      "Restaurant",
+      43
+    ],
+    [
+      "Stadium",
+      2
+    ],
+    [
+      "Gym / Fitness Center",
+      69
+    ],
+    [
+      "Arts & Entertainment",
+      8
+    ],
+    [
+      "Fast Food",
+      38
+    ],
+    [
+      "Residential Building (Apartment / Condo)",
+      25
+    ],
+    [
+      "_Exit",
+      135
+    ],
+    [
+      "_Exit",
+      16
+    ],
+    [
+      "_Exit",
+      10
+    ],
+    [
+      "_Exit",
+      5
+    ],
+    [
+      "_Exit",
+      18
+    ],
+    [
+      "_Exit",
+      21
+    ],
+    [
+      "Home (private)",
+      13
+    ],
+    [
+      "_Exit",
+      15
+    ],
+    [
+      "_Exit",
+      4
+    ],
+    [
+      "_Exit",
+      85
+    ],
+    [
+      "_Exit",
+      32
+    ],
+    [
+      "Fast Food",
+      32
+    ],
+    [
+      "_Exit",
+      69
+    ],
+    [
+      "_Exit",
+      72
+    ]
+  ]
+}

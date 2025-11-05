@@ -1,0 +1,17 @@
+[
+["_Start", 30],
+["Team-2 Offense", 30],
+["Team-2 Foul", 26],
+["Team-2 Free Throw", 22],
+["_Exit", 30],
+["_Start", 39],
+["Team-2 Offense", 39],
+["Team-1 Defensive Rebound", 32],
+["Team-1 Defensive Rebound", 13],
+["_Exit", 39],
+["_Start", 99],
+["Team-2 Offense", 99],
+["Team-2 Missed Shot", 43],
+["Team-1 Offense", 82],
+["_Exit", 99]
+]

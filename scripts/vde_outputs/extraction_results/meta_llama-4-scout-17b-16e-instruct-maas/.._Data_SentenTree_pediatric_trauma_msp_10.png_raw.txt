@@ -1,0 +1,16 @@
+[
+["_Start", "airway", 170],
+["airway", "breathing", 170],
+["breathing", "pulse", 209],
+["pulse", "gcs", 32],
+["gcs", "secondary_survey", 38],
+["secondary_survey", "gcs", 6],
+["gcs", "pupil", 129],
+["pupil", "_Exit", 25],
+["temp", "_Exit", 25],
+["_Exit", "gcs", 26],
+["gcs", "secondary_survey", 47],
+["secondary_survey", "_Exit", 26],
+["secondary_survey", "blanket", 73],
+["blanket", "_Exit", 125]
+]

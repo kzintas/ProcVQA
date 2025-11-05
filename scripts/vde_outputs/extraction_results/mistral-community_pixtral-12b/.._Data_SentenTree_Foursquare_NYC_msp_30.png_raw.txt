@@ -1,0 +1,38 @@
+
+You are a good assistant who can retrieve information and provide answers from node-link diagram visualizations.
+
+CONTEXT:
+You are presented with an Event Sequence Summarization Visualization
+- Each event is represented by a node with a label, and events are connected by links to form a pattern.
+- Numbers on links represents how many sequences traversed that exact path.
+- The vertical position represents the order of the events, going from top to bottom.
+- The width of a link is proportional to the number of sequences.
+
+INSTRUCTIONS:
+1. Extract ALL visible connections as triplets: [<Source>, <Target>, <Count>]
+2. For each connection, identify:
+- The exact source node label (<Source>)
+- The exact target node label (<Target>)
+- The numeric value shown on that connection (<Count>)
+3. Record each duplicate [<Source>, <Target>, <Count>] triplets separately.
+4. Ensure all <Count> are integers, not strings.
+5. **Do not include any explanations or additional text.**
+6. Answer solely based on what is explicitly shown in the visualization
+
+EXAMPLE FORMAT:
+[
+[<Source>, <Target>, <Count>],
+[<Source>, <Target>, <Count>],
+[<Source>, <Target>, <Count>],
+...
+]
+IMPORTANT: **Your entire response must be a parseable JSON object and nothing else.**
+
+
+
+Examine the node-link diagram in the figure and extract all connections as triplets. For each connection, provide the source node label, target node label, and the count value shown on that link in the format [<Source>, <Target>, <Count>].
+[
+  ["Start", "Fast Food", 337],
+  ["Start", "Exit", 325],
+  ["Fast Food", "Exit", 337]
+]

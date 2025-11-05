@@ -1,0 +1,19 @@
+[
+["_Start", "BS", 40],
+["BS", "MS", 40],
+["MS", "Conference", 38],
+["Conference", "Conference", 33],
+["Conference", "Journal", 25],
+["Journal", "Conference", 20],
+["Conference", "Conference", 15],
+["Conference", "Conference", 10],
+["Conference", "Professor", 8],
+["Professor", "Conference", 7],
+["Conference", "_Exit", 15],
+["Conference", "Conference", 8],
+["Conference", "Conference", 7],
+["Conference", "Journal", 5],
+["Journal", "_Exit", 7],
+["Journal", "_Exit", 5],
+["_Exit", "_Exit", 5]
+]

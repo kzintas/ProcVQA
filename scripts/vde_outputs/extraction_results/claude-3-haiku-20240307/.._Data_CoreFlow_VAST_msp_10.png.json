@@ -1,0 +1,19 @@
+{
+  "events": [
+    [
+      "entrance",
+      "Start",
+      94
+    ],
+    [
+      "Start",
+      "Exit",
+      6
+    ],
+    [
+      "entrance",
+      "Exit",
+      94
+    ]
+  ]
+}

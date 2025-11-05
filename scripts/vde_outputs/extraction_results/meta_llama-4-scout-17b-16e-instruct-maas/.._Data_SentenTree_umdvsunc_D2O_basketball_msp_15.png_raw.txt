@@ -1,0 +1,11 @@
+[
+["_Start", "UNC Offense", 69],
+["UNC Offense", "Rebound", 15],
+["UNC Offense", "Made Shot", 22],
+["Made Shot", "Missed Shot", 24],
+["Made Shot", "UMD Offense", 22],
+["Missed Shot", "Rebound", 15],
+["Rebound", "_Exit", 15],
+["UMD Offense", "Rebound", 34],
+["UMD Offense", "_Exit", 35]
+]

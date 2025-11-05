@@ -1,0 +1,100 @@
+{
+  "events": [
+    [
+      "_Start",
+      7
+    ],
+    [
+      "UNC Offense",
+      14
+    ],
+    [
+      "_Start",
+      15
+    ],
+    [
+      "_Start",
+      5
+    ],
+    [
+      "UNC Offense",
+      5
+    ],
+    [
+      "Jump Ball",
+      1
+    ],
+    [
+      "_Start",
+      28
+    ],
+    [
+      "UNC Offense",
+      28
+    ],
+    [
+      "Missed Shot",
+      7
+    ],
+    [
+      "Rebound",
+      14
+    ],
+    [
+      "Foul",
+      15
+    ],
+    [
+      "Made Shot",
+      4
+    ],
+    [
+      "UMD Offense",
+      12
+    ],
+    [
+      "Missed Shot",
+      7
+    ],
+    [
+      "Rebound",
+      13
+    ],
+    [
+      "UMD Offense",
+      8
+    ],
+    [
+      "Missed Shot",
+      6
+    ],
+    [
+      "Rebound",
+      11
+    ],
+    [
+      "Made Shot",
+      7
+    ],
+    [
+      "_Exit",
+      7
+    ],
+    [
+      "_Exit",
+      14
+    ],
+    [
+      "_Exit",
+      15
+    ],
+    [
+      "_Exit",
+      5
+    ],
+    [
+      "_Exit",
+      28
+    ]
+  ]
+}
