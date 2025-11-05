@@ -1,0 +1,14 @@
+{
+  "index": 154,
+  "question_id": "q_154",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_30.png",
+  "question": "How many times did UMD Offense transition from UNC Offense?",
+  "true_answer": "69",
+  "llm_answer": "69",
+  "is_correct": true,
+  "reasoning": "1.  **Identify the relevant nodes:** The question asks about the transition from \"UNC Offense\" to \"UMD Offense\". We need to locate these two nodes in the diagram.\n2.  **Locate \"UNC Offense\" node:** The node labeled \"UNC Offense\" is found below the \"_Start\" node.\n3.  **Locate \"UMD Offense\" node:** The node labeled \"UMD Offense\" is found directly below the \"UNC Offense\" node.\n4.  **Examine the link between \"UNC Offense\" and \"UMD Offense\":** There is a directed link pointing downwards from \"UNC Offense\" to \"UMD Offense\". This link represents sequences where \"UMD Offense\" immediately followed \"UNC Offense\".\n5.  **Read the numeric label on the link:** The numeric label on the link connecting \"UNC Offense\" to \"UMD Offense\" is 69. This number indicates the count of sequences that followed this specific path.",
+  "full_response": "<reasoning>\n1.  **Identify the relevant nodes:** The question asks about the transition from \"UNC Offense\" to \"UMD Offense\". We need to locate these two nodes in the diagram.\n2.  **Locate \"UNC Offense\" node:** The node labeled \"UNC Offense\" is found below the \"_Start\" node.\n3.  **Locate \"UMD Offense\" node:** The node labeled \"UMD Offense\" is found directly below the \"UNC Offense\" node.\n4.  **Examine the link between \"UNC Offense\" and \"UMD Offense\":** There is a directed link pointing downwards from \"UNC Offense\" to \"UMD Offense\". This link represents sequences where \"UMD Offense\" immediately followed \"UNC Offense\".\n5.  **Read the numeric label on the link:** The numeric label on the link connecting \"UNC Offense\" to \"UMD Offense\" is 69. This number indicates the count of sequences that followed this specific path.\n</reasoning>\n<answer>69</answer>",
+  "process_time_seconds": 7.463937,
+  "processed_at": "2025-05-15 02:51:18"
+}

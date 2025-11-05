@@ -1,0 +1,14 @@
+{
+  "index": 207,
+  "question_id": "q_207",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_05.png",
+  "question": "How many total missed shots were made by both teams?",
+  "true_answer": "42",
+  "llm_answer": "49",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "To answer the question, we need to identify all the \"Missed Shot\" nodes in the diagram and sum up the counts associated with them. Let's break this down step by step:\n\n### Step 1: Identify all \"Missed Shot\" nodes\nFrom the diagram, we can see the following \"Missed Shot\" nodes:\n1. **First Missed Shot (UNC)**:\n   - Label: \"Missed Shot\"\n   - Count: 7\n2. **Second Missed Shot (UNC)**:\n   - Label: \"Missed Shot\"\n   - Count: 14\n3. **Third Missed Shot (UMD)**:\n   - Label: \"Missed Shot\"\n   - Count: 7\n4. **Fourth Missed Shot (UMD)**:\n   - Label: \"Missed Shot\"\n   - Count: 6\n5. **Fifth Missed Shot (UMD)**:\n   - Label: \"Missed Shot\"\n   - Count: 15\n\n### Step 2: Sum the counts of all \"Missed Shot\" nodes\nNow, we add up the counts from all the \"Missed Shot\" nodes:\n- First Missed Shot (UNC): 7\n- Second Missed Shot (UNC): 14\n- Third Missed Shot (UMD): 7\n- Fourth Missed Shot (UMD): 6\n- Fifth Missed Shot (UMD): 15\n\nTotal = 7 + 14 + 7 + 6 + 15 = 49\n\n### Step 3: Verify the calculation\nDouble-checking the counts ensures accuracy:\n- UNC Missed Shots: 7 + 14 = 21\n- UMD Missed Shots: 7 + 6 + 15 = 28\n- Total: 21 + 28 = 49\n\n### Final Answer:\n<answer>49</answer>",
+  "process_time_seconds": 9.36616,
+  "processed_at": "2025-05-16 21:24:41"
+}

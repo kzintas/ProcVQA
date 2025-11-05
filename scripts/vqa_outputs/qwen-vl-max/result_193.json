@@ -1,0 +1,14 @@
+{
+  "index": 193,
+  "question_id": "q_193",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_25.png",
+  "question": "How many total rebounds are there in the match?",
+  "true_answer": "34",
+  "llm_answer": "34",
+  "is_correct": true,
+  "reasoning": "1. From the \"Start\" node, there are two main paths: one leading to \"Made Shot\" and another to \"Missed Shot\".\n2. The path from \"UNC Offense\" to \"Made Shot\" has a count of 23.\n3. The path from \"UNC Offense\" to \"Missed Shot\" has a count of 24.\n4. From \"Missed Shot\", there is a path directly to \"_Exit\" with a count of 24.\n5. Another path from \"Missed Shot\" leads to \"UMD Offense\" with a count of 22.\n6. From \"UMD Offense\", there are two paths: one to \"Rebound\" with a count of 34 and another to \"_Exit\" with a count of 22.\n7. Therefore, the total number of rebounds is the sum of the counts on the paths leading to \"Rebound\": 34.",
+  "full_response": "To determine the total number of rebounds in the match, we need to follow the pathways that lead to the \"Rebound\" node. \n\n<reasoning>\n1. From the \"Start\" node, there are two main paths: one leading to \"Made Shot\" and another to \"Missed Shot\".\n2. The path from \"UNC Offense\" to \"Made Shot\" has a count of 23.\n3. The path from \"UNC Offense\" to \"Missed Shot\" has a count of 24.\n4. From \"Missed Shot\", there is a path directly to \"_Exit\" with a count of 24.\n5. Another path from \"Missed Shot\" leads to \"UMD Offense\" with a count of 22.\n6. From \"UMD Offense\", there are two paths: one to \"Rebound\" with a count of 34 and another to \"_Exit\" with a count of 22.\n7. Therefore, the total number of rebounds is the sum of the counts on the paths leading to \"Rebound\": 34.\n</reasoning>\n\n<answer>34</answer>",
+  "process_time_seconds": 10.01757,
+  "processed_at": "2025-05-16 19:15:40"
+}

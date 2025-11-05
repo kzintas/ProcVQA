@@ -1,0 +1,14 @@
+{
+  "index": 81,
+  "question_id": "q_81",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_10.png",
+  "question": "How many patients went to the ICU after Emrgency?",
+  "true_answer": "35",
+  "llm_answer": "35",
+  "is_correct": true,
+  "reasoning": "1. I examine the node-link diagram to find all occurrences of the 'Emergency' node and the 'ICU' node.\n2. I look for directed links originating from an 'Emergency' node and ending at an 'ICU' node.\n3. In the first pathway from the left, there is a link from 'Emergency' to 'ICU' with the value 12.\n4. In the third pathway from the left, there is a link from 'Emergency' to 'ICU' with the value 23.\n5. There are no other direct links from 'Emergency' to 'ICU' shown in the diagram.\n6. To find the total number of patients who went to the ICU after Emergency, I sum the values of these links: 12 + 23.\n7. The sum is 35.",
+  "full_response": "<reasoning>\n1. I examine the node-link diagram to find all occurrences of the 'Emergency' node and the 'ICU' node.\n2. I look for directed links originating from an 'Emergency' node and ending at an 'ICU' node.\n3. In the first pathway from the left, there is a link from 'Emergency' to 'ICU' with the value 12.\n4. In the third pathway from the left, there is a link from 'Emergency' to 'ICU' with the value 23.\n5. There are no other direct links from 'Emergency' to 'ICU' shown in the diagram.\n6. To find the total number of patients who went to the ICU after Emergency, I sum the values of these links: 12 + 23.\n7. The sum is 35.\n</reasoning>\n<answer>35</answer>",
+  "process_time_seconds": 4.07049,
+  "processed_at": "2025-05-14 20:59:19"
+}

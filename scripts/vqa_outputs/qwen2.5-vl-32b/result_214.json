@@ -1,0 +1,14 @@
+{
+  "index": 214,
+  "question_id": "q_214",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_10.png",
+  "question": "How many total missed shots were made by both teams?",
+  "true_answer": "34",
+  "llm_answer": "28",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "To determine the total number of missed shots made by both teams, we need to identify all nodes labeled \"Missed Shot\" and sum their corresponding sequence counts.\n\n### Step-by-Step Analysis:\n\n1. **Identify Missed Shot Nodes:**\n   - There are three nodes labeled \"Missed Shot\" in the diagram:\n     1. The first \"Missed Shot\" node is connected to \"Rebound\" with a count of 7.\n     2. The second \"Missed Shot\" node is connected to \"UMD Offense\" with a count of 14.\n     3. The third \"Missed Shot\" node is connected to \"UMD Offense\" with a count of 7.\n\n2. **Sum the Counts:**\n   - The counts for the \"Missed Shot\" nodes are:\n     - First \"Missed Shot\": 7\n     - Second \"Missed Shot\": 14\n     - Third \"Missed Shot\": 7\n   - Total missed shots = 7 + 14 + 7 = 28\n\n### Reasoning:\nThe visualization shows directed links with numeric labels indicating the number of sequences following each path. By identifying all nodes labeled \"Missed Shot\" and summing their associated counts, we can determine the total number of missed shots.\n\n### Final Answer:\n<answer>28</answer>",
+  "process_time_seconds": 7.093319,
+  "processed_at": "2025-05-16 21:25:48"
+}

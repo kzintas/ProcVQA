@@ -1,0 +1,14 @@
+{
+  "index": 20,
+  "question_id": "q_20",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/CoreFlow/emergency_dataset/msp_20.png",
+  "question": "How many patients got discharged alive directly after arriving at Emergency? ",
+  "true_answer": "38",
+  "llm_answer": "38",
+  "is_correct": true,
+  "reasoning": "1.  **Identify the starting node:** The question asks about patients directly after \"Emergency\". So, the starting node is \"Emergency\".\n2.  **Identify the target node:** The question asks about patients who got \"discharged alive\". So, the target node is \"Discharge-Alive\".\n3.  **Trace the direct path:** Look for a direct link from \"Emergency\" to \"Discharge-Alive\".\n4.  **Find the link and its value:** There is a direct link from \"Emergency\" to \"Discharge-Alive\". The numeric label next to this link is 38.\n5.  **Conclusion:** This means 38 patients followed the path from \"Emergency\" directly to \"Discharge-Alive\".",
+  "full_response": "<reasoning>\n1.  **Identify the starting node:** The question asks about patients directly after \"Emergency\". So, the starting node is \"Emergency\".\n2.  **Identify the target node:** The question asks about patients who got \"discharged alive\". So, the target node is \"Discharge-Alive\".\n3.  **Trace the direct path:** Look for a direct link from \"Emergency\" to \"Discharge-Alive\".\n4.  **Find the link and its value:** There is a direct link from \"Emergency\" to \"Discharge-Alive\". The numeric label next to this link is 38.\n5.  **Conclusion:** This means 38 patients followed the path from \"Emergency\" directly to \"Discharge-Alive\".\n</reasoning>\n<answer>38</answer>",
+  "process_time_seconds": 4.440048,
+  "processed_at": "2025-05-15 01:14:35"
+}

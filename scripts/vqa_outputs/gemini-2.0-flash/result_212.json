@@ -1,0 +1,14 @@
+{
+  "index": 212,
+  "question_id": "q_212",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_10.png",
+  "question": "How many rebounds were made in total by both teams?",
+  "true_answer": "50",
+  "llm_answer": "39",
+  "is_correct": false,
+  "reasoning": "The question asks for the total number of rebounds. I need to identify all nodes labeled \"Rebound\" and sum their corresponding values. There are three nodes labeled \"Rebound\" with values 14, 7, and 18. Summing these values will give the total number of rebounds. 14 + 7 + 18 = 39.",
+  "full_response": "1. Identify relevant elements: The nodes labeled \"Rebound\" in the diagram represent the rebounds made by both teams. The numbers next to these nodes indicate the number of times each rebound event occurred.\n2. Extract values: The diagram shows three \"Rebound\" nodes with values 14, 7, and 18.\n3. Calculate the total: To find the total number of rebounds, add the values from each \"Rebound\" node: 14 + 7 + 18 = 39\n\n<reasoning>\nThe question asks for the total number of rebounds. I need to identify all nodes labeled \"Rebound\" and sum their corresponding values. There are three nodes labeled \"Rebound\" with values 14, 7, and 18. Summing these values will give the total number of rebounds. 14 + 7 + 18 = 39.\n</reasoning>\n<answer>39</answer>",
+  "process_time_seconds": 4.815558,
+  "processed_at": "2025-05-13 19:56:32"
+}

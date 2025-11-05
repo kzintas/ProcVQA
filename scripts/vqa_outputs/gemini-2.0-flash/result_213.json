@@ -1,0 +1,14 @@
+{
+  "index": 213,
+  "question_id": "q_213",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_10.png",
+  "question": "How many total made shots were made by both teams?",
+  "true_answer": "27",
+  "llm_answer": "27",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "1. **Identify relevant elements:**\n   - I need to find all nodes labeled \"Made Shot\" and sum up the values of links leading to them.\n\n2. **Describe thought process:**\n   - The diagram shows three \"Made Shot\" nodes.\n   - The first one has a link with value 4.\n   - The second one has a link with value 7.\n   - The third one has a link with value 16.\n   - Sum these values: 4 + 7 + 16 = 27.\n\n3. **Calculation:**\n   - 4 + 7 + 16 = 27\n\n4. **Final Answer:**\n   - <answer>27</answer>",
+  "process_time_seconds": 3.730689,
+  "processed_at": "2025-05-13 19:56:36"
+}

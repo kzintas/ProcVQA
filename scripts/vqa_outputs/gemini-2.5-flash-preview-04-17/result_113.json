@@ -1,0 +1,14 @@
+{
+  "index": 113,
+  "question_id": "q_113",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_05.png",
+  "question": "How many total Rebounds were made by UMD Offense?",
+  "true_answer": "34",
+  "llm_answer": "34",
+  "is_correct": true,
+  "reasoning": "1. Locate the node labeled 'UMD Offense'.\n2. Identify the outgoing links from the 'UMD Offense' node. These links represent the subsequent events.\n3. One of the outgoing links goes to the 'Rebound' node.\n4. Read the numeric label associated with the link between 'UMD Offense' and 'Rebound'. This label is 34.\n5. This number represents the number of sequences where 'UMD Offense' is followed by 'Rebound'. This is the total number of Rebounds made by UMD Offense according to the diagram.",
+  "full_response": "<reasoning>\n1. Locate the node labeled 'UMD Offense'.\n2. Identify the outgoing links from the 'UMD Offense' node. These links represent the subsequent events.\n3. One of the outgoing links goes to the 'Rebound' node.\n4. Read the numeric label associated with the link between 'UMD Offense' and 'Rebound'. This label is 34.\n5. This number represents the number of sequences where 'UMD Offense' is followed by 'Rebound'. This is the total number of Rebounds made by UMD Offense according to the diagram.\n</reasoning>\n<answer>34</answer>",
+  "process_time_seconds": 3.16095,
+  "processed_at": "2025-05-14 21:02:53"
+}

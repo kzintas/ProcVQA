@@ -1,0 +1,14 @@
+{
+  "index": 239,
+  "question_id": "q_239",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_30.png",
+  "question": "How many total missed shots occur after UNC Offense but before UMD Offense?",
+  "true_answer": "23",
+  "llm_answer": "26",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "### Relevant Elements:\n- The nodes labeled \"Missed Shot\" are present.\n- The links between \"UNC Offense\" and \"Missed Shot\" indicate transitions.\n- The links between \"Missed Shot\" and \"UMD Offense\" also indicate transitions.\n\n### Reasoning:\n1. Identify the transitions from \"UNC Offense\" to \"Missed Shot\". There are two paths leading from \"UNC Offense\" to \"Missed Shot\".\n   - One path has a link width of 14.\n   - Another path has a link width of 12.\n   \n2. Sum these values to get the total number of missed shots occurring after \"UNC Offense\" but before \"UMD Offense\".\n\n   \\[\n   14 + 12 = 26\n   \\]\n\n### Final Answer:\n<answer>26</answer>",
+  "process_time_seconds": 56.064981,
+  "processed_at": "2025-05-15 05:26:33"
+}

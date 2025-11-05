@@ -1,0 +1,15 @@
+{
+  "index": 34,
+  "question_id": "q_34",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/CoreFlow/emergency_dataset/msp_30.png",
+  "question": "How many total patients were discharged alive after going to the Floor?",
+  "true_answer": "indeterminate",
+  "llm_answer": "indeterminate",
+  "is_correct": true,
+  "reasoning": "To determine the total number of patients discharged alive after going to the Floor, we need to analyze the node-link diagram. The diagram shows that 38 patients were discharged alive from the Floor. However, it does not provide information on the total number of patients who went to the Floor. Therefore, we cannot determine the total number of patients discharged alive after going to the Floor based on the provided information.",
+  "full_response": "<reasoning>\nTo determine the total number of patients discharged alive after going to the Floor, we need to analyze the node-link diagram. The diagram shows that 38 patients were discharged alive from the Floor. However, it does not provide information on the total number of patients who went to the Floor. Therefore, we cannot determine the total number of patients discharged alive after going to the Floor based on the provided information.\n</reasoning>\n<answer>indeterminate</answer>",
+  "process_time_seconds": 4.846254,
+  "processed_at": "2025-05-17 06:09:44",
+  "model": "meta/llama-3.2-90b-vision-instruct-maas"
+}

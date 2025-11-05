@@ -1,0 +1,14 @@
+{
+  "index": 110,
+  "question_id": "q_110",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_30.png",
+  "question": "How many patients went to the Floor after the ICU?",
+  "true_answer": "23",
+  "llm_answer": "23",
+  "is_correct": true,
+  "reasoning": "1.  I examined the node-link diagram to find all instances of the 'ICU' node.\n2.  For each 'ICU' node, I looked for outgoing links.\n3.  I checked the label of the node that each outgoing link points to.\n4.  I was specifically looking for a link from 'ICU' to 'Floor'.\n5.  In the third column of the diagram, there is a node labeled 'ICU'. There is an outgoing link from this 'ICU' node to a node labeled 'Floor'.\n6.  The numeric label next to this specific link (from 'ICU' to 'Floor') indicates the number of sequences following this path.\n7.  The label next to the link from 'ICU' to 'Floor' shows the number 23.\n8.  Therefore, 23 patients went to the Floor after the ICU according to this visualization.",
+  "full_response": "<reasoning>\n1.  I examined the node-link diagram to find all instances of the 'ICU' node.\n2.  For each 'ICU' node, I looked for outgoing links.\n3.  I checked the label of the node that each outgoing link points to.\n4.  I was specifically looking for a link from 'ICU' to 'Floor'.\n5.  In the third column of the diagram, there is a node labeled 'ICU'. There is an outgoing link from this 'ICU' node to a node labeled 'Floor'.\n6.  The numeric label next to this specific link (from 'ICU' to 'Floor') indicates the number of sequences following this path.\n7.  The label next to the link from 'ICU' to 'Floor' shows the number 23.\n8.  Therefore, 23 patients went to the Floor after the ICU according to this visualization.\n</reasoning>\n<answer>23</answer>",
+  "process_time_seconds": 4.217485,
+  "processed_at": "2025-05-14 21:02:38"
+}

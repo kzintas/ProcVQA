@@ -1,0 +1,14 @@
+{
+  "index": 151,
+  "question_id": "q_151",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_25.png",
+  "question": "How many total Fouls were made by UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": "indeterminate",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "The question asks about the number of Fouls made by the UMD Offense. However, the provided node-link diagram does not have information about Fouls. The nodes represent events like Start, UNC Offense, UMD Offense, Rebound, and Exit. The links between them indicate the flow of sequences.\n\nTherefore, the answer cannot be determined from the given visualization.\n\n<answer>indeterminate</answer>",
+  "process_time_seconds": 2.895566,
+  "processed_at": "2025-05-13 20:14:28"
+}

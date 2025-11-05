@@ -1,0 +1,14 @@
+{
+  "index": 202,
+  "question_id": "q_202",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_30.png",
+  "question": "How many steals occurred after UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": "0",
+  "is_correct": false,
+  "reasoning": "The diagram does not show any node or path leading to a \"Steal\" event from \"UMD Offense.\" The only paths from \"UMD Offense\" lead to \"Rebound\" and \"_Exit.\"",
+  "full_response": "To determine the number of steals that occurred after UMD Offense, we need to follow the pathways from the \"UMD Offense\" node and look for a node labeled \"Steal.\"\n\n1. From the \"UMD Offense\" node, there are two outgoing links:\n   - One link leads to \"Rebound\" with a count of 34.\n   - Another link leads directly to \"_Exit\" with a count of 22.\n\n2. There is no node labeled \"Steal\" in the diagram.\n\nSince there is no pathway leading to a \"Steal\" node from \"UMD Offense,\" we can conclude that the number of steals occurring after UMD Offense is zero.\n\n<reasoning>\nThe diagram does not show any node or path leading to a \"Steal\" event from \"UMD Offense.\" The only paths from \"UMD Offense\" lead to \"Rebound\" and \"_Exit.\"\n</reasoning>\n\n<answer>0</answer>",
+  "process_time_seconds": 8.962088,
+  "processed_at": "2025-05-16 19:16:53"
+}

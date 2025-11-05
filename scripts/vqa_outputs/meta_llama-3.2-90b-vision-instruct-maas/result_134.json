@@ -1,0 +1,15 @@
+{
+  "index": 134,
+  "question_id": "q_134",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_15.png",
+  "question": "How many total shots were made by UMD offense?",
+  "true_answer": "15",
+  "llm_answer": null,
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "The node-link diagram shows the sequence of events in a basketball game. The UMD Offense is represented by a node with a label \"UMD Offense\" and has two outgoing links, one labeled \"Missed Shot\" and the other labeled \"Made Shot\". The link labeled \"Missed Shot\" has a count of 14, indicating that 14 shots were missed by the UMD Offense. The link labeled \"Made Shot\" has a count of 15, indicating that 15 shots were made by the UMD Offense.\n\nTherefore, the total number of shots made by the UMD Offense is 15.\n\n*Answer*: 15",
+  "process_time_seconds": 6.330008,
+  "processed_at": "2025-05-17 06:26:20",
+  "model": "meta/llama-3.2-90b-vision-instruct-maas"
+}

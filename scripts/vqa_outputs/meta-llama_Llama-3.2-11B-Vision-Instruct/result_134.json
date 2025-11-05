@@ -1,0 +1,14 @@
+{
+  "index": 134,
+  "question_id": "q_134",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_15.png",
+  "question": "How many total shots were made by UMD offense?",
+  "true_answer": "15",
+  "llm_answer": 34,
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "**Step 1: Identify the relevant elements in the visualization that inform the answer.**\n\nThe node-link diagram shows the sequence of events in a basketball game. The UMD offense is represented by a node with a label \"UMD Offense.\" The diagram also shows the number of shots made by the UMD offense, which is 34.\n\n**Step 2: Describe the thought process and calculations.**\n\nTo determine the total number of shots made by the UMD offense, we need to analyze the diagram and identify the relevant information. The diagram shows that the UMD offense made 34 shots. This is the only relevant information provided in the diagram.\n\n**Step 3: Provide the final answer.**\n\n<answer>34</answer>\n\nTherefore, the total number of shots made by the UMD offense is 34.",
+  "process_time_seconds": 9.937565,
+  "processed_at": "2025-05-17 07:21:04"
+}

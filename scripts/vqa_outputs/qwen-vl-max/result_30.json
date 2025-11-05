@@ -1,0 +1,14 @@
+{
+  "index": 30,
+  "question_id": "q_30",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/CoreFlow/emergency_dataset/msp_30.png",
+  "question": "How many total patients were discharged alive?",
+  "true_answer": "38",
+  "llm_answer": "64",
+  "is_correct": false,
+  "reasoning": "The diagram shows that from the \"Emergency\" node, 38 patients go directly to \"Discharge-Alive\". Additionally, from the \"ICU\" node, 26 patients exit which can be interpreted as being discharged alive. Therefore, the total number of patients discharged alive is the sum of these two numbers.",
+  "full_response": "To determine the total number of patients discharged alive, we need to follow the pathways in the diagram that lead to the \"Discharge-Alive\" node. \n\nFrom the \"Emergency\" node, there are two pathways:\n1. 62 patients go to the ICU.\n   - From the ICU, 36 patients die and 26 patients exit (presumably discharged).\n2. 38 patients directly go to \"Discharge-Alive\".\n\nSumming these up:\n- Directly discharged from Emergency: 38 patients\n- Discharged after ICU: 26 patients\n\n<reasoning>\nThe diagram shows that from the \"Emergency\" node, 38 patients go directly to \"Discharge-Alive\". Additionally, from the \"ICU\" node, 26 patients exit which can be interpreted as being discharged alive. Therefore, the total number of patients discharged alive is the sum of these two numbers.\n</reasoning>\n\n<answer>64</answer>",
+  "process_time_seconds": 6.977455,
+  "processed_at": "2025-05-16 18:53:41"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 163,
+  "question_id": "q_163",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_05.png",
+  "question": "How many made shots were after UNC Offense but before UMD offense?",
+  "true_answer": "23",
+  "llm_answer": "23",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "<answer>23</answer>\n\n## Reasoning\nTo determine the number of made shots after UNC Offense but before UMD offense, we need to follow the pathway from \"UNC Offense\" to \"Made Shot\" and then check the link leading to \"UMD Offense.\"\n\n1. Start at \"UNC Offense.\"\n2. Follow the link labeled \"Made Shot\" which leads to \"Turnover.\"\n3. Continue along the path until reaching \"UMD Offense.\"\n\nThe link from \"Made Shot\" to \"Turnover\" has a label of 4, indicating that there are 4 sequences where a made shot was followed by a turnover before reaching UMD Offense.\n\nTherefore, the answer is 23 made shots after UNC Offense but before UMD offense.",
+  "process_time_seconds": 6.21501,
+  "processed_at": "2025-05-16 20:27:26"
+}

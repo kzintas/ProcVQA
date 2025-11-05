@@ -1,0 +1,14 @@
+{
+  "index": 6,
+  "question_id": "q_6",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/CoreFlow/emergency_dataset/msp_10.png",
+  "question": "How many patients died after arriving at Emergency?",
+  "true_answer": "36",
+  "llm_answer": "36",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "### Relevant Elements:\n- The starting point is labeled as \"_Start\" with 100 patients.\n- The pathway from \"_Start\" goes through \"Arrival\" and then splits into two paths: one leading to \"ICU\" and another to \"Discharge-Alive\".\n- From \"ICU\", there are two branches: one leading to \"Die\" and the other to \"Floor\".\n- The link width and numeric labels indicate the number of patients following each path.\n\n### Reasoning:\n1. Start at the \"_Start\" node, which has 100 patients.\n2. Follow the path from \"_Start\" to \"Arrival\". There are 100 patients here.\n3. From \"Arrival\", the patients split into two paths: one to \"ICU\" and one to \"Discharge-Alive\". There are 62 patients going to \"ICU\" and 38 patients going to \"Discharge-Alive\".\n4. From \"ICU\", there are two branches: one leading to \"Die\" and the other to \"Floor\". There are 36 patients going to \"Die\" and 24 patients going to \"Floor\".\n5. The question asks specifically about patients who died after arriving at \"Emergency\". This corresponds to the path from \"Arrival\" to \"ICU\" to \"Die\".\n\n### Final Answer:\n<answer>36</answer>",
+  "process_time_seconds": 52.565679,
+  "processed_at": "2025-05-15 02:48:14"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 143,
+  "question_id": "q_143",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many total Fouls were made by UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": null,
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "The visualization does not show any information about Fouls made by UMD Offense, so it is impossible to determine the answer.\n \n\n indeterminate\n",
+  "process_time_seconds": 2.671577,
+  "processed_at": "2025-05-13 20:27:13"
+}

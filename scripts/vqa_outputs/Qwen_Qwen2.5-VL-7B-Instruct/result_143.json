@@ -1,0 +1,14 @@
+{
+  "index": 143,
+  "question_id": "q_143",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many total Fouls were made by UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": "indeterminate",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "### Reasoning:\nTo determine the total number of Fouls made by UMD Offense, we need to follow the pathway from the start to the end of the sequence for UMD Offense.\n\n1. Start at the top node labeled \"_Start\".\n2. Follow the link to \"UNC Offense\" which has 69 sequences.\n3. From \"UNC Offense\", there's no direct link to \"Fouls\" but it leads to \"Rebound\" and \"Missed Shot\".\n4. For \"Rebound\", there's a link to \"Made Shot\" with 15 sequences and another to \"_Exit\" with 19 sequences.\n5. For \"Missed Shot\", there's a link to \"_Exit\" with 14 sequences.\n6. There's no direct link from \"Rebound\" or \"Missed Shot\" to \"Fouls\".\n\nSince there is no direct link from any of these nodes to \"Fouls\", it implies that the number of Fouls is not recorded in this diagram.\n\n### Final Answer:\n<answer>indeterminate</answer>",
+  "process_time_seconds": 38.569081,
+  "processed_at": "2025-05-15 04:16:11"
+}

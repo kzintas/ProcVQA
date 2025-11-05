@@ -1,0 +1,15 @@
+{
+  "index": 169,
+  "question_id": "q_169",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_10.png",
+  "question": "How many times did UMD Offense transition from UNC Offense?",
+  "true_answer": "69",
+  "llm_answer": "24",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "The node-link diagram shows the sequences of events in a basketball game. The question asks how many times UMD Offense transitioned from UNC Offense.\n\nTo answer this question, we need to look at the links between the nodes. The link from UNC Offense to UMD Offense has a label of 24, which indicates that there were 24 sequences where UMD Offense transitioned from UNC Offense.\n\nTherefore, the final answer is:\n\n<answer>24</answer>",
+  "process_time_seconds": 5.397843,
+  "processed_at": "2025-05-17 06:31:51",
+  "model": "meta/llama-3.2-90b-vision-instruct-maas"
+}

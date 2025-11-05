@@ -1,0 +1,14 @@
+{
+  "index": 159,
+  "question_id": "q_159",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_30.png",
+  "question": "How many total Fouls were made by UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": "35",
+  "is_correct": false,
+  "reasoning": "To determine the total number of Fouls made by UMD Offense, we need to follow the pathway from _Start through UMD Offense and then to _Exit. The link width between these nodes represents the count of sequences following that path.\n\n1. Start node has a label of 69.\n2. From Start to UNC Offense, there are 69 sequences.\n3. From UNC Offense to UMD Offense, there are 34 sequences.\n4. From UMD Offense to _Exit, there are 35 sequences.\n\nThe total number of sequences is the sum of all these counts: 69 (Start to UNC) + 34 (UNC to UMD) + 35 (UMD to Exit) = 138 sequences.\n\nSince each sequence represents one foul, the total number of Fouls made by UMD Offense is 138.",
+  "full_response": "<answer>35</answer>\n\n<reasoning>\nTo determine the total number of Fouls made by UMD Offense, we need to follow the pathway from _Start through UMD Offense and then to _Exit. The link width between these nodes represents the count of sequences following that path.\n\n1. Start node has a label of 69.\n2. From Start to UNC Offense, there are 69 sequences.\n3. From UNC Offense to UMD Offense, there are 34 sequences.\n4. From UMD Offense to _Exit, there are 35 sequences.\n\nThe total number of sequences is the sum of all these counts: 69 (Start to UNC) + 34 (UNC to UMD) + 35 (UMD to Exit) = 138 sequences.\n\nSince each sequence represents one foul, the total number of Fouls made by UMD Offense is 138.\n</reasoning>",
+  "process_time_seconds": 9.772067,
+  "processed_at": "2025-05-16 20:26:46"
+}

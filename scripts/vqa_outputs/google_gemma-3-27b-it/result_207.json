@@ -1,0 +1,14 @@
+{
+  "index": 207,
+  "question_id": "q_207",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_05.png",
+  "question": "How many total missed shots were made by both teams?",
+  "true_answer": "42",
+  "llm_answer": "36",
+  "is_correct": false,
+  "reasoning": "1. **Identify relevant nodes:** The question asks about \"missed shots\". We need to find all nodes labeled \"Missed Shot\" and sum their associated counts.\n2. **Locate \"Missed Shot\" nodes:** There are three \"Missed Shot\" nodes in the diagram.\n3. **Extract counts:**\n    - The first \"Missed Shot\" node has a count of 7.\n    - The second \"Missed Shot\" node has a count of 14.\n    - The third \"Missed Shot\" node has a count of 15.\n4. **Calculate the total:** Add the counts from all \"Missed Shot\" nodes: 7 + 14 + 15 = 36.",
+  "full_response": "Here's an analysis of the node-link diagram to determine the total number of missed shots by both teams:\n\n<reasoning>\n1. **Identify relevant nodes:** The question asks about \"missed shots\". We need to find all nodes labeled \"Missed Shot\" and sum their associated counts.\n2. **Locate \"Missed Shot\" nodes:** There are three \"Missed Shot\" nodes in the diagram.\n3. **Extract counts:**\n    - The first \"Missed Shot\" node has a count of 7.\n    - The second \"Missed Shot\" node has a count of 14.\n    - The third \"Missed Shot\" node has a count of 15.\n4. **Calculate the total:** Add the counts from all \"Missed Shot\" nodes: 7 + 14 + 15 = 36.\n\n</reasoning>\n\n<answer>36</answer>",
+  "process_time_seconds": 76.353325,
+  "processed_at": "2025-05-15 01:19:58"
+}

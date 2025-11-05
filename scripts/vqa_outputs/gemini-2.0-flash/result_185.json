@@ -1,0 +1,14 @@
+{
+  "index": 185,
+  "question_id": "q_185",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many missed shots were before UMD Offense?",
+  "true_answer": "24",
+  "llm_answer": "24",
+  "is_correct": true,
+  "reasoning": "The diagram shows a link between the \"Missed Shot\" node and the \"UMD Offense\" node. The number on the link is 24. This means there were 24 instances where a missed shot was followed by UMD Offense.",
+  "full_response": "1.  **Identify the nodes:** We need to find the \"Missed Shot\" node and the \"UMD Offense\" node in the diagram.\n2.  **Identify the link:** Find the link connecting \"Missed Shot\" to \"UMD Offense\".\n3.  **Read the value:** The value next to the link represents the number of sequences that follow this path.\n\n<reasoning>\nThe diagram shows a link between the \"Missed Shot\" node and the \"UMD Offense\" node. The number on the link is 24. This means there were 24 instances where a missed shot was followed by UMD Offense.\n</reasoning>\n\n<answer>24</answer>",
+  "process_time_seconds": 2.655141,
+  "processed_at": "2025-05-13 20:14:46"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 204,
+  "question_id": "q_204",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_05.png",
+  "question": "How many total missed shots occur after UNC Offense but before UMD Offense?",
+  "true_answer": "21",
+  "llm_answer": "21",
+  "is_correct": true,
+  "reasoning": "- In the first column, there is a path from \"UNC Offense\" (7) to \"Missed Shot\" (7). This leads to \"Rebound\" (7) and then to \"UMD Offense\" (7).\n   - In the second column, there is a path from \"UNC Offense\" (14) to \"Missed Shot\" (14). This leads to \"Rebound\" (14) and then to \"UMD Offense\" (7).\n\n   - Adding the counts of \"Missed Shot\" in these paths:\n     - First column: 7\n     - Second column: 14\n\n   - Total missed shots = 7 + 14 = 21",
+  "full_response": "1. **Identify the relevant elements:**\n   - We need to focus on paths that start with \"UNC Offense\" and end with \"UMD Offense.\"\n   - We are specifically looking for \"Missed Shot\" events that occur between these two.\n\n2. <reasoning>\n   - In the first column, there is a path from \"UNC Offense\" (7) to \"Missed Shot\" (7). This leads to \"Rebound\" (7) and then to \"UMD Offense\" (7).\n   - In the second column, there is a path from \"UNC Offense\" (14) to \"Missed Shot\" (14). This leads to \"Rebound\" (14) and then to \"UMD Offense\" (7).\n\n   - Adding the counts of \"Missed Shot\" in these paths:\n     - First column: 7\n     - Second column: 14\n\n   - Total missed shots = 7 + 14 = 21\n</reasoning>\n\n3. <answer>21</answer>",
+  "process_time_seconds": 10.564279,
+  "processed_at": "2025-05-16 19:56:12"
+}

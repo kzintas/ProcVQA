@@ -1,0 +1,14 @@
+{
+  "index": 144,
+  "question_id": "q_144",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many free throws were made in total by UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": "15",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "### Reasoning:\nTo determine the total number of free throws made by UMD Offense, we need to follow the pathway from the start to the \"Made Shot\" node under the \"Rebound\" branch.\n\n1. Start at the top node labeled \"_Start\".\n2. Follow the link to \"UNC Offense\" which has 69 sequences.\n3. From \"UNC Offense\", there's no direct link to \"Made Shot\". Instead, it leads to \"Rebound\".\n4. Under \"Rebound\", there are two branches: one leading to \"Made Shot\" and another to \"_Exit\".\n5. The link from \"Rebound\" to \"Made Shot\" has a label of 15, indicating 15 sequences.\n6. The link from \"Rebound\" to \"_Exit\" has a label of 19, indicating 19 sequences.\n7. Since the question asks for the total number of free throws made by UMD Offense, we focus on the \"Made Shot\" branch.\n8. The label on the link from \"Rebound\" to \"Made Shot\" is 15, which represents the number of sequences leading to a made shot.\n\n### Final Answer:\n<answer>15</answer>",
+  "process_time_seconds": 43.478052,
+  "processed_at": "2025-05-15 04:16:54"
+}

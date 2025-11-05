@@ -1,0 +1,14 @@
+{
+  "index": 127,
+  "question_id": "q_127",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_10.png",
+  "question": "How many total Fouls were made by UMD Offense?",
+  "true_answer": "10",
+  "llm_answer": "10",
+  "is_correct": true,
+  "reasoning": "To determine the total number of Fouls made by UMD Offense, we need to follow the pathway from \"Start\" through \"UMD Offense\" and then look at the link labeled \"Foul.\"\n\n1. Start at the \"Start\" node.\n2. Move down to the \"UMD Offense\" node.\n3. Follow the link labeled \"Foul\" from \"UMD Offense.\"\n4. The label next to this link shows that there are 10 sequences following this path.\n\nTherefore, the total number of Fouls made by UMD Offense is 10.",
+  "full_response": "<answer>10</answer>\n\n<reasoning>\nTo determine the total number of Fouls made by UMD Offense, we need to follow the pathway from \"Start\" through \"UMD Offense\" and then look at the link labeled \"Foul.\"\n\n1. Start at the \"Start\" node.\n2. Move down to the \"UMD Offense\" node.\n3. Follow the link labeled \"Foul\" from \"UMD Offense.\"\n4. The label next to this link shows that there are 10 sequences following this path.\n\nTherefore, the total number of Fouls made by UMD Offense is 10.\n</reasoning>",
+  "process_time_seconds": 9.23578,
+  "processed_at": "2025-05-16 20:22:44"
+}

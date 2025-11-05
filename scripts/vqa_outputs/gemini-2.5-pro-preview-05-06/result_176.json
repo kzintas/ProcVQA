@@ -1,0 +1,14 @@
+{
+  "index": 176,
+  "question_id": "q_176",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_15.png",
+  "question": "How many times did UMD Offense transition from UNC Offense?",
+  "true_answer": "69",
+  "llm_answer": "23",
+  "is_correct": false,
+  "reasoning": "1.  **Identify the starting node:** The question asks about transitions *from* \"UNC Offense\". So, \"UNC Offense\" is our starting node.\n2.  **Identify the ending node:** The question asks about transitions *to* \"UMD Offense\". So, \"UMD Offense\" is our target node.\n3.  **Locate the direct link:** We need to find if there is a direct link (an arrow) going from the \"UNC Offense\" node to the \"UMD Offense\" node.\n4.  **Examine the diagram:**\n    *   The node \"_Start\" has a link with the value 69 going to \"UNC Offense\".\n    *   From \"UNC Offense\", there are three outgoing links:\n        *   One link goes to \"Made Shot\" with a value of 22.\n        *   One link goes to \"Rebound\" with a value of 15.\n        *   One link goes directly to \"UMD Offense\".\n5.  **Read the value on the identified link:** The numeric label next to the link connecting \"UNC Offense\" directly to \"UMD Offense\" is 23.\n6.  **Conclusion:** This value represents the number of times the sequence \"UNC Offense\" -> \"UMD Offense\" occurred.",
+  "full_response": "<reasoning>\n1.  **Identify the starting node:** The question asks about transitions *from* \"UNC Offense\". So, \"UNC Offense\" is our starting node.\n2.  **Identify the ending node:** The question asks about transitions *to* \"UMD Offense\". So, \"UMD Offense\" is our target node.\n3.  **Locate the direct link:** We need to find if there is a direct link (an arrow) going from the \"UNC Offense\" node to the \"UMD Offense\" node.\n4.  **Examine the diagram:**\n    *   The node \"_Start\" has a link with the value 69 going to \"UNC Offense\".\n    *   From \"UNC Offense\", there are three outgoing links:\n        *   One link goes to \"Made Shot\" with a value of 22.\n        *   One link goes to \"Rebound\" with a value of 15.\n        *   One link goes directly to \"UMD Offense\".\n5.  **Read the value on the identified link:** The numeric label next to the link connecting \"UNC Offense\" directly to \"UMD Offense\" is 23.\n6.  **Conclusion:** This value represents the number of times the sequence \"UNC Offense\" -> \"UMD Offense\" occurred.\n</reasoning>\n<answer>23</answer>",
+  "process_time_seconds": 8.375606,
+  "processed_at": "2025-05-15 03:03:31"
+}

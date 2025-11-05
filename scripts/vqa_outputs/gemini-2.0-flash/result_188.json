@@ -1,0 +1,14 @@
+{
+  "index": 188,
+  "question_id": "q_188",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many steals occurred after UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": "indeterminate",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "The question asks about steals after UMD Offense. However, the diagram shows transitions *from* UMD Offense to Rebound and _Exit. There is no node or event labeled \"steal\" originating from UMD Offense.\n\n<answer>indeterminate</answer>",
+  "process_time_seconds": 3.759314,
+  "processed_at": "2025-05-13 19:55:11"
+}

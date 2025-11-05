@@ -1,0 +1,14 @@
+{
+  "index": 188,
+  "question_id": "q_188",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many steals occurred after UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": "indeterminate",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "### Relevant Elements:\n- The node labeled \"Rebound\" appears after \"UMD Offense.\"\n- There is a link from \"Rebound\" to \"_Exit,\" which has a label of 15.\n\n### Thought Process:\n1. Identify the pathway from \"UMD Offense\" to \"Rebound.\"\n2. Check if there is any link from \"Rebound\" to another node that could represent a steal.\n3. The only link from \"Rebound\" leads to \"_Exit,\" which has a label of 15.\n\n### Reasoning:\nThe link from \"Rebound\" to \"_Exit\" with a label of 15 suggests that 15 sequences follow this path. Since no other link from \"Rebound\" is visible, it implies that 15 sequences do not involve a steal but rather exit directly.\n\n### Final Answer:\n<answer>indeterminate</answer>\n",
+  "process_time_seconds": 30.643594,
+  "processed_at": "2025-05-15 04:46:43"
+}

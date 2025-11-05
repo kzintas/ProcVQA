@@ -1,0 +1,14 @@
+{
+  "index": 186,
+  "question_id": "q_186",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many total rebounds are there in the match?",
+  "true_answer": "49",
+  "llm_answer": 30,
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "**Relevant Elements:**\n\n*   The node-link diagram shows the sequence of events in a basketball game.\n*   The diagram includes nodes representing different events, such as \"Start,\" \"UNC Offense,\" \"Made Shot,\" \"UMD Offense,\" \"Rebound,\" and \"Exit.\"\n*   The links between the nodes represent the flow of the game, with arrows indicating the direction of play.\n*   The diagram also includes labels showing the number of rebounds for each event.\n\n**Thought Process and Calculations:**\n\n1.  **Identify Rebound Events:** The diagram shows two rebound events: one after the \"Made Shot\" event and another after the \"UMD Offense\" event.\n2.  **Count Rebounds:** The label next to the first rebound event shows 15 rebounds, and the label next to the second rebound event shows 15 rebounds as well.\n3.  **Calculate Total Rebounds:** To find the total number of rebounds, add the number of rebounds from both events: 15 + 15 = 30.\n\n**Answer:**\n\n<answer>30</answer>\n\nThere are 30 total rebounds in the match.",
+  "process_time_seconds": 13.5935,
+  "processed_at": "2025-05-17 07:35:07"
+}

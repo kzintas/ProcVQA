@@ -1,0 +1,14 @@
+{
+  "index": 142,
+  "question_id": "q_142",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many total shots were made by UMD offense?",
+  "true_answer": "15",
+  "llm_answer": "15",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "To determine the total number of shots made by UMD offense, we need to follow the pathway from the start to the \"Made Shot\" node.\n\n1. Start at the top node labeled \"_Start\".\n2. Follow the link to \"UNC Offense\". This link has a value of 69, indicating there were 69 sequences leading to this point.\n3. From \"UNC Offense\", there is no direct link to \"Made Shot\" for UMD offense. Instead, it branches out to \"Rebound\" and \"Missed Shot\".\n4. To find the total shots made by UMD offense, we need to look at the pathway from \"Rebound\" to \"Made Shot\".\n5. From \"Rebound\", there is a link to \"Made Shot\" with a value of 15.\n\nTherefore, the total number of shots made by UMD offense is 15.\n\n<answer>15</answer>",
+  "process_time_seconds": 33.288203,
+  "processed_at": "2025-05-15 04:15:32"
+}

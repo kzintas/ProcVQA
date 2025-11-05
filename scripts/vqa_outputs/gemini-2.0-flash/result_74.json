@@ -1,0 +1,14 @@
+{
+  "index": 74,
+  "question_id": "q_74",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_05.png",
+  "question": "How many patients went to the ICU after Emrgency?",
+  "true_answer": "35",
+  "llm_answer": "35",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "1. The question asks about the number of patients who went to the ICU after the Emergency event.\n2. I need to find pathways from Emergency to ICU and count the number of patients for each of these pathways.\n3. From the diagram, I see four different pathways starting from \"_Start\".\n4. The first pathway is: _Start(12) -> Arrival(12) -> Emergency(12) -> ICU(12) -> Die_Exit(12). Here, 12 patients went to ICU after Emergency.\n5. The second pathway is: _Start(37) -> Arrival(37) -> Emergency(37) -> Discharge-Alive_Exit(37). No patients went to ICU after Emergency in this pathway.\n6. The third pathway is: _Start(24) -> Arrival(24) -> Emergency(24) -> ICU(23) -> Floor(23) -> Discharge-Alive(20) -> _Exit(24). Here, 23 patients went to ICU after Emergency.\n7. The fourth pathway is: _Start(27) -> Arrival(27) -> Emergency(27) -> Floor(27) -> ICU(24) -> Die(18) -> _Exit(27). No patients went to ICU directly after Emergency in this pathway.\n\n8. Thus, a total of 12 + 23 = 35 patients went to ICU after Emergency.\n\n<answer>35</answer>",
+  "process_time_seconds": 4.462445,
+  "processed_at": "2025-05-13 20:13:19"
+}

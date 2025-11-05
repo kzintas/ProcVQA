@@ -1,0 +1,14 @@
+{
+  "index": 198,
+  "question_id": "q_198",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_30.png",
+  "question": "How many made shots were after UNC Offense?",
+  "true_answer": "22",
+  "llm_answer": 22,
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "**Step 1: Identify the relevant elements in the visualization that inform the answer.**\n\nThe node-link diagram shows a sequence of events, with each event represented by a node and connected by directed links. The question asks about the number of made shots after UNC Offense.\n\n**Step 2: Describe the thought process and calculations in detail.**\n\nLooking at the diagram, we can see that the UNC Offense node is connected to the Made Shot node. The link between these two nodes has a label \"22\" next to it, indicating the number of sequences following this path.\n\n**Step 3: Provide the final answer in the required format.**\n\n<answer>22</answer>\n\nThe final answer is 22.",
+  "process_time_seconds": 8.692505,
+  "processed_at": "2025-05-17 07:37:53"
+}

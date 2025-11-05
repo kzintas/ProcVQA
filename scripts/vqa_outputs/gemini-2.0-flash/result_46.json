@@ -1,0 +1,14 @@
+{
+  "index": 46,
+  "question_id": "q_46",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/SentenTree/emergency_dataset/msp_10.png",
+  "question": "How many total patients were discharged alive after going to the Floor?",
+  "true_answer": "24",
+  "llm_answer": "24",
+  "is_correct": true,
+  "reasoning": "The question asks about the number of patients who were discharged alive after going to the 'Floor'. There are two paths that lead to the 'Floor' node. The first 'Floor' node is reached from 'Emergency', the second is reached from 'ICU'. I should find the path that the patient were discharged alive after going to the 'Floor'. The first 'Floor' is connected to the 'ICU'. The 'ICU' leads to another 'Floor' (24 patients) which leads to 'Discharge-Alive' (24 patients) and then to '_Exit'. Thus, there are 24 patients discharged alive after going to the 'Floor'.",
+  "full_response": "1. The question asks about patients discharged alive after going to the Floor.\n2. I need to trace the pathways from the 'Floor' node to 'Discharge-Alive'.\n3. There are two 'Floor' nodes in the graph.\n4. The first 'Floor' node has 41 patients coming in from 'Emergency' and 21 patients going into 'ICU'. Then 'ICU' splits into 'Floor' with 24 patients and 'Die' with 36 patients. Then the 'Floor' leads to 'Discharge-Alive' with 24 patients which leads to '_Exit'. Therefore there are 24 patients discharged alive after going to the 'Floor'.\n5. The second 'Floor' node has 21 patients coming in from 'Emergency', and then leads to 'ICU' with 21 patients. \n\n<reasoning>\nThe question asks about the number of patients who were discharged alive after going to the 'Floor'. There are two paths that lead to the 'Floor' node. The first 'Floor' node is reached from 'Emergency', the second is reached from 'ICU'. I should find the path that the patient were discharged alive after going to the 'Floor'. The first 'Floor' is connected to the 'ICU'. The 'ICU' leads to another 'Floor' (24 patients) which leads to 'Discharge-Alive' (24 patients) and then to '_Exit'. Thus, there are 24 patients discharged alive after going to the 'Floor'.</reasoning>\n<answer>24</answer>",
+  "process_time_seconds": 4.097631,
+  "processed_at": "2025-05-13 20:16:00"
+}

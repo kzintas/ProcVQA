@@ -1,0 +1,14 @@
+{
+  "index": 83,
+  "question_id": "q_83",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_10.png",
+  "question": "How many total patients were discharged alive after going to the Floor?",
+  "true_answer": "20",
+  "llm_answer": "20",
+  "is_correct": true,
+  "reasoning": "The visualization shows a clear pathway from Arrival through Emergency, ICU, and Floor to Discharge-Alive. The number next to the link from Floor to Discharge-Alive indicates 20 sequences.",
+  "full_response": "To determine the number of patients discharged alive after going to the Floor, I'll follow these steps:\n\n1. Identify the pathway that starts with \"Arrival\" and leads through \"Emergency\", \"ICU\", and \"Floor\".\n2. Count the number of sequences at each step:\n   - From \"Arrival\" to \"Emergency\": 24 sequences\n   - From \"Emergency\" to \"ICU\": 23 sequences\n   - From \"ICU\" to \"Floor\": 23 sequences\n3. Follow the path from \"Floor\":\n   - From \"Floor\" to \"Discharge-Alive\": 20 sequences\n\nThe total number of patients discharged alive after going to the Floor is the count at the \"Discharge-Alive\" node following the \"Floor\" node.\n\n<reasoning>\nThe visualization shows a clear pathway from Arrival through Emergency, ICU, and Floor to Discharge-Alive. The number next to the link from Floor to Discharge-Alive indicates 20 sequences.\n</reasoning>\n\n<answer>20</answer>",
+  "process_time_seconds": 10.515964,
+  "processed_at": "2025-05-16 19:00:33"
+}

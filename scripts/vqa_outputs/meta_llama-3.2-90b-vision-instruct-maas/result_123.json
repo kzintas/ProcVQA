@@ -1,0 +1,15 @@
+{
+  "index": 123,
+  "question_id": "q_123",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_10.png",
+  "question": "How many times did UMD Offense not transition to a Rebound?",
+  "true_answer": "35",
+  "llm_answer": null,
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "The node-link diagram shows the sequences of events for UMD Offense. The diagram indicates that UMD Offense transitioned to a Rebound 34 times. However, it also shows that UMD Offense transitioned to a Missed Shot 14 times and a Foul 10 times. Therefore, the total number of times UMD Offense did not transition to a Rebound is 14 + 10 = 24.\n\n**Answer:** 24",
+  "process_time_seconds": 4.606809,
+  "processed_at": "2025-05-17 06:24:50",
+  "model": "meta/llama-3.2-90b-vision-instruct-maas"
+}

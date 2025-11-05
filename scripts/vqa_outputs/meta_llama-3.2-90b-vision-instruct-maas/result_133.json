@@ -1,0 +1,15 @@
+{
+  "index": 133,
+  "question_id": "q_133",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_15.png",
+  "question": "How many shots were made directly after a Rebound?",
+  "true_answer": "15",
+  "llm_answer": "15",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "The node-link diagram shows the sequence of events in a basketball game. The diagram starts with \"_Start\" and then branches out into two paths: \"UNC Offense\" and \"UMD Offense\". The \"UNC Offense\" path leads to a \"Rebound\", which then branches out into two paths: \"Made Shot\" and \"Missed Shot\". The \"Made Shot\" path has a count of 15, indicating that 15 shots were made directly after a Rebound.\n\nTherefore, the final answer is:\n\n<answer>15</answer>",
+  "process_time_seconds": 5.530658,
+  "processed_at": "2025-05-17 06:26:13",
+  "model": "meta/llama-3.2-90b-vision-instruct-maas"
+}

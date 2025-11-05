@@ -1,0 +1,14 @@
+{
+  "index": 234,
+  "question_id": "q_234",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_25.png",
+  "question": "How many total made shots were made by both teams?",
+  "true_answer": "30",
+  "llm_answer": "30",
+  "is_correct": true,
+  "reasoning": "I need to find all instances of the node labeled \"Made Shot\" in the visualization and sum the counts associated with them.\nLooking at the diagram:\n- In the first column, there is a \"Made Shot\" node with a count of 2.\n- In the second column, there is a \"Made Shot\" node with a count of 8.\n- In the fifth column, there is a \"Made Shot\" node with a count of 20.\nI sum these counts: 2 + 8 + 20 = 30.",
+  "full_response": "<reasoning>I need to find all instances of the node labeled \"Made Shot\" in the visualization and sum the counts associated with them.\nLooking at the diagram:\n- In the first column, there is a \"Made Shot\" node with a count of 2.\n- In the second column, there is a \"Made Shot\" node with a count of 8.\n- In the fifth column, there is a \"Made Shot\" node with a count of 20.\nI sum these counts: 2 + 8 + 20 = 30.</reasoning>\n<answer>30</answer>",
+  "process_time_seconds": 3.001085,
+  "processed_at": "2025-05-14 21:16:13"
+}

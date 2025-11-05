@@ -1,0 +1,14 @@
+{
+  "index": 237,
+  "question_id": "q_237",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_25.png",
+  "question": "How many shots were made by only the UNC offense?",
+  "true_answer": "22",
+  "llm_answer": "28",
+  "is_correct": false,
+  "reasoning": "To determine the number of shots made by only the UNC offense, we need to identify all sequences where \"Made Shot\" is connected directly to \"UNC Offense\" without any intermediate events.\n\n1. Start with \"UNC Offense\" at the top.\n2. Follow the path down to \"Made Shot\".\n3. Count the number of sequences that start with \"UNC Offense\" and end with \"Made Shot\".\n\nFrom the diagram:\n- There are 28 sequences starting with \"UNC Offense\" and ending with \"Made Shot\".\n\nTherefore, the number of shots made by only the UNC offense is 28.",
+  "full_response": "<answer>28</answer>\n\n<reasoning>\nTo determine the number of shots made by only the UNC offense, we need to identify all sequences where \"Made Shot\" is connected directly to \"UNC Offense\" without any intermediate events.\n\n1. Start with \"UNC Offense\" at the top.\n2. Follow the path down to \"Made Shot\".\n3. Count the number of sequences that start with \"UNC Offense\" and end with \"Made Shot\".\n\nFrom the diagram:\n- There are 28 sequences starting with \"UNC Offense\" and ending with \"Made Shot\".\n\nTherefore, the number of shots made by only the UNC offense is 28.\n</reasoning>",
+  "process_time_seconds": 12.447941,
+  "processed_at": "2025-05-16 20:38:10"
+}

@@ -1,0 +1,15 @@
+{
+  "index": 212,
+  "question_id": "q_212",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_10.png",
+  "question": "How many rebounds were made in total by both teams?",
+  "true_answer": "50",
+  "llm_answer": null,
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "The node-link diagram shows the sequence of events in a basketball game. The diagram is divided into two columns, with the left column representing the UNC offense and the right column representing the UMD offense.\n\nTo determine the total number of rebounds made by both teams, we need to count the number of rebounds made by each team and add them together.\n\nThe UNC offense made 14 rebounds, as indicated by the label \"Rebound\" with a value of 14 in the left column. The UMD offense made 11 rebounds, as indicated by the label \"Rebound\" with a value of 11 in the right column.\n\nTherefore, the total number of rebounds made by both teams is 14 + 11 = 25.\n\n**Answer:** 25",
+  "process_time_seconds": 8.02041,
+  "processed_at": "2025-05-17 06:38:40",
+  "model": "meta/llama-3.2-90b-vision-instruct-maas"
+}

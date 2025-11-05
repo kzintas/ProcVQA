@@ -1,0 +1,15 @@
+{
+  "index": 178,
+  "question_id": "q_178",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_15.png",
+  "question": "How many missed shots were before UMD Offense?",
+  "true_answer": "24",
+  "llm_answer": "24",
+  "is_correct": true,
+  "reasoning": "The diagram shows that 24 sequences went from \"Missed Shot\" to \"UMD Offense\". This directly indicates the number of missed shots before UMD Offense.",
+  "full_response": "To determine the number of missed shots before UMD Offense, we need to analyze the node-link diagram.\n\n1. **Identify Relevant Elements**: The relevant elements in this diagram are the nodes labeled \"Missed Shot\" and \"UMD Offense\" and the links connecting them to other nodes.\n\n2. **Understand the Flow**: The diagram shows a sequence of events starting from \"_Start\" and ending at \"_Exit\". The flow relevant to our question is from \"UNC Offense\" to \"Made Shot\" or \"Missed Shot\", and then to \"UMD Offense\".\n\n3. **Count Missed Shots Before UMD Offense**: \n   - The node \"UNC Offense\" has two outgoing links: one to \"Made Shot\" with a count of 22/23, and one to \"Rebound\" with a count of 15.\n   - \"Made Shot\" has a link to \"UMD Offense\" with a count of 22.\n   - \"Missed Shot\" has a link to \"UMD Offense\" with a count of 24.\n\n4. **Calculate**: To find the total number of missed shots before \"UMD Offense\", we look at the count associated with \"Missed Shot\". The count is directly given by the link from \"Missed Shot\" to \"UMD Offense\", which is 24.\n\n5. **Conclusion**: Therefore, the number of missed shots before UMD Offense is 24.\n\n<reasoning>\nThe diagram shows that 24 sequences went from \"Missed Shot\" to \"UMD Offense\". This directly indicates the number of missed shots before UMD Offense.\n</reasoning>\n\n<answer>24</answer>",
+  "process_time_seconds": 3.970137,
+  "processed_at": "2025-05-15 17:41:00",
+  "model": "meta/llama-4-maverick-17b-128e-instruct-maas"
+}

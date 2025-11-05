@@ -1,0 +1,14 @@
+{
+  "index": 37,
+  "question_id": "q_37",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/SentenTree/emergency_dataset/msp_05.png",
+  "question": "How many patients were discharged alive directly after an Emrgency?",
+  "true_answer": "38",
+  "llm_answer": "38",
+  "is_correct": true,
+  "reasoning": "The question asks for the number of patients discharged alive directly after an Emergency. I need to find the link that goes directly from the 'Emergency' node to the 'Discharge-Alive' node and read the numeric value associated with that link.\n1. Locate the 'Emergency' node in the diagram.\n2. Look for outgoing links from the 'Emergency' node. There are two links: one leading to 'Floor' (with a value of 21) and one leading to 'Discharge-Alive' (with a value of 38).\n3. The link going to 'Discharge-Alive' represents the sequences where patients were discharged alive directly after the Emergency stage.\n4. The numeric label on this link is 38. This indicates that 38 sequences followed this specific path.\nTherefore, 38 patients were discharged alive directly after an Emergency.",
+  "full_response": "<reasoning>The question asks for the number of patients discharged alive directly after an Emergency. I need to find the link that goes directly from the 'Emergency' node to the 'Discharge-Alive' node and read the numeric value associated with that link.\n1. Locate the 'Emergency' node in the diagram.\n2. Look for outgoing links from the 'Emergency' node. There are two links: one leading to 'Floor' (with a value of 21) and one leading to 'Discharge-Alive' (with a value of 38).\n3. The link going to 'Discharge-Alive' represents the sequences where patients were discharged alive directly after the Emergency stage.\n4. The numeric label on this link is 38. This indicates that 38 sequences followed this specific path.\nTherefore, 38 patients were discharged alive directly after an Emergency.</reasoning>\n<answer>38</answer>",
+  "process_time_seconds": 4.129079,
+  "processed_at": "2025-05-14 20:55:08"
+}

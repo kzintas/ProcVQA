@@ -1,0 +1,14 @@
+{
+  "index": 27,
+  "question_id": "q_27",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/CoreFlow/emergency_dataset/msp_25.png",
+  "question": "How many patients went to the ICU after Emrgency?",
+  "true_answer": "62",
+  "llm_answer": "62",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "### Reasoning:\nTo determine how many patients went to the ICU after Emergency, we need to follow the pathway from \"Emergency\" to \"ICU\". In the diagram:\n\n1. There is a link from \"Emergency\" to \"ICU\" with a label of 62.\n2. This label represents the number of sequences that follow this specific path.\n\nSince the label directly indicates the count of sequences for this path, we can conclude that 62 patients went to the ICU after Emergency.\n\n### Answer:\n<answer>62</answer>",
+  "process_time_seconds": 21.504107,
+  "processed_at": "2025-05-15 03:00:11"
+}

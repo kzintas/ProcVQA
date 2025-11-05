@@ -1,0 +1,14 @@
+{
+  "index": 206,
+  "question_id": "q_206",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_05.png",
+  "question": "How many total made shots were made by both teams?",
+  "true_answer": "28",
+  "llm_answer": "28",
+  "is_correct": true,
+  "reasoning": "The question asks for the total number of made shots.\nI identified two \"Made Shot\" nodes with associated counts of 7 and 21 respectively.\nI summed these counts to get the total number of made shots.",
+  "full_response": "1. Identify relevant nodes: I need to find all the nodes labeled \"Made Shot\" and their associated sequence counts.\n2. Extract counts: The visualization shows two \"Made Shot\" nodes.\n    - One \"Made Shot\" node has a count of 7.\n    - The other \"Made Shot\" node has a count of 21.\n3. Calculate total: To find the total number of made shots, I need to add these counts together.\n    - Total = 7 + 21 = 28\n\n<reasoning>\nThe question asks for the total number of made shots.\nI identified two \"Made Shot\" nodes with associated counts of 7 and 21 respectively.\nI summed these counts to get the total number of made shots.\n</reasoning>\n<answer>28</answer>",
+  "process_time_seconds": 4.39329,
+  "processed_at": "2025-05-13 19:56:01"
+}

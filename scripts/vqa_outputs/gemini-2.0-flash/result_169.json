@@ -1,0 +1,14 @@
+{
+  "index": 169,
+  "question_id": "q_169",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_10.png",
+  "question": "How many times did UMD Offense transition from UNC Offense?",
+  "true_answer": "69",
+  "llm_answer": "69",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "1.  The question asks about transitions from \"UNC Offense\" to \"UMD Offense\".\n2.  I need to identify the link connecting these two nodes and read the number associated with the link.\n3.  The link connecting \"UNC Offense\" and \"UMD Offense\" has a number 22, 15, 24, and 8 associated with it.\n4. Sum these numbers together to calculate the total transitions. 22+15+24+8 = 69\n\n<answer>69</answer>",
+  "process_time_seconds": 2.624057,
+  "processed_at": "2025-05-13 19:54:12"
+}

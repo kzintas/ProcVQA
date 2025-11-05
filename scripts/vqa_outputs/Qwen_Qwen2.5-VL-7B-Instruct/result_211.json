@@ -1,0 +1,14 @@
+{
+  "index": 211,
+  "question_id": "q_211",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_10.png",
+  "question": "How many total missed shots occur after UNC Offense but not after UMD Offense?",
+  "true_answer": "21",
+  "llm_answer": "21",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "### Reasoning:\nTo determine the total missed shots that occur after \"UNC Offense\" but not after \"UMD Offense,\" we need to follow these steps:\n\n1. Identify the nodes labeled \"Missed Shot.\"\n2. Check which of these \"Missed Shot\" nodes are directly connected to \"UNC Offense.\"\n3. Ensure that none of these \"Missed Shot\" nodes are also connected to \"UMD Offense.\"\n\nFrom the diagram:\n- There are two \"Missed Shot\" nodes: one at 7 and another at 14.\n- Both \"Missed Shot\" nodes are directly connected to \"UNC Offense.\"\n- Neither \"Missed Shot\" node is connected to \"UMD Offense.\"\n\nThus, both \"Missed Shot\" nodes at 7 and 14 are counted.\n\n### Calculation:\nThe total missed shots after \"UNC Offense\" but not after \"UMD Offense\" is the sum of the counts for each \"Missed Shot\" node connected to \"UNC Offense\":\n\\[ 7 + 14 = 21 \\]\n\n### Final Answer:\n<answer>21</answer>",
+  "process_time_seconds": 66.818745,
+  "processed_at": "2025-05-15 05:01:08"
+}

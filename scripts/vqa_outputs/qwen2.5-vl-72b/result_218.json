@@ -1,0 +1,14 @@
+{
+  "index": 218,
+  "question_id": "q_218",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_15.png",
+  "question": "How many total missed shots occur after UNC Offense but before UMD Offense?",
+  "true_answer": "25",
+  "llm_answer": "27",
+  "is_correct": false,
+  "reasoning": "- In the first column, there is a path from \"UNC Offense\" (13) to \"Missed Shot\" (2).\n      - In the second column, there is a path from \"UNC Offense\" (26) to \"Missed Shot\" (25).\n      - There are no other paths from \"UNC Offense\" to \"Missed Shot\" before reaching \"UMD Offense.\"\n      - Summing these values gives us the total number of missed shots.",
+  "full_response": "1. **Identify relevant elements:**\n   - We need to focus on the pathway starting from \"UNC Offense\" and ending before \"UMD Offense.\"\n   - The missed shots that occur in this specific sequence are relevant.\n\n2. **Analyze the diagram:**\n   <reasoning>\n      - In the first column, there is a path from \"UNC Offense\" (13) to \"Missed Shot\" (2).\n      - In the second column, there is a path from \"UNC Offense\" (26) to \"Missed Shot\" (25).\n      - There are no other paths from \"UNC Offense\" to \"Missed Shot\" before reaching \"UMD Offense.\"\n      - Summing these values gives us the total number of missed shots.\n   </reasoning>\n\n3. **Calculate the total:**\n   - Missed shots after UNC Offense but before UMD Offense = 2 + 25 = 27\n\n<answer>27</answer>",
+  "process_time_seconds": 10.151291,
+  "processed_at": "2025-05-16 19:58:30"
+}

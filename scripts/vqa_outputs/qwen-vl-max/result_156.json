@@ -1,0 +1,14 @@
+{
+  "index": 156,
+  "question_id": "q_156",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_30.png",
+  "question": "How many shots were missed immediately after UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": "34",
+  "is_correct": false,
+  "reasoning": "1. From the \"UMD Offense\" node, there are two outgoing links:\n   - One link leads to \"_Exit\" with a count of 35.\n   - Another link leads to \"Rebound\" with a count of 34.\n\n2. The question asks for shots missed immediately after UMD Offense. In this context, a rebound typically indicates a missed shot because the ball is back in play without scoring.\n\n3. Therefore, the number of rebounds (missed shots) following UMD Offense is indicated by the count on the link leading to \"Rebound,\" which is 34.",
+  "full_response": "To determine how many shots were missed immediately after UMD Offense, we need to examine the pathways that follow from the \"UMD Offense\" node. \n\n<reasoning>\n1. From the \"UMD Offense\" node, there are two outgoing links:\n   - One link leads to \"_Exit\" with a count of 35.\n   - Another link leads to \"Rebound\" with a count of 34.\n\n2. The question asks for shots missed immediately after UMD Offense. In this context, a rebound typically indicates a missed shot because the ball is back in play without scoring.\n\n3. Therefore, the number of rebounds (missed shots) following UMD Offense is indicated by the count on the link leading to \"Rebound,\" which is 34.\n</reasoning>\n\n<answer>34</answer>",
+  "process_time_seconds": 5.962231,
+  "processed_at": "2025-05-16 19:10:13"
+}

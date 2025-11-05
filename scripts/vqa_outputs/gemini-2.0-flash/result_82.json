@@ -1,0 +1,14 @@
+{
+  "index": 82,
+  "question_id": "q_82",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_10.png",
+  "question": "How many patients went to the Floor after the ICU?",
+  "true_answer": "23",
+  "llm_answer": "23",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "1. The question asks about the number of patients who went to the 'Floor' after the 'ICU'.\n2. I need to find the path that starts at 'ICU' and ends at 'Floor'.\n3. I can identify such a path on the right-hand side of the diagram where 'ICU' has a count of 23 and is connected to 'Floor' which has a count of 23.\n4. Therefore, 23 patients went to the Floor after the ICU.\n\n<answer>23</answer>",
+  "process_time_seconds": 3.36691,
+  "processed_at": "2025-05-13 20:13:22"
+}

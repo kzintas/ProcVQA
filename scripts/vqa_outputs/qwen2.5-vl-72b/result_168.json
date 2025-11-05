@@ -1,0 +1,14 @@
+{
+  "index": 168,
+  "question_id": "q_168",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_10.png",
+  "question": "How many rebounds were made after UMD Offense?",
+  "true_answer": "34",
+  "llm_answer": "9",
+  "is_correct": false,
+  "reasoning": "- From UMD Offense:\n        - 8 sequences led to \"Made Shot.\"\n        - 16 sequences led to \"Missed Shot.\"\n        - 7 sequences led to \"Foul.\"\n      - From \"Missed Shot\":\n        - 9 sequences led to \"Rebound.\"\n      - Therefore, the only path from UMD Offense that leads to a rebound is through \"Missed Shot\" with 9 sequences.",
+  "full_response": "1. **Relevant Elements:**\n   - The node \"UMD Offense\" is the starting point for this analysis.\n   - From UMD Offense, there are links to \"Made Shot,\" \"Missed Shot,\" and \"Foul.\"\n   - We need to focus on the paths that lead to a \"Rebound\" after UMD Offense.\n\n2. <reasoning>\n      - From UMD Offense:\n        - 8 sequences led to \"Made Shot.\"\n        - 16 sequences led to \"Missed Shot.\"\n        - 7 sequences led to \"Foul.\"\n      - From \"Missed Shot\":\n        - 9 sequences led to \"Rebound.\"\n      - Therefore, the only path from UMD Offense that leads to a rebound is through \"Missed Shot\" with 9 sequences.\n    </reasoning>\n\n3. <answer>9</answer>",
+  "process_time_seconds": 13.960004,
+  "processed_at": "2025-05-16 19:51:19"
+}

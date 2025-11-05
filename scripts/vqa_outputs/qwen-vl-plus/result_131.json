@@ -1,0 +1,14 @@
+{
+  "index": 131,
+  "question_id": "q_131",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_15.png",
+  "question": "How many times did UMD Offense not transition to a Rebound?",
+  "true_answer": "35",
+  "llm_answer": "21",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "<answer>21</answer>\n\n## Reasoning\nTo determine how many times UMD Offense did not transition to a Rebound, we need to look at the pathways from UMD Offense. The diagram shows two paths diverging from UMD Offense: one leading to Rebound and another leading to Missed Shot.\n\n- The path to Rebound has a label of 34.\n- The path to Missed Shot has a label of 14.\n\nSince there are 69 sequences starting with UMD Offense (as indicated by the vertical bar), we can calculate the number of sequences that did not transition to a Rebound by subtracting the number of sequences that did transition to a Rebound from the total sequences:\n\n\\[ \\text{Total Sequences} - \\text{Sequences to Rebound} = 69 - 34 = 35 \\]\n\nTherefore, 35 times out of the 69 sequences starting with UMD Offense did not transition to a Rebound.",
+  "process_time_seconds": 9.422861,
+  "processed_at": "2025-05-16 20:23:08"
+}

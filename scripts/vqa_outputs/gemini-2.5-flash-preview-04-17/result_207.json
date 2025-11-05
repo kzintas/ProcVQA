@@ -1,0 +1,14 @@
+{
+  "index": 207,
+  "question_id": "q_207",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_05.png",
+  "question": "How many total missed shots were made by both teams?",
+  "true_answer": "42",
+  "llm_answer": "42",
+  "is_correct": true,
+  "reasoning": "I need to find the total number of 'Missed Shot' events across all sequences shown in the diagram.\nI will examine each column of the diagram and identify nodes labeled 'Missed Shot'.\nFor each 'Missed Shot' node, I will read the numeric label associated with the incoming link, which represents the count of sequences that reached this event.\nI will sum these counts to get the total number of missed shots.\n\nColumn 1: Contains a 'Missed Shot' node with a count of 7 (from UNC Offense) and another 'Missed Shot' node with a count of 6 (from Rebound).\nColumn 2: Contains a 'Missed Shot' node with a count of 14 (from UNC Offense).\nColumn 3: Does not contain a 'Missed Shot' node.\nColumn 4: Does not contain a 'Missed Shot' node.\nColumn 5: Contains a 'Missed Shot' node with a count of 15 (from UMD Offense).\n\nThe counts for 'Missed Shot' are 7, 6, 14, and 15.\nTotal = 7 + 6 + 14 + 15 = 13 + 14 + 15 = 27 + 15 = 42.",
+  "full_response": "<reasoning>\nI need to find the total number of 'Missed Shot' events across all sequences shown in the diagram.\nI will examine each column of the diagram and identify nodes labeled 'Missed Shot'.\nFor each 'Missed Shot' node, I will read the numeric label associated with the incoming link, which represents the count of sequences that reached this event.\nI will sum these counts to get the total number of missed shots.\n\nColumn 1: Contains a 'Missed Shot' node with a count of 7 (from UNC Offense) and another 'Missed Shot' node with a count of 6 (from Rebound).\nColumn 2: Contains a 'Missed Shot' node with a count of 14 (from UNC Offense).\nColumn 3: Does not contain a 'Missed Shot' node.\nColumn 4: Does not contain a 'Missed Shot' node.\nColumn 5: Contains a 'Missed Shot' node with a count of 15 (from UMD Offense).\n\nThe counts for 'Missed Shot' are 7, 6, 14, and 15.\nTotal = 7 + 6 + 14 + 15 = 13 + 14 + 15 = 27 + 15 = 42.\n</reasoning>\n<answer>42</answer>",
+  "process_time_seconds": 4.908552,
+  "processed_at": "2025-05-14 21:11:10"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 210,
+  "question_id": "q_210",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_10.png",
+  "question": "How many times did a jump ball occur after UNC Offense?",
+  "true_answer": "1",
+  "llm_answer": "1",
+  "is_correct": true,
+  "reasoning": "The question asks about the number of times a jump ball occurs after UNC Offense.\n1. I located the nodes labeled \"UNC Offense\" and \"Jump Ball\".\n2. I found one path that starts with \"UNC Offense\" and leads to \"Jump Ball\".\n3. The link connecting \"UNC Offense\" to \"Jump Ball\" is labeled with the number 1.\n4. Therefore, a jump ball occurred after UNC Offense 1 time.",
+  "full_response": "1.  **Identify the relevant nodes:** The question asks about jump balls occurring after UNC Offense. So, I need to find the \"UNC Offense\" node and the \"Jump Ball\" node.\n2.  **Trace the paths:** I need to see how many times a path goes from \"UNC Offense\" to \"Jump Ball\".\n3.  **Count the occurrences:** I find that there is only one path from \"UNC Offense\" to \"Jump Ball\", and that path has a count of \"1\".\n\n<reasoning>\nThe question asks about the number of times a jump ball occurs after UNC Offense.\n1. I located the nodes labeled \"UNC Offense\" and \"Jump Ball\".\n2. I found one path that starts with \"UNC Offense\" and leads to \"Jump Ball\".\n3. The link connecting \"UNC Offense\" to \"Jump Ball\" is labeled with the number 1.\n4. Therefore, a jump ball occurred after UNC Offense 1 time.\n</reasoning>\n<answer>1</answer>",
+  "process_time_seconds": 3.959129,
+  "processed_at": "2025-05-13 20:15:11"
+}

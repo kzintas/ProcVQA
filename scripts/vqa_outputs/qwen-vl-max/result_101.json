@@ -1,0 +1,14 @@
+{
+  "index": 101,
+  "question_id": "q_101",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_25.png",
+  "question": "How many patients got discharged alive directly after arriving at Emergency? ",
+  "true_answer": "37",
+  "llm_answer": "0",
+  "is_correct": false,
+  "reasoning": "The diagram shows that 12 sequences go from \"Arrival\" to \"Emergency.\" However, all 12 of these sequences then lead to \"Die _Exit\" rather than \"Discharge-Alive.\" Therefore, there are no sequences where patients get discharged alive directly after arriving at Emergency.",
+  "full_response": "To determine how many patients got discharged alive directly after arriving at Emergency, I'll follow these steps:\n\n1. Identify the \"Arrival\" node and trace its outgoing links.\n2. Look for a direct link from \"Arrival\" to \"Emergency.\"\n3. Follow the pathway from \"Emergency\" to see if it leads directly to \"Discharge-Alive.\"\n\nFrom the diagram:\n- There are 4 pathways starting from \"Arrival.\"\n- The pathway with 12 sequences goes directly from \"Arrival\" to \"Emergency.\"\n- From \"Emergency,\" there is a pathway with 12 sequences leading directly to \"Die _Exit.\"\n- However, there is no direct link from \"Emergency\" to \"Discharge-Alive.\"\n\n<reasoning>\nThe diagram shows that 12 sequences go from \"Arrival\" to \"Emergency.\" However, all 12 of these sequences then lead to \"Die _Exit\" rather than \"Discharge-Alive.\" Therefore, there are no sequences where patients get discharged alive directly after arriving at Emergency.\n</reasoning>\n\n<answer>0</answer>",
+  "process_time_seconds": 10.694258,
+  "processed_at": "2025-05-16 19:03:09"
+}

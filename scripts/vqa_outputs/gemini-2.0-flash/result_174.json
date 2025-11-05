@@ -1,0 +1,14 @@
+{
+  "index": 174,
+  "question_id": "q_174",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_10.png",
+  "question": "How many steals occurred after UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": "indeterminate",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "The question asks how many steals occurred after 'UMD Offense'. The provided diagram does not have nodes named \"steal\" or that indicate any kind of \"steal\". Thus, I cannot determine from the visualization how many steals occurred after \"UMD Offense\".\n<answer>indeterminate</answer>",
+  "process_time_seconds": 2.96656,
+  "processed_at": "2025-05-13 20:14:42"
+}

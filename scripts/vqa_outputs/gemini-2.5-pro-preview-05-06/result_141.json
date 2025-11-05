@@ -1,0 +1,14 @@
+{
+  "index": 141,
+  "question_id": "q_141",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many shots were made directly after a Rebound?",
+  "true_answer": "15",
+  "llm_answer": "15",
+  "is_correct": true,
+  "reasoning": "1.  **Identify the \"Rebound\" node:** The diagram shows a node labeled \"Rebound\".\n2.  **Identify outgoing links from \"Rebound\":** From the \"Rebound\" node, there are two outgoing links:\n    *   One link goes to a node labeled \"Made Shot\".\n    *   Another link goes to a node labeled \"_Exit\".\n3.  **Find the link to \"Made Shot\":** We are interested in shots made directly after a Rebound. This corresponds to the link from \"Rebound\" to \"Made Shot\".\n4.  **Read the numeric label on the link:** The numeric label on the link connecting \"Rebound\" to \"Made Shot\" is 15. This indicates that 15 sequences followed the path from \"Rebound\" directly to \"Made Shot\".",
+  "full_response": "<reasoning>\n1.  **Identify the \"Rebound\" node:** The diagram shows a node labeled \"Rebound\".\n2.  **Identify outgoing links from \"Rebound\":** From the \"Rebound\" node, there are two outgoing links:\n    *   One link goes to a node labeled \"Made Shot\".\n    *   Another link goes to a node labeled \"_Exit\".\n3.  **Find the link to \"Made Shot\":** We are interested in shots made directly after a Rebound. This corresponds to the link from \"Rebound\" to \"Made Shot\".\n4.  **Read the numeric label on the link:** The numeric label on the link connecting \"Rebound\" to \"Made Shot\" is 15. This indicates that 15 sequences followed the path from \"Rebound\" directly to \"Made Shot\".\n</reasoning>\n<answer>15</answer>",
+  "process_time_seconds": 5.852835,
+  "processed_at": "2025-05-15 02:48:42"
+}

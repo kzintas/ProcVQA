@@ -1,0 +1,14 @@
+{
+  "index": 225,
+  "question_id": "q_225",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_20.png",
+  "question": "How many total missed shots occur after UNC Offense but before UMD Offense?",
+  "true_answer": "19",
+  "llm_answer": "19",
+  "is_correct": true,
+  "reasoning": "The diagram shows three instances of \"UNC Offense\". We track the paths from each instance:\n1. First \"UNC Offense\" (19): Directly leads to \"Missed Shot\" (19).\n2. Second \"UNC Offense\" (33): Splits into two paths; one leads to \"Made Shot\" (28), the other to \"UMD Offense\" (26).\n3. Third \"UNC Offense\" (15): Directly leads to \"UMD Offense\" (15).\nOnly the first path includes a \"Missed Shot\" before reaching \"UMD Offense\".",
+  "full_response": "To determine the total number of missed shots that occur after UNC Offense but before UMD Offense, we need to follow the pathways from \"UNC Offense\" nodes and count the occurrences of \"Missed Shot\" nodes before reaching any \"UMD Offense\" node.\n\n1. Starting from the topmost \"UNC Offense\" node with a value of 19:\n   - There is one link leading directly to \"Missed Shot\" with a value of 19.\n   - This \"Missed Shot\" node then leads to \"Rebound\" (19).\n\n2. Moving to the next \"UNC Offense\" node with a value of 33:\n   - There are two paths from this node:\n     - One path goes directly to \"Made Shot\" (28).\n     - The other path goes to \"UMD Offense\" (26) without passing through \"Missed Shot\".\n\n3. The third \"UNC Offense\" node with a value of 15:\n   - This node has a direct link to \"UMD Offense\" (15), bypassing \"Missed Shot\".\n\nSummarizing the counts:\n- From the first \"UNC Offense\" (19), there are 19 missed shots.\n- From the second \"UNC Offense\" (33), there are no missed shots before reaching \"UMD Offense\".\n- From the third \"UNC Offense\" (15), there are no missed shots before reaching \"UMD Offense\".\n\n<reasoning>\nThe diagram shows three instances of \"UNC Offense\". We track the paths from each instance:\n1. First \"UNC Offense\" (19): Directly leads to \"Missed Shot\" (19).\n2. Second \"UNC Offense\" (33): Splits into two paths; one leads to \"Made Shot\" (28), the other to \"UMD Offense\" (26).\n3. Third \"UNC Offense\" (15): Directly leads to \"UMD Offense\" (15).\nOnly the first path includes a \"Missed Shot\" before reaching \"UMD Offense\".\n</reasoning>\n\n<answer>19</answer>",
+  "process_time_seconds": 13.709568,
+  "processed_at": "2025-05-16 19:20:23"
+}

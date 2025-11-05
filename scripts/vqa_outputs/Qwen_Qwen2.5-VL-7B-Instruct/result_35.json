@@ -1,0 +1,14 @@
+{
+  "index": 35,
+  "question_id": "q_35",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/SentenTree/emergency_dataset/msp_05.png",
+  "question": "How many patients died after arriving at Emergency?",
+  "true_answer": "36",
+  "llm_answer": "44",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "### Relevant Elements:\n- The starting point is labeled as \"_Start\" with 100 patients.\n- From \"_Start\", there is a link to \"Arrival\" with a value of 100.\n- From \"Arrival\", there is a link to \"Emergency\" with a value of 100.\n- From \"Emergency\", there are two paths: one to \"Floor\" with a value of 41, and another to \"ICU\" with a value of 21.\n- From \"Floor\", there is a link to \"Discharge-Alive\" with a value of 38.\n- From \"Floor\", there is also a link to \"Die\" with a value of 36.\n- From \"ICU\", there is a link to \"Floor\" with a value of 24.\n- From \"ICU\", there is also a link to \"Die\" with a value of 8.\n\n### Reasoning:\n1. Start at the beginning with 100 patients.\n2. All 100 patients arrive at Emergency.\n3. Out of these 100 patients, 21 go to the Floor.\n4. Out of the 21 patients who went to the Floor, 38 are discharged alive.\n5. Out of the 21 patients who went to the Floor, 8 die.\n6. Out of the 79 patients who did not go to the Floor (100 - 21), 21 go to ICU.\n7. Out of the 21 patients who went to ICU, 8 die.\n8. Summing up the deaths from both the Floor and ICU paths: 36 (from Floor) + 8 (from ICU) = 44.\n\n### Final Answer:\n<answer>44</answer>",
+  "process_time_seconds": 63.298234,
+  "processed_at": "2025-05-15 03:05:05"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 220,
+  "question_id": "q_220",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_15.png",
+  "question": "How many total made shots were made by both teams?",
+  "true_answer": "31",
+  "llm_answer": "31",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "1.  Identify nodes labeled \"Made Shot\" in the diagram.\n2.  Locate the links immediately preceding these \"Made Shot\" nodes.\n3.  Read the numeric counts associated with these links.\n4.  Sum the counts from all \"Made Shot\" nodes.\n\nThe nodes labeled \"Made Shot\" are found in columns 1, 3, and 4.\n-   Column 1: There is a \"Made Shot\" node at the bottom with an incoming link count of 2.\n-   Column 2: There is a \"Made Free Throw\" node, which is different from \"Made Shot\".\n-   Column 3: There is a \"Made Shot\" node at the bottom with an incoming link count of 9.\n-   Column 4: There is a \"Made Shot\" node towards the top with an incoming link count of 20.\n-   Column 5: There are no \"Made Shot\" nodes.\n\nSumming the counts for \"Made Shot\" nodes: 2 (from column 1) + 9 (from column 3) + 20 (from column 4).\nTotal = 2 + 9 + 20 = 31.\n\n</reasoning>\n<answer>31</answer>",
+  "process_time_seconds": 4.345442,
+  "processed_at": "2025-05-14 21:13:34"
+}

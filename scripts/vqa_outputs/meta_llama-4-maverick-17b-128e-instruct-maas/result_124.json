@@ -1,0 +1,15 @@
+{
+  "index": 124,
+  "question_id": "q_124",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_10.png",
+  "question": "How many shots were missed immediately after UMD Offense?",
+  "true_answer": "14",
+  "llm_answer": "14",
+  "is_correct": true,
+  "reasoning": "The node-link diagram shows that there are 14 sequences where \"Missed Shot\" occurs directly after \"UMD Offense\". This is derived from examining the link between \"UMD Offense\" and \"Missed Shot\".",
+  "full_response": "To determine the number of shots missed immediately after UMD Offense, we need to examine the node-link diagram and identify the relevant pathways.\n\n1. **Identify the relevant node**: The node of interest is \"UMD Offense\". This node represents the event after which we are counting the missed shots.\n\n2. **Examine the outgoing links from \"UMD Offense\"**: The diagram shows that \"UMD Offense\" has four outgoing links leading to different events: \"Rebound\", \"Missed Shot\", \"Foul\", and \"Made Shot\".\n\n3. **Identify the link leading to \"Missed Shot\"**: One of the outgoing links from \"UMD Offense\" directly leads to \"Missed Shot\". The count associated with this link is 14.\n\n4. **Determine the number of missed shots immediately after \"UMD Offense\"**: The count on the link from \"UMD Offense\" to \"Missed Shot\" is 14. This indicates that 14 sequences resulted in a \"Missed Shot\" immediately after \"UMD Offense\".\n\nTherefore, the number of shots missed immediately after UMD Offense is 14.\n\n<reasoning>\nThe node-link diagram shows that there are 14 sequences where \"Missed Shot\" occurs directly after \"UMD Offense\". This is derived from examining the link between \"UMD Offense\" and \"Missed Shot\".\n</reasoning>\n\n<answer>14</answer>",
+  "process_time_seconds": 3.679089,
+  "processed_at": "2025-05-15 17:36:45",
+  "model": "meta/llama-4-maverick-17b-128e-instruct-maas"
+}

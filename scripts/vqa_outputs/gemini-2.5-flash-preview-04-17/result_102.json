@@ -1,0 +1,14 @@
+{
+  "index": 102,
+  "question_id": "q_102",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_25.png",
+  "question": "How many patients went to the ICU after Emrgency?",
+  "true_answer": "35",
+  "llm_answer": "35",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "<reason>\nI am examining the node-link diagram to identify the number of sequences that transition directly from a node labeled 'Emergency' to a node labeled 'ICU'.\nI will look for links originating from 'Emergency' nodes and pointing to 'ICU' nodes and sum the counts associated with these links.\n\nPathway 1: _Start -> Arrival (12) -> Emergency (12) -> **ICU (12)**. There is a link from Emergency to ICU with a count of 12.\nPathway 2: _Start -> Arrival (37) -> Emergency (37) -> Discharge-Alive (37). No link from Emergency to ICU.\nPathway 3: _Start -> Arrival (24) -> Emergency (24) -> **ICU (23)**. There is a link from Emergency to ICU with a count of 23. (There is also a link from Emergency (24) to Floor (1)).\nPathway 4: _Start -> Arrival (27) -> Emergency (27) -> Floor (27). No link from Emergency to ICU.\n\nThe total number of sequences going directly from Emergency to ICU is the sum of the counts on the links connecting these specific nodes: 12 + 23.\n\nCalculation: 12 + 23 = 35.\n</reason>\n<answer>35</answer>",
+  "process_time_seconds": 7.194648,
+  "processed_at": "2025-05-14 21:01:50"
+}

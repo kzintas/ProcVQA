@@ -1,0 +1,14 @@
+{
+  "index": 159,
+  "question_id": "q_159",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_30.png",
+  "question": "How many total Fouls were made by UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": "indeterminate",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "### Reasoning:\n1. The diagram represents a sequence of events in a game scenario involving UNC Offense and UMD Offense.\n2. The link labeled \"UMD Offense\" has two outgoing paths, one leading to \"Rebound\" and another to \"_Exit\".\n3. The label \"Rebound\" has a value of 34, which suggests that 34 sequences follow this path.\n4. The label \"_Exit\" also has a value of 35, indicating that 35 sequences follow this path.\n5. Since there are no other nodes or links related to \"Fouls\", we cannot determine the number of Fouls made by UMD Offense from the given diagram.\n\n### Final Answer:\n<answer>indeterminate</answer>",
+  "process_time_seconds": 28.48115,
+  "processed_at": "2025-05-15 04:24:11"
+}

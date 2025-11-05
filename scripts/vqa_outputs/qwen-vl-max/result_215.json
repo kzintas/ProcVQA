@@ -1,0 +1,14 @@
+{
+  "index": 215,
+  "question_id": "q_215",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_10.png",
+  "question": "How many free throws were made by UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": "13",
+  "is_correct": false,
+  "reasoning": "- Identified relevant \"UMD Offense\" nodes.\n- Followed paths to \"Made Free Throw\".\n- Summed counts: 8 + 5 = 13.",
+  "full_response": "To determine how many free throws were made by UMD Offense, I'll follow the pathways starting from \"UMD Offense\" nodes and look for links leading to \"Made Free Throw\".\n\n1. Starting from the first \"UMD Offense\" node at the top:\n   - It leads directly to a \"Made Free Throw\" with a count of 8.\n\n2. Moving to the next \"UMD Offense\" node:\n   - This also leads directly to a \"Made Free Throw\" with a count of 5.\n\nSumming these counts gives the total number of made free throws by UMD Offense.\n\n<reasoning>\n- Identified relevant \"UMD Offense\" nodes.\n- Followed paths to \"Made Free Throw\".\n- Summed counts: 8 + 5 = 13.\n</reasoning>\n\n<answer>13</answer>",
+  "process_time_seconds": 9.189386,
+  "processed_at": "2025-05-16 19:18:54"
+}

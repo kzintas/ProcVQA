@@ -1,0 +1,14 @@
+{
+  "index": 144,
+  "question_id": "q_144",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many free throws were made in total by UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": "15",
+  "is_correct": false,
+  "reasoning": "1. From \"UMD Offense\", there are two main paths: one leading to \"Rebound\" (34 sequences) and another splitting into \"Missed Shot\" (14 sequences) and \"_Exit\" (21 sequences).\n2. The path to \"Rebound\" further splits into \"Made Shot\" (15 sequences) and \"_Exit\" (19 sequences).\n3. The path to \"Missed Shot\" directly leads to \"_Exit\" (14 sequences).\n\nSince \"Made Shot\" is the only node representing a successful action after \"UMD Offense\", the total number of free throws made by UMD Offense is the sum of sequences leading to \"Made Shot\".\n\nThe number of sequences leading to \"Made Shot\" is 15.",
+  "full_response": "To determine the number of free throws made by UMD Offense, we need to follow the pathways from \"UMD Offense\" and identify the sequences that lead to a successful shot.\n\n<reasoning>\n1. From \"UMD Offense\", there are two main paths: one leading to \"Rebound\" (34 sequences) and another splitting into \"Missed Shot\" (14 sequences) and \"_Exit\" (21 sequences).\n2. The path to \"Rebound\" further splits into \"Made Shot\" (15 sequences) and \"_Exit\" (19 sequences).\n3. The path to \"Missed Shot\" directly leads to \"_Exit\" (14 sequences).\n\nSince \"Made Shot\" is the only node representing a successful action after \"UMD Offense\", the total number of free throws made by UMD Offense is the sum of sequences leading to \"Made Shot\".\n\nThe number of sequences leading to \"Made Shot\" is 15.\n</reasoning>\n\n<answer>15</answer>",
+  "process_time_seconds": 9.605065,
+  "processed_at": "2025-05-16 19:08:51"
+}

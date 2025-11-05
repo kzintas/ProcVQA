@@ -1,0 +1,14 @@
+{
+  "index": 129,
+  "question_id": "q_129",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_15.png",
+  "question": "How many Rebounds were made by UMD Offense?",
+  "true_answer": "34",
+  "llm_answer": "34",
+  "is_correct": true,
+  "reasoning": "1.  The question asks for the number of Rebounds made by UMD Offense.\n2.  First, locate the \"UMD Offense\" node in the diagram.\n3.  Next, identify the outgoing links from the \"UMD Offense\" node. There are three outgoing links:\n    *   One link goes to the \"Rebound\" node.\n    *   One link goes to the \"Missed Shot\" node.\n    *   One link goes to the \"_Exit\" node.\n4.  The link connecting \"UMD Offense\" to \"Rebound\" represents the sequences where UMD Offense resulted in a Rebound.\n5.  The numeric label next to this link indicates the count of such sequences.\n6.  Observing the diagram, the link from \"UMD Offense\" to \"Rebound\" has the number \"34\" next to it.\n7.  Therefore, there were 34 Rebounds made by UMD Offense.",
+  "full_response": "<reasoning>\n1.  The question asks for the number of Rebounds made by UMD Offense.\n2.  First, locate the \"UMD Offense\" node in the diagram.\n3.  Next, identify the outgoing links from the \"UMD Offense\" node. There are three outgoing links:\n    *   One link goes to the \"Rebound\" node.\n    *   One link goes to the \"Missed Shot\" node.\n    *   One link goes to the \"_Exit\" node.\n4.  The link connecting \"UMD Offense\" to \"Rebound\" represents the sequences where UMD Offense resulted in a Rebound.\n5.  The numeric label next to this link indicates the count of such sequences.\n6.  Observing the diagram, the link from \"UMD Offense\" to \"Rebound\" has the number \"34\" next to it.\n7.  Therefore, there were 34 Rebounds made by UMD Offense.\n</reasoning>\n<answer>34</answer>",
+  "process_time_seconds": 8.500524,
+  "processed_at": "2025-05-15 02:47:13"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 50,
+  "question_id": "q_50",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/SentenTree/emergency_dataset/msp_15.png",
+  "question": "How many patients went to the ICU after Emrgency?",
+  "true_answer": "62",
+  "llm_answer": "41",
+  "is_correct": false,
+  "reasoning": "- From the node \"Emergency\", there are two outgoing links: one to \"Floor\" with a count of 21, and another to \"ICU\" with a count of 41.\n   - The question specifically asks for the number of patients who went to the ICU after Emergency.\n   - Therefore, we only need to consider the link from \"Emergency\" to \"ICU\".\n   - The count on this link is 41.",
+  "full_response": "1. The relevant elements in the visualization are the nodes \"Emergency\" and \"ICU\", and the directed link connecting them.\n2. <reasoning>\n   - From the node \"Emergency\", there are two outgoing links: one to \"Floor\" with a count of 21, and another to \"ICU\" with a count of 41.\n   - The question specifically asks for the number of patients who went to the ICU after Emergency.\n   - Therefore, we only need to consider the link from \"Emergency\" to \"ICU\".\n   - The count on this link is 41.\n</reasoning>\n3. <answer>41</answer>",
+  "process_time_seconds": 6.817494,
+  "processed_at": "2025-05-16 19:33:10"
+}

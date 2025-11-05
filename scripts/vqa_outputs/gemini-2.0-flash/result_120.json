@@ -1,0 +1,14 @@
+{
+  "index": 120,
+  "question_id": "q_120",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_05.png",
+  "question": "How many free throws were made in total by UMD Offense?",
+  "true_answer": "10",
+  "llm_answer": "10",
+  "is_correct": true,
+  "reasoning": "The question asks the total number of free throws made. Looking at the graph, I can identify two nodes labeled \"Made Free Throw\". The first \"Made Free Throw\" node has an incoming edge from a \"Foul\" node with the value of 6. The second \"Made Free Throw\" node has an incoming edge from a \"Foul\" node with the value of 4. Summing these two values gives 6 + 4 = 10. Therefore, the total number of made free throws is 10.",
+  "full_response": "1. Identify the nodes: The nodes representing \"Made Free Throw\" events are relevant. There are two \"Made Free Throw\" nodes.\n2. Identify the incoming links: The first \"Made Free Throw\" node has an incoming link from \"Foul\" with a value of 6. The second \"Made Free Throw\" node has an incoming link from \"Foul\" with a value of 4.\n3. Calculate the total: Sum the values of the incoming links to the \"Made Free Throw\" nodes.\n   Total Made Free Throws = 6 + 4 = 10.\n\n<reasoning>\nThe question asks the total number of free throws made. Looking at the graph, I can identify two nodes labeled \"Made Free Throw\". The first \"Made Free Throw\" node has an incoming edge from a \"Foul\" node with the value of 6. The second \"Made Free Throw\" node has an incoming edge from a \"Foul\" node with the value of 4. Summing these two values gives 6 + 4 = 10. Therefore, the total number of made free throws is 10.\n</reasoning>\n<answer>10</answer>",
+  "process_time_seconds": 3.170468,
+  "processed_at": "2025-05-13 19:50:52"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 35,
+  "question_id": "q_35",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/SentenTree/emergency_dataset/msp_05.png",
+  "question": "How many patients died after arriving at Emergency?",
+  "true_answer": "36",
+  "llm_answer": "36",
+  "is_correct": true,
+  "reasoning": "- All patients start at `_Start` (100).\n      - They all arrive at `Emergency` (100).\n      - From `Emergency`, 41 go to `Floor` and 38 are discharged alive.\n      - Of those who went to `Floor`, 36 eventually die.\n      - Therefore, the number of patients who died after arriving at `Emergency` is the sum of those who died from the `Floor` pathway.",
+  "full_response": "1. **Relevant Elements:**\n   - The diagram starts with `_Start` and moves through `Arrival`, `Emergency`.\n   - From `Emergency`, there are two paths: one to `Floor` and another directly to `Discharge-Alive`.\n   - From `Floor`, the path leads to `ICU`, then splits into `Die` and `Floor`.\n   - The `Die` node has a value of 36.\n\n2. <reasoning>\n      - All patients start at `_Start` (100).\n      - They all arrive at `Emergency` (100).\n      - From `Emergency`, 41 go to `Floor` and 38 are discharged alive.\n      - Of those who went to `Floor`, 36 eventually die.\n      - Therefore, the number of patients who died after arriving at `Emergency` is the sum of those who died from the `Floor` pathway.\n   </reasoning>\n\n3. <answer>36</answer>",
+  "process_time_seconds": 28.434052,
+  "processed_at": "2025-05-16 19:30:52"
+}

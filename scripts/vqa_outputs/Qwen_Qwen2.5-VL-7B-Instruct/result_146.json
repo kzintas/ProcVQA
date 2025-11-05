@@ -1,0 +1,14 @@
+{
+  "index": 146,
+  "question_id": "q_146",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_25.png",
+  "question": "How many times did UMD Offense transition from UNC Offense?",
+  "true_answer": "69",
+  "llm_answer": "69",
+  "is_correct": true,
+  "reasoning": "The diagram shows a pathway from \"Start\" to \"UNC Offense\" with 69 transitions, then branching out to \"Rebound\" and \"_Exit\". The link width between \"UNC Offense\" and \"UMD Offense\" is labeled as 69, indicating the number of times this transition occurs.\n\nSince the question asks specifically about the transition from \"UNC Offense\" to \"UMD Offense\", we focus on the link connecting these two nodes. The label on this link is 69, which directly answers the question.\n\nTherefore, the number of times UMD Offense transitioned from UNC Offense is 69.",
+  "full_response": "<reasoning>\nThe diagram shows a pathway from \"Start\" to \"UNC Offense\" with 69 transitions, then branching out to \"Rebound\" and \"_Exit\". The link width between \"UNC Offense\" and \"UMD Offense\" is labeled as 69, indicating the number of times this transition occurs.\n\nSince the question asks specifically about the transition from \"UNC Offense\" to \"UMD Offense\", we focus on the link connecting these two nodes. The label on this link is 69, which directly answers the question.\n\nTherefore, the number of times UMD Offense transitioned from UNC Offense is 69.\n</reasoning>\n<answer>69</answer>",
+  "process_time_seconds": 26.21627,
+  "processed_at": "2025-05-15 04:17:46"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 232,
+  "question_id": "q_232",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_25.png",
+  "question": "How many total missed shots occur after UNC Offense but before UMD Offense?",
+  "true_answer": "19",
+  "llm_answer": "19",
+  "is_correct": true,
+  "reasoning": "The diagram shows multiple pathways starting from \"UNC Offense\". We need to identify the paths that include a \"Missed Shot\" event before reaching \"UMD Offense\". Only one such path exists: from the second \"UNC Offense\" node (with 19 sequences), leading directly to \"Missed Shot\" and then to \"Rebound\". No other paths from \"UNC Offense\" to \"UMD Offense\" include a \"Missed Shot\".",
+  "full_response": "To determine the total number of missed shots that occur after UNC Offense but before UMD Offense, we need to follow the pathways from \"UNC Offense\" nodes to \"UMD Offense\" nodes and count the occurrences of \"Missed Shot\" along these paths.\n\n1. Starting from the first \"UNC Offense\" node at the top:\n   - There are 28 sequences starting here.\n   - The path goes directly to \"_Exit\" with 28 sequences, bypassing any \"Missed Shot\".\n\n2. Moving to the next \"UNC Offense\" node:\n   - This node has 19 sequences.\n   - From here, 19 sequences go to \"Missed Shot\".\n   - After \"Missed Shot\", all 19 sequences lead to \"Rebound\".\n\n3. Next \"UNC Offense\" node:\n   - This node has 12 sequences.\n   - All 12 sequences go to \"Foul\".\n\n4. Following \"UNC Offense\" node:\n   - This node has 8 sequences.\n   - 5 sequences go to \"Turnover\".\n   - 3 sequences go to \"Made Free Throw\".\n\n5. Final \"UNC Offense\" node:\n   - This node has 28 sequences.\n   - 20 sequences go to \"Made Shot\".\n   - 8 sequences go to \"UMD Offense\".\n\nSummarizing the relevant paths:\n- The only path involving \"Missed Shot\" is from the second \"UNC Offense\" node with 19 sequences.\n\n<reasoning>\nThe diagram shows multiple pathways starting from \"UNC Offense\". We need to identify the paths that include a \"Missed Shot\" event before reaching \"UMD Offense\". Only one such path exists: from the second \"UNC Offense\" node (with 19 sequences), leading directly to \"Missed Shot\" and then to \"Rebound\". No other paths from \"UNC Offense\" to \"UMD Offense\" include a \"Missed Shot\".\n</reasoning>\n\n<answer>19</answer>",
+  "process_time_seconds": 18.27916,
+  "processed_at": "2025-05-16 19:21:35"
+}

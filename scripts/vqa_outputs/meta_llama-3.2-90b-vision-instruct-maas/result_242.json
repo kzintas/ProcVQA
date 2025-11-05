@@ -1,0 +1,15 @@
+{
+  "index": 242,
+  "question_id": "q_242",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_30.png",
+  "question": "How many total missed shots were made by both teams?",
+  "true_answer": "43",
+  "llm_answer": null,
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "The node-link diagram shows the sequences of events in a basketball game. The diagram is divided into two columns, with the left column representing the UNC offense and the right column representing the UMD offense.\n\nTo determine the total number of missed shots made by both teams, we need to count the number of missed shots in each column.\n\nIn the UNC offense column, there are two missed shots: one with a count of 2 and another with a count of 14. Therefore, the total number of missed shots made by the UNC offense is 2 + 14 = 16.\n\nIn the UMD offense column, there are three missed shots: one with a count of 9, another with a count of 6, and a third with a count of 12. Therefore, the total number of missed shots made by the UMD offense is 9 + 6 + 12 = 27.\n\nAdding the total number of missed shots made by both teams, we get 16 + 27 = 43.\n\n**Answer:** 43",
+  "process_time_seconds": 9.921417,
+  "processed_at": "2025-05-17 06:43:32",
+  "model": "meta/llama-3.2-90b-vision-instruct-maas"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 142,
+  "question_id": "q_142",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many total shots were made by UMD offense?",
+  "true_answer": "15",
+  "llm_answer": "15",
+  "is_correct": true,
+  "reasoning": "1. From \"UMD Offense\", 34 sequences lead to \"Rebound\".\n2. From \"Rebound\", 15 sequences lead to \"Made Shot\".\n3. Therefore, the total number of shots made by UMD offense is the number of sequences leading from \"Rebound\" to \"Made Shot\", which is 15.",
+  "full_response": "To determine the total number of shots made by UMD offense, we need to follow the pathways from \"UMD Offense\" to \"_Exit\" through the node \"Made Shot\". \n\n<reasoning>\n1. From \"UMD Offense\", 34 sequences lead to \"Rebound\".\n2. From \"Rebound\", 15 sequences lead to \"Made Shot\".\n3. Therefore, the total number of shots made by UMD offense is the number of sequences leading from \"Rebound\" to \"Made Shot\", which is 15.\n</reasoning>\n\n<answer>15</answer>",
+  "process_time_seconds": 6.657068,
+  "processed_at": "2025-05-16 19:08:35"
+}

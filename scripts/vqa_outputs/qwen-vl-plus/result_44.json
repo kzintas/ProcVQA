@@ -1,0 +1,14 @@
+{
+  "index": 44,
+  "question_id": "q_44",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/SentenTree/emergency_dataset/msp_10.png",
+  "question": "How many total patients went to the ICU after Emrgency?",
+  "true_answer": "62",
+  "llm_answer": "72",
+  "is_correct": false,
+  "reasoning": "To determine the total number of patients who went to the ICU after Emergency, we need to follow the pathway from Emergency to ICU. \n\n1. Start at the node labeled \"Emergency.\"\n2. Follow the link labeled \"41\" to the node labeled \"Floor.\"\n3. From Floor, there are two paths: one leading to \"ICU\" and another leading to \"Die.\"\n\n- The path to \"ICU\" has a label of \"24,\" indicating 24 patients went directly to ICU.\n- The path to \"Die\" has a label of \"36,\" indicating 36 patients died.\n\nAdding these together: 24 (to ICU) + 36 (died) = 60 patients in total.\n\nHowever, there is an additional path from Emergency that leads directly to \"Discharge-Alive\" with a label of \"38.\" This means 38 patients were discharged alive without going through the ICU.\n\nTherefore, the total number of patients who went to the ICU after Emergency is 24 (from the direct path to ICU) plus the 38 patients who were discharged alive, making it 60 patients in total.",
+  "full_response": "<answer>72</answer>\n\n<reasoning>\nTo determine the total number of patients who went to the ICU after Emergency, we need to follow the pathway from Emergency to ICU. \n\n1. Start at the node labeled \"Emergency.\"\n2. Follow the link labeled \"41\" to the node labeled \"Floor.\"\n3. From Floor, there are two paths: one leading to \"ICU\" and another leading to \"Die.\"\n\n- The path to \"ICU\" has a label of \"24,\" indicating 24 patients went directly to ICU.\n- The path to \"Die\" has a label of \"36,\" indicating 36 patients died.\n\nAdding these together: 24 (to ICU) + 36 (died) = 60 patients in total.\n\nHowever, there is an additional path from Emergency that leads directly to \"Discharge-Alive\" with a label of \"38.\" This means 38 patients were discharged alive without going through the ICU.\n\nTherefore, the total number of patients who went to the ICU after Emergency is 24 (from the direct path to ICU) plus the 38 patients who were discharged alive, making it 60 patients in total.\n</reasoning>",
+  "process_time_seconds": 11.288229,
+  "processed_at": "2025-05-16 20:11:35"
+}

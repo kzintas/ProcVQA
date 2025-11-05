@@ -1,0 +1,20 @@
+{
+  "index": 199,
+  "question_id": "q_199",
+  "dataset": "UMDvsUNC",
+  "image_path": "../images/SentenTree/umdvsunc_D2O_basketball/msp_30.png",
+  "question": "How many missed shots were before UMD Offense?",
+  "true_answer": "24",
+  "llm_answer": "24",
+  "is_correct": true,
+  "reasoning": "1.  I first locate the node labeled \"Missed Shot\" in the diagram.\n2.  Next, I locate the node labeled \"UMD Offense\" which is positioned chronologically after \"Missed Shot\".\n3.  I then trace the directed link (arrow) that originates from the \"Missed Shot\" node and points to the \"UMD Offense\" node.\n4.  I read the numeric label associated with this specific link. The number on the link is 24.\n5.  This number represents the count of sequences where the event \"Missed Shot\" was immediately followed by the event \"UMD Offense\".",
+  "full_response": "<reasoning>\n1.  I first locate the node labeled \"Missed Shot\" in the diagram.\n2.  Next, I locate the node labeled \"UMD Offense\" which is positioned chronologically after \"Missed Shot\".\n3.  I then trace the directed link (arrow) that originates from the \"Missed Shot\" node and points to the \"UMD Offense\" node.\n4.  I read the numeric label associated with this specific link. The number on the link is 24.\n5.  This number represents the count of sequences where the event \"Missed Shot\" was immediately followed by the event \"UMD Offense\".\n</reasoning>\n<answer>24</answer>",
+  "process_time_seconds": 7.647694,
+  "processed_at": "2025-06-29 04:59:23",
+  "thinking_info": {
+    "thoughts_token_count": 536,
+    "total_token_count": 1244,
+    "thinking_enabled": true
+  },
+  "thinking_enabled": true
+}

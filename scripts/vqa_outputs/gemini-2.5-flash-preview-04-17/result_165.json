@@ -1,0 +1,14 @@
+{
+  "index": 165,
+  "question_id": "q_165",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_05.png",
+  "question": "How many total rebounds are there in the match?",
+  "true_answer": "53",
+  "llm_answer": "65",
+  "is_correct": false,
+  "reasoning": "1.  I need to find all occurrences of 'Rebound' nodes in the diagram.\n2.  There are two nodes labeled 'Rebound'.\n3.  The first 'Rebound' node is shown receiving sequences from 'UNC Offense' (count 23) and 'Missed Shot' (count 15).\n4.  The second 'Rebound' node is shown receiving sequences from 'UMD Offense' (count 27).\n5.  To find the total number of rebounds, I sum the counts of all sequences leading into the 'Rebound' nodes.\n6.  Total rebounds = 23 (from UNC Offense) + 15 (from Missed Shot) + 27 (from UMD Offense).\n7.  Total rebounds = 23 + 15 + 27 = 65.",
+  "full_response": "<reasoning>\n1.  I need to find all occurrences of 'Rebound' nodes in the diagram.\n2.  There are two nodes labeled 'Rebound'.\n3.  The first 'Rebound' node is shown receiving sequences from 'UNC Offense' (count 23) and 'Missed Shot' (count 15).\n4.  The second 'Rebound' node is shown receiving sequences from 'UMD Offense' (count 27).\n5.  To find the total number of rebounds, I sum the counts of all sequences leading into the 'Rebound' nodes.\n6.  Total rebounds = 23 (from UNC Offense) + 15 (from Missed Shot) + 27 (from UMD Offense).\n7.  Total rebounds = 23 + 15 + 27 = 65.\n</reasoning>\n<answer>65</answer>",
+  "process_time_seconds": 3.977547,
+  "processed_at": "2025-05-14 21:06:50"
+}

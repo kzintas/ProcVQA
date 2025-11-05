@@ -1,0 +1,14 @@
+{
+  "index": 173,
+  "question_id": "q_173",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_10.png",
+  "question": "How many fouls were made after UNC Offense and before UMD offense? ",
+  "true_answer": "8",
+  "llm_answer": "indeterminate",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "1. Identify the nodes:\n    - \"_Start\", \"UNC Offense\", \"UMD Offense\", \"Foul\" are nodes in the graph.\n2. Identify the path:\n    - We need to find the paths from \"UNC Offense\" to \"Foul\" and then to \"UMD Offense.\"\n3. Find the relevant link:\n    - From \"UNC Offense\" to \"Foul\", the link is labeled 8.\n    - The \"Foul\" node with count 8 does not directly connect to the \"UMD Offense\" node. It is a terminal node.\n4. Conclusion:\n    - The visualization shows that 8 sequences go from UNC Offense to Foul. These do not continue to UMD Offense. Therefore, the question as phrased cannot be directly answered from the diagram.\n\n<answer>indeterminate</answer>",
+  "process_time_seconds": 3.461141,
+  "processed_at": "2025-05-13 19:54:25"
+}

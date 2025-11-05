@@ -1,0 +1,14 @@
+{
+  "index": 207,
+  "question_id": "q_207",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_05.png",
+  "question": "How many total missed shots were made by both teams?",
+  "true_answer": "42",
+  "llm_answer": "13",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "### Reasoning:\nTo determine the total missed shots made by both teams, we need to sum up the missed shots for each team as indicated by the labels \"Missed Shot\" in the diagram.\n\n1. For UNC Offense:\n   - The \"Missed Shot\" node has a value of 7.\n\n2. For UMD Offense:\n   - The \"Missed Shot\" node has a value of 6.\n\nAdding these together gives us the total missed shots:\n\nTotal Missed Shots = Missed Shots by UNC Offense + Missed Shots by UMD Offense\nTotal Missed Shots = 7 + 6\nTotal Missed Shots = 13\n\n### Final Answer:\n<answer>13</answer>",
+  "process_time_seconds": 51.172948,
+  "processed_at": "2025-05-15 04:57:19"
+}

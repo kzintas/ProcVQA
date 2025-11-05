@@ -1,0 +1,14 @@
+{
+  "index": 54,
+  "question_id": "q_54",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/SentenTree/emergency_dataset/msp_20.png",
+  "question": "How many total patients were discharged alive?",
+  "true_answer": "62",
+  "llm_answer": "83",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "### Reasoning:\nTo determine the total number of patients discharged alive, we need to follow the pathway from the start to the \"Discharge-Alive\" node.\n\n1. Start at the top node labeled \"_Start\".\n2. Follow the link to \"Arrival\", which has 100 patients.\n3. From \"Arrival\", there are two paths:\n   - One leads to \"Emergency\" with 21 patients.\n   - Another leads to \"Floor\" with 41 patients.\n4. From \"Emergency\", there are two paths:\n   - One leads to \"Discharge-Alive\" with 38 patients.\n   - Another leads to \"Floor\" with 21 patients.\n5. From \"Floor\", there are two paths:\n   - One leads to \"ICU\" with 21 patients.\n   - Another leads to \"Discharge-Alive\" with 24 patients.\n6. From \"ICU\", there are two paths:\n   - One leads to \"Floor\" with 24 patients.\n   - Another leads to \"Die\" with 21 patients.\n7. From \"Die\", there is one path leading to \"_Exit\" with 21 patients.\n8. From \"Floor\", there is one path leading to \"Discharge-Alive\" with 24 patients.\n\nThe total number of patients discharged alive is the sum of the patients that follow the path from \"Arrival\" to \"Discharge-Alive\".\n\n### Calculation:\n- From \"Arrival\" to \"Emergency\": 21 patients\n- From \"Emergency\" to \"Discharge-Alive\": 38 patients\n- From \"Floor\" to \"Discharge-Alive\": 24 patients\n\nTotal = 21 + 38 + 24 = 83\n\n### Final Answer:\n<answer>83</answer>",
+  "process_time_seconds": 63.883645,
+  "processed_at": "2025-05-15 03:16:22"
+}

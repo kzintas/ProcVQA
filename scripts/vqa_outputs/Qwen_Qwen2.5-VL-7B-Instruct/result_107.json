@@ -1,0 +1,14 @@
+{
+  "index": 107,
+  "question_id": "q_107",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_30.png",
+  "question": "How many total patients were discharged alive?",
+  "true_answer": "57",
+  "llm_answer": "141",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "### Reasoning:\nTo determine the total number of patients discharged alive, we need to follow the pathway from \"Arrival\" to \"Discharge-Alive\". We can see this pathway in the second column of the diagram.\n\n1. Start at the \"Arrival\" node, which has 37 patients.\n2. Follow the link to \"Emergency\", which has 37 patients.\n3. From \"Emergency\", there is a link to \"ICU\" with 24 patients.\n4. From \"ICU\", there is a link to \"Floor\" with 23 patients.\n5. From \"Floor\", there is a link to \"Discharge-Alive\" with 20 patients.\n\nThe total number of patients discharged alive is the sum of the patients at each stage along this pathway.\n\n### Calculation:\n- Arrival: 37\n- Emergency: 37\n- ICU: 24\n- Floor: 23\n- Discharge-Alive: 20\n\nSumming these up: \\( 37 + 37 + 24 + 23 + 20 = 141 \\)\n\n### Final Answer:\n<answer>141</answer>",
+  "process_time_seconds": 67.700009,
+  "processed_at": "2025-05-15 03:56:02"
+}

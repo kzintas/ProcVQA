@@ -1,0 +1,14 @@
+{
+  "index": 94,
+  "question_id": "q_94",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_20.png",
+  "question": "How many patients got discharged alive directly after arriving at Emergency? ",
+  "true_answer": "37",
+  "llm_answer": "37",
+  "is_correct": true,
+  "reasoning": "1. I examined the node-link diagram to find pathways starting from 'Emergency' and ending directly at 'Discharge-Alive'.\n2. I scanned the diagram vertically, column by column, tracing the connections from the 'Emergency' node.\n3. In the first column, the path from 'Emergency' leads to 'ICU'.\n4. In the second column, there is a direct link from 'Emergency' to 'Discharge-Alive'.\n5. I read the number associated with this direct link, which is 37.\n6. In the third column, the path from 'Emergency' leads to 'ICU', not directly to 'Discharge-Alive'.\n7. In the fourth column, the path from 'Emergency' leads to 'Floor', not directly to 'Discharge-Alive'.\n8. The only direct path from 'Emergency' to 'Discharge-Alive' shown in the diagram is in the second column, and it has a count of 37.",
+  "full_response": "<reasoning>\n1. I examined the node-link diagram to find pathways starting from 'Emergency' and ending directly at 'Discharge-Alive'.\n2. I scanned the diagram vertically, column by column, tracing the connections from the 'Emergency' node.\n3. In the first column, the path from 'Emergency' leads to 'ICU'.\n4. In the second column, there is a direct link from 'Emergency' to 'Discharge-Alive'.\n5. I read the number associated with this direct link, which is 37.\n6. In the third column, the path from 'Emergency' leads to 'ICU', not directly to 'Discharge-Alive'.\n7. In the fourth column, the path from 'Emergency' leads to 'Floor', not directly to 'Discharge-Alive'.\n8. The only direct path from 'Emergency' to 'Discharge-Alive' shown in the diagram is in the second column, and it has a count of 37.\n</reasoning>\n<answer>37</answer>",
+  "process_time_seconds": 4.797371,
+  "processed_at": "2025-05-14 21:01:02"
+}

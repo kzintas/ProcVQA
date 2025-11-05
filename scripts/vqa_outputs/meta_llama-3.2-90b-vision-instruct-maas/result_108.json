@@ -1,0 +1,15 @@
+{
+  "index": 108,
+  "question_id": "q_108",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_30.png",
+  "question": "How many patients got discharged alive directly after arriving at Emergency? ",
+  "true_answer": "37",
+  "llm_answer": "20",
+  "is_correct": false,
+  "reasoning": "To determine the number of patients who got discharged alive directly after arriving at Emergency, we need to follow the pathway from the \"Emergency\" node to the \"Discharge-Alive\" node.\n\n1. The \"Emergency\" node has two outgoing links: one to \"ICU\" and one to \"Discharge-Alive\".\n2. The link from \"Emergency\" to \"Discharge-Alive\" has a label of 20, indicating that 20 patients were discharged alive directly after arriving at Emergency.\n\nTherefore, the number of patients who got discharged alive directly after arriving at Emergency is 20.",
+  "full_response": "<reasoning>\nTo determine the number of patients who got discharged alive directly after arriving at Emergency, we need to follow the pathway from the \"Emergency\" node to the \"Discharge-Alive\" node.\n\n1. The \"Emergency\" node has two outgoing links: one to \"ICU\" and one to \"Discharge-Alive\".\n2. The link from \"Emergency\" to \"Discharge-Alive\" has a label of 20, indicating that 20 patients were discharged alive directly after arriving at Emergency.\n\nTherefore, the number of patients who got discharged alive directly after arriving at Emergency is 20.\n\n</reasoning>\n\n<answer>20</answer>",
+  "process_time_seconds": 7.213851,
+  "processed_at": "2025-05-17 06:22:58",
+  "model": "meta/llama-3.2-90b-vision-instruct-maas"
+}

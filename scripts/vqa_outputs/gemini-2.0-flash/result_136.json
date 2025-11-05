@@ -1,0 +1,14 @@
+{
+  "index": 136,
+  "question_id": "q_136",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_15.png",
+  "question": "How many free throws were made in total by UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": "indeterminate",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "The question asks about \"free throws\" made by UMD Offense, but the provided visualization does not contain any information about \"free throws\". The events are: Start, UNC Offense, UMD Offense, Rebound, Missed Shot, Made Shot, and Exit.\nTherefore, the number of free throws made by UMD Offense cannot be determined from the visualization.\n\n<answer>indeterminate</answer>",
+  "process_time_seconds": 2.392243,
+  "processed_at": "2025-05-13 19:51:40"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 193,
+  "question_id": "q_193",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_25.png",
+  "question": "How many total rebounds are there in the match?",
+  "true_answer": "34",
+  "llm_answer": "34",
+  "is_correct": true,
+  "reasoning": "The question asks for the number of rebounds. The diagram shows a node labeled 'Rebound'. The incoming link to that node from 'UMD Offense' is labeled '34'. Therefore, the total number of rebounds is 34.",
+  "full_response": "1. The question asks about the total number of rebounds in the match.\n2. I need to identify the 'Rebound' node in the visualization and its related links to find the total number of rebounds.\n3. From the diagram, the link connecting 'UMD Offense' to 'Rebound' has a value of 34. The link connecting 'Rebound' to '_Exit' has a value of 24. However, only the link connecting 'UMD Offense' to 'Rebound' indicates a rebound event. The link connecting 'Rebound' to '_Exit' represents events after a rebound.\n4. Therefore, the total number of rebounds is 34.\n\n<reasoning>\nThe question asks for the number of rebounds. The diagram shows a node labeled 'Rebound'. The incoming link to that node from 'UMD Offense' is labeled '34'. Therefore, the total number of rebounds is 34.\n</reasoning>\n<answer>34</answer>",
+  "process_time_seconds": 3.097133,
+  "processed_at": "2025-05-13 19:55:24"
+}

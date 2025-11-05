@@ -1,0 +1,15 @@
+{
+  "index": 168,
+  "question_id": "q_168",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_10.png",
+  "question": "How many rebounds were made after UMD Offense?",
+  "true_answer": "34",
+  "llm_answer": null,
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "The node-link diagram shows the sequence of events in a basketball game. The question asks how many rebounds were made after UMD Offense.\n\nTo answer this question, we need to follow the path from UMD Offense to Rebound. There are two paths:\n\n*   UMD Offense -> Missed Shot -> Foul -> Rebound (7)\n*   UMD Offense -> Missed Shot -> Rebound (9)\n\nWe can add up the number of rebounds on each path to get the total number of rebounds made after UMD Offense.\n\n7 + 9 = 16\n\nTherefore, 16 rebounds were made after UMD Offense.\n\n**Answer:** 16",
+  "process_time_seconds": 6.528489,
+  "processed_at": "2025-05-17 06:31:46",
+  "model": "meta/llama-3.2-90b-vision-instruct-maas"
+}

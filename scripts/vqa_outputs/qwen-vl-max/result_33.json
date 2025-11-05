@@ -1,0 +1,14 @@
+{
+  "index": 33,
+  "question_id": "q_33",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/CoreFlow/emergency_dataset/msp_30.png",
+  "question": "How many patients went to the Floor after the ICU?",
+  "true_answer": "indeterminate",
+  "llm_answer": "0",
+  "is_correct": false,
+  "reasoning": "1. From the \"ICU\" node, there are two outgoing links: one leading to \"Die\" and another leading to \"_Exit\".\n2. The link leading to \"Die\" has a count of 36.\n3. The link leading to \"_Exit\" has a count of 26.\n4. There is no direct link from \"ICU\" to \"Floor\" in the given visualization.\n5. Therefore, based on the provided pathways, no patients went directly from ICU to Floor.",
+  "full_response": "To determine how many patients went to the Floor after the ICU, we need to follow the pathways from the \"ICU\" node. \n\n<reasoning>\n1. From the \"ICU\" node, there are two outgoing links: one leading to \"Die\" and another leading to \"_Exit\".\n2. The link leading to \"Die\" has a count of 36.\n3. The link leading to \"_Exit\" has a count of 26.\n4. There is no direct link from \"ICU\" to \"Floor\" in the given visualization.\n5. Therefore, based on the provided pathways, no patients went directly from ICU to Floor.\n</reasoning>\n\n<answer>0</answer>",
+  "process_time_seconds": 7.54622,
+  "processed_at": "2025-05-16 18:54:00"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 102,
+  "question_id": "q_102",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_25.png",
+  "question": "How many patients went to the ICU after Emrgency?",
+  "true_answer": "35",
+  "llm_answer": "12",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "1.  Identify the nodes: The question asks about patients who went to the 'ICU' after 'Emergency'. So, I need to find those two nodes in the diagram.\n2.  Trace the paths: I need to trace the paths from 'Emergency' to 'ICU' and find the number of patients associated with those paths.\n3.  Extract counts: There are multiple 'Emergency' nodes.\n    *   For the leftmost 'Emergency' node, the count is 12, and all 12 patients went to ICU\n    *   For the other emergency nodes, there's no path directly to the ICU, so the count is 0 for each\n\n4. Sum the counts: 12+0+0+0=12\n\n<answer>12</answer>",
+  "process_time_seconds": 3.667625,
+  "processed_at": "2025-05-13 20:13:43"
+}

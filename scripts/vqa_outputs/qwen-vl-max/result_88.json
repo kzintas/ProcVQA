@@ -1,0 +1,14 @@
+{
+  "index": 88,
+  "question_id": "q_88",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_15.png",
+  "question": "How many patients went to the ICU after Emrgency?",
+  "true_answer": "35",
+  "llm_answer": "84",
+  "is_correct": false,
+  "reasoning": "- There are four \"Emergency\" nodes in the diagram.\n- From the first \"Emergency\" node (with count 12), there is no direct path to ICU.\n- From the second \"Emergency\" node (with count 37), there is a direct path to ICU with a count of 37.\n- From the third \"Emergency\" node (with count 24), there is a direct path to ICU with a count of 23.\n- From the fourth \"Emergency\" node (with count 27), there is a direct path to ICU with a count of 24.\n- Summing these counts: 37 + 23 + 24 = 84.",
+  "full_response": "To determine how many patients went to the ICU after Emergency, I'll follow these steps:\n\n1. Identify the \"Emergency\" node and trace all pathways leading from it.\n2. Look for pathways that lead directly to the \"ICU\" node.\n3. Sum the counts on these pathways.\n\n<reasoning>\n- There are four \"Emergency\" nodes in the diagram.\n- From the first \"Emergency\" node (with count 12), there is no direct path to ICU.\n- From the second \"Emergency\" node (with count 37), there is a direct path to ICU with a count of 37.\n- From the third \"Emergency\" node (with count 24), there is a direct path to ICU with a count of 23.\n- From the fourth \"Emergency\" node (with count 27), there is a direct path to ICU with a count of 24.\n- Summing these counts: 37 + 23 + 24 = 84.\n</reasoning>\n\n<answer>84</answer>",
+  "process_time_seconds": 7.843971,
+  "processed_at": "2025-05-16 19:01:17"
+}

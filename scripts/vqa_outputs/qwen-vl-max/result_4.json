@@ -1,0 +1,14 @@
+{
+  "index": 4,
+  "question_id": "q_4",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/CoreFlow/emergency_dataset/msp_05.png",
+  "question": "How many patients went to the Floor after the ICU?",
+  "true_answer": "24",
+  "llm_answer": "24",
+  "is_correct": true,
+  "reasoning": "- The diagram shows that from the ICU node, 24 patients proceed to the Floor.\n- No other pathways from the ICU lead to the Floor.",
+  "full_response": "To determine how many patients went to the Floor after the ICU, we need to follow the pathway from the ICU node. \n\n1. From the ICU node, there are two outgoing links:\n   - One link leads directly to \"Die\" with a count of 36.\n   - Another link leads to \"Floor\" with a count of 24.\n\nThe question specifically asks about patients who went to the Floor after the ICU. Therefore, we focus on the link leading to the Floor.\n\n<reasoning>\n- The diagram shows that from the ICU node, 24 patients proceed to the Floor.\n- No other pathways from the ICU lead to the Floor.\n</reasoning>\n\n<answer>24</answer>",
+  "process_time_seconds": 7.754249,
+  "processed_at": "2025-05-16 18:50:43"
+}

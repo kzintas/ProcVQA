@@ -1,0 +1,14 @@
+{
+  "index": 69,
+  "question_id": "q_69",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/SentenTree/emergency_dataset/msp_30.png",
+  "question": "How many patients went to the Floor after the ICU?",
+  "true_answer": "indeterminate",
+  "llm_answer": "indeterminate",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "### Relevant Elements:\n- The node labeled \"ICU\" has two outgoing links.\n- One link leads to \"Discharge-Alive\" with 38 patients.\n- Another link leads to \"Die\" with 36 patients.\n\n### Reasoning:\nTo determine how many patients went to the Floor after the ICU, we need to look at the pathway from \"ICU\" to another node. However, there is no direct link from \"ICU\" to \"Floor\" visible in the diagram. The only nodes directly connected to \"ICU\" are \"Discharge-Alive\" and \"Die\". Since there is no information about a \"Floor\" node, it cannot be determined if any patients went to the Floor after the ICU.\n\n### Final Answer:\n<answer>indeterminate</answer>",
+  "process_time_seconds": 27.330532,
+  "processed_at": "2025-05-15 03:24:36"
+}

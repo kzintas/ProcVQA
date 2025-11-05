@@ -1,0 +1,15 @@
+{
+  "index": 172,
+  "question_id": "q_172",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_10.png",
+  "question": "How many total rebounds are there in the match?",
+  "true_answer": "49",
+  "llm_answer": null,
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "The node-link diagram shows the sequence of events in a basketball match. The diagram has two main branches, one for UNC Offense and one for UMD Offense. Each branch has several nodes representing different events, such as Made Shot, Missed Shot, Rebound, Foul, and Exit.\n\nTo find the total number of rebounds, we need to count the number of Rebound nodes in both branches. In the UNC Offense branch, there is one Rebound node with a value of 15. In the UMD Offense branch, there is also one Rebound node with a value of 7.\n\nTherefore, the total number of rebounds in the match is 15 + 7 = 22.\n\n**Answer:** 22",
+  "process_time_seconds": 7.038919,
+  "processed_at": "2025-05-17 06:32:11",
+  "model": "meta/llama-3.2-90b-vision-instruct-maas"
+}

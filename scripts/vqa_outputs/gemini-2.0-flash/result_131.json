@@ -1,0 +1,14 @@
+{
+  "index": 131,
+  "question_id": "q_131",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_15.png",
+  "question": "How many times did UMD Offense not transition to a Rebound?",
+  "true_answer": "35",
+  "llm_answer": "35",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "1.  Identify the starting node: \"UMD Offense\".\n2.  Identify all outgoing links from \"UMD Offense\" and their values: The visualization shows three outgoing links from \"UMD Offense\". One going to \"Rebound\" with a value of 34, one going to \"Missed Shot\" with a value of 14, and one going to \"_Exit\" with a value of 21.\n3.  Calculate the sum of the paths from \"UMD Offense\" that did not transition to \"Rebound\". This is the sum of the other two links which is 14 + 21 = 35.\n\n<answer>35</answer>",
+  "process_time_seconds": 2.495243,
+  "processed_at": "2025-05-13 19:51:25"
+}

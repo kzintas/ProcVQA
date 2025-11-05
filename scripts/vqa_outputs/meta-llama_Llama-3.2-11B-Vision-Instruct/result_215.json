@@ -1,0 +1,14 @@
+{
+  "index": 215,
+  "question_id": "q_215",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_10.png",
+  "question": "How many free throws were made by UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": 21,
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "**Step 1: Identify the relevant elements in the visualization that inform the answer.**\n\nThe node-link diagram shows various events, including free throws made by UMD Offense. We can see that there are two instances of free throws made by UMD Offense, one with a value of 13 and another with a value of 8.\n\n**Step 2: Describe the thought process and calculations.**\n\nTo determine the total number of free throws made by UMD Offense, we need to add the values of the two instances. \n\n13 (first instance) + 8 (second instance) = 21\n\n**Step 3: Provide the final answer.**\n\n<answer>21</answer>\n\nThe final answer is 21.",
+  "process_time_seconds": 9.049558,
+  "processed_at": "2025-05-17 07:42:23"
+}

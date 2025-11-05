@@ -1,0 +1,14 @@
+{
+  "index": 193,
+  "question_id": "q_193",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_25.png",
+  "question": "How many total rebounds are there in the match?",
+  "true_answer": "34",
+  "llm_answer": 3,
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "**Relevant Elements:**\n\n*   The node-link diagram shows the sequence of events in a basketball game.\n*   The diagram includes nodes representing different events, such as \"Start,\" \"UNC Offense,\" \"Made Shot,\" \"Missed Shot,\" \"UMD Offense,\" \"Rebound,\" and \"Exit.\"\n*   The links between the nodes indicate the flow of the game, with arrows pointing from one event to the next.\n*   The diagram also includes labels showing the number of rebounds for each event.\n\n**Thought Process and Calculations:**\n\n1.  The diagram shows that there are two rebounds: one after the \"Made Shot\" event and another after the \"Missed Shot\" event.\n2.  The label next to the \"Made Shot\" event indicates that there is 1 rebound.\n3.  The label next to the \"Missed Shot\" event indicates that there are 2 rebounds.\n\n**Answer:**\n\n<answer>3</answer>\n\nThere are a total of 3 rebounds in the match.",
+  "process_time_seconds": 12.18681,
+  "processed_at": "2025-05-17 07:36:46"
+}

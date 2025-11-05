@@ -1,0 +1,14 @@
+{
+  "index": 61,
+  "question_id": "q_61",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/SentenTree/emergency_dataset/msp_25.png",
+  "question": "How many patients got discharged alive directly after arriving at Emergency? ",
+  "true_answer": "38",
+  "llm_answer": "38",
+  "is_correct": true,
+  "reasoning": "To determine the number of patients who got discharged alive directly after arriving at Emergency, we need to follow the pathway from \"Arrival\" to \"Discharge-Alive\". \n\n1. Start at the node labeled \"Arrival\".\n2. Follow the link labeled \"Emergency\" with a width of 62.\n3. From \"Emergency\", follow the link labeled \"Discharge-Alive\" with a width of 38.\n\nThe width of the link between \"Emergency\" and \"Discharge-Alive\" is 38, which indicates that 38 patients got discharged alive directly after arriving at Emergency.",
+  "full_response": "<answer>38</answer>\n\n<reasoning>\nTo determine the number of patients who got discharged alive directly after arriving at Emergency, we need to follow the pathway from \"Arrival\" to \"Discharge-Alive\". \n\n1. Start at the node labeled \"Arrival\".\n2. Follow the link labeled \"Emergency\" with a width of 62.\n3. From \"Emergency\", follow the link labeled \"Discharge-Alive\" with a width of 38.\n\nThe width of the link between \"Emergency\" and \"Discharge-Alive\" is 38, which indicates that 38 patients got discharged alive directly after arriving at Emergency.\n</reasoning>",
+  "process_time_seconds": 6.331635,
+  "processed_at": "2025-05-16 20:13:59"
+}

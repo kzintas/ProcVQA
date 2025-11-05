@@ -1,0 +1,14 @@
+{
+  "index": 25,
+  "question_id": "q_25",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/CoreFlow/emergency_dataset/msp_25.png",
+  "question": "How many total patients were discharged alive?",
+  "true_answer": "38",
+  "llm_answer": "38",
+  "is_correct": true,
+  "reasoning": "- All patients start at \"Start\" and move to \"Arrival\".\n- From \"Arrival\", all 100 patients go to \"Emergency\".\n- At \"Emergency\", 38 patients go directly to \"Discharge-Alive\".\n- The remaining 62 patients go to \"ICU\", where 36 die and 26 exit without being discharged alive.\n- Therefore, only the 38 patients who went directly from \"Emergency\" to \"Discharge-Alive\" were discharged alive.",
+  "full_response": "To determine the total number of patients discharged alive, we need to follow the pathways in the diagram that lead to the \"Discharge-Alive\" node. \n\n1. Starting from the \"Start\" node, all 100 patients arrive at the \"Emergency\" node.\n2. From the \"Emergency\" node, there are two pathways:\n   - 62 patients move to the \"ICU\" node.\n   - 38 patients directly move to the \"Discharge-Alive\" node.\n\n3. Of the 62 patients who moved to the \"ICU\":\n   - 36 patients die and exit the system.\n   - 26 patients leave the ICU but do not proceed further in the given pathways (they either recover or their pathway is not shown).\n\n4. The only direct path to \"Discharge-Alive\" is the one with 38 patients from the \"Emergency\" node.\n\nTherefore, the total number of patients discharged alive is the sum of patients on the direct path to \"Discharge-Alive\".\n\n<reasoning>\n- All patients start at \"Start\" and move to \"Arrival\".\n- From \"Arrival\", all 100 patients go to \"Emergency\".\n- At \"Emergency\", 38 patients go directly to \"Discharge-Alive\".\n- The remaining 62 patients go to \"ICU\", where 36 die and 26 exit without being discharged alive.\n- Therefore, only the 38 patients who went directly from \"Emergency\" to \"Discharge-Alive\" were discharged alive.\n</reasoning>\n\n<answer>38</answer>",
+  "process_time_seconds": 13.834674,
+  "processed_at": "2025-05-16 18:53:09"
+}

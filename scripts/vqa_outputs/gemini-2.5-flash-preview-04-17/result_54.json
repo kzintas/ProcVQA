@@ -1,0 +1,14 @@
+{
+  "index": 54,
+  "question_id": "q_54",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/SentenTree/emergency_dataset/msp_20.png",
+  "question": "How many total patients were discharged alive?",
+  "true_answer": "62",
+  "llm_answer": "62",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "<reason>\nThe question asks for the total number of patients discharged alive. I need to identify all paths that end with the state \"Discharge-Alive\" and sum the number of sequences along those paths.\nLooking at the diagram, there are two distinct pathways that lead to a \"Discharge-Alive\" node:\n1.  From the \"Emergency\" node, there is a direct link to a \"Discharge-Alive\" node. The number on this link is 38.\n2.  From the \"ICU\" node, there is a link to a \"Floor\" node, and then a link from that \"Floor\" node to a \"Discharge-Alive\" node. The number on the link from \"Floor\" to \"Discharge-Alive\" is 24.\nTo find the total number of patients discharged alive, I need to sum the counts from these two paths.\nTotal discharged alive = (Patients from Emergency -> Discharge-Alive) + (Patients from Floor -> Discharge-Alive)\nTotal discharged alive = 38 + 24 = 62.\n</reason>\n<answer>62</answer>",
+  "process_time_seconds": 4.525217,
+  "processed_at": "2025-05-14 20:57:23"
+}

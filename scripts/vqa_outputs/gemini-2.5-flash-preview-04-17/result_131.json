@@ -1,0 +1,14 @@
+{
+  "index": 131,
+  "question_id": "q_131",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_15.png",
+  "question": "How many times did UMD Offense not transition to a Rebound?",
+  "true_answer": "35",
+  "llm_answer": "35",
+  "is_correct": true,
+  "reasoning": "1. Identify the node labeled 'UMD Offense'.\n2. Identify all outgoing links from the 'UMD Offense' node. These links represent the events that followed 'UMD Offense'.\n3. Read the numerical values associated with each outgoing link. These values represent the number of sequences that followed that specific path.\n4. The outgoing links from 'UMD Offense' are:\n    - To 'Rebound' with a count of 34.\n    - To 'Missed Shot' with a count of 14.\n    - To '_Exit' with a count of 21.\n5. The question asks for the number of times 'UMD Offense' did *not* transition to a 'Rebound'.\n6. This means summing the counts of all outgoing links from 'UMD Offense' that do *not* go to 'Rebound'.\n7. The outgoing links that do not go to 'Rebound' are the link to 'Missed Shot' and the link to '_Exit'.\n8. Sum the counts for these links: 14 (to Missed Shot) + 21 (to _Exit).\n9. Calculate the sum: 14 + 21 = 35.",
+  "full_response": "<reasoning>\n1. Identify the node labeled 'UMD Offense'.\n2. Identify all outgoing links from the 'UMD Offense' node. These links represent the events that followed 'UMD Offense'.\n3. Read the numerical values associated with each outgoing link. These values represent the number of sequences that followed that specific path.\n4. The outgoing links from 'UMD Offense' are:\n    - To 'Rebound' with a count of 34.\n    - To 'Missed Shot' with a count of 14.\n    - To '_Exit' with a count of 21.\n5. The question asks for the number of times 'UMD Offense' did *not* transition to a 'Rebound'.\n6. This means summing the counts of all outgoing links from 'UMD Offense' that do *not* go to 'Rebound'.\n7. The outgoing links that do not go to 'Rebound' are the link to 'Missed Shot' and the link to '_Exit'.\n8. Sum the counts for these links: 14 (to Missed Shot) + 21 (to _Exit).\n9. Calculate the sum: 14 + 21 = 35.\n</reasoning>\n<answer>35</answer>",
+  "process_time_seconds": 4.010947,
+  "processed_at": "2025-05-14 21:21:48"
+}

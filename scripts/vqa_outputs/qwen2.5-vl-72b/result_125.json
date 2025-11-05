@@ -1,0 +1,14 @@
+{
+  "index": 125,
+  "question_id": "q_125",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_10.png",
+  "question": "How many shots were made directly after a Rebound?",
+  "true_answer": "15",
+  "llm_answer": "15",
+  "is_correct": true,
+  "reasoning": "- Locate the \"Rebound\" node in the diagram.\n    - Identify the links originating from the \"Rebound\" node.\n    - Find the link that leads to the \"Made Shot\" node.\n    - Observe the numeric label on this specific link, which is 15.\n    - This value represents the count of sequences where a Made Shot was made directly after a Rebound.",
+  "full_response": "1. **Relevant Elements**: The relevant elements for this question are the nodes labeled \"Rebound\" and \"Made Shot,\" as well as the link connecting them. The numeric label on this link indicates the number of sequences where a Made Shot occurred directly after a Rebound.\n\n2. <reasoning>\n    - Locate the \"Rebound\" node in the diagram.\n    - Identify the links originating from the \"Rebound\" node.\n    - Find the link that leads to the \"Made Shot\" node.\n    - Observe the numeric label on this specific link, which is 15.\n    - This value represents the count of sequences where a Made Shot was made directly after a Rebound.\n</reasoning>\n\n3. <answer>15</answer>",
+  "process_time_seconds": 7.221833,
+  "processed_at": "2025-05-16 19:44:56"
+}

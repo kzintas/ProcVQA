@@ -1,0 +1,14 @@
+{
+  "index": 108,
+  "question_id": "q_108",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_30.png",
+  "question": "How many patients got discharged alive directly after arriving at Emergency? ",
+  "true_answer": "37",
+  "llm_answer": "37",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "### Relevant Elements:\n- The node labeled \"Arrival\" is the starting point for the sequence.\n- The node labeled \"Emergency\" follows the \"Arrival\" node.\n- The node labeled \"Discharge-Alive\" represents the end of the sequence where patients are discharged alive.\n- There is a link from \"Emergency\" to \"Discharge-Alive\".\n\n### Reasoning:\n1. Identify the pathway: The pathway starts at \"Arrival\", goes to \"Emergency\", and ends at \"Discharge-Alive\".\n2. Check the link width between \"Emergency\" and \"Discharge-Alive\": The link width is 37, which means there are 37 sequences following this path.\n3. Confirm the count: The numeric label next to the link confirms it as 37.\n\n### Final Answer:\n<answer>37</answer>",
+  "process_time_seconds": 53.703358,
+  "processed_at": "2025-05-15 03:56:55"
+}

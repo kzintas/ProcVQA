@@ -1,0 +1,14 @@
+{
+  "index": 91,
+  "question_id": "q_91",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_15.png",
+  "question": "How many patients went to the ICU after the Floor?",
+  "true_answer": "24",
+  "llm_answer": "23",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "### Reasoning:\nTo determine how many patients went to the ICU after the Floor, we need to follow the pathway from \"Floor\" to \"ICU\". In the diagram:\n\n1. Identify the \"Floor\" node which has 27 patients.\n2. Look for a link from \"Floor\" to \"ICU\".\n3. Check the label on the link from \"Floor\" to \"ICU\".\n\nThe link from \"Floor\" to \"ICU\" has a label of 23.\n\n### Final Answer:\n<answer>23</answer>",
+  "process_time_seconds": 44.096812,
+  "processed_at": "2025-05-15 03:42:46"
+}

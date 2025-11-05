@@ -1,0 +1,15 @@
+{
+  "index": 2,
+  "question_id": "q_2",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/CoreFlow/emergency_dataset/msp_05.png",
+  "question": "How many patients got discharged alive directly after arriving at Emergency? ",
+  "true_answer": "38",
+  "llm_answer": "38",
+  "is_correct": true,
+  "reasoning": "To determine the number of patients who got discharged alive directly after arriving at Emergency, we need to follow the pathway from the \"Emergency\" node to the \"Discharge-Alive\" node.\n\n1. The \"Emergency\" node has two outgoing links: one leading to \"_Exit\" and another leading to \"Discharge-Alive\".\n2. The link from \"Emergency\" to \"Discharge-Alive\" has a label of 38, indicating that 38 patients followed this path.\n3. Since the question asks for the number of patients who got discharged alive directly after arriving at Emergency, we only consider the link from \"Emergency\" to \"Discharge-Alive\".\n\nTherefore, the number of patients who got discharged alive directly after arriving at Emergency is 38.",
+  "full_response": "<reasoning>\nTo determine the number of patients who got discharged alive directly after arriving at Emergency, we need to follow the pathway from the \"Emergency\" node to the \"Discharge-Alive\" node.\n\n1. The \"Emergency\" node has two outgoing links: one leading to \"_Exit\" and another leading to \"Discharge-Alive\".\n2. The link from \"Emergency\" to \"Discharge-Alive\" has a label of 38, indicating that 38 patients followed this path.\n3. Since the question asks for the number of patients who got discharged alive directly after arriving at Emergency, we only consider the link from \"Emergency\" to \"Discharge-Alive\".\n\nTherefore, the number of patients who got discharged alive directly after arriving at Emergency is 38.\n</reasoning>\n\n<answer>38</answer>",
+  "process_time_seconds": 7.72789,
+  "processed_at": "2025-05-17 06:06:05",
+  "model": "meta/llama-3.2-90b-vision-instruct-maas"
+}

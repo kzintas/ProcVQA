@@ -1,0 +1,15 @@
+{
+  "index": 200,
+  "question_id": "q_200",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_30.png",
+  "question": "How many total rebounds are there in the match?",
+  "true_answer": "34",
+  "llm_answer": "34",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "The node-link diagram shows the sequence of events in a basketball match. The diagram has several nodes, each representing an event, and links connecting these nodes, indicating the flow of the game. The links are labeled with numbers, which represent the count of sequences following that path.\n\nTo determine the total number of rebounds in the match, we need to identify the nodes and links related to rebounds. The node labeled \"Rebound\" is the one we are interested in. There is only one link coming out of this node, which is labeled \"_Exit\". This means that every time a rebound occurs, the game ends.\n\nThe link coming into the \"Rebound\" node is labeled \"34\", which means that 34 sequences lead to a rebound. Since there is only one link coming out of the \"Rebound\" node, all 34 sequences result in a rebound.\n\nTherefore, the total number of rebounds in the match is 34.\n\n<answer>34</answer>",
+  "process_time_seconds": 8.82586,
+  "processed_at": "2025-05-17 06:36:51",
+  "model": "meta/llama-3.2-90b-vision-instruct-maas"
+}

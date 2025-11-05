@@ -1,0 +1,14 @@
+{
+  "index": 108,
+  "question_id": "q_108",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_30.png",
+  "question": "How many patients got discharged alive directly after arriving at Emergency? ",
+  "true_answer": "37",
+  "llm_answer": "20",
+  "is_correct": false,
+  "reasoning": "- The \"Arrival\" node has multiple outgoing links.\n- One of these links goes directly to \"Emergency,\" with a count of 37.\n- From \"Emergency,\" there is a link directly to \"Discharge-Alive\" with a count of 20.\n- This indicates that out of the 37 patients who arrived and went to Emergency, 20 were discharged alive directly afterward.",
+  "full_response": "To determine how many patients got discharged alive directly after arriving at Emergency, I'll follow these steps:\n\n1. Identify the \"Arrival\" node and trace its outgoing links.\n2. Look for a direct link from \"Arrival\" to \"Emergency.\"\n3. Follow the pathway from \"Emergency\" to see if it leads directly to \"Discharge-Alive.\"\n\n<reasoning>\n- The \"Arrival\" node has multiple outgoing links.\n- One of these links goes directly to \"Emergency,\" with a count of 37.\n- From \"Emergency,\" there is a link directly to \"Discharge-Alive\" with a count of 20.\n- This indicates that out of the 37 patients who arrived and went to Emergency, 20 were discharged alive directly afterward.\n</reasoning>\n\n<answer>20</answer>",
+  "process_time_seconds": 9.121239,
+  "processed_at": "2025-05-16 19:04:21"
+}

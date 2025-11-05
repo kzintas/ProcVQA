@@ -1,0 +1,14 @@
+{
+  "index": 186,
+  "question_id": "q_186",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many total rebounds are there in the match?",
+  "true_answer": "49",
+  "llm_answer": "49",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "1. The question asks about the total number of rebounds in the match.\n2. The diagram shows two nodes with the label \"Rebound\".\n3. The first \"Rebound\" node has an incoming link from \"UNC Offense\" with a count of 15.\n4. The second \"Rebound\" node has an incoming link from \"UMD Offense\" with a count of 34.\n5. To find the total number of rebounds, I need to sum the values associated with incoming links to each \"Rebound\" node: 15 + 34 = 49.\n\n<answer>49</answer>",
+  "process_time_seconds": 2.304144,
+  "processed_at": "2025-05-13 20:14:49"
+}

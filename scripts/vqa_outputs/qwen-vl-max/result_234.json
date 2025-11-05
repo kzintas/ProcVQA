@@ -1,0 +1,14 @@
+{
+  "index": 234,
+  "question_id": "q_234",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_25.png",
+  "question": "How many total made shots were made by both teams?",
+  "true_answer": "30",
+  "llm_answer": "30",
+  "is_correct": true,
+  "reasoning": "2 + 8 + 20 = 30",
+  "full_response": "To determine the total number of made shots by both teams, I'll identify all nodes labeled \"Made Shot\" and sum their corresponding values:\n\n1. The first \"Made Shot\" node has a value of 2.\n2. The second \"Made Shot\" node has a value of 8.\n3. The third \"Made Shot\" node has a value of 20.\n\nSumming these values:\n<reasoning>2 + 8 + 20 = 30</reasoning>\n\n<answer>30</answer>",
+  "process_time_seconds": 7.645414,
+  "processed_at": "2025-05-16 19:21:48"
+}

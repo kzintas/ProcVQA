@@ -1,0 +1,14 @@
+{
+  "index": 61,
+  "question_id": "q_61",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/SentenTree/emergency_dataset/msp_25.png",
+  "question": "How many patients got discharged alive directly after arriving at Emergency? ",
+  "true_answer": "38",
+  "llm_answer": "38",
+  "is_correct": true,
+  "reasoning": "1.  I need to find the number of sequences that go from the 'Emergency' node directly to the 'Discharge-Alive' node.\n2.  I located the 'Emergency' node in the diagram.\n3.  I then looked for outgoing links from the 'Emergency' node.\n4.  There are two outgoing links from 'Emergency': one to 'ICU' and one to 'Discharge-Alive'.\n5.  I identified the link pointing to 'Discharge-Alive'.\n6.  I read the numeric label next to this link, which is 38.\n7.  This label represents the number of sequences (patients) that followed this specific path.\n8.  Therefore, 38 patients were discharged alive directly after being at Emergency.",
+  "full_response": "<reasoning>\n1.  I need to find the number of sequences that go from the 'Emergency' node directly to the 'Discharge-Alive' node.\n2.  I located the 'Emergency' node in the diagram.\n3.  I then looked for outgoing links from the 'Emergency' node.\n4.  There are two outgoing links from 'Emergency': one to 'ICU' and one to 'Discharge-Alive'.\n5.  I identified the link pointing to 'Discharge-Alive'.\n6.  I read the numeric label next to this link, which is 38.\n7.  This label represents the number of sequences (patients) that followed this specific path.\n8.  Therefore, 38 patients were discharged alive directly after being at Emergency.\n</reasoning>\n<answer>38</answer>",
+  "process_time_seconds": 4.123768,
+  "processed_at": "2025-05-14 20:57:51"
+}

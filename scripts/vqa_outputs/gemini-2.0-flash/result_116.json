@@ -1,0 +1,14 @@
+{
+  "index": 116,
+  "question_id": "q_116",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_05.png",
+  "question": "How many shots were missed immediately after UMD Offense?",
+  "true_answer": "14",
+  "llm_answer": "14",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "1. The question asks about missed shots immediately after 'UMD Offense'.\n2.  I need to identify the node labeled \"UMD Offense\" and examine the outgoing links and nodes that follow it.\n3.  I see a link from \"UMD Offense\" to \"Missed Shot\" with a value of 14.\n4. Therefore, 14 shots were missed immediately after UMD Offense.\n\n<answer>14</answer>",
+  "process_time_seconds": 4.402194,
+  "processed_at": "2025-05-13 20:30:16"
+}

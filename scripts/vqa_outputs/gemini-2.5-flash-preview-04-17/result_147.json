@@ -1,0 +1,14 @@
+{
+  "index": 147,
+  "question_id": "q_147",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_25.png",
+  "question": "How many times did UMD Offense not transition to a Rebound?",
+  "true_answer": "35",
+  "llm_answer": "35",
+  "is_correct": true,
+  "reasoning": "1. I located the node labeled \"UMD Offense\".\n2. I identified the outgoing links from the \"UMD Offense\" node. There are two outgoing links.\n3. I examined the destinations of these outgoing links. One link goes to \"Rebound\", and the other goes to \"\\_Exit\".\n4. I read the numeric labels associated with these links. The link from \"UMD Offense\" to \"Rebound\" has a label of 34. The link from \"UMD Offense\" to \"\\_Exit\" has a label of 35.\n5. The question asks for the number of times UMD Offense did *not* transition to a Rebound. This corresponds to the sequences that followed the path from \"UMD Offense\" to a node other than \"Rebound\". In this diagram, the only other destination is \"\\_Exit\".\n6. Therefore, the number of times UMD Offense did not transition to a Rebound is the count on the link from \"UMD Offense\" to \"\\_Exit\". This count is 35.",
+  "full_response": "<reasoning>\n1. I located the node labeled \"UMD Offense\".\n2. I identified the outgoing links from the \"UMD Offense\" node. There are two outgoing links.\n3. I examined the destinations of these outgoing links. One link goes to \"Rebound\", and the other goes to \"\\_Exit\".\n4. I read the numeric labels associated with these links. The link from \"UMD Offense\" to \"Rebound\" has a label of 34. The link from \"UMD Offense\" to \"\\_Exit\" has a label of 35.\n5. The question asks for the number of times UMD Offense did *not* transition to a Rebound. This corresponds to the sequences that followed the path from \"UMD Offense\" to a node other than \"Rebound\". In this diagram, the only other destination is \"\\_Exit\".\n6. Therefore, the number of times UMD Offense did not transition to a Rebound is the count on the link from \"UMD Offense\" to \"\\_Exit\". This count is 35.\n</reasoning>\n<answer>35</answer>",
+  "process_time_seconds": 3.842102,
+  "processed_at": "2025-05-14 21:20:24"
+}

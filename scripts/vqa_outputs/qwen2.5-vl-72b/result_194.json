@@ -1,0 +1,14 @@
+{
+  "index": 194,
+  "question_id": "q_194",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_25.png",
+  "question": "How many fouls were made after UNC Offense and before UMD offense? ",
+  "true_answer": "indeterminate",
+  "llm_answer": "0",
+  "is_correct": false,
+  "reasoning": "The node-link diagram shows a sequence of events starting from \"_Start\" and moving through \"UNC Offense,\" then splitting into \"Made Shot\" and \"Missed Shot.\" After these, the path continues to \"UMD Offense.\" There is no node or link labeled \"Foul\" or any indication of fouls occurring between \"UNC Offense\" and \"UMD Offense.\" The only events shown are shots (made or missed) and rebounds. Therefore, based on the information provided in the visualization, there is no evidence of any fouls occurring in the specified sequence.",
+  "full_response": "<reasoning>\nThe node-link diagram shows a sequence of events starting from \"_Start\" and moving through \"UNC Offense,\" then splitting into \"Made Shot\" and \"Missed Shot.\" After these, the path continues to \"UMD Offense.\" There is no node or link labeled \"Foul\" or any indication of fouls occurring between \"UNC Offense\" and \"UMD Offense.\" The only events shown are shots (made or missed) and rebounds. Therefore, based on the information provided in the visualization, there is no evidence of any fouls occurring in the specified sequence.\n</reasoning>\n<answer>0</answer>",
+  "process_time_seconds": 6.171341,
+  "processed_at": "2025-05-16 19:54:51"
+}

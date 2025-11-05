@@ -1,0 +1,14 @@
+{
+  "index": 124,
+  "question_id": "q_124",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_10.png",
+  "question": "How many shots were missed immediately after UMD Offense?",
+  "true_answer": "14",
+  "llm_answer": "14",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "### Relevant Elements:\n- The node labeled \"Missed Shot\" is directly connected to the node labeled \"UMD Offense\".\n- The link width between \"UMD Offense\" and \"Missed Shot\" is 14.\n\n### Reasoning:\n1. Identify the starting point: The diagram starts at \"_Start\" which leads to \"UNC Offense\" and \"UMD Offense\".\n2. Follow the pathway from \"UMD Offense\": There is a direct link from \"UMD Offense\" to \"Missed Shot\".\n3. Check the value associated with this link: The numeric label next to the link from \"UMD Offense\" to \"Missed Shot\" is 14.\n\n### Final Answer:\n<answer>14</answer>",
+  "process_time_seconds": 28.908977,
+  "processed_at": "2025-05-15 04:06:05"
+}

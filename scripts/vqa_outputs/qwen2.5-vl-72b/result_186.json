@@ -1,0 +1,14 @@
+{
+  "index": 186,
+  "question_id": "q_186",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many total rebounds are there in the match?",
+  "true_answer": "49",
+  "llm_answer": "49",
+  "is_correct": true,
+  "reasoning": "- The first \"Rebound\" node is connected by a link with a value of 15 from the \"UNC Offense\" node.\n      - The second \"Rebound\" node is connected by a link with a value of 34 from the \"UMD Offense\" node.\n      - These values represent the number of sequences (or occurrences) leading to each rebound event.",
+  "full_response": "1. **Identify the relevant elements:**\n   - The nodes labeled \"Rebound\" are the ones we need to focus on.\n   - There are two \"Rebound\" nodes in the diagram.\n\n2. **Analyze the links and their values:**\n   <reasoning>\n      - The first \"Rebound\" node is connected by a link with a value of 15 from the \"UNC Offense\" node.\n      - The second \"Rebound\" node is connected by a link with a value of 34 from the \"UMD Offense\" node.\n      - These values represent the number of sequences (or occurrences) leading to each rebound event.\n   </reasoning>\n\n3. **Calculate the total rebounds:**\n   - Add the values of the links leading to the \"Rebound\" nodes: 15 + 34 = 49\n\n<answer>49</answer>",
+  "process_time_seconds": 8.59593,
+  "processed_at": "2025-05-16 19:53:49"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 109,
+  "question_id": "q_109",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_30.png",
+  "question": "How many patients went to the ICU after Emrgency?",
+  "true_answer": "35",
+  "llm_answer": "36",
+  "is_correct": false,
+  "reasoning": "- The \"Emergency\" node has four outgoing links.\n- Two of these links lead directly to the \"ICU\" node:\n  - One link shows a count of 12.\n  - Another link shows a count of 24.\n- Adding these counts together: 12 + 24 = 36.",
+  "full_response": "To determine how many patients went to the ICU after Emergency, I'll follow these steps:\n\n1. Identify the \"Emergency\" node and trace all pathways leading from it.\n2. Look for pathways that lead directly to the \"ICU\" node.\n3. Sum the counts on these pathways.\n\n<reasoning>\n- The \"Emergency\" node has four outgoing links.\n- Two of these links lead directly to the \"ICU\" node:\n  - One link shows a count of 12.\n  - Another link shows a count of 24.\n- Adding these counts together: 12 + 24 = 36.\n</reasoning>\n\n<answer>36</answer>",
+  "process_time_seconds": 7.698717,
+  "processed_at": "2025-05-16 19:04:29"
+}

@@ -1,0 +1,15 @@
+{
+  "index": 19,
+  "question_id": "q_19",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/CoreFlow/emergency_dataset/msp_20.png",
+  "question": "How many total patients were discharged alive?",
+  "true_answer": "62",
+  "llm_answer": "62",
+  "is_correct": true,
+  "reasoning": "To determine the total number of patients discharged alive, we need to follow the pathways in the node-link diagram that lead to the \"Discharge-Alive\" nodes. \n\n1. The diagram shows two distinct pathways leading to \"Discharge-Alive\": one from the \"Emergency\" node and another from the \"Floor\" node. \n\n2. From the \"Emergency\" node, there are 38 sequences leading directly to \"Discharge-Alive\". \n\n3. From the \"Floor\" node, there are 24 sequences leading to \"Discharge-Alive\". \n\n4. To find the total number of patients discharged alive, we add the counts from both pathways: 38 (from \"Emergency\") + 24 (from \"Floor\") = 62.\n\nTherefore, the total number of patients discharged alive is 62.",
+  "full_response": "<reasoning>\nTo determine the total number of patients discharged alive, we need to follow the pathways in the node-link diagram that lead to the \"Discharge-Alive\" nodes. \n\n1. The diagram shows two distinct pathways leading to \"Discharge-Alive\": one from the \"Emergency\" node and another from the \"Floor\" node. \n\n2. From the \"Emergency\" node, there are 38 sequences leading directly to \"Discharge-Alive\". \n\n3. From the \"Floor\" node, there are 24 sequences leading to \"Discharge-Alive\". \n\n4. To find the total number of patients discharged alive, we add the counts from both pathways: 38 (from \"Emergency\") + 24 (from \"Floor\") = 62.\n\nTherefore, the total number of patients discharged alive is 62.\n</reasoning>\n\n<answer>62</answer>",
+  "process_time_seconds": 8.353531,
+  "processed_at": "2025-05-17 06:08:08",
+  "model": "meta/llama-3.2-90b-vision-instruct-maas"
+}

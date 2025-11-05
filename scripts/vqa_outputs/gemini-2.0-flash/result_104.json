@@ -1,0 +1,14 @@
+{
+  "index": 104,
+  "question_id": "q_104",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_25.png",
+  "question": "How many total patients were discharged alive after going to the Floor?",
+  "true_answer": "20",
+  "llm_answer": "indeterminate",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "1.  Identify relevant elements:\n    *   The diagram shows sequences of events (nodes) connected by links, with numbers indicating counts.\n    *   The question asks about patients discharged alive after going to the Floor.\n\n2.  Trace pathways and counts:\n    *   Start at the \"Arrival\" node on the right and follow paths to the \"Floor\" node. The link connecting \"Arrival\" and \"Emergency\" has a value of 27. The link connecting \"Emergency\" and \"Floor\" also has a value of 27.\n    *   From the \"Floor\" node, there is a path to the \"ICU\" node with a value of 24, and then to \"Die\" with a value of 18, and then to \"_Exit\" with a value of 27.\n    *   There isn't a visible direct path connecting the \"Floor\" node to \"Discharge-Alive\".\n\n3.  Determine the answer:\n    *   Because there is no direct path from \"Floor\" to \"Discharge-Alive\", we cannot determine the number of patients discharged alive after going to the Floor.\n\n<answer>indeterminate</answer>",
+  "process_time_seconds": 4.775515,
+  "processed_at": "2025-05-13 19:49:20"
+}

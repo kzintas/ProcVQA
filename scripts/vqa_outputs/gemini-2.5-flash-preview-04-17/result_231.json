@@ -1,0 +1,14 @@
+{
+  "index": 231,
+  "question_id": "q_231",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_25.png",
+  "question": "How many times did a jump ball occur after UNC Offense?",
+  "true_answer": "1",
+  "llm_answer": "1",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "<reason>I am analyzing the node-link diagram to find the number of times a \"Jump Ball\" event occurred immediately after a \"UNC Offense\" event.\nI examined the diagram, specifically looking for a node labeled \"UNC Offense\" that has a directed link pointing to a node labeled \"Jump Ball\".\nIn the first column, there is a \"_Start\" node (count 2) leading to a \"UNC Offense\" node (count 2). From this \"UNC Offense\" node, there is a link going down to a \"Jump Ball\" node. The numeric label next to this link is 1.\nI checked the other columns, which also show \"UNC Offense\" nodes originating from other \"_Start\" points (counts 19, 12, 8, 28) or other events (e.g., from UMD Offense, Rebound). None of these other \"UNC Offense\" nodes show a link leading to a \"Jump Ball\" node.\nTherefore, the only occurrence of \"Jump Ball\" immediately following \"UNC Offense\" shown in this diagram is represented by the link with the value 1 in the first column.</reason>\n<answer>1</answer>",
+  "process_time_seconds": 6.477092,
+  "processed_at": "2025-05-14 21:15:43"
+}

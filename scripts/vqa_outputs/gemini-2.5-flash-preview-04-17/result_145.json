@@ -1,0 +1,14 @@
+{
+  "index": 145,
+  "question_id": "q_145",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_25.png",
+  "question": "How many Rebounds were made by UMD Offense?",
+  "true_answer": "34",
+  "llm_answer": "34",
+  "is_correct": true,
+  "reasoning": "The question asks for the number of Rebounds made by UMD Offense. I need to find the node labeled \"UMD Offense\" and the node labeled \"Rebound\" in the diagram. Then I need to find the link connecting \"UMD Offense\" to \"Rebound\" and read the numeric label on that link.\n\n1.  Locate the \"UMD Offense\" node.\n2.  Locate the \"Rebound\" node.\n3.  Observe the directed link originating from \"UMD Offense\" and terminating at \"Rebound\".\n4.  Read the numeric label on this specific link. The label is 34.\n\nThis label indicates that 34 sequences moved from the \"UMD Offense\" state to the \"Rebound\" state. Therefore, according to the diagram, 34 Rebounds followed the UMD Offense event.",
+  "full_response": "<reasoning>\nThe question asks for the number of Rebounds made by UMD Offense. I need to find the node labeled \"UMD Offense\" and the node labeled \"Rebound\" in the diagram. Then I need to find the link connecting \"UMD Offense\" to \"Rebound\" and read the numeric label on that link.\n\n1.  Locate the \"UMD Offense\" node.\n2.  Locate the \"Rebound\" node.\n3.  Observe the directed link originating from \"UMD Offense\" and terminating at \"Rebound\".\n4.  Read the numeric label on this specific link. The label is 34.\n\nThis label indicates that 34 sequences moved from the \"UMD Offense\" state to the \"Rebound\" state. Therefore, according to the diagram, 34 Rebounds followed the UMD Offense event.\n</reasoning>\n<answer>34</answer>",
+  "process_time_seconds": 4.189723,
+  "processed_at": "2025-05-14 21:04:50"
+}

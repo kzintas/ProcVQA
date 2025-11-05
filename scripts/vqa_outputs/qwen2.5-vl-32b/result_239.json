@@ -1,0 +1,14 @@
+{
+  "index": 239,
+  "question_id": "q_239",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_30.png",
+  "question": "How many total missed shots occur after UNC Offense but before UMD Offense?",
+  "true_answer": "23",
+  "llm_answer": "30",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "To answer the question, we need to identify all pathways in the diagram where \"Missed Shot\" occurs after \"UNC Offense\" but before \"UMD Offense.\" Let's break this down step by step:\n\n### Step 1: Identify the relevant sections of the diagram\n- We are looking for sequences where:\n  1. The sequence starts with \"UNC Offense.\"\n  2. A \"Missed Shot\" occurs after \"UNC Offense.\"\n  3. The sequence transitions to \"UMD Offense\" after the \"Missed Shot.\"\n\n### Step 2: Trace the pathways\n#### Pathway 1: Starting from the first \"UNC Offense\" (top left)\n- **Start** \u2192 **UNC Offense** (2 sequences)\n- From \"UNC Offense,\" there is a link to **Missed Shot** (2 sequences).\n- After \"Missed Shot,\" the sequence goes to **Rebound** (2 sequences).\n- From \"Rebound,\" the sequence transitions to **UMD Offense** (2 sequences).\n\n#### Pathway 2: Starting from the second \"UNC Offense\" (middle left)\n- **Start** \u2192 **UNC Offense** (14 sequences)\n- From \"UNC Offense,\" there is a link to **Missed Shot** (14 sequences).\n- After \"Missed Shot,\" the sequence goes to **Rebound** (14 sequences).\n- From \"Rebound,\" the sequence transitions to **UMD Offense** (14 sequences).\n\n#### Pathway 3: Starting from the third \"UNC Offense\" (middle right)\n- **Start** \u2192 **UNC Offense** (12 sequences)\n- From \"UNC Offense,\" there is a link to **Foul** (9 sequences).\n- From \"Foul,\" the sequence goes to **Made Free Throw** (10 sequences).\n- After \"Made Free Throw,\" the sequence goes to **Missed Shot** (14 sequences).\n- From \"Missed Shot,\" the sequence transitions to **UMD Offense** (13 sequences).\n\n#### Pathway 4: Starting from the fourth \"UNC Offense\" (far right)\n- **Start** \u2192 **UNC Offense** (18 sequences)\n- From \"UNC Offense,\" there is a link to **Made Shot** (17 sequences).\n- After \"Made Shot,\" the sequence goes to **Rebound** (8 sequences).\n- From \"Rebound,\" the sequence transitions to **UMD Offense** (15 sequences).\n\n### Step 3: Count the missed shots\n- In **Pathway 1**, there are 2 sequences of \"Missed Shot.\"\n- In **Pathway 2**, there are 14 sequences of \"Missed Shot.\"\n- In **Pathway 3**, there are 14 sequences of \"Missed Shot.\"\n- In **Pathway 4**, there are no \"Missed Shot\" events before \"UMD Offense.\"\n\n### Step 4: Sum the total missed shots\nThe total number of missed shots that occur after \"UNC Offense\" but before \"UMD Offense\" is:\n\\[ 2 + 14 + 14 = 30 \\]\n\n### Final Answer:\n<answer>30</answer>",
+  "process_time_seconds": 13.359416,
+  "processed_at": "2025-05-16 21:30:58"
+}

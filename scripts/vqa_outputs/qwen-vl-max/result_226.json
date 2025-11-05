@@ -1,0 +1,14 @@
+{
+  "index": 226,
+  "question_id": "q_226",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_20.png",
+  "question": "How many rebounds were made in total by both teams?",
+  "true_answer": "34",
+  "llm_answer": "34",
+  "is_correct": true,
+  "reasoning": "The total number of rebounds is calculated by adding the values of both \"Rebound\" nodes:\n\\[ \\text{Total Rebounds} = 19 + 15 = 34 \\]",
+  "full_response": "To determine the total number of rebounds made by both teams, we need to identify all nodes labeled \"Rebound\" and sum their corresponding values.\n\n1. There are two \"Rebound\" nodes in the diagram.\n2. The first \"Rebound\" node has a value of 19.\n3. The second \"Rebound\" node has a value of 15.\n\n<reasoning>\nThe total number of rebounds is calculated by adding the values of both \"Rebound\" nodes:\n\\[ \\text{Total Rebounds} = 19 + 15 = 34 \\]\n</reasoning>\n\n<answer>34</answer>",
+  "process_time_seconds": 6.334648,
+  "processed_at": "2025-05-16 19:20:29"
+}

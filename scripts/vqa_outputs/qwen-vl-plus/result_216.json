@@ -1,0 +1,14 @@
+{
+  "index": 216,
+  "question_id": "q_216",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_10.png",
+  "question": "How many shots were made by only the UNC offense?",
+  "true_answer": "16",
+  "llm_answer": "28",
+  "is_correct": false,
+  "reasoning": "To determine the number of shots made by only the UNC offense, we need to identify all sequences where \"Made Shot\" is connected directly to \"UNC Offense\" without any other events in between.\n\n1. Start -> UNC Offense (7)\n2. Start -> UNC Offense (14)\n3. Start -> UNC Offense (15)\n\nEach of these sequences shows a direct connection from \"Start\" to \"UNC Offense\" followed by \"Made Shot\". \n\nSumming up the counts for each sequence:\n- 7\n- 14\n- 15\n\nAdding these together gives us a total of 28 sequences where only the UNC offense resulted in a shot being made.",
+  "full_response": "<answer>28</answer>\n\n<reasoning>\nTo determine the number of shots made by only the UNC offense, we need to identify all sequences where \"Made Shot\" is connected directly to \"UNC Offense\" without any other events in between.\n\n1. Start -> UNC Offense (7)\n2. Start -> UNC Offense (14)\n3. Start -> UNC Offense (15)\n\nEach of these sequences shows a direct connection from \"Start\" to \"UNC Offense\" followed by \"Made Shot\". \n\nSumming up the counts for each sequence:\n- 7\n- 14\n- 15\n\nAdding these together gives us a total of 28 sequences where only the UNC offense resulted in a shot being made.\n</reasoning>",
+  "process_time_seconds": 8.234383,
+  "processed_at": "2025-05-16 20:34:52"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 140,
+  "question_id": "q_140",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many shots were missed immediately after UMD Offense?",
+  "true_answer": "14",
+  "llm_answer": "14",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "### Step 1: Identify the relevant elements in the visualization\n- The node labeled **\"UMD Offense\"** is the starting point for this analysis.\n- From **\"UMD Offense,\"** there are two outgoing links:\n  1. A link to **\"Rebound\"** with a count of **34**.\n  2. A link to **\"Missed Shot\"** with a count of **14**.\n\n### Step 2: Understand the question\nThe question asks for the number of shots missed immediately after the **\"UMD Offense.\"** This corresponds to the link from **\"UMD Offense\"** to **\"Missed Shot.\"**\n\n### Step 3: Analyze the link to \"Missed Shot\"\n- The link from **\"UMD Offense\"** to **\"Missed Shot\"** has a numeric label of **14**.\n- This label indicates that **14 sequences** involve a missed shot immediately following the UMD offense.\n\n### Step 4: Verify other paths\n- The other path from **\"UMD Offense\"** leads to **\"Rebound,\"** which does not directly answer the question about missed shots.\n- The **\"Missed Shot\"** node itself has a direct link to **\"_Exit,\"** confirming that these sequences end after a missed shot.\n\n### Step 5: Formulate the answer\nThe number of shots missed immediately after the **\"UMD Offense\"** is explicitly given by the count on the link to **\"Missed Shot,\"** which is **14**.\n\n### Final Answer:\n<answer>14</answer>",
+  "process_time_seconds": 7.32576,
+  "processed_at": "2025-05-16 21:13:23"
+}

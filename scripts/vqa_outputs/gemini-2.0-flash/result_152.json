@@ -1,0 +1,14 @@
+{
+  "index": 152,
+  "question_id": "q_152",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_25.png",
+  "question": "How many free throws were made in total by UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": "indeterminate",
+  "is_correct": true,
+  "reasoning": "The diagram shows the flow of events starting from '_Start' to 'UNC Offense' to 'UMD Offense'. From 'UMD Offense', it splits into two paths, one going to 'Rebound' and then '_Exit', and the other going directly to '_Exit'. The numbers on the links represent the number of sequences following each path. There is no mention of free throws.",
+  "full_response": "The question asks about free throws, but the diagram shows a sequence of events related to basketball offense and rebounds. It does not mention free throws.\n <reasoning>\nThe diagram shows the flow of events starting from '_Start' to 'UNC Offense' to 'UMD Offense'. From 'UMD Offense', it splits into two paths, one going to 'Rebound' and then '_Exit', and the other going directly to '_Exit'. The numbers on the links represent the number of sequences following each path. There is no mention of free throws.\n</reasoning>\n<answer>indeterminate</answer>",
+  "process_time_seconds": 2.715422,
+  "processed_at": "2025-05-13 20:14:31"
+}

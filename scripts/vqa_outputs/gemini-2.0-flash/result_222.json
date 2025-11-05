@@ -1,0 +1,14 @@
+{
+  "index": 222,
+  "question_id": "q_222",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_15.png",
+  "question": "How many free throws were made by UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": null,
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "1.  **Identify relevant elements:** The question asks about 'free throws made by UMD Offense'. I need to trace the path where 'UMD Offense' is involved after a 'Made Free Throw'.\n2.  **Trace the path:** Starting from \"Made Free Throw,\" the count is 12. UMD Offense follows after 'Made Free Throw' with a count of 9. There is no path for made free throws for UMD offense.\n\n**Answer:**\nindeterminate\n",
+  "process_time_seconds": 3.46888,
+  "processed_at": "2025-05-13 19:57:14"
+}

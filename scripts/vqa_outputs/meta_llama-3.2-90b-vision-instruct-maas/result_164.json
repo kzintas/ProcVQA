@@ -1,0 +1,15 @@
+{
+  "index": 164,
+  "question_id": "q_164",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_05.png",
+  "question": "How many missed shots were before UMD Offense?",
+  "true_answer": "24",
+  "llm_answer": null,
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "The node-link diagram shows the sequence of events in a basketball game. The question asks how many missed shots were before UMD Offense.\n\nTo answer this question, we need to follow the path from the start of the game to the UMD Offense. The path is as follows:\n\n*   Start\n*   UNC Offense\n*   Rebound\n*   Foul\n*   Made Shot\n*   Missed Shot\n*   Turnover\n*   Made Free Throw\n*   UMD Offense\n\nThere is only one missed shot before the UMD Offense.\n\n**Answer:** 1",
+  "process_time_seconds": 6.204759,
+  "processed_at": "2025-05-17 06:31:14",
+  "model": "meta/llama-3.2-90b-vision-instruct-maas"
+}

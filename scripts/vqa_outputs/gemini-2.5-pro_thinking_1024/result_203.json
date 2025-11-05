@@ -1,0 +1,20 @@
+{
+  "index": 203,
+  "question_id": "q_203",
+  "dataset": "UMDvsUNC",
+  "image_path": "../images/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_05.png",
+  "question": "How many times did a jump ball occur after UNC Offense?",
+  "true_answer": "1",
+  "llm_answer": "1",
+  "is_correct": true,
+  "reasoning": "1.  I first locate the node labeled \"UNC Offense\" in the diagram. I find several instances of this node.\n2.  The question asks for the number of times a \"Jump Ball\" occurred *after* \"UNC Offense\". This means I need to find a direct link from a \"UNC Offense\" node to a \"Jump Ball\" node.\n3.  I scan the diagram for this specific sequence. In the fourth column from the left, I find a path that starts with `_Start` (4), goes to `UNC Offense` (4), and then splits.\n4.  One of the branches from this `UNC Offense` (4) node leads directly to a node labeled \"Jump Ball\".\n5.  I look at the numeric label next to the \"Jump Ball\" node in this specific path. The label shows the value \"1\".\n6.  This indicates that the sequence \"UNC Offense\" followed by \"Jump Ball\" occurred 1 time.",
+  "full_response": "<reasoning>\n1.  I first locate the node labeled \"UNC Offense\" in the diagram. I find several instances of this node.\n2.  The question asks for the number of times a \"Jump Ball\" occurred *after* \"UNC Offense\". This means I need to find a direct link from a \"UNC Offense\" node to a \"Jump Ball\" node.\n3.  I scan the diagram for this specific sequence. In the fourth column from the left, I find a path that starts with `_Start` (4), goes to `UNC Offense` (4), and then splits.\n4.  One of the branches from this `UNC Offense` (4) node leads directly to a node labeled \"Jump Ball\".\n5.  I look at the numeric label next to the \"Jump Ball\" node in this specific path. The label shows the value \"1\".\n6.  This indicates that the sequence \"UNC Offense\" followed by \"Jump Ball\" occurred 1 time.\n</reasoning>\n<answer>1</answer>",
+  "process_time_seconds": 10.107242,
+  "processed_at": "2025-06-29 05:00:07",
+  "thinking_info": {
+    "thoughts_token_count": 574,
+    "total_token_count": 3681,
+    "thinking_enabled": true
+  },
+  "thinking_enabled": true
+}

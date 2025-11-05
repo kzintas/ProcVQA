@@ -1,0 +1,14 @@
+{
+  "index": 120,
+  "question_id": "q_120",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_05.png",
+  "question": "How many free throws were made in total by UMD Offense?",
+  "true_answer": "10",
+  "llm_answer": "10",
+  "is_correct": true,
+  "reasoning": "1. From the \"UMD Offense\" node, there are two paths leading to \"Foul\":\n   - One path has a count of 6.\n   - Another path has a count of 4.\n\n2. Both these paths further lead to \"Made Free Throw\":\n   - The path with a count of 6 leads to \"Made Free Throw\" and then \"_Exit\".\n   - The path with a count of 4 also leads to \"Made Free Throw\" and then \"_Exit\".\n\n3. Therefore, the total number of free throws made is the sum of these counts:\n   - 6 + 4 = 10.",
+  "full_response": "To determine the total number of free throws made by UMD Offense, we need to follow the pathways that lead to \"Made Free Throw\" nodes. \n\n<reasoning>\n1. From the \"UMD Offense\" node, there are two paths leading to \"Foul\":\n   - One path has a count of 6.\n   - Another path has a count of 4.\n\n2. Both these paths further lead to \"Made Free Throw\":\n   - The path with a count of 6 leads to \"Made Free Throw\" and then \"_Exit\".\n   - The path with a count of 4 also leads to \"Made Free Throw\" and then \"_Exit\".\n\n3. Therefore, the total number of free throws made is the sum of these counts:\n   - 6 + 4 = 10.\n</reasoning> \n\n<answer>10</answer>",
+  "process_time_seconds": 6.738224,
+  "processed_at": "2025-05-16 19:05:52"
+}

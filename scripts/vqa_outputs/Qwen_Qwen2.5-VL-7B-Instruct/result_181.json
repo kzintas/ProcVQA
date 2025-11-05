@@ -1,0 +1,14 @@
+{
+  "index": 181,
+  "question_id": "q_181",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_15.png",
+  "question": "How many steals occurred after UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": "indeterminate",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "To determine the number of steals that occurred after UMD Offense, we need to follow the pathway from \"Start\" to \"Rebound\" and then to \"Made Shot\" or \"Missed Shot,\" and finally to \"Rebound\" again.\n\nHere's the step-by-step reasoning:\n\n1. Start at the \"Start\" node.\n2. Follow the path to \"UNC Offense.\"\n3. From \"UNC Offense,\" there are two paths:\n   - One leads to \"Rebound\" with 15 sequences.\n   - Another leads to \"Made Shot\" with 22 sequences.\n4. From \"Made Shot,\" there is one path leading to \"Rebound\" with 22 sequences.\n5. From \"Missed Shot,\" there is one path leading to \"Rebound\" with 24 sequences.\n6. From \"Rebound,\" there is one path leading to \"Rebound\" with 15 sequences.\n\nSince the question asks specifically about steals occurring after UMD Offense, and there is no direct link or label indicating \"Steals\" in the given diagram, it is not possible to determine the number of steals that occurred after UMD Offense based on the provided information.\n\n<answer>indeterminate</answer>",
+  "process_time_seconds": 47.662819,
+  "processed_at": "2025-05-15 04:42:59"
+}

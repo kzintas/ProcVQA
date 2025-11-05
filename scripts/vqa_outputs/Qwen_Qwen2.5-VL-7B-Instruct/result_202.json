@@ -1,0 +1,14 @@
+{
+  "index": 202,
+  "question_id": "q_202",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_30.png",
+  "question": "How many steals occurred after UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": "indeterminate",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "### Relevant Elements:\n- The node labeled \"Rebound\" is connected to \"UMD Offense\" with a link width indicating 34 sequences.\n- There is no node labeled \"Steal\" in the diagram.\n\n### Reasoning:\n1. The question asks about \"steals\" occurring after \"UMD Offense\".\n2. In the diagram, \"Rebound\" is the only node that follows \"UMD Offense\", which suggests it could be a type of action after the offense.\n3. However, there is no explicit mention of \"steals\" in the diagram, and the link from \"UMD Offense\" to \"Rebound\" does not indicate any specific action like \"steal\".\n\n### Final Answer:\n<answer>indeterminate</answer>",
+  "process_time_seconds": 26.594416,
+  "processed_at": "2025-05-15 04:53:04"
+}

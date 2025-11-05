@@ -1,0 +1,14 @@
+{
+  "index": 29,
+  "question_id": "q_29",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/CoreFlow/emergency_dataset/msp_30.png",
+  "question": "How many patients died after arriving at Emergency?",
+  "true_answer": "36",
+  "llm_answer": "36",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "### Relevant Elements:\n- The node labeled \"Arrival\" has 100 patients.\n- From \"Arrival,\" there is a link to \"ICU\" with a value of 62.\n- From \"Arrival,\" there is also a link to \"Die\" with a value of 36.\n\n### Reasoning:\n1. Start at the \"Start\" node, which leads to \"Arrival.\"\n2. From \"Arrival,\" two paths diverge: one to \"ICU\" and another to \"Die.\"\n3. The link from \"Arrival\" to \"Die\" has a value of 36, indicating 36 patients died after arriving at \"Emergency.\"\n\n### Final Answer:\n<answer>36</answer>",
+  "process_time_seconds": 28.547507,
+  "processed_at": "2025-05-15 03:01:16"
+}

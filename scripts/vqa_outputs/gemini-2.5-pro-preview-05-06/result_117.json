@@ -1,0 +1,14 @@
+{
+  "index": 117,
+  "question_id": "q_117",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_05.png",
+  "question": "How many shots were made directly after a Rebound?",
+  "true_answer": "15",
+  "llm_answer": "15",
+  "is_correct": true,
+  "reasoning": "1.  **Locate the \"Rebound\" node:** The \"Rebound\" node is present in the diagram.\n2.  **Identify direct pathways from \"Rebound\":** From the \"Rebound\" node, there are several outgoing links:\n    *   To \"Made Shot\"\n    *   To \"Missed Shot\"\n    *   To \"Foul\"\n    *   To \"Turnover\"\n3.  **Find the pathway to \"Made Shot\":** There is a direct link from \"Rebound\" to \"Made Shot\".\n4.  **Read the numeric label on the link:** The numeric label on the link connecting \"Rebound\" to \"Made Shot\" is \"15\". This value represents the number of sequences where a \"Made Shot\" occurred directly after a \"Rebound\".",
+  "full_response": "<reasoning>\n1.  **Locate the \"Rebound\" node:** The \"Rebound\" node is present in the diagram.\n2.  **Identify direct pathways from \"Rebound\":** From the \"Rebound\" node, there are several outgoing links:\n    *   To \"Made Shot\"\n    *   To \"Missed Shot\"\n    *   To \"Foul\"\n    *   To \"Turnover\"\n3.  **Find the pathway to \"Made Shot\":** There is a direct link from \"Rebound\" to \"Made Shot\".\n4.  **Read the numeric label on the link:** The numeric label on the link connecting \"Rebound\" to \"Made Shot\" is \"15\". This value represents the number of sequences where a \"Made Shot\" occurred directly after a \"Rebound\".\n</reasoning>\n<answer>15</answer>",
+  "process_time_seconds": 7.708921,
+  "processed_at": "2025-05-15 02:43:27"
+}

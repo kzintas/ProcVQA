@@ -1,0 +1,14 @@
+{
+  "index": 224,
+  "question_id": "q_224",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_20.png",
+  "question": "How many times did a jump ball occur after UNC Offense?",
+  "true_answer": "1",
+  "llm_answer": "1",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": " The question asks about sequences starting with \"UNC Offense\" and being followed by \"Jump Ball\".\n\n1.  **Identify \"UNC Offense\" nodes:** I see four \"UNC Offense\" nodes at the top of the diagram.\n2.  **Trace paths from \"UNC Offense\":** \n    *   The leftmost \"UNC Offense\" node has a count of 2 and links to \"Jump Ball\" and \"Missed Shot\"\n    *   The link from \"UNC Offense\" (2) to \"Jump Ball\" has a value of 1.\n    *   The other \"UNC Offense\" nodes do not have a \"Jump Ball\" following them.\n\n Therefore, \"Jump Ball\" occurred 1 time after \"UNC Offense\".\n\n<answer>1</answer>",
+  "process_time_seconds": 5.17056,
+  "processed_at": "2025-05-13 19:57:24"
+}

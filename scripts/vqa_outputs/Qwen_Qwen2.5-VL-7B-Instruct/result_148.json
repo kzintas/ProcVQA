@@ -1,0 +1,14 @@
+{
+  "index": 148,
+  "question_id": "q_148",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_25.png",
+  "question": "How many shots were missed immediately after UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": "34",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "### Reasoning:\n1. The diagram starts at \"_Start\" and branches into two paths labeled \"UNC Offense\" and \"UMD Offense\".\n2. Both \"UNC Offense\" and \"UMD Offense\" have a link leading to \"Rebound\", indicating a missed shot.\n3. The link width from \"UMD Offense\" to \"Rebound\" is 34.\n\n### Answer:\n<answer>34</answer>",
+  "process_time_seconds": 17.282791,
+  "processed_at": "2025-05-15 04:18:38"
+}

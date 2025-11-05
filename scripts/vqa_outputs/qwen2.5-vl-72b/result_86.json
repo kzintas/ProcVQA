@@ -1,0 +1,14 @@
+{
+  "index": 86,
+  "question_id": "q_86",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_15.png",
+  "question": "How many total patients were discharged alive?",
+  "true_answer": "57",
+  "llm_answer": "57",
+  "is_correct": true,
+  "reasoning": "- In the first pathway (leftmost), there is no \"Discharge-Alive\" node.\n    - In the second pathway, 37 patients were discharged alive.\n    - In the third pathway, 20 patients were discharged alive.\n    - In the fourth pathway, there is no \"Discharge-Alive\" node.\n    - To find the total number of patients discharged alive, we sum the counts from the pathways where \"Discharge-Alive\" appears: 37 + 20 = 57.",
+  "full_response": "1. **Relevant Elements:** The relevant elements are the nodes labeled \"Discharge-Alive\" and their associated counts, as these represent patients who were discharged alive.\n\n2. <reasoning>\n    - In the first pathway (leftmost), there is no \"Discharge-Alive\" node.\n    - In the second pathway, 37 patients were discharged alive.\n    - In the third pathway, 20 patients were discharged alive.\n    - In the fourth pathway, there is no \"Discharge-Alive\" node.\n    - To find the total number of patients discharged alive, we sum the counts from the pathways where \"Discharge-Alive\" appears: 37 + 20 = 57.\n</reasoning>\n\n3. <answer>57</answer>",
+  "process_time_seconds": 8.077604,
+  "processed_at": "2025-05-16 19:38:32"
+}

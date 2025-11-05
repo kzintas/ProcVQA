@@ -1,0 +1,14 @@
+{
+  "index": 179,
+  "question_id": "q_179",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_15.png",
+  "question": "How many total rebounds are there in the match?",
+  "true_answer": "49",
+  "llm_answer": "49",
+  "is_correct": true,
+  "reasoning": "1.  Identify all nodes in the diagram labeled \"Rebound\". There are two such nodes.\n2.  Locate the links leading into each \"Rebound\" node and note the associated numeric labels.\n3.  The first \"Rebound\" node is reached from \"Missed Shot\" via a link labeled \"15\". This indicates 15 sequences involved a rebound after a missed shot by UNC.\n4.  The second \"Rebound\" node is reached from \"UMD Offense\" via a link labeled \"34\". This indicates 34 sequences involved a rebound starting from UMD offense.\n5.  These two \"Rebound\" nodes represent all rebound events explicitly depicted in the diagram.\n6.  To find the total number of rebounds, sum the counts associated with the links leading to these \"Rebound\" nodes.\n7.  Total Rebounds = 15 (Rebound after UNC Missed Shot) + 34 (Rebound from UMD Offense).\n8.  Calculation: 15 + 34 = 49.\n9.  Therefore, the total number of rebounds shown in the visualization is 49.",
+  "full_response": "<reasoning>\n1.  Identify all nodes in the diagram labeled \"Rebound\". There are two such nodes.\n2.  Locate the links leading into each \"Rebound\" node and note the associated numeric labels.\n3.  The first \"Rebound\" node is reached from \"Missed Shot\" via a link labeled \"15\". This indicates 15 sequences involved a rebound after a missed shot by UNC.\n4.  The second \"Rebound\" node is reached from \"UMD Offense\" via a link labeled \"34\". This indicates 34 sequences involved a rebound starting from UMD offense.\n5.  These two \"Rebound\" nodes represent all rebound events explicitly depicted in the diagram.\n6.  To find the total number of rebounds, sum the counts associated with the links leading to these \"Rebound\" nodes.\n7.  Total Rebounds = 15 (Rebound after UNC Missed Shot) + 34 (Rebound from UMD Offense).\n8.  Calculation: 15 + 34 = 49.\n9.  Therefore, the total number of rebounds shown in the visualization is 49.\n</reasoning>\n<answer>49</answer>",
+  "process_time_seconds": 5.502536,
+  "processed_at": "2025-05-14 21:08:43"
+}

@@ -1,0 +1,15 @@
+{
+  "index": 209,
+  "question_id": "q_209",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_05.png",
+  "question": "How many shots were made by only the UNC offense?",
+  "true_answer": "21",
+  "llm_answer": "21",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "The node-link diagram shows the sequence of events in a basketball game. The UNC offense is represented by the orange nodes, and the UMD offense is represented by the red nodes. The diagram shows that the UNC offense made 21 shots, which is indicated by the \"Made Shot\" node with a value of 21. This is the only node that represents a shot made by the UNC offense.\n\nTherefore, the final answer is:\n\n<answer>21</answer>",
+  "process_time_seconds": 4.912115,
+  "processed_at": "2025-05-17 06:38:09",
+  "model": "meta/llama-3.2-90b-vision-instruct-maas"
+}

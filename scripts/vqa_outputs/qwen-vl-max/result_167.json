@@ -1,0 +1,14 @@
+{
+  "index": 167,
+  "question_id": "q_167",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_05.png",
+  "question": "How many steals occurred after UMD Offense?",
+  "true_answer": "4",
+  "llm_answer": "4",
+  "is_correct": true,
+  "reasoning": "- The \"UMD Offense\" node has several outgoing links.\n- One link leads directly to \"Steal\" with a count of 4.\n- No other paths from \"UMD Offense\" lead to \"Steal\".",
+  "full_response": "To determine the number of steals that occurred after UMD Offense, I'll follow these steps:\n\n1. Locate the \"UMD Offense\" node in the diagram.\n2. Trace all paths originating from this node to identify any path leading to a \"Steal\" event.\n3. Sum up the counts on the links leading directly to \"Steal\".\n\n<reasoning>\n- The \"UMD Offense\" node has several outgoing links.\n- One link leads directly to \"Steal\" with a count of 4.\n- No other paths from \"UMD Offense\" lead to \"Steal\".\n</reasoning>\n\n<answer>4</answer>",
+  "process_time_seconds": 6.128407,
+  "processed_at": "2025-05-16 19:11:47"
+}

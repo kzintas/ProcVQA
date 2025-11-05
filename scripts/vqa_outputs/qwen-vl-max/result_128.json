@@ -1,0 +1,14 @@
+{
+  "index": 128,
+  "question_id": "q_128",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_10.png",
+  "question": "How many free throws were made in total by UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": "8",
+  "is_correct": false,
+  "reasoning": "1. From the \"UMD Offense\" node, there are multiple pathways leading to different outcomes.\n2. One of these pathways involves a \"Foul,\" which occurs 10 times.\n3. After a foul, there is a link labeled \"8\" leading to \"Made Shot.\"\n4. This indicates that out of the 10 fouls, 8 resulted in a made shot.\n5. There are no other pathways from \"UMD Offense\" that involve a foul and a made shot.",
+  "full_response": "To determine the number of free throws made by UMD Offense, we need to identify the pathways that lead to a \"Made Shot\" after a \"Foul.\" \n\n<reasoning>\n1. From the \"UMD Offense\" node, there are multiple pathways leading to different outcomes.\n2. One of these pathways involves a \"Foul,\" which occurs 10 times.\n3. After a foul, there is a link labeled \"8\" leading to \"Made Shot.\"\n4. This indicates that out of the 10 fouls, 8 resulted in a made shot.\n5. There are no other pathways from \"UMD Offense\" that involve a foul and a made shot.\n</reasoning> \n\n<answer>8</answer>",
+  "process_time_seconds": 5.833745,
+  "processed_at": "2025-05-16 19:06:57"
+}

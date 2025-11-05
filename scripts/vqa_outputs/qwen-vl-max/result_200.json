@@ -1,0 +1,14 @@
+{
+  "index": 200,
+  "question_id": "q_200",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_30.png",
+  "question": "How many total rebounds are there in the match?",
+  "true_answer": "34",
+  "llm_answer": "34",
+  "is_correct": true,
+  "reasoning": "1. Start at the \"_Start\" node.\n2. There are two paths from \"_Start\":\n   - 22 sequences go to \"Made Shot\"\n   - 24 sequences go to \"Missed Shot\"\n3. From \"Made Shot\", there is one path:\n   - 22 sequences go to \"UMD Offense\"\n4. From \"Missed Shot\", there are two paths:\n   - 24 sequences go to \"UMD Offense\"\n   - 24 sequences go directly to \"_Exit\"\n5. From \"UMD Offense\", there are two paths:\n   - 34 sequences go to \"Rebound\"\n   - 22 sequences go directly to \"_Exit\"\n6. The only path leading to \"Rebound\" has 34 sequences.",
+  "full_response": "To determine the total number of rebounds in the match, we need to follow the pathways through the diagram and count the sequences that lead to a rebound.\n\n<reasoning>\n1. Start at the \"_Start\" node.\n2. There are two paths from \"_Start\":\n   - 22 sequences go to \"Made Shot\"\n   - 24 sequences go to \"Missed Shot\"\n3. From \"Made Shot\", there is one path:\n   - 22 sequences go to \"UMD Offense\"\n4. From \"Missed Shot\", there are two paths:\n   - 24 sequences go to \"UMD Offense\"\n   - 24 sequences go directly to \"_Exit\"\n5. From \"UMD Offense\", there are two paths:\n   - 34 sequences go to \"Rebound\"\n   - 22 sequences go directly to \"_Exit\"\n6. The only path leading to \"Rebound\" has 34 sequences.\n</reasoning>\n\n<answer>34</answer>",
+  "process_time_seconds": 8.921778,
+  "processed_at": "2025-05-16 19:16:36"
+}

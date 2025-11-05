@@ -1,0 +1,14 @@
+{
+  "index": 242,
+  "question_id": "q_242",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_30.png",
+  "question": "How many total missed shots were made by both teams?",
+  "true_answer": "43",
+  "llm_answer": "18",
+  "is_correct": false,
+  "reasoning": "To determine the total number of missed shots made by both teams, we need to count all instances where a \"Missed Shot\" event occurs in the diagram.\n\n1. Start by identifying all nodes labeled \"Missed Shot.\"\n2. Count each instance of \"Missed Shot\" along the pathways.\n3. Sum up all occurrences of \"Missed Shot.\"\n\nFrom the diagram:\n- There are 9 instances of \"Missed Shot\" for UNC Offense.\n- There are 9 instances of \"Missed Shot\" for UMD Offense.\n\nAdding these together: 9 (UNC) + 9 (UMD) = 18 missed shots.\n\nTherefore, the total number of missed shots made by both teams is 18.",
+  "full_response": "<answer>18</answer>\n\n<reasoning>\nTo determine the total number of missed shots made by both teams, we need to count all instances where a \"Missed Shot\" event occurs in the diagram.\n\n1. Start by identifying all nodes labeled \"Missed Shot.\"\n2. Count each instance of \"Missed Shot\" along the pathways.\n3. Sum up all occurrences of \"Missed Shot.\"\n\nFrom the diagram:\n- There are 9 instances of \"Missed Shot\" for UNC Offense.\n- There are 9 instances of \"Missed Shot\" for UMD Offense.\n\nAdding these together: 9 (UNC) + 9 (UMD) = 18 missed shots.\n\nTherefore, the total number of missed shots made by both teams is 18.\n</reasoning>",
+  "process_time_seconds": 13.71174,
+  "processed_at": "2025-05-16 20:39:06"
+}

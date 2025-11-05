@@ -1,0 +1,14 @@
+{
+  "index": 238,
+  "question_id": "q_238",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_30.png",
+  "question": "How many times did a jump ball occur after UNC Offense?",
+  "true_answer": "1",
+  "llm_answer": "1",
+  "is_correct": true,
+  "reasoning": "To determine how many times a jump ball occurred after UNC Offense, we need to follow the pathway from \"UNC Offense\" to \"Jump Ball\" in the diagram. \n\nStarting at \"UNC Offense,\" we see that there is one link leading directly to \"Jump Ball.\" This link has a label of 1, indicating that this sequence occurs once.\n\nTherefore, the answer is that a jump ball occurred 1 time after UNC Offense.",
+  "full_response": "<answer>1</answer>\n\n<reasoning>\nTo determine how many times a jump ball occurred after UNC Offense, we need to follow the pathway from \"UNC Offense\" to \"Jump Ball\" in the diagram. \n\nStarting at \"UNC Offense,\" we see that there is one link leading directly to \"Jump Ball.\" This link has a label of 1, indicating that this sequence occurs once.\n\nTherefore, the answer is that a jump ball occurred 1 time after UNC Offense.\n</reasoning>",
+  "process_time_seconds": 9.702533,
+  "processed_at": "2025-05-16 20:38:20"
+}

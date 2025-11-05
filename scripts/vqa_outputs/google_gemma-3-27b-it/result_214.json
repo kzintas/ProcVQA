@@ -1,0 +1,14 @@
+{
+  "index": 214,
+  "question_id": "q_214",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_10.png",
+  "question": "How many total missed shots were made by both teams?",
+  "true_answer": "34",
+  "llm_answer": "46",
+  "is_correct": false,
+  "reasoning": "1. **Identify relevant nodes:** The question asks about \"missed shots\". We need to find all nodes labeled \"Missed Shot\" and sum the values associated with the incoming links to those nodes.\n2. **Trace pathways to \"Missed Shot\" nodes:**\n    - The first \"Missed Shot\" node has an incoming link from \"_Start\" with a value of 7.\n    - The second \"Missed Shot\" node has an incoming link from \"Rebound\" with a value of 14.\n    - The third \"Missed Shot\" node has an incoming link from \"Rebound\" with a value of 6.\n    - The fourth \"Missed Shot\" node has an incoming link from \"UMD Offense\" with a value of 7.\n    - The fifth \"Missed Shot\" node has an incoming link from \"UMD Offense\" with a value of 12.\n3. **Sum the values:** 7 + 14 + 6 + 7 + 12 = 46",
+  "full_response": "Here's an analysis of the node-link diagram to determine the total number of missed shots by both teams:\n\n<reasoning>\n1. **Identify relevant nodes:** The question asks about \"missed shots\". We need to find all nodes labeled \"Missed Shot\" and sum the values associated with the incoming links to those nodes.\n2. **Trace pathways to \"Missed Shot\" nodes:**\n    - The first \"Missed Shot\" node has an incoming link from \"_Start\" with a value of 7.\n    - The second \"Missed Shot\" node has an incoming link from \"Rebound\" with a value of 14.\n    - The third \"Missed Shot\" node has an incoming link from \"Rebound\" with a value of 6.\n    - The fourth \"Missed Shot\" node has an incoming link from \"UMD Offense\" with a value of 7.\n    - The fifth \"Missed Shot\" node has an incoming link from \"UMD Offense\" with a value of 12.\n3. **Sum the values:** 7 + 14 + 6 + 7 + 12 = 46\n</reasoning>\n\n<answer>46</answer>",
+  "process_time_seconds": 99.190383,
+  "processed_at": "2025-05-15 01:32:44"
+}

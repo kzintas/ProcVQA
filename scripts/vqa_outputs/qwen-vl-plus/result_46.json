@@ -1,0 +1,14 @@
+{
+  "index": 46,
+  "question_id": "q_46",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/SentenTree/emergency_dataset/msp_10.png",
+  "question": "How many total patients were discharged alive after going to the Floor?",
+  "true_answer": "24",
+  "llm_answer": "24",
+  "is_correct": true,
+  "reasoning": "To determine the total number of patients discharged alive after going to the Floor, we need to follow the pathway from the Start node through the Floor node and then to the Discharge-Alive node.\n\n1. Start at the _Start node with 100 patients.\n2. Follow the link labeled \"Floor\" with a count of 41 patients.\n3. From the Floor node, there are two pathways: one leading to Die (36 patients) and another leading to Discharge-Alive (24 patients).\n\nSince we are interested in the patients who were discharged alive after going to the Floor, we only consider the pathway that leads to Discharge-Alive.\n\nTherefore, the total number of patients discharged alive after going to the Floor is 24.",
+  "full_response": "<answer>24</answer>\n\n<reasoning>\nTo determine the total number of patients discharged alive after going to the Floor, we need to follow the pathway from the Start node through the Floor node and then to the Discharge-Alive node.\n\n1. Start at the _Start node with 100 patients.\n2. Follow the link labeled \"Floor\" with a count of 41 patients.\n3. From the Floor node, there are two pathways: one leading to Die (36 patients) and another leading to Discharge-Alive (24 patients).\n\nSince we are interested in the patients who were discharged alive after going to the Floor, we only consider the pathway that leads to Discharge-Alive.\n\nTherefore, the total number of patients discharged alive after going to the Floor is 24.\n</reasoning>",
+  "process_time_seconds": 7.12519,
+  "processed_at": "2025-05-16 20:11:58"
+}

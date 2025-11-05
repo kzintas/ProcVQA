@@ -1,0 +1,14 @@
+{
+  "index": 186,
+  "question_id": "q_186",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many total rebounds are there in the match?",
+  "true_answer": "49",
+  "llm_answer": "30",
+  "is_correct": false,
+  "reasoning": "1. First, locate all nodes labeled \"Rebound\" in the diagram.\n2. There are two \"Rebound\" nodes:\n   - One connected from \"Missed Shot\" with a link count of 15.\n   - Another directly connected from \"UMD Offense\" with a link count of 15.\n3. Sum these values: 15 (from Missed Shot) + 15 (from UMD Offense) = 30.",
+  "full_response": "To determine the total number of rebounds in the match, we need to identify all instances where a rebound occurs and sum their counts.\n\n<reasoning>\n1. First, locate all nodes labeled \"Rebound\" in the diagram.\n2. There are two \"Rebound\" nodes:\n   - One connected from \"Missed Shot\" with a link count of 15.\n   - Another directly connected from \"UMD Offense\" with a link count of 15.\n3. Sum these values: 15 (from Missed Shot) + 15 (from UMD Offense) = 30.\n</reasoning>\n\n<answer>30</answer>",
+  "process_time_seconds": 7.247518,
+  "processed_at": "2025-05-16 19:14:32"
+}

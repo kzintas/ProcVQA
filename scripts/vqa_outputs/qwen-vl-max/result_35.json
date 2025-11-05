@@ -1,0 +1,14 @@
+{
+  "index": 35,
+  "question_id": "q_35",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/SentenTree/emergency_dataset/msp_05.png",
+  "question": "How many patients died after arriving at Emergency?",
+  "true_answer": "36",
+  "llm_answer": "36",
+  "is_correct": true,
+  "reasoning": "- Start at \"Emergency\" node.\n- Follow the pathway: Emergency -> Floor -> ICU -> Die.\n- Sum the count on the link leading to \"Die\": 36.",
+  "full_response": "To determine how many patients died after arriving at Emergency, we need to follow the pathways from \"Emergency\" to \"Die\".\n\n1. From \"Emergency\", 21 patients go to \"Floor\".\n2. From \"Floor\", 21 patients then go to \"ICU\".\n3. From \"ICU\", 36 patients die.\n\nTherefore, the total number of patients who died after arriving at Emergency is 36.\n\n<reasoning>\n- Start at \"Emergency\" node.\n- Follow the pathway: Emergency -> Floor -> ICU -> Die.\n- Sum the count on the link leading to \"Die\": 36.\n</reasoning>\n\n<answer>36</answer>",
+  "process_time_seconds": 7.381683,
+  "processed_at": "2025-05-16 18:54:16"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 189,
+  "question_id": "q_189",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_25.png",
+  "question": "How many rebounds were made after UMD Offense?",
+  "true_answer": "34",
+  "llm_answer": "34",
+  "is_correct": true,
+  "reasoning": "The question asks for the number of rebounds made *after* UMD Offense. In the diagram, 'UMD Offense' is a node. Events that occur immediately after 'UMD Offense' are represented by nodes connected by outgoing links from 'UMD Offense'. I need to find the link that goes from 'UMD Offense' to 'Rebound'. There is a link directly from 'UMD Offense' to 'Rebound'. The numeric label next to this link indicates the count of sequences that follow this specific path. The label on this link is 34. Therefore, there were 34 sequences where 'Rebound' occurred immediately after 'UMD Offense'.",
+  "full_response": "1.  The relevant nodes are 'UMD Offense' and 'Rebound'. The relevant link is the one connecting 'UMD Offense' to 'Rebound'.\n<reasoning>\nThe question asks for the number of rebounds made *after* UMD Offense. In the diagram, 'UMD Offense' is a node. Events that occur immediately after 'UMD Offense' are represented by nodes connected by outgoing links from 'UMD Offense'. I need to find the link that goes from 'UMD Offense' to 'Rebound'. There is a link directly from 'UMD Offense' to 'Rebound'. The numeric label next to this link indicates the count of sequences that follow this specific path. The label on this link is 34. Therefore, there were 34 sequences where 'Rebound' occurred immediately after 'UMD Offense'.\n</reasoning>\n<answer>34</answer>",
+  "process_time_seconds": 3.779127,
+  "processed_at": "2025-05-14 21:09:17"
+}

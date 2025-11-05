@@ -1,0 +1,14 @@
+{
+  "index": 66,
+  "question_id": "q_66",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/SentenTree/emergency_dataset/msp_30.png",
+  "question": "How many total patients were discharged alive?",
+  "true_answer": "38",
+  "llm_answer": "38",
+  "is_correct": true,
+  "reasoning": "- Start with 100 patients.\n- All 100 patients reach the \"Emergency\" node.\n- From \"Emergency,\" 38 patients are directed to \"Discharge-Alive.\"",
+  "full_response": "To determine the number of patients discharged alive, we need to follow the pathways in the node-link diagram:\n\n1. All 100 patients start at the \"Start\" node.\n2. They all proceed to the \"Arrival\" node.\n3. From \"Arrival,\" all 100 patients move to the \"Emergency\" node.\n4. At the \"Emergency\" node, the patients split into two pathways:\n   - 62 patients go to the \"ICU\" node.\n   - 38 patients go directly to the \"Discharge-Alive\" node.\n\nThe question asks for the total number of patients who were discharged alive. According to the diagram, this is represented by the pathway leading directly from \"Emergency\" to \"Discharge-Alive.\"\n\n<reasoning>\n- Start with 100 patients.\n- All 100 patients reach the \"Emergency\" node.\n- From \"Emergency,\" 38 patients are directed to \"Discharge-Alive.\"\n</reasoning>\n\n<answer>38</answer>",
+  "process_time_seconds": 7.797349,
+  "processed_at": "2025-05-16 18:58:09"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 155,
+  "question_id": "q_155",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_30.png",
+  "question": "How many times did UMD Offense not transition to a Rebound?",
+  "true_answer": "35",
+  "llm_answer": "35",
+  "is_correct": true,
+  "reasoning": "The question asks for the number of times 'UMD Offense' did not transition to 'Rebound'.\n1.  Locate the 'UMD Offense' node in the diagram.\n2.  Identify the outgoing links from the 'UMD Offense' node. There are two outgoing links.\n3.  Examine the destinations of these links and their associated counts.\n    -   One link goes to 'Rebound' with a count of 34.\n    -   One link goes to '_Exit' with a count of 35.\n4.  The sequences where 'UMD Offense' did not transition to 'Rebound' are those that transitioned to the other destination, which is '_Exit'.\n5.  The count for the transition from 'UMD Offense' to '_Exit' is 35.",
+  "full_response": "<reasoning>\nThe question asks for the number of times 'UMD Offense' did not transition to 'Rebound'.\n1.  Locate the 'UMD Offense' node in the diagram.\n2.  Identify the outgoing links from the 'UMD Offense' node. There are two outgoing links.\n3.  Examine the destinations of these links and their associated counts.\n    -   One link goes to 'Rebound' with a count of 34.\n    -   One link goes to '_Exit' with a count of 35.\n4.  The sequences where 'UMD Offense' did not transition to 'Rebound' are those that transitioned to the other destination, which is '_Exit'.\n5.  The count for the transition from 'UMD Offense' to '_Exit' is 35.\n</reasoning>\n<answer>35</answer>",
+  "process_time_seconds": 3.372791,
+  "processed_at": "2025-05-14 21:05:48"
+}

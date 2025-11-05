@@ -1,0 +1,15 @@
+{
+  "index": 206,
+  "question_id": "q_206",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_05.png",
+  "question": "How many total made shots were made by both teams?",
+  "true_answer": "28",
+  "llm_answer": "28",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "To determine the total number of made shots by both teams, we need to examine the node-link diagram and identify the relevant information.\n\n1. **Identify Relevant Elements**: The diagram shows sequences of events in a basketball game between UNC and UMD. We are interested in the \"Made Shot\" events.\n\n2. **Locate \"Made Shot\" Events**: Upon examining the diagram, we find two instances where \"Made Shot\" is mentioned: \n   - One pathway leads to \"Made Shot\" with a count of 7.\n   - Another pathway leads to \"Made Shot\" with a count of 21.\n\n3. **Calculate Total Made Shots**: To find the total number of made shots, we add the counts from both pathways.\n   - Total Made Shots = 7 + 21 = 28\n\n4. **Conclusion**: The total number of made shots by both teams is the sum of the counts associated with the \"Made Shot\" events in the diagram.\n\nThe final answer is: <answer>28</answer>",
+  "process_time_seconds": 3.228678,
+  "processed_at": "2025-05-15 17:43:27",
+  "model": "meta/llama-4-maverick-17b-128e-instruct-maas"
+}

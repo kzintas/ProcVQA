@@ -1,0 +1,14 @@
+{
+  "index": 136,
+  "question_id": "q_136",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_15.png",
+  "question": "How many free throws were made in total by UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": "15",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "### Relevant Elements:\n- The node labeled \"Rebound\" has two outgoing links: one to \"Made Shot\" and another to \"_Exit\".\n- The link width between \"Rebound\" and \"Made Shot\" is 15.\n- The link width between \"Rebound\" and \"_Exit\" is 19.\n\n### Reasoning:\n1. The node \"Rebound\" represents a situation where a rebound occurs after a missed shot.\n2. From \"Rebound\", there are two possible outcomes: \"Made Shot\" and \"_Exit\".\n3. The link width between \"Rebound\" and \"Made Shot\" is 15, which means 15 sequences result in a made shot.\n4. The link width between \"Rebound\" and \"_Exit\" is 19, indicating 19 sequences do not result in a made shot but instead exit the sequence.\n\n### Final Answer:\n<answer>15</answer>",
+  "process_time_seconds": 33.972191,
+  "processed_at": "2025-05-15 04:12:27"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 192,
+  "question_id": "q_192",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_25.png",
+  "question": "How many missed shots were before UMD Offense?",
+  "true_answer": "24",
+  "llm_answer": "24",
+  "is_correct": true,
+  "reasoning": "The diagram shows a direct path from \"Start\" to \"Missed Shot\" with a count of 24. This path then continues to \"UMD Offense.\" Therefore, the number of missed shots before UMD Offense is the count on the link from \"Start\" to \"Missed Shot.\"",
+  "full_response": "To determine how many missed shots occurred before UMD Offense, we need to follow the pathways from \"Start\" to \"UMD Offense\" and count the number of sequences that went through \"Missed Shot.\"\n\n1. From \"Start,\" there are two paths:\n   - One path goes directly to \"UNC Offense.\"\n   - The other path leads to \"Missed Shot.\"\n\n2. Following the path to \"Missed Shot\":\n   - There is a link labeled \"24\" leading from \"Start\" to \"Missed Shot.\"\n\n3. From \"Missed Shot,\" there are two further paths:\n   - One path leads back to \"UNC Offense.\"\n   - Another path leads to \"UMD Offense.\"\n\n4. The path from \"Missed Shot\" to \"UMD Offense\" is labeled \"24.\"\n\nBy summing up the counts on these links:\n- 24 (Start to Missed Shot)\n- 24 (Missed Shot to UMD Offense)\n\n<reasoning>\nThe diagram shows a direct path from \"Start\" to \"Missed Shot\" with a count of 24. This path then continues to \"UMD Offense.\" Therefore, the number of missed shots before UMD Offense is the count on the link from \"Start\" to \"Missed Shot.\"\n</reasoning>\n\n<answer>24</answer>",
+  "process_time_seconds": 11.617344,
+  "processed_at": "2025-05-16 19:15:30"
+}

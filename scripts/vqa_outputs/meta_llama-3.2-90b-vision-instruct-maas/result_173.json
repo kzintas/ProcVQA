@@ -1,0 +1,15 @@
+{
+  "index": 173,
+  "question_id": "q_173",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_10.png",
+  "question": "How many fouls were made after UNC Offense and before UMD offense? ",
+  "true_answer": "8",
+  "llm_answer": "8",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "The node-link diagram shows the sequence of events in a basketball game. The question asks how many fouls were made after UNC Offense and before UMD offense.\n\nTo answer this question, we need to follow the path from UNC Offense to UMD Offense and count the number of fouls along the way.\n\nThe path from UNC Offense to UMD Offense is as follows:\n\n*   UNC Offense\n*   Made Shot (22)\n*   Missed Shot (24)\n*   Foul (8)\n*   Rebound (15)\n*   UMD Offense\n\nThere is only one foul along this path, which is labeled as \"Foul\" with a value of 8.\n\nTherefore, the answer to the question is:\n\n<answer>8</answer>",
+  "process_time_seconds": 7.563871,
+  "processed_at": "2025-05-17 06:32:18",
+  "model": "meta/llama-3.2-90b-vision-instruct-maas"
+}

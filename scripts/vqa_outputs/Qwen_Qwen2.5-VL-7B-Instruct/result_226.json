@@ -1,0 +1,14 @@
+{
+  "index": 226,
+  "question_id": "q_226",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_20.png",
+  "question": "How many rebounds were made in total by both teams?",
+  "true_answer": "34",
+  "llm_answer": "34",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "### Reasoning:\nTo determine the total number of rebounds made by both teams, we need to sum up the number of rebounds for each team as indicated by the links leading to \"Rebound\" nodes.\n\n1. For UNC Offense:\n   - There is one link labeled \"Rebound\" with a value of 19.\n\n2. For UMD Offense:\n   - There is one link labeled \"Rebound\" with a value of 15.\n\nAdding these together:\n\\[ \\text{Total Rebounds} = 19 + 15 = 34 \\]\n\n### Answer:\n<answer>34</answer>",
+  "process_time_seconds": 45.888368,
+  "processed_at": "2025-05-15 05:14:13"
+}

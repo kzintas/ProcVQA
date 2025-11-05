@@ -1,0 +1,14 @@
+{
+  "index": 140,
+  "question_id": "q_140",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many shots were missed immediately after UMD Offense?",
+  "true_answer": "14",
+  "llm_answer": 14,
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "**Step 1: Identify the relevant elements in the visualization that inform the answer.**\n\nThe node-link diagram shows the sequence of events in a basketball game. The relevant elements for this question are the nodes labeled \"UMD Offense\" and \"Missed Shot.\" The link connecting these two nodes indicates the sequence of events.\n\n**Step 2: Describe the thought process and calculations in detail.**\n\nTo determine how many shots were missed immediately after UMD Offense, we need to follow the sequence of events from the \"UMD Offense\" node to the \"Missed Shot\" node. \n\n*   The link connecting \"UMD Offense\" to \"Missed Shot\" has a label of 14, which represents the number of shots missed.\n*   There are no other nodes or links between \"UMD Offense\" and \"Missed Shot,\" indicating that these are the only shots missed in this sequence.\n\n**Step 3: Provide the final answer in the required format.**\n\n<answer>14</answer>\n\nThe final answer is 14.",
+  "process_time_seconds": 12.596489,
+  "processed_at": "2025-05-17 07:22:32"
+}

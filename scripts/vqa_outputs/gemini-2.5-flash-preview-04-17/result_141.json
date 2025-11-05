@@ -1,0 +1,14 @@
+{
+  "index": 141,
+  "question_id": "q_141",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many shots were made directly after a Rebound?",
+  "true_answer": "15",
+  "llm_answer": "15",
+  "is_correct": true,
+  "reasoning": "1.  I examined the node-link diagram to find the relevant nodes and links for the question \"How many shots were made directly after a Rebound?\".\n2.  I located the node labeled 'Rebound'.\n3.  I looked for outgoing links from the 'Rebound' node.\n4.  I found a link pointing from 'Rebound' to the node labeled 'Made Shot'.\n5.  I read the numerical label associated with this specific link, which is 15.\n6.  This label indicates that 15 sequences transition directly from the 'Rebound' event to the 'Made Shot' event.",
+  "full_response": "<reasoning>\n1.  I examined the node-link diagram to find the relevant nodes and links for the question \"How many shots were made directly after a Rebound?\".\n2.  I located the node labeled 'Rebound'.\n3.  I looked for outgoing links from the 'Rebound' node.\n4.  I found a link pointing from 'Rebound' to the node labeled 'Made Shot'.\n5.  I read the numerical label associated with this specific link, which is 15.\n6.  This label indicates that 15 sequences transition directly from the 'Rebound' event to the 'Made Shot' event.\n</reasoning>\n<answer>15</answer>",
+  "process_time_seconds": 2.978085,
+  "processed_at": "2025-05-14 21:04:32"
+}

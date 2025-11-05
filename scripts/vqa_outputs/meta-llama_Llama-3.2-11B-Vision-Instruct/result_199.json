@@ -1,0 +1,14 @@
+{
+  "index": 199,
+  "question_id": "q_199",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_30.png",
+  "question": "How many missed shots were before UMD Offense?",
+  "true_answer": "24",
+  "llm_answer": 1,
+  "is_correct": false,
+  "reasoning": "To find the number of missed shots before UMD Offense, we need to follow the path from UMD Offense to the previous node that represents a missed shot.\n\n*   Starting from UMD Offense, we move upwards along the link to the previous node, which is Rebound.\n*   From Rebound, we move upwards along the link to the previous node, which is Made Shot.\n*   From Made Shot, we move upwards along the link to the previous node, which is Missed Shot.\n*   Therefore, there is 1 missed shot before UMD Offense.",
+  "full_response": "**Step 1: Identify the relevant elements in the visualization that inform the answer.**\n\n*   The node-link diagram shows a sequence of events, with each event represented by a node and connected by directed links.\n*   The question asks about the number of missed shots before UMD Offense.\n\n**Step 2: Describe the thought process and calculations in XML tags.**\n\n<reasoning>\n\nTo find the number of missed shots before UMD Offense, we need to follow the path from UMD Offense to the previous node that represents a missed shot.\n\n*   Starting from UMD Offense, we move upwards along the link to the previous node, which is Rebound.\n*   From Rebound, we move upwards along the link to the previous node, which is Made Shot.\n*   From Made Shot, we move upwards along the link to the previous node, which is Missed Shot.\n*   Therefore, there is 1 missed shot before UMD Offense.\n\n</reasoning>\n\n**Step 3: Provide the final answer in the required format.**\n\n<answer>1</answer>",
+  "process_time_seconds": 13.055111,
+  "processed_at": "2025-05-17 07:38:06"
+}

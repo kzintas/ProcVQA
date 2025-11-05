@@ -1,0 +1,14 @@
+{
+  "index": 107,
+  "question_id": "q_107",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_30.png",
+  "question": "How many total patients were discharged alive?",
+  "true_answer": "57",
+  "llm_answer": "57",
+  "is_correct": true,
+  "reasoning": "1. Examine the node-link diagram to identify nodes representing patients being discharged alive.\n2. Locate the node labeled 'Discharge-Alive -Exit' in the second column from the left. The number associated with this node is 37. This indicates 37 sequences end with discharge alive and exit.\n3. Locate the node labeled 'Discharge-Alive' in the third column from the left. The number associated with this node is 20. This indicates 20 sequences involve a discharge alive step. This is followed by an '_Exit' node with 24, which doesn't directly help here, but the 'Discharge-Alive' node itself represents 20 sequences reaching that state.\n4. Sum the numbers associated with all nodes indicating discharge alive.\n5. Total discharged alive = 37 (from column 2) + 20 (from column 3) = 57.",
+  "full_response": "<reasoning>\n1. Examine the node-link diagram to identify nodes representing patients being discharged alive.\n2. Locate the node labeled 'Discharge-Alive -Exit' in the second column from the left. The number associated with this node is 37. This indicates 37 sequences end with discharge alive and exit.\n3. Locate the node labeled 'Discharge-Alive' in the third column from the left. The number associated with this node is 20. This indicates 20 sequences involve a discharge alive step. This is followed by an '_Exit' node with 24, which doesn't directly help here, but the 'Discharge-Alive' node itself represents 20 sequences reaching that state.\n4. Sum the numbers associated with all nodes indicating discharge alive.\n5. Total discharged alive = 37 (from column 2) + 20 (from column 3) = 57.\n</reasoning>\n<answer>57</answer>",
+  "process_time_seconds": 3.987146,
+  "processed_at": "2025-05-14 21:02:21"
+}

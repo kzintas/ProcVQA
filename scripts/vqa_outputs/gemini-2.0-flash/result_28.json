@@ -1,0 +1,14 @@
+{
+  "index": 28,
+  "question_id": "q_28",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/CoreFlow/emergency_dataset/msp_25.png",
+  "question": "How many total patients were discharged alive after going to the Floor?",
+  "true_answer": "indeterminate",
+  "llm_answer": null,
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": " Patients go through the following states: _Start, Arrival, Emergency. From Emergency, 62 patients go to ICU and 38 patients go to Discharge-Alive. From the Discharge-Alive node, 38 patients go to _Exit.\n The question asks about patients discharged alive after going to the Floor. The diagram does not have a node named Floor.\n\n Patients discharged alive go through Emergency -> Discharge-Alive -> _Exit. There are 38 patients that go from Emergency to Discharge-Alive and then 38 patients that go from Discharge-Alive to _Exit. The diagram does not include going to the Floor.\nTherefore, the number of patients discharged alive after going to the Floor cannot be determined.\n\n",
+  "process_time_seconds": 3.753869,
+  "processed_at": "2025-05-13 19:44:35"
+}

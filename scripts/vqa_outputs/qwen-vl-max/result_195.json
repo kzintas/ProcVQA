@@ -1,0 +1,14 @@
+{
+  "index": 195,
+  "question_id": "q_195",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_25.png",
+  "question": "How many steals occurred after UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": "0",
+  "is_correct": false,
+  "reasoning": "The diagram shows pathways from \"UMD Offense\" leading to \"Rebound\" and \"_Exit,\" but there is no node labeled \"Steal\" in these pathways. Therefore, based on the given visualization, no steals occurred after UMD Offense.",
+  "full_response": "To determine the number of steals that occurred after UMD Offense, we need to follow the pathways from the \"UMD Offense\" node and look for a node labeled \"Steal.\" \n\n1. From the \"UMD Offense\" node, there are two outgoing links:\n   - One link leads to \"Rebound\" with a count of 34.\n   - Another link leads directly to \"_Exit\" with a count of 22.\n\n2. There is no direct path from \"UMD Offense\" to a node labeled \"Steal.\"\n\n3. The \"Rebound\" node has one outgoing link leading to \"_Exit\" with a count of 24, but still no \"Steal\" node is encountered.\n\nSince there is no node labeled \"Steal\" in any of the pathways following \"UMD Offense,\" we can conclude that the visualization does not show any steals occurring after UMD Offense.\n\n<reasoning>\nThe diagram shows pathways from \"UMD Offense\" leading to \"Rebound\" and \"_Exit,\" but there is no node labeled \"Steal\" in these pathways. Therefore, based on the given visualization, no steals occurred after UMD Offense.\n</reasoning>\n\n<answer>0</answer>",
+  "process_time_seconds": 7.887807,
+  "processed_at": "2025-05-16 19:15:55"
+}

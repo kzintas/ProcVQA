@@ -1,0 +1,15 @@
+{
+  "index": 215,
+  "question_id": "q_215",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_10.png",
+  "question": "How many free throws were made by UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": null,
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "The node-link diagram shows the sequence of events in a basketball game. The diagram is divided into two columns, with the left column representing the UNC Offense and the right column representing the UMD Offense.\n\nTo determine how many free throws were made by UMD Offense, we need to look at the nodes labeled \"Made Free Throw\" in the right column. There are two such nodes, one with a value of 13 and another with a value of 8. These values represent the number of free throws made by UMD Offense in each sequence.\n\nTherefore, the total number of free throws made by UMD Offense is the sum of these two values: 13 + 8 = 21.\n\n**Answer:** 21",
+  "process_time_seconds": 7.060193,
+  "processed_at": "2025-05-17 06:39:20",
+  "model": "meta/llama-3.2-90b-vision-instruct-maas"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 19,
+  "question_id": "q_19",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/CoreFlow/emergency_dataset/msp_20.png",
+  "question": "How many total patients were discharged alive?",
+  "true_answer": "62",
+  "llm_answer": "62",
+  "is_correct": true,
+  "reasoning": "1.  Identify nodes representing discharge alive: There are two nodes labeled \"Discharge-Alive\".\n2.  Identify incoming links to these nodes and their counts:\n    *   One \"Discharge-Alive\" node has an incoming link from \"Emergency\" with a count of 38.\n    *   The other \"Discharge-Alive\" node has an incoming link from \"Floor\" with a count of 24.\n3.  Sum the counts from all incoming links to all \"Discharge-Alive\" nodes: 38 + 24 = 62.\n4.  The total number of patients discharged alive is the sum calculated in the previous step.",
+  "full_response": "<reasoning>\n1.  Identify nodes representing discharge alive: There are two nodes labeled \"Discharge-Alive\".\n2.  Identify incoming links to these nodes and their counts:\n    *   One \"Discharge-Alive\" node has an incoming link from \"Emergency\" with a count of 38.\n    *   The other \"Discharge-Alive\" node has an incoming link from \"Floor\" with a count of 24.\n3.  Sum the counts from all incoming links to all \"Discharge-Alive\" nodes: 38 + 24 = 62.\n4.  The total number of patients discharged alive is the sum calculated in the previous step.\n</reasoning>\n<answer>62</answer>",
+  "process_time_seconds": 3.802138,
+  "processed_at": "2025-05-14 20:54:18"
+}

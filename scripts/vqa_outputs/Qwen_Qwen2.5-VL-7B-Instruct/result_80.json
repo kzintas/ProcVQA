@@ -1,0 +1,14 @@
+{
+  "index": 80,
+  "question_id": "q_80",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_10.png",
+  "question": "How many patients got discharged alive directly after arriving at Emergency? ",
+  "true_answer": "37",
+  "llm_answer": "37",
+  "is_correct": true,
+  "reasoning": "To determine how many patients got discharged alive directly after arriving at Emergency, we need to follow the pathway from \"Arrival\" to \"Discharge-Alive\". \n\n1. From the diagram, we see that there is a link from \"Arrival\" to \"Emergency\" with a count of 37.\n2. From \"Emergency\", there is a link to \"Discharge-Alive\" with a count of 37.\n\nSince the count for both transitions is the same (37), it implies that all patients who arrived at Emergency were discharged alive. Therefore, the number of patients who got discharged alive directly after arriving at Emergency is 37.",
+  "full_response": "<reasoning>\nTo determine how many patients got discharged alive directly after arriving at Emergency, we need to follow the pathway from \"Arrival\" to \"Discharge-Alive\". \n\n1. From the diagram, we see that there is a link from \"Arrival\" to \"Emergency\" with a count of 37.\n2. From \"Emergency\", there is a link to \"Discharge-Alive\" with a count of 37.\n\nSince the count for both transitions is the same (37), it implies that all patients who arrived at Emergency were discharged alive. Therefore, the number of patients who got discharged alive directly after arriving at Emergency is 37.\n</reasoning>\n<answer>37</answer>",
+  "process_time_seconds": 49.258314,
+  "processed_at": "2025-05-15 03:33:06"
+}

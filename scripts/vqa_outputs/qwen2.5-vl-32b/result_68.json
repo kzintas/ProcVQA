@@ -1,0 +1,14 @@
+{
+  "index": 68,
+  "question_id": "q_68",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/SentenTree/emergency_dataset/msp_30.png",
+  "question": "How many patients went to the ICU after Emrgency?",
+  "true_answer": "62",
+  "llm_answer": "62",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "### Step 1: Identify the relevant elements in the visualization\n- The node labeled **Emergency** is a branching point.\n- From **Emergency**, there are two outgoing links:\n  - One link to **ICU** with a numeric label of **62**.\n  - Another link to **Discharge-Alive** with a numeric label of **38**.\n- The question asks how many patients went to the **ICU** after **Emergency**.\n\n### Step 2: Analyze the link from Emergency to ICU\n- The link from **Emergency** to **ICU** has a numeric label of **62**.\n- This numeric label represents the number of sequences (or patients) that followed this path.\n\n### Step 3: Confirm the interpretation\n- The width of the link from **Emergency** to **ICU** is proportional to the number of sequences, which aligns with the numeric label of **62**.\n- There are no other paths or ambiguities involving the **ICU** branch from **Emergency**.\n\n### Step 4: Formulate the answer\n- Based on the numeric label on the link from **Emergency** to **ICU**, **62** patients went to the **ICU** after **Emergency**.\n\n### Final Answer:\n<answer>62</answer>",
+  "process_time_seconds": 5.959825,
+  "processed_at": "2025-05-16 21:00:23"
+}

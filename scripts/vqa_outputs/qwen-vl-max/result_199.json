@@ -1,0 +1,14 @@
+{
+  "index": 199,
+  "question_id": "q_199",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_30.png",
+  "question": "How many missed shots were before UMD Offense?",
+  "true_answer": "24",
+  "llm_answer": "24",
+  "is_correct": true,
+  "reasoning": "The diagram shows that after \"UNC Offense,\" 24 sequences lead to \"Missed Shot.\" These 24 sequences then proceed to \"UMD Offense.\" Therefore, the number of missed shots before UMD Offense is 24.",
+  "full_response": "To determine how many missed shots occurred before UMD Offense, we need to follow the pathways from the start node to \"UMD Offense\" and count the number of sequences that went through \"Missed Shot.\"\n\n1. Start at the \"_Start\" node.\n2. There are two paths from \"_Start\":\n   - One path goes directly to \"UNC Offense.\"\n   - The other path also leads to \"UNC Offense,\" but via \"Made Shot.\"\n3. From \"UNC Offense,\" there are two further paths:\n   - One path leads to \"Made Shot.\"\n   - Another path leads to \"Missed Shot.\"\n4. From \"Missed Shot,\" there is a single path leading to \"UMD Offense.\"\n5. Count the number of sequences on this path:\n   - The link from \"UNC Offense\" to \"Missed Shot\" has a value of 24.\n\n<reasoning>\nThe diagram shows that after \"UNC Offense,\" 24 sequences lead to \"Missed Shot.\" These 24 sequences then proceed to \"UMD Offense.\" Therefore, the number of missed shots before UMD Offense is 24.\n</reasoning>\n\n<answer>24</answer>",
+  "process_time_seconds": 7.854246,
+  "processed_at": "2025-05-16 19:16:27"
+}

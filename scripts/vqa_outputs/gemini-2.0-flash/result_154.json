@@ -1,0 +1,14 @@
+{
+  "index": 154,
+  "question_id": "q_154",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_30.png",
+  "question": "How many times did UMD Offense transition from UNC Offense?",
+  "true_answer": "69",
+  "llm_answer": "69",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "1. The question is \"How many times did UMD Offense transition from UNC Offense?\".\n2. The node \"_Start\" transitions to \"UNC Offense\" 69 times.\n3. The node \"UNC Offense\" transitions to \"UMD Offense\" 69 times.\n4. Therefore, the number of times UMD Offense transitioned from UNC Offense is 69.\n\n<answer>69</answer>",
+  "process_time_seconds": 2.889677,
+  "processed_at": "2025-05-13 19:52:54"
+}

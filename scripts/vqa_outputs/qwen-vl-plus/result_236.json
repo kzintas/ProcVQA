@@ -1,0 +1,14 @@
+{
+  "index": 236,
+  "question_id": "q_236",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_25.png",
+  "question": "How many free throws were made by UMD Offense?",
+  "true_answer": "3",
+  "llm_answer": "10",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "<answer>10</answer>\n\n## Reasoning\nTo determine the number of free throws made by UMD Offense, we need to follow the pathway from \"Start\" to \"Made Free Throw\" for UMD Offense. \n\n1. Start: The first node is \"Start,\" which indicates the beginning of a sequence.\n2. UMD Offense: The next node is \"UMD Offense,\" which represents the start of an offense by UMD.\n3. Made Free Throw: The final node is \"Made Free Throw,\" which shows that a free throw was made.\n\nThe link between \"UMD Offense\" and \"Made Free Throw\" has a label of \"10,\" indicating that there were 10 sequences where UMD Offense led to a made free throw. Therefore, UMD Offense made 10 free throws.",
+  "process_time_seconds": 8.211116,
+  "processed_at": "2025-05-16 20:37:58"
+}

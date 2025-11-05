@@ -1,0 +1,15 @@
+{
+  "index": 183,
+  "question_id": "q_183",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many times did UMD Offense transition from UNC Offense?",
+  "true_answer": "69",
+  "llm_answer": null,
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "**Step 1: Identify the relevant elements in the visualization.**\n\n*   The node \"UNC Offense\" is connected to the node \"UMD Offense\" with a link labeled \"22\". This indicates that there are 22 sequences where UNC Offense transitions to UMD Offense.\n\n**Step 2: Describe the thought process and calculations.**\n\n*   The link width between UNC Offense and UMD Offense is proportional to the number of sequences following that path, which is 22.\n*   The numeric label next to the link shows the exact count of sequences, which is also 22.\n\n**Step 3: Provide the final answer.**\n\n*   Based on the visualization, UMD Offense transitioned from UNC Offense 22 times.\n\n**Answer:** 22",
+  "process_time_seconds": 7.540324,
+  "processed_at": "2025-05-17 06:33:52",
+  "model": "meta/llama-3.2-90b-vision-instruct-maas"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 199,
+  "question_id": "q_199",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_30.png",
+  "question": "How many missed shots were before UMD Offense?",
+  "true_answer": "24",
+  "llm_answer": "24",
+  "is_correct": true,
+  "reasoning": "1. The question asks for the number of missed shots that occurred before \"UMD Offense\".\n2. I locate the node labeled \"Missed Shot\" and the node labeled \"UMD Offense\".\n3. I look for a directed link connecting \"Missed Shot\" to \"UMD Offense\". There is a link going downwards from \"Missed Shot\" to \"UMD Offense\".\n4. I read the numerical label associated with this link. The label on the link from \"Missed Shot\" to \"UMD Offense\" is \"24\".\n5. According to the instructions, the numeric label on a link shows the exact count of sequences following that path. This link represents sequences where a \"Missed Shot\" event is followed by a \"UMD Offense\" event.\n6. Since vertical position indicates chronological order (top to bottom), \"Missed Shot\" is chronologically before \"UMD Offense\" in this pathway.\n7. Therefore, the number of sequences where a \"Missed Shot\" occurred immediately before \"UMD Offense\" is 24. The diagram doesn't show any other path where \"Missed Shot\" occurs before \"UMD Offense\" but not directly connected like this.\n\nThe diagram shows that 24 sequences followed the path from \"Missed Shot\" to \"UMD Offense\". This directly answers the question about the number of missed shots before UMD Offense.",
+  "full_response": "<reasoning>\n1. The question asks for the number of missed shots that occurred before \"UMD Offense\".\n2. I locate the node labeled \"Missed Shot\" and the node labeled \"UMD Offense\".\n3. I look for a directed link connecting \"Missed Shot\" to \"UMD Offense\". There is a link going downwards from \"Missed Shot\" to \"UMD Offense\".\n4. I read the numerical label associated with this link. The label on the link from \"Missed Shot\" to \"UMD Offense\" is \"24\".\n5. According to the instructions, the numeric label on a link shows the exact count of sequences following that path. This link represents sequences where a \"Missed Shot\" event is followed by a \"UMD Offense\" event.\n6. Since vertical position indicates chronological order (top to bottom), \"Missed Shot\" is chronologically before \"UMD Offense\" in this pathway.\n7. Therefore, the number of sequences where a \"Missed Shot\" occurred immediately before \"UMD Offense\" is 24. The diagram doesn't show any other path where \"Missed Shot\" occurs before \"UMD Offense\" but not directly connected like this.\n\nThe diagram shows that 24 sequences followed the path from \"Missed Shot\" to \"UMD Offense\". This directly answers the question about the number of missed shots before UMD Offense.\n</reasoning>\n<answer>24</answer>",
+  "process_time_seconds": 6.849927,
+  "processed_at": "2025-05-14 21:20:49"
+}

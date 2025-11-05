@@ -1,0 +1,14 @@
+{
+  "index": 228,
+  "question_id": "q_228",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_20.png",
+  "question": "How many total missed shots were made by both teams?",
+  "true_answer": "39",
+  "llm_answer": "37",
+  "is_correct": false,
+  "reasoning": "To determine the total number of missed shots made by both teams, I'll sum up all the \"Missed Shot\" nodes across the diagram:\n\n1. In the first column (2 sequences):\n   - No \"Missed Shot\" node\n\n2. In the second column (19 sequences):\n   - 19 \"Missed Shot\"\n\n3. In the third column (33 sequences):\n   - 18 \"Missed Shot\"\n\n4. In the fourth column (15 sequences):\n   - No \"Missed Shot\" node\n\nAdding these up: 19 + 18 = 37",
+  "full_response": "<reasoning>\nTo determine the total number of missed shots made by both teams, I'll sum up all the \"Missed Shot\" nodes across the diagram:\n\n1. In the first column (2 sequences):\n   - No \"Missed Shot\" node\n\n2. In the second column (19 sequences):\n   - 19 \"Missed Shot\"\n\n3. In the third column (33 sequences):\n   - 18 \"Missed Shot\"\n\n4. In the fourth column (15 sequences):\n   - No \"Missed Shot\" node\n\nAdding these up: 19 + 18 = 37\n</reasoning>\n\n<answer>37</answer>",
+  "process_time_seconds": 7.912613,
+  "processed_at": "2025-05-16 20:00:05"
+}

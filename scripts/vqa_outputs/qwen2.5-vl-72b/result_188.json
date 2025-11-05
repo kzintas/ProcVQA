@@ -1,0 +1,14 @@
+{
+  "index": 188,
+  "question_id": "q_188",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many steals occurred after UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": "0",
+  "is_correct": false,
+  "reasoning": "The diagram shows a sequence of events starting from \"_Start\" and ending at \"_Exit\". The nodes represent different events, and the links between them show the flow of these events. \n\n1. From the node \"UMD Offense\", there are two outgoing links: one to \"Rebound\" with a count of 34 and another directly to \"_Exit\" with a count of 22.\n2. There is no node or link labeled \"Steal\" in the diagram.\n3. Therefore, based on the information provided in the visualization, there are no steals occurring after UMD Offense.",
+  "full_response": "<reasoning>\nThe diagram shows a sequence of events starting from \"_Start\" and ending at \"_Exit\". The nodes represent different events, and the links between them show the flow of these events. \n\n1. From the node \"UMD Offense\", there are two outgoing links: one to \"Rebound\" with a count of 34 and another directly to \"_Exit\" with a count of 22.\n2. There is no node or link labeled \"Steal\" in the diagram.\n3. Therefore, based on the information provided in the visualization, there are no steals occurring after UMD Offense.\n\n</reasoning>\n<answer>0</answer>",
+  "process_time_seconds": 6.272533,
+  "processed_at": "2025-05-16 19:54:04"
+}

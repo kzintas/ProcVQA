@@ -1,0 +1,14 @@
+{
+  "index": 203,
+  "question_id": "q_203",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_05.png",
+  "question": "How many times did a jump ball occur after UNC Offense?",
+  "true_answer": "1",
+  "llm_answer": "1",
+  "is_correct": true,
+  "reasoning": "The question asks about the number of times a \"Jump Ball\" event occurred after \"UNC Offense\".\nI need to locate the nodes labeled \"UNC Offense\" and \"Jump Ball\" in the diagram.\nThen, I need to identify any directed links originating from a \"UNC Offense\" node and pointing to a \"Jump Ball\" node.\nFinally, I need to read the numeric label associated with that specific link to answer the question.\nThere is a link from \"UNC Offense\" to \"Jump Ball\" with the value 1.",
+  "full_response": "1.  Identify the relevant nodes: We need to find the \"UNC Offense\" node and the \"Jump Ball\" node.\n2.  Trace the links: We need to trace the directed links from the \"UNC Offense\" node to the \"Jump Ball\" node.\n3.  Extract the count: The number associated with the link from \"UNC Offense\" to \"Jump Ball\" represents the number of times a jump ball occurred directly after UNC Offense.\n4.  From the visualization, there is one link going from \"UNC Offense\" to \"Jump Ball\" with the number 1 next to the link.\n\n<reasoning>\nThe question asks about the number of times a \"Jump Ball\" event occurred after \"UNC Offense\".\nI need to locate the nodes labeled \"UNC Offense\" and \"Jump Ball\" in the diagram.\nThen, I need to identify any directed links originating from a \"UNC Offense\" node and pointing to a \"Jump Ball\" node.\nFinally, I need to read the numeric label associated with that specific link to answer the question.\nThere is a link from \"UNC Offense\" to \"Jump Ball\" with the value 1.\n</reasoning>\n<answer>1</answer>",
+  "process_time_seconds": 5.9151,
+  "processed_at": "2025-05-13 19:55:48"
+}

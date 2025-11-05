@@ -1,0 +1,15 @@
+{
+  "index": 211,
+  "question_id": "q_211",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_10.png",
+  "question": "How many total missed shots occur after UNC Offense but not after UMD Offense?",
+  "true_answer": "21",
+  "llm_answer": "21",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "To determine the total number of missed shots that occur after UNC Offense but not after UMD Offense, we need to analyze the sequences presented in the node-link diagram.\n\n1. **Identify Relevant Sequences**: We examine the diagram for sequences starting with \"UNC Offense\" and look for \"Missed Shot\" events.\n\n2. **Sequence Analysis**:\n   - The first sequence starts with \"_Start\" (7), followed by \"UNC Offense\" (7), then \"Missed Shot\" (7). This indicates 7 missed shots after UNC Offense.\n   - The second sequence starts with \"_Start\" (14), followed by \"UNC Offense\" (14), then \"Missed Shot\" (14). This indicates 14 missed shots after UNC Offense.\n   - The third sequence starts with \"_Start\" (15), followed by \"UNC Offense\" (15), then \"Foul\" (15), and \"Made Free Throw\" (13 or 8). There's no direct \"Missed Shot\" after UNC Offense here.\n   - The fourth sequence starts with \"_Start\" (5), followed by \"UNC Offense\" (5), \"Jump Ball\" (1), and \"UMD Offense\" (5). Here, \"Missed Shot\" (7) occurs after \"UMD Offense\" (12), not directly after UNC Offense.\n   - The fifth sequence starts with \"_Start\" (28), followed by \"UNC Offense\" (28). It branches into \"Rebound\" (18) and \"Made Shot\" (16), and another path leads to \"UMD Offense\" (12) followed by \"Missed Shot\" (7).\n\n3. **Filtering Missed Shots**: We are interested in \"Missed Shot\" events that occur after \"UNC Offense\" but not after \"UMD Offense\". \n   - In the first sequence, \"Missed Shot\" (7) occurs directly after \"UNC Offense\" (7), fitting our criteria.\n   - In the second sequence, \"Missed Shot\" (14) occurs directly after \"UNC Offense\" (14), also fitting our criteria.\n\n4. **Calculating Total Missed Shots**: We sum the counts from the relevant sequences.\n   - Total Missed Shots = 7 (from the first sequence) + 14 (from the second sequence) = 21\n\n5. **Conclusion**: The total number of missed shots that occur after UNC Offense but not after UMD Offense is 21.\n\nThe final answer is: <answer>21</answer>",
+  "process_time_seconds": 7.410863,
+  "processed_at": "2025-05-15 17:43:55",
+  "model": "meta/llama-4-maverick-17b-128e-instruct-maas"
+}

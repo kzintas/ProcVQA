@@ -1,0 +1,14 @@
+{
+  "index": 202,
+  "question_id": "q_202",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_30.png",
+  "question": "How many steals occurred after UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": "24",
+  "is_correct": false,
+  "reasoning": "To determine the number of steals after UMD Offense, we need to follow the pathway from UMD Offense to _Exit. The diagram shows that there are 24 links connecting UMD Offense to _Exit. Since each link represents a sequence of events, and all sequences following this path are considered steals, the total number of steals after UMD Offense is 24.",
+  "full_response": "<answer>24</answer>\n\n<reasoning>\nTo determine the number of steals after UMD Offense, we need to follow the pathway from UMD Offense to _Exit. The diagram shows that there are 24 links connecting UMD Offense to _Exit. Since each link represents a sequence of events, and all sequences following this path are considered steals, the total number of steals after UMD Offense is 24.\n</reasoning>",
+  "process_time_seconds": 7.772579,
+  "processed_at": "2025-05-16 20:32:16"
+}

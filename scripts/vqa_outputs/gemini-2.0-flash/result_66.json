@@ -1,0 +1,14 @@
+{
+  "index": 66,
+  "question_id": "q_66",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/SentenTree/emergency_dataset/msp_30.png",
+  "question": "How many total patients were discharged alive?",
+  "true_answer": "38",
+  "llm_answer": "38",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "1. **Identify relevant elements:** I need to find the node representing \"Discharge-Alive\" and the link connecting it to \"_Exit\". The numeric label on that link will indicate the number of patients discharged alive.\n\n2. **Analyze the diagram:**\n   - The node \"Discharge-Alive\" is connected to \"_Exit\" by a link labeled \"38\".\n   - This means that 38 patients followed the path to \"Discharge-Alive\" and then \"_Exit\".\n\n3. **Answer the question:**\n    The question asks for the total number of patients discharged alive. The visualization shows that 38 patients followed the path to \"Discharge-Alive\" and then \"_Exit\".\n\n<answer>38</answer>",
+  "process_time_seconds": 3.098208,
+  "processed_at": "2025-05-13 20:12:52"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 192,
+  "question_id": "q_192",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_25.png",
+  "question": "How many missed shots were before UMD Offense?",
+  "true_answer": "24",
+  "llm_answer": "46",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "To determine how many missed shots were before UMD Offense, we need to follow the pathway from the start to the \"Missed Shot\" node and then to the \"UMD Offense\" node.\n\n1. Start at the \"_Start\" node.\n2. Follow the link labeled \"24\" to the \"Missed Shot\" node.\n3. From the \"Missed Shot\" node, follow the link labeled \"22\" to the \"UMD Offense\" node.\n\nThe number of missed shots before UMD Offense is the sum of the links along this pathway:\n- 24 (from \"_Start\" to \"Missed Shot\")\n- 22 (from \"Missed Shot\" to \"UMD Offense\")\n\nAdding these together gives us the total number of missed shots before UMD Offense.\n\n<answer>46</answer>",
+  "process_time_seconds": 29.93481,
+  "processed_at": "2025-05-15 04:48:22"
+}

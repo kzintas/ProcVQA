@@ -1,0 +1,14 @@
+{
+  "index": 156,
+  "question_id": "q_156",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_30.png",
+  "question": "How many shots were missed immediately after UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": "34",
+  "is_correct": false,
+  "reasoning": "1.  **Identify the starting event:** The question asks about events immediately after \"UMD Offense\". We locate the \"UMD Offense\" node in the diagram.\n2.  **Identify events indicating a missed shot:** In basketball or similar sports, a \"Rebound\" event typically occurs after a missed shot. We look for a \"Rebound\" node following \"UMD Offense\".\n3.  **Trace the path and count:**\n    *   There is a link from \"UMD Offense\" to \"Rebound\".\n    *   The numeric label on this link indicates the number of sequences that followed this specific path.\n    *   The value on the link from \"UMD Offense\" to \"Rebound\" is 34.\n4.  **Conclusion:** This means that in 34 sequences, a \"Rebound\" event occurred immediately after \"UMD Offense\". Since a rebound follows a missed shot, this indicates 34 missed shots immediately after UMD Offense.",
+  "full_response": "<reasoning>\n1.  **Identify the starting event:** The question asks about events immediately after \"UMD Offense\". We locate the \"UMD Offense\" node in the diagram.\n2.  **Identify events indicating a missed shot:** In basketball or similar sports, a \"Rebound\" event typically occurs after a missed shot. We look for a \"Rebound\" node following \"UMD Offense\".\n3.  **Trace the path and count:**\n    *   There is a link from \"UMD Offense\" to \"Rebound\".\n    *   The numeric label on this link indicates the number of sequences that followed this specific path.\n    *   The value on the link from \"UMD Offense\" to \"Rebound\" is 34.\n4.  **Conclusion:** This means that in 34 sequences, a \"Rebound\" event occurred immediately after \"UMD Offense\". Since a rebound follows a missed shot, this indicates 34 missed shots immediately after UMD Offense.\n</reasoning>\n<answer>34</answer>",
+  "process_time_seconds": 6.408329,
+  "processed_at": "2025-05-15 02:51:31"
+}

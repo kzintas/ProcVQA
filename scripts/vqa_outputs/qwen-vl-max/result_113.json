@@ -1,0 +1,14 @@
+{
+  "index": 113,
+  "question_id": "q_113",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_05.png",
+  "question": "How many total Rebounds were made by UMD Offense?",
+  "true_answer": "34",
+  "llm_answer": "34",
+  "is_correct": true,
+  "reasoning": "1. From \"UMD Offense\", there are two main paths:\n   - One path leads directly to \"Missed Shot\" (14 sequences).\n   - Another path leads to \"Rebound\" (34 sequences).\n\n2. The \"Rebound\" node has multiple outgoing links:\n   - 15 sequences lead to \"Made Shot\".\n   - 9 sequences lead to \"Missed Shot\".\n   - 6 sequences lead to \"Foul\".\n   - 4 sequences lead to \"Turnover\".\n\n3. Summing these values gives the total number of Rebounds: \n   15 + 9 + 6 + 4 = 34.",
+  "full_response": "To determine the total number of Rebounds made by UMD Offense, we need to follow the pathways that lead from \"UMD Offense\" to \"Rebound\". \n\n<reasoning>\n1. From \"UMD Offense\", there are two main paths:\n   - One path leads directly to \"Missed Shot\" (14 sequences).\n   - Another path leads to \"Rebound\" (34 sequences).\n\n2. The \"Rebound\" node has multiple outgoing links:\n   - 15 sequences lead to \"Made Shot\".\n   - 9 sequences lead to \"Missed Shot\".\n   - 6 sequences lead to \"Foul\".\n   - 4 sequences lead to \"Turnover\".\n\n3. Summing these values gives the total number of Rebounds: \n   15 + 9 + 6 + 4 = 34.\n</reasoning>\n\n<answer>34</answer>",
+  "process_time_seconds": 9.217515,
+  "processed_at": "2025-05-16 19:05:00"
+}

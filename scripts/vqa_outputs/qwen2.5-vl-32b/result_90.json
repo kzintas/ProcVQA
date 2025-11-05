@@ -1,0 +1,14 @@
+{
+  "index": 90,
+  "question_id": "q_90",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_15.png",
+  "question": "How many total patients were discharged alive after going to the Floor?",
+  "true_answer": "20",
+  "llm_answer": "20",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "To answer the question, we need to identify the pathway in the diagram where patients go from the \"Floor\" node to the \"Discharge-Alive\" node and determine the number of sequences following that path.\n\n### Step-by-Step Analysis:\n\n1. **Identify the \"Floor\" Node:**\n   - There are two instances of the \"Floor\" node in the diagram:\n     - One in the third column (with 23 sequences).\n     - One in the fourth column (with 27 sequences).\n\n2. **Trace the Pathways from \"Floor\" to \"Discharge-Alive\":**\n   - In the third column:\n     - The \"Floor\" node (23 sequences) leads directly to the \"Discharge-Alive\" node.\n     - The number of sequences following this path is explicitly labeled as 20.\n   - In the fourth column:\n     - The \"Floor\" node (27 sequences) does not lead directly to \"Discharge-Alive.\" Instead, it leads to the \"ICU\" node, which then leads to \"Die.\"\n\n3. **Sum the Sequences Leading to \"Discharge-Alive\":**\n   - Only the pathway from the \"Floor\" node in the third column leads to \"Discharge-Alive.\"\n   - The number of sequences following this path is 20.\n\n### Reasoning:\nThe question asks for the total number of patients discharged alive after going to the Floor. From the analysis above, only the pathway in the third column satisfies this condition, and it shows 20 sequences.\n\n### Final Answer:\n<answer>20</answer>",
+  "process_time_seconds": 8.297001,
+  "processed_at": "2025-05-16 21:03:53"
+}

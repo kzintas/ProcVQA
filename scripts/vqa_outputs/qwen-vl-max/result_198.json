@@ -1,0 +1,14 @@
+{
+  "index": 198,
+  "question_id": "q_198",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_30.png",
+  "question": "How many made shots were after UNC Offense?",
+  "true_answer": "22",
+  "llm_answer": "22",
+  "is_correct": true,
+  "reasoning": "The diagram shows that from the \"UNC Offense\" node, there is a direct link to the \"Made Shot\" node with a numeric label of 22. This indicates that there were 22 sequences where a made shot occurred immediately after an UNC offense.",
+  "full_response": "To determine how many made shots were after UNC Offense, we need to follow the pathways from the \"UNC Offense\" node. \n\n1. From \"UNC Offense,\" there are two outgoing links:\n   - One link leads to \"Made Shot\" with a count of 22.\n   - Another link leads to \"Missed Shot\" with a count of 24.\n\n2. We are interested in the path leading to \"Made Shot.\"\n\n3. The link directly from \"UNC Offense\" to \"Made Shot\" has a numeric label of 22.\n\n<reasoning>\nThe diagram shows that from the \"UNC Offense\" node, there is a direct link to the \"Made Shot\" node with a numeric label of 22. This indicates that there were 22 sequences where a made shot occurred immediately after an UNC offense.\n</reasoning>\n\n<answer>22</answer>",
+  "process_time_seconds": 8.153917,
+  "processed_at": "2025-05-16 19:16:19"
+}

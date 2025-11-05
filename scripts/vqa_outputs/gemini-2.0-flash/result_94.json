@@ -1,0 +1,14 @@
+{
+  "index": 94,
+  "question_id": "q_94",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_20.png",
+  "question": "How many patients got discharged alive directly after arriving at Emergency? ",
+  "true_answer": "37",
+  "llm_answer": "37",
+  "is_correct": true,
+  "reasoning": "The question asks for the number of patients that went directly from \"Emergency\" to \"Discharge-Alive _Exit\". I can see a path from \"Emergency\" to \"Discharge-Alive _Exit\", the count on this path is 37.",
+  "full_response": "1.  **Identify relevant nodes:** I need to find the sequence where patients go from \"Emergency\" to \"Discharge-Alive/\\_Exit\".\n2.  **Locate the pathways:** I scan the diagram for paths starting at \"Emergency\" and leading directly to \"Discharge-Alive/\\_Exit\".\n3.  **Extract counts:** I find one pathway from \"Emergency\" to \"Discharge-Alive/\\_Exit\" with the count 37.\n4.  **Consider Only Direct Paths**: The question asks about patients discharged alive *directly* after arriving at Emergency.\n\n<reasoning>\nThe question asks for the number of patients that went directly from \"Emergency\" to \"Discharge-Alive _Exit\". I can see a path from \"Emergency\" to \"Discharge-Alive _Exit\", the count on this path is 37.\n</reasoning>\n<answer>37</answer>",
+  "process_time_seconds": 3.879206,
+  "processed_at": "2025-05-13 19:48:24"
+}

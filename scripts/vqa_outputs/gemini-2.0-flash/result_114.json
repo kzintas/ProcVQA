@@ -1,0 +1,14 @@
+{
+  "index": 114,
+  "question_id": "q_114",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_05.png",
+  "question": "How many times did UMD Offense transition from UNC Offense?",
+  "true_answer": "69",
+  "llm_answer": "69",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "1. The question asks about the transition from 'UNC Offense' to 'UMD Offense'.\n2. I need to locate these two nodes in the diagram and the directed link connecting them.\n3. I find the 'UNC Offense' node and the 'UMD Offense' node.\n4. The directed link between them has a numeric label.\n5. The numeric label is 69.\n\n<answer>69</answer>",
+  "process_time_seconds": 3.490718,
+  "processed_at": "2025-05-13 19:50:15"
+}

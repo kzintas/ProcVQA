@@ -1,0 +1,14 @@
+{
+  "index": 197,
+  "question_id": "q_197",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_30.png",
+  "question": "How many times did UMD Offense transition from UNC Offense?",
+  "true_answer": "69",
+  "llm_answer": "23",
+  "is_correct": false,
+  "reasoning": "1.  The question asks for the number of times \"UMD Offense\" transitioned *from* \"UNC Offense\". This means we need to find a direct link starting at the \"UNC Offense\" node and ending at the \"UMD Offense\" node.\n2.  Locate the \"UNC Offense\" node in the diagram.\n3.  Locate the \"UMD Offense\" node in the diagram.\n4.  Examine the links originating from the \"UNC Offense\" node.\n    *   There is a link from \"UNC Offense\" to \"Made Shot\" with a value of 22.\n    *   There is a link from \"UNC Offense\" to \"Missed Shot\" with a value of 24.\n    *   There is a direct link from \"UNC Offense\" to \"UMD Offense\".\n5.  Identify the numeric label associated with the direct link from \"UNC Offense\" to \"UMD Offense\". The label on this link is \"23\".\n6.  This numeric label represents the count of sequences following that specific path.\n7.  Therefore, UMD Offense transitioned from UNC Offense 23 times.",
+  "full_response": "<reasoning>\n1.  The question asks for the number of times \"UMD Offense\" transitioned *from* \"UNC Offense\". This means we need to find a direct link starting at the \"UNC Offense\" node and ending at the \"UMD Offense\" node.\n2.  Locate the \"UNC Offense\" node in the diagram.\n3.  Locate the \"UMD Offense\" node in the diagram.\n4.  Examine the links originating from the \"UNC Offense\" node.\n    *   There is a link from \"UNC Offense\" to \"Made Shot\" with a value of 22.\n    *   There is a link from \"UNC Offense\" to \"Missed Shot\" with a value of 24.\n    *   There is a direct link from \"UNC Offense\" to \"UMD Offense\".\n5.  Identify the numeric label associated with the direct link from \"UNC Offense\" to \"UMD Offense\". The label on this link is \"23\".\n6.  This numeric label represents the count of sequences following that specific path.\n7.  Therefore, UMD Offense transitioned from UNC Offense 23 times.\n</reasoning>\n<answer>23</answer>",
+  "process_time_seconds": 5.120007,
+  "processed_at": "2025-05-15 03:10:14"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 214,
+  "question_id": "q_214",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_10.png",
+  "question": "How many total missed shots were made by both teams?",
+  "true_answer": "34",
+  "llm_answer": 7,
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "**Step 1: Identify the relevant elements in the visualization that inform the answer.**\n\nThe node-link diagram shows the sequence of events in a basketball game, including shots made and missed by both teams. The relevant elements for this question are the nodes labeled \"Missed Shot\" and the corresponding links.\n\n**Step 2: Describe the thought process and calculations step-by-step in XML tag <reasoning>.**\n\n<reasoning>\n\nTo determine the total number of missed shots made by both teams, we need to count the number of \"Missed Shot\" nodes and their corresponding links.\n\n*   There are 4 \"Missed Shot\" nodes on the left side of the diagram, representing shots missed by Team A.\n*   There are 3 \"Missed Shot\" nodes on the right side of the diagram, representing shots missed by Team B.\n*   Each \"Missed Shot\" node has a link to the next event, indicating that the shot was made.\n\n**Step 3: Provide the final answer in the following format: <answer>X</answer> where X is the direct answer or 'indeterminate'.**\n\n<answer>7</answer>\n\nThe final answer is 7.",
+  "process_time_seconds": 13.999629,
+  "processed_at": "2025-05-17 07:42:14"
+}

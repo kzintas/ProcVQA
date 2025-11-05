@@ -1,0 +1,14 @@
+{
+  "index": 96,
+  "question_id": "q_96",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_20.png",
+  "question": "How many patients went to the Floor after the ICU?",
+  "true_answer": "23",
+  "llm_answer": "23",
+  "is_correct": true,
+  "reasoning": "The diagram shows a clear pathway from the ICU node to the Floor node with a numeric label of 23 next to the link. This directly indicates the number of patients who followed this sequence.",
+  "full_response": "To determine how many patients went to the Floor after the ICU, I'll follow these steps:\n\n1. Identify the node labeled \"ICU\" and trace its outgoing links.\n2. Look for a link leading to a node labeled \"Floor\".\n3. Check the numeric label next to this link to find the count of sequences.\n\nFrom the diagram:\n- There is an ICU node with a link leading to a Floor node.\n- The numeric label next to this link is 23.\n\nThis indicates that 23 patients went to the Floor after being in the ICU.\n\n<reasoning>\nThe diagram shows a clear pathway from the ICU node to the Floor node with a numeric label of 23 next to the link. This directly indicates the number of patients who followed this sequence.\n</reasoning>\n\n<answer>23</answer>",
+  "process_time_seconds": 8.90812,
+  "processed_at": "2025-05-16 19:02:17"
+}

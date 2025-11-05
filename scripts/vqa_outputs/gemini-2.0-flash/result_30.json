@@ -1,0 +1,14 @@
+{
+  "index": 30,
+  "question_id": "q_30",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/CoreFlow/emergency_dataset/msp_30.png",
+  "question": "How many total patients were discharged alive?",
+  "true_answer": "38",
+  "llm_answer": "38",
+  "is_correct": true,
+  "reasoning": "The question asks for the number of patients who were discharged alive. The node \"Discharge-Alive\" represents the event of being discharged alive. The link connecting \"Discharge-Alive\" to \"_Exit\" has the value of 38. Thus, 38 patients were discharged alive.",
+  "full_response": "1. The node labeled \"Discharge-Alive\" represents patients who were discharged alive.\n2. The link connecting \"Discharge-Alive\" to \"_Exit\" indicates the number of patients discharged alive that exited the process.\n3. The numeric label next to the link between \"Discharge-Alive\" and \"_Exit\" shows a value of 38.\n\n<reasoning>\nThe question asks for the number of patients who were discharged alive. The node \"Discharge-Alive\" represents the event of being discharged alive. The link connecting \"Discharge-Alive\" to \"_Exit\" has the value of 38. Thus, 38 patients were discharged alive.</reasoning>\n<answer>38</answer>",
+  "process_time_seconds": 3.203766,
+  "processed_at": "2025-05-13 20:11:47"
+}

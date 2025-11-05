@@ -1,0 +1,14 @@
+{
+  "index": 162,
+  "question_id": "q_162",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_05.png",
+  "question": "How many times did UMD Offense transition from UNC Offense?",
+  "true_answer": "60",
+  "llm_answer": "27",
+  "is_correct": false,
+  "reasoning": "To determine how many times UMD Offense transitioned from UNC Offense, we need to follow the pathway from the \"Start\" node labeled \"69\" at the top of the diagram. The pathway should lead us through the nodes representing events in the sequence.\n\n1. Start at the \"Start\" node with a label of \"69\".\n2. Follow the directed link labeled \"UNC Offense\" to the next node.\n3. Continue following the links and labels until reaching the \"UMD Offense\" node.\n\nThe number of transitions from \"UNC Offense\" to \"UMD Offense\" is indicated by the numeric label next to each link. In this case, there are 27 such transitions shown in the diagram.\n\nTherefore, UMD Offense transitioned from UNC Offense 27 times.",
+  "full_response": "<answer>27</answer>\n\n<reasoning>\nTo determine how many times UMD Offense transitioned from UNC Offense, we need to follow the pathway from the \"Start\" node labeled \"69\" at the top of the diagram. The pathway should lead us through the nodes representing events in the sequence.\n\n1. Start at the \"Start\" node with a label of \"69\".\n2. Follow the directed link labeled \"UNC Offense\" to the next node.\n3. Continue following the links and labels until reaching the \"UMD Offense\" node.\n\nThe number of transitions from \"UNC Offense\" to \"UMD Offense\" is indicated by the numeric label next to each link. In this case, there are 27 such transitions shown in the diagram.\n\nTherefore, UMD Offense transitioned from UNC Offense 27 times.\n</reasoning>",
+  "process_time_seconds": 15.093401,
+  "processed_at": "2025-05-16 20:27:20"
+}

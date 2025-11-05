@@ -1,0 +1,14 @@
+{
+  "index": 202,
+  "question_id": "q_202",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_30.png",
+  "question": "How many steals occurred after UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": "indeterminate",
+  "is_correct": true,
+  "reasoning": "The diagram shows a sequence of events starting from \"_Start\" and ending at \"_Exit\". The nodes represent different stages of the game, and the links between them show the flow of events. \n\n1. From \"UNC Offense\", there are two paths: \"Made Shot\" and \"Missed Shot\".\n2. Both \"Made Shot\" and \"Missed Shot\" lead to \"UMD Offense\".\n3. From \"UMD Offense\", there are two paths: \"Rebound\" and \"_Exit\".\n4. There is no node or link labeled \"Steal\" or anything similar after \"UMD Offense\".\n\nSince there is no indication of steals in the diagram after UMD Offense, we cannot determine the number of steals that occurred.",
+  "full_response": "<reasoning>\nThe diagram shows a sequence of events starting from \"_Start\" and ending at \"_Exit\". The nodes represent different stages of the game, and the links between them show the flow of events. \n\n1. From \"UNC Offense\", there are two paths: \"Made Shot\" and \"Missed Shot\".\n2. Both \"Made Shot\" and \"Missed Shot\" lead to \"UMD Offense\".\n3. From \"UMD Offense\", there are two paths: \"Rebound\" and \"_Exit\".\n4. There is no node or link labeled \"Steal\" or anything similar after \"UMD Offense\".\n\nSince there is no indication of steals in the diagram after UMD Offense, we cannot determine the number of steals that occurred.\n</reasoning>\n<answer>indeterminate</answer>",
+  "process_time_seconds": 7.201185,
+  "processed_at": "2025-05-16 19:55:54"
+}

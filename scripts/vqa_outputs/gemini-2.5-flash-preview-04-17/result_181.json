@@ -1,0 +1,14 @@
+{
+  "index": 181,
+  "question_id": "q_181",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_15.png",
+  "question": "How many steals occurred after UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": "indeterminate",
+  "is_correct": true,
+  "reasoning": "1.  Identify the target node: The question asks about events after 'UMD Offense'.\n2.  Examine the outgoing links from the 'UMD Offense' node: There are two outgoing links.\n3.  Identify the destination nodes of these links: One link goes to 'Rebound', and the other goes to '_Exit'.\n4.  Check if any of the outgoing links or subsequent nodes represent 'Steal': Neither 'Rebound' nor '_Exit' is labeled 'Steal'. There are no other nodes directly connected after 'UMD Offense'.\n5.  Conclusion: The diagram does not show any transition from 'UMD Offense' to a 'Steal' event, nor does it show a 'Steal' event occurring directly after 'UMD Offense' in any sequence. Therefore, the number of steals after 'UMD Offense' cannot be determined from this visualization.",
+  "full_response": "<reasoning>\n1.  Identify the target node: The question asks about events after 'UMD Offense'.\n2.  Examine the outgoing links from the 'UMD Offense' node: There are two outgoing links.\n3.  Identify the destination nodes of these links: One link goes to 'Rebound', and the other goes to '_Exit'.\n4.  Check if any of the outgoing links or subsequent nodes represent 'Steal': Neither 'Rebound' nor '_Exit' is labeled 'Steal'. There are no other nodes directly connected after 'UMD Offense'.\n5.  Conclusion: The diagram does not show any transition from 'UMD Offense' to a 'Steal' event, nor does it show a 'Steal' event occurring directly after 'UMD Offense' in any sequence. Therefore, the number of steals after 'UMD Offense' cannot be determined from this visualization.\n</reasoning>\n<answer>indeterminate</answer>",
+  "process_time_seconds": 3.592882,
+  "processed_at": "2025-05-14 21:08:52"
+}

@@ -1,0 +1,15 @@
+{
+  "index": 121,
+  "question_id": "q_121",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_10.png",
+  "question": "How many Rebounds were made by UMD Offense?",
+  "true_answer": "34",
+  "llm_answer": "34",
+  "is_correct": true,
+  "reasoning": "To determine the number of rebounds made by UMD Offense, we first locate \"UMD Offense\" in the diagram. It has a direct link to \"Rebound\" with a count of 34. This indicates that out of the sequences that went through UMD Offense, 34 of them led to a Rebound.",
+  "full_response": "## Step-by-step analysis of the node-link diagram\n\n<reasoning>\nTo determine the number of rebounds made by UMD Offense, we first locate \"UMD Offense\" in the diagram. It has a direct link to \"Rebound\" with a count of 34. This indicates that out of the sequences that went through UMD Offense, 34 of them led to a Rebound.\n\n</reasoning>\n\n## Final Answer\n<answer>34</answer>",
+  "process_time_seconds": 1.57248,
+  "processed_at": "2025-05-15 16:45:48",
+  "model": "meta/llama-4-scout-17b-16e-instruct-maas"
+}

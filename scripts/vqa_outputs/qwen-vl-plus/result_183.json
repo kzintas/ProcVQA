@@ -1,0 +1,14 @@
+{
+  "index": 183,
+  "question_id": "q_183",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many times did UMD Offense transition from UNC Offense?",
+  "true_answer": "69",
+  "llm_answer": "22",
+  "is_correct": false,
+  "reasoning": "To determine how many times UMD Offense transitioned from UNC Offense, we need to follow the pathway from \"Start\" through \"UNC Offense\" and then look for the link leading to \"UMD Offense\". \n\n1. Start at the \"Start\" node.\n2. Follow the link labeled \"69\" to \"UNC Offense\".\n3. From \"UNC Offense\", there are two outgoing links: one labeled \"22\" leading to \"Made Shot\" and another labeled \"23\" leading to \"Missed Shot\".\n\nSince we are interested in transitions from \"UNC Offense\" to \"UMD Offense\", we focus on the link labeled \"22\" which leads directly to \"UMD Offense\".\n\nTherefore, UMD Offense transitioned from UNC Offense 22 times.",
+  "full_response": "<answer>22</answer>\n\n<reasoning>\nTo determine how many times UMD Offense transitioned from UNC Offense, we need to follow the pathway from \"Start\" through \"UNC Offense\" and then look for the link leading to \"UMD Offense\". \n\n1. Start at the \"Start\" node.\n2. Follow the link labeled \"69\" to \"UNC Offense\".\n3. From \"UNC Offense\", there are two outgoing links: one labeled \"22\" leading to \"Made Shot\" and another labeled \"23\" leading to \"Missed Shot\".\n\nSince we are interested in transitions from \"UNC Offense\" to \"UMD Offense\", we focus on the link labeled \"22\" which leads directly to \"UMD Offense\".\n\nTherefore, UMD Offense transitioned from UNC Offense 22 times.\n</reasoning>",
+  "process_time_seconds": 11.255369,
+  "processed_at": "2025-05-16 20:29:59"
+}

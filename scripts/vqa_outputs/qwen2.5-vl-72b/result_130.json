@@ -1,0 +1,14 @@
+{
+  "index": 130,
+  "question_id": "q_130",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_15.png",
+  "question": "How many times did UMD Offense transition from UNC Offense?",
+  "true_answer": "69",
+  "llm_answer": "69",
+  "is_correct": true,
+  "reasoning": "To determine how many times UMD Offense transitioned from UNC Offense, we need to look at the link that connects these two nodes. The numeric label on this link indicates the number of sequences that follow this path. In this case, the label is 69, meaning there were 69 transitions from UNC Offense to UMD Offense.",
+  "full_response": "1. The relevant elements in the visualization are:\n   - The node labeled \"UNC Offense\"\n   - The node labeled \"UMD Offense\"\n   - The directed link connecting UNC Offense to UMD Offense\n   - The numeric label on this link, which is 69\n\n2. <reasoning>\n   To determine how many times UMD Offense transitioned from UNC Offense, we need to look at the link that connects these two nodes. The numeric label on this link indicates the number of sequences that follow this path. In this case, the label is 69, meaning there were 69 transitions from UNC Offense to UMD Offense.\n   </reasoning>\n\n3. <answer>69</answer>",
+  "process_time_seconds": 13.182205,
+  "processed_at": "2025-05-16 19:45:49"
+}

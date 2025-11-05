@@ -1,0 +1,14 @@
+{
+  "index": 168,
+  "question_id": "q_168",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_10.png",
+  "question": "How many rebounds were made after UMD Offense?",
+  "true_answer": "34",
+  "llm_answer": "27",
+  "is_correct": false,
+  "reasoning": "1.  **Identify the \"UMD Offense\" node:** First, I locate the node labeled \"UMD Offense\" in the diagram.\n2.  **Examine outgoing links from \"UMD Offense\":** I look at all the directed links originating from the \"UMD Offense\" node.\n3.  **Find the link to \"Rebound\":** I observe one link going from \"UMD Offense\" to a node labeled \"Rebound\".\n4.  **Read the count on the link:** The numeric label next to this link (from \"UMD Offense\" to \"Rebound\") is \"27\". This number indicates that there were 27 sequences where a \"Rebound\" event occurred immediately after \"UMD Offense\".",
+  "full_response": "<reasoning>\n1.  **Identify the \"UMD Offense\" node:** First, I locate the node labeled \"UMD Offense\" in the diagram.\n2.  **Examine outgoing links from \"UMD Offense\":** I look at all the directed links originating from the \"UMD Offense\" node.\n3.  **Find the link to \"Rebound\":** I observe one link going from \"UMD Offense\" to a node labeled \"Rebound\".\n4.  **Read the count on the link:** The numeric label next to this link (from \"UMD Offense\" to \"Rebound\") is \"27\". This number indicates that there were 27 sequences where a \"Rebound\" event occurred immediately after \"UMD Offense\".\n</reasoning>\n<answer>27</answer>",
+  "process_time_seconds": 5.898431,
+  "processed_at": "2025-05-15 03:00:24"
+}

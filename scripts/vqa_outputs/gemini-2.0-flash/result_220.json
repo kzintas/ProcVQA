@@ -1,0 +1,14 @@
+{
+  "index": 220,
+  "question_id": "q_220",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_15.png",
+  "question": "How many total made shots were made by both teams?",
+  "true_answer": "31",
+  "llm_answer": "31",
+  "is_correct": true,
+  "reasoning": "To calculate the total number of made shots, I need to sum the counts associated with each \"Made Shot\" node in the diagram.\n- I found one \"Made Shot\" node with a count of 9.\n- I found another \"Made Shot\" node with a count of 20.\n- I found another \"Made Shot\" node with a count of 2.\nAdding these values gives 9 + 20 + 2 = 31. Therefore, there were 31 made shots.",
+  "full_response": "1.  **Identify relevant nodes:** The nodes labeled \"Made Shot\" represent instances of a made shot.\n2.  **Identify the counts associated with those nodes:** We need to find all \"Made Shot\" nodes and their corresponding counts on outgoing links.\n3.  **Sum the counts:** Add up all the individual \"Made Shot\" counts to get the total.\n\nHere's the breakdown:\n-   From the 3rd column, \"Made Shot\" has a count of 9.\n-   From the 4th column, \"Made Shot\" has a count of 20.\n-   From the 1st column, \"Made Shot\" has a count of 2.\n\n<reasoning>\nTo calculate the total number of made shots, I need to sum the counts associated with each \"Made Shot\" node in the diagram.\n- I found one \"Made Shot\" node with a count of 9.\n- I found another \"Made Shot\" node with a count of 20.\n- I found another \"Made Shot\" node with a count of 2.\nAdding these values gives 9 + 20 + 2 = 31. Therefore, there were 31 made shots.</reasoning>\n<answer>31</answer>",
+  "process_time_seconds": 5.005043,
+  "processed_at": "2025-05-13 19:57:07"
+}

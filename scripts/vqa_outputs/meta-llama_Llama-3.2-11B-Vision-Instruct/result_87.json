@@ -1,0 +1,14 @@
+{
+  "index": 87,
+  "question_id": "q_87",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_15.png",
+  "question": "How many patients got discharged alive directly after arriving at Emergency? ",
+  "true_answer": "37",
+  "llm_answer": null,
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "**Step 1: Identify the relevant elements in the visualization**\n\nThe relevant elements in the visualization that inform the answer are:\n\n*   The nodes representing \"Arrival\" and \"Discharge-Alive\"\n*   The links connecting these nodes\n*   The numeric labels next to the links showing the count of sequences\n\n**Step 2: Describe the thought process and calculations**\n\nTo answer the question, we need to follow the paths from \"Arrival\" to \"Discharge-Alive\" and count the number of sequences.\n\nFrom the diagram, we can see that there are two paths from \"Arrival\" to \"Discharge-Alive\":\n\n*   One path goes through \"Emergency\" with a count of 37 sequences\n*   The other path goes through \"ICU\" with a count of 23 sequences\n\nSince the question asks for patients who got discharged alive directly after arriving at Emergency, we only consider the path through \"Emergency\".\n\n**Step 3: Calculate the answer**\n\nThe count of sequences for the path through \"Emergency\" is 37.\n\n**Answer:** 37",
+  "process_time_seconds": 12.896476,
+  "processed_at": "2025-05-17 07:09:36"
+}

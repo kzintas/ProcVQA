@@ -1,0 +1,14 @@
+{
+  "index": 215,
+  "question_id": "q_215",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_10.png",
+  "question": "How many free throws were made by UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": "8",
+  "is_correct": false,
+  "reasoning": "To determine the number of free throws made by UMD Offense, we need to follow the pathway from \"Start\" to \"Made Free Throw\" for UMD Offense. \n\n1. Start: 5 sequences\n2. Jump Ball: 1 sequence\n3. UMD Offense: 12 sequences (this is the first occurrence of UMD Offense)\n4. Foul: 15 sequences\n5. Made Free Throw: 8 sequences\n\nThe link between \"UMD Offense\" and \"Made Free Throw\" has a label of 8, indicating that there are 8 sequences where UMD Offense results in a Made Free Throw.\n\nTherefore, the number of free throws made by UMD Offense is 8.",
+  "full_response": "<answer>8</answer>\n\n<reasoning>\nTo determine the number of free throws made by UMD Offense, we need to follow the pathway from \"Start\" to \"Made Free Throw\" for UMD Offense. \n\n1. Start: 5 sequences\n2. Jump Ball: 1 sequence\n3. UMD Offense: 12 sequences (this is the first occurrence of UMD Offense)\n4. Foul: 15 sequences\n5. Made Free Throw: 8 sequences\n\nThe link between \"UMD Offense\" and \"Made Free Throw\" has a label of 8, indicating that there are 8 sequences where UMD Offense results in a Made Free Throw.\n\nTherefore, the number of free throws made by UMD Offense is 8.\n</reasoning>",
+  "process_time_seconds": 8.132803,
+  "processed_at": "2025-05-16 20:34:44"
+}

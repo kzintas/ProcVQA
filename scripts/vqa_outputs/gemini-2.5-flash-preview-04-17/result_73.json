@@ -1,0 +1,14 @@
+{
+  "index": 73,
+  "question_id": "q_73",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_05.png",
+  "question": "How many patients got discharged alive directly after arriving at Emergency? ",
+  "true_answer": "37",
+  "llm_answer": "37",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "<reason>\nThe user wants to find the number of patients whose sequence of events includes 'Emergency' immediately followed by 'Discharge-Alive'.\nI will examine each pathway shown in the diagram.\nPathway 1 (leftmost column): Arrival -> Emergency -> ICU -> Die -> \\_Exit. No direct link from Emergency to Discharge-Alive.\nPathway 2 (second column): Arrival -> Emergency -> Discharge-Alive -> \\_Exit. This pathway shows a direct link from Emergency to Discharge-Alive. The number associated with this link is 37.\nPathway 3 (third column): Arrival -> Emergency -> ICU -> Floor -> Discharge-Alive -> \\_Exit. There is a link from Emergency to ICU (24) and then from Floor to Discharge-Alive (20), but no direct link from Emergency to Discharge-Alive.\nPathway 4 (rightmost column): Arrival -> Emergency -> Floor -> ICU -> Die -> \\_Exit. No direct link from Emergency to Discharge-Alive.\n\nOnly the second pathway shows a direct transition from 'Emergency' to 'Discharge-Alive'. The number indicated next to this transition is 37.\n</reason>\n<answer>37</answer>",
+  "process_time_seconds": 4.989212,
+  "processed_at": "2025-05-14 21:21:30"
+}

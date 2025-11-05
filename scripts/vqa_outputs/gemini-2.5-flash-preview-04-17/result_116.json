@@ -1,0 +1,14 @@
+{
+  "index": 116,
+  "question_id": "q_116",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_05.png",
+  "question": "How many shots were missed immediately after UMD Offense?",
+  "true_answer": "14",
+  "llm_answer": "14",
+  "is_correct": true,
+  "reasoning": "1. I located the \"UMD Offense\" node in the diagram.\n2. I examined the links leading out from the \"UMD Offense\" node.\n3. I found a link connecting \"UMD Offense\" to a node labeled \"Missed Shot\".\n4. I read the numerical label on the link between \"UMD Offense\" and \"Missed Shot\". This label is '14'.\n5. This number indicates that 14 sequences followed the path from \"UMD Offense\" to \"Missed Shot\".",
+  "full_response": "<reasoning>\n1. I located the \"UMD Offense\" node in the diagram.\n2. I examined the links leading out from the \"UMD Offense\" node.\n3. I found a link connecting \"UMD Offense\" to a node labeled \"Missed Shot\".\n4. I read the numerical label on the link between \"UMD Offense\" and \"Missed Shot\". This label is '14'.\n5. This number indicates that 14 sequences followed the path from \"UMD Offense\" to \"Missed Shot\".\n</reasoning>\n<answer>14</answer>",
+  "process_time_seconds": 4.44256,
+  "processed_at": "2025-05-14 21:03:08"
+}

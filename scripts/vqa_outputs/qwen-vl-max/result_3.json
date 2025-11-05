@@ -1,0 +1,14 @@
+{
+  "index": 3,
+  "question_id": "q_3",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/CoreFlow/emergency_dataset/msp_05.png",
+  "question": "How many patients went to the ICU after Emrgency?",
+  "true_answer": "62",
+  "llm_answer": "62",
+  "is_correct": true,
+  "reasoning": "The diagram shows that from the \"Emergency\" node, 62 patients proceed to the \"ICU\" node. This is indicated by the link width and the numeric label next to the link, which explicitly states 62.",
+  "full_response": "To determine how many patients went to the ICU after Emergency, we need to follow the pathway from the \"Emergency\" node to the \"ICU\" node. \n\n- From the \"Emergency\" node, there are two pathways: one leading directly to \"Discharge-Alive\" with 38 sequences and another leading to \"ICU\" with 62 sequences.\n- The link from \"Emergency\" to \"ICU\" is labeled with the number 62.\n\n<reasoning>\nThe diagram shows that from the \"Emergency\" node, 62 patients proceed to the \"ICU\" node. This is indicated by the link width and the numeric label next to the link, which explicitly states 62.\n</reasoning>\n\n<answer>62</answer>",
+  "process_time_seconds": 5.945211,
+  "processed_at": "2025-05-16 18:50:35"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 144,
+  "question_id": "q_144",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many free throws were made in total by UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": "15",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": " Examining the node-link diagram, I'm looking for paths originating from \"UMD Offense\" that lead to \"Made Shot\".\nThere is a path from \"UMD Offense\" to \"Rebound\" with a count of 34, and then \"Rebound\" leads to \"Made Shot\" with a count of 15.\nTherefore, 15 free throws were made in total by UMD Offense.\n\n<answer>15</answer>",
+  "process_time_seconds": 2.529918,
+  "processed_at": "2025-05-13 19:52:08"
+}

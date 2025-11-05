@@ -1,0 +1,14 @@
+{
+  "index": 160,
+  "question_id": "q_160",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_30.png",
+  "question": "How many free throws were made in total by UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": "35",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "### Reasoning:\n1. The diagram represents a sequence of events in a basketball game.\n2. The starting point is labeled as \"_Start\" with 69 sequences.\n3. From \"_Start,\" there's a split into two paths: \"UNC Offense\" and \"UMD Offense.\"\n4. Both \"UNC Offense\" and \"UMD Offense\" have 69 sequences leading to them.\n5. The \"UMD Offense\" path leads to two outcomes: \"Rebound\" and \"_Exit.\"\n6. The link width between \"UMD Offense\" and \"Rebound\" is 34, indicating 34 sequences.\n7. The link width between \"UMD Offense\" and \"_Exit\" is 35, indicating 35 sequences.\n8. Since the question asks for the total number of free throws made by UMD Offense, we need to consider the sequences leading to \"_Exit\" because free throws are typically taken when a team is at the free throw line.\n\n### Final Answer:\n<answer>35</answer>",
+  "process_time_seconds": 39.445243,
+  "processed_at": "2025-05-15 04:24:51"
+}

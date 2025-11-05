@@ -1,0 +1,15 @@
+{
+  "index": 98,
+  "question_id": "q_98",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_20.png",
+  "question": "How many patients went to the ICU after the Floor?",
+  "true_answer": "24",
+  "llm_answer": "47",
+  "is_correct": false,
+  "reasoning": "To determine the number of patients who went to the ICU after the Floor, we need to examine the pathways in the node-link diagram that involve both the Floor and the ICU. \n\nLooking at the diagram, there are two instances where the Floor is followed by the ICU. The first instance shows 23 patients going from the Floor to the ICU, and the second instance shows 24 patients following the same path. \n\nSince these are the only two pathways that involve the Floor followed by the ICU, we can conclude that a total of 23 + 24 = 47 patients went to the ICU after the Floor.",
+  "full_response": "<reasoning>\nTo determine the number of patients who went to the ICU after the Floor, we need to examine the pathways in the node-link diagram that involve both the Floor and the ICU. \n\nLooking at the diagram, there are two instances where the Floor is followed by the ICU. The first instance shows 23 patients going from the Floor to the ICU, and the second instance shows 24 patients following the same path. \n\nSince these are the only two pathways that involve the Floor followed by the ICU, we can conclude that a total of 23 + 24 = 47 patients went to the ICU after the Floor.\n</reasoning>\n\n<answer>47</answer>",
+  "process_time_seconds": 7.00406,
+  "processed_at": "2025-05-17 06:21:29",
+  "model": "meta/llama-3.2-90b-vision-instruct-maas"
+}

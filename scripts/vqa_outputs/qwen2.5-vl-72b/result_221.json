@@ -1,0 +1,14 @@
+{
+  "index": 221,
+  "question_id": "q_221",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_15.png",
+  "question": "How many total missed shots were made by both teams?",
+  "true_answer": "39",
+  "llm_answer": "40",
+  "is_correct": false,
+  "reasoning": "- From the leftmost pathway:\n        - There is 1 \"Missed Shot\" after a \"Jump Ball\".\n        - There are 2 \"Missed Shots\" after a \"UNC Offense\".\n      - From the second pathway from the left:\n        - There are 25 \"Missed Shots\" after a \"Rebound\".\n      - From the third pathway from the left:\n        - There are 12 \"Missed Shots\" after a \"UMD Offense\".\n      - Summing these values gives the total number of missed shots.",
+  "full_response": "1. **Identify the relevant elements:**\n   - The question asks for the total number of missed shots by both teams.\n   - In the diagram, \"Missed Shot\" nodes are present in multiple pathways.\n\n2. <reasoning>\n      - From the leftmost pathway:\n        - There is 1 \"Missed Shot\" after a \"Jump Ball\".\n        - There are 2 \"Missed Shots\" after a \"UNC Offense\".\n      - From the second pathway from the left:\n        - There are 25 \"Missed Shots\" after a \"Rebound\".\n      - From the third pathway from the left:\n        - There are 12 \"Missed Shots\" after a \"UMD Offense\".\n      - Summing these values gives the total number of missed shots.\n    </reasoning>\n\n3. **Calculation:**\n   - Total missed shots = 1 + 2 + 25 + 12 = 40\n\n<answer>40</answer>",
+  "process_time_seconds": 10.072033,
+  "processed_at": "2025-05-16 19:58:56"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 221,
+  "question_id": "q_221",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_15.png",
+  "question": "How many total missed shots were made by both teams?",
+  "true_answer": "39",
+  "llm_answer": "39",
+  "is_correct": true,
+  "reasoning": "2 + 25 + 12 = 39",
+  "full_response": "To determine the total number of missed shots made by both teams, I'll identify all nodes labeled \"Missed Shot\" and sum their corresponding values:\n\n1. The first \"Missed Shot\" node has a value of 2.\n2. The second \"Missed Shot\" node has a value of 25.\n3. The third \"Missed Shot\" node has a value of 12.\n\nSumming these values:\n<reasoning>2 + 25 + 12 = 39</reasoning>\n\n<answer>39</answer>",
+  "process_time_seconds": 5.623371,
+  "processed_at": "2025-05-16 19:19:45"
+}

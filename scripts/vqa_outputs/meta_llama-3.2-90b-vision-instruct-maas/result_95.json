@@ -1,0 +1,15 @@
+{
+  "index": 95,
+  "question_id": "q_95",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_20.png",
+  "question": "How many patients went to the ICU after Emrgency?",
+  "true_answer": "35",
+  "llm_answer": "12",
+  "is_correct": false,
+  "reasoning": "To determine the number of patients who went to the ICU after Emergency, we need to follow the pathways in the node-link diagram. \n\n1. First, we identify the \"Emergency\" node and look for links leading out of it. \n2. We find two links: one leading to \"ICU\" and another to \"_Exit\". \n3. The link to \"ICU\" has a label indicating 12 patients followed this path. \n4. Therefore, 12 patients went to the ICU after Emergency.",
+  "full_response": "<reasoning>\nTo determine the number of patients who went to the ICU after Emergency, we need to follow the pathways in the node-link diagram. \n\n1. First, we identify the \"Emergency\" node and look for links leading out of it. \n2. We find two links: one leading to \"ICU\" and another to \"_Exit\". \n3. The link to \"ICU\" has a label indicating 12 patients followed this path. \n4. Therefore, 12 patients went to the ICU after Emergency.\n\n</reasoning>\n<answer>12</answer>",
+  "process_time_seconds": 6.849346,
+  "processed_at": "2025-05-17 06:21:03",
+  "model": "meta/llama-3.2-90b-vision-instruct-maas"
+}

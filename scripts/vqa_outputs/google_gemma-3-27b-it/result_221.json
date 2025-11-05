@@ -1,0 +1,14 @@
+{
+  "index": 221,
+  "question_id": "q_221",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_15.png",
+  "question": "How many total missed shots were made by both teams?",
+  "true_answer": "39",
+  "llm_answer": "39",
+  "is_correct": true,
+  "reasoning": "1. **Identify relevant nodes:** The question asks about \"missed shots\". We need to find all nodes labeled \"Missed Shot\" and sum the incoming link counts to those nodes.\n2. **Trace pathways to \"Missed Shot\" nodes:**\n    - There's a \"Missed Shot\" node connected from \"Start\" with a link count of 2.\n    - There's a \"Missed Shot\" node connected from \"Rebound\" with a link count of 25.\n    - There's a \"Missed Shot\" node connected from \"UMD Offense\" with a link count of 12.\n3. **Sum the link counts:** 2 + 25 + 12 = 39",
+  "full_response": "Here's an analysis of the node-link diagram to determine the total number of missed shots by both teams:\n\n<reasoning>\n1. **Identify relevant nodes:** The question asks about \"missed shots\". We need to find all nodes labeled \"Missed Shot\" and sum the incoming link counts to those nodes.\n2. **Trace pathways to \"Missed Shot\" nodes:**\n    - There's a \"Missed Shot\" node connected from \"Start\" with a link count of 2.\n    - There's a \"Missed Shot\" node connected from \"Rebound\" with a link count of 25.\n    - There's a \"Missed Shot\" node connected from \"UMD Offense\" with a link count of 12.\n3. **Sum the link counts:** 2 + 25 + 12 = 39\n</reasoning>\n\n<answer>39</answer>",
+  "process_time_seconds": 76.741818,
+  "processed_at": "2025-05-15 01:42:14"
+}

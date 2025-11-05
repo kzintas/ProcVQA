@@ -1,0 +1,15 @@
+{
+  "index": 20,
+  "question_id": "q_20",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/CoreFlow/emergency_dataset/msp_20.png",
+  "question": "How many patients got discharged alive directly after arriving at Emergency? ",
+  "true_answer": "38",
+  "llm_answer": "38",
+  "is_correct": true,
+  "reasoning": "The diagram clearly shows that 38 patients were discharged alive directly from the \"Emergency\" stage. This is derived from examining the link between \"Emergency\" and \"Discharge-Alive\" and noting the count associated with it.",
+  "full_response": "To determine the number of patients who got discharged alive directly after arriving at Emergency, we need to examine the node-link diagram provided.\n\n1. **Identify Relevant Elements**: The relevant elements in this diagram are the nodes representing \"Arrival\", \"Emergency\", and \"Discharge-Alive\". We also need to look at the links connecting these nodes.\n\n2. **Examine the Pathways**: The diagram shows that from \"Arrival\", all 100 sequences proceed to \"Emergency\". From \"Emergency\", there are two main paths: one leading to \"ICU\" and the other directly to \"Discharge-Alive\".\n\n3. **Count the Sequences**: The link from \"Emergency\" to \"Discharge-Alive\" has a label indicating 38 sequences. This means that 38 patients were discharged alive directly after being in the \"Emergency\" stage.\n\n4. **Conclusion**: Since the question asks for the number of patients discharged alive directly after arriving at Emergency, we can directly use the count from the link between \"Emergency\" and \"Discharge-Alive\".\n\n<reasoning>\nThe diagram clearly shows that 38 patients were discharged alive directly from the \"Emergency\" stage. This is derived from examining the link between \"Emergency\" and \"Discharge-Alive\" and noting the count associated with it.\n</reasoning>\n\n<answer>38</answer>",
+  "process_time_seconds": 3.456914,
+  "processed_at": "2025-05-15 17:28:41",
+  "model": "meta/llama-4-maverick-17b-128e-instruct-maas"
+}

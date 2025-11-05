@@ -1,0 +1,14 @@
+{
+  "index": 227,
+  "question_id": "q_227",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_20.png",
+  "question": "How many total made shots were made by both teams?",
+  "true_answer": "35",
+  "llm_answer": "30",
+  "is_correct": false,
+  "reasoning": "I identified two nodes labeled \"Made Shot\" in the diagram. The first \"Made Shot\" node has a link value of 2. The second \"Made Shot\" node has a link value of 28. Summing these values gives the total number of made shots. 2 + 28 = 30.",
+  "full_response": "1.  **Identify relevant nodes:** I need to find all nodes labeled \"Made Shot\" and their corresponding link values.\n2.  **Extract link values:** The diagram shows two \"Made Shot\" nodes. One has a link value of 2 and the other has a link value of 28.\n3.  **Calculate the total:** I add the two values together: 2 + 28 = 30.\n\n<reasoning>\nI identified two nodes labeled \"Made Shot\" in the diagram. The first \"Made Shot\" node has a link value of 2. The second \"Made Shot\" node has a link value of 28. Summing these values gives the total number of made shots. 2 + 28 = 30.\n</reasoning>\n<answer>30</answer>",
+  "process_time_seconds": 3.590644,
+  "processed_at": "2025-05-13 19:57:37"
+}

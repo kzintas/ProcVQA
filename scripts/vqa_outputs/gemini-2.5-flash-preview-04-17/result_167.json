@@ -1,0 +1,14 @@
+{
+  "index": 167,
+  "question_id": "q_167",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_05.png",
+  "question": "How many steals occurred after UMD Offense?",
+  "true_answer": "4",
+  "llm_answer": "4",
+  "is_correct": true,
+  "reasoning": "I need to find the number of sequences that go directly from the 'UMD Offense' node to the 'Steal' node.\n1. I locate the 'UMD Offense' node in the diagram.\n2. I examine the links that originate from the 'UMD Offense' node and point downwards.\n3. I find the link that points to the 'Steal' node.\n4. The numeric label on this link is '4'. This indicates that 4 sequences followed the path from 'UMD Offense' to 'Steal'.",
+  "full_response": "<reasoning>I need to find the number of sequences that go directly from the 'UMD Offense' node to the 'Steal' node.\n1. I locate the 'UMD Offense' node in the diagram.\n2. I examine the links that originate from the 'UMD Offense' node and point downwards.\n3. I find the link that points to the 'Steal' node.\n4. The numeric label on this link is '4'. This indicates that 4 sequences followed the path from 'UMD Offense' to 'Steal'.</reasoning>\n<answer>4</answer>",
+  "process_time_seconds": 3.616944,
+  "processed_at": "2025-05-14 21:07:12"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 98,
+  "question_id": "q_98",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_20.png",
+  "question": "How many patients went to the ICU after the Floor?",
+  "true_answer": "24",
+  "llm_answer": "23",
+  "is_correct": false,
+  "reasoning": "- In the third column, we see a pathway where patients go from \"Arrival\" to \"Emergency\" to \"Floor\".\n      - From \"Floor\", there is a link leading to \"ICU\".\n      - The numeric label next to this link indicates 23 patients.\n      - This means 23 patients went from \"Floor\" to \"ICU\".",
+  "full_response": "1. **Relevant Elements:**\n   - The diagram shows pathways of patient flow from arrival to various departments and outcomes.\n   - We need to focus on the pathway that includes \"Floor\" followed by \"ICU\".\n\n2. <reasoning>\n      - In the third column, we see a pathway where patients go from \"Arrival\" to \"Emergency\" to \"Floor\".\n      - From \"Floor\", there is a link leading to \"ICU\".\n      - The numeric label next to this link indicates 23 patients.\n      - This means 23 patients went from \"Floor\" to \"ICU\".\n</reasoning>\n\n3. <answer>23</answer>",
+  "process_time_seconds": 7.573591,
+  "processed_at": "2025-05-16 19:40:17"
+}

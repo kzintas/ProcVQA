@@ -1,0 +1,14 @@
+{
+  "index": 115,
+  "question_id": "q_115",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_05.png",
+  "question": "How many times did UMD Offense not transition to a Rebound?",
+  "true_answer": "35",
+  "llm_answer": "35",
+  "is_correct": true,
+  "reasoning": "The question asks how many times \"UMD Offense\" did *not* transition to \"Rebound\". I need to find all other paths from \"UMD Offense\" and sum their values to get the answer. The visualization shows the following links originating from \"UMD Offense\": \"Rebound\" (34), \"Missed Shot\" (14), \"Foul\" (10), \"Made Shot\" (8), and \"_Exit\" (3).  I summed the values for the transitions other than \"Rebound\": 14 + 10 + 8 + 3 = 35. Thus, the UMD Offense did not transition to a Rebound 35 times.",
+  "full_response": "1. **Identify the starting point:** The question asks about \"UMD Offense\" not transitioning to \"Rebound.\"\n2. **Find the \"UMD Offense\" node:** Locate the \"UMD Offense\" node in the diagram.\n3. **Track all paths from \"UMD Offense\":**\n    - There is a link with value '34' from \"UMD Offense\" to \"Rebound\".\n    - Other links and their values from \"UMD Offense\" are:\n        - \"Missed Shot\": 14\n        - \"Foul\": 10\n        - \"Made Shot\": 8\n        - \"_Exit\": 3\n4. **Calculate the sum of the other paths:** Sum the values of the other links originating from \"UMD Offense\": 14 + 10 + 8 + 3 = 35\n5. **Answer:** The total number of times UMD Offense transitioned to a node other than Rebound is 35.\n\n<reasoning>\nThe question asks how many times \"UMD Offense\" did *not* transition to \"Rebound\". I need to find all other paths from \"UMD Offense\" and sum their values to get the answer. The visualization shows the following links originating from \"UMD Offense\": \"Rebound\" (34), \"Missed Shot\" (14), \"Foul\" (10), \"Made Shot\" (8), and \"_Exit\" (3).  I summed the values for the transitions other than \"Rebound\": 14 + 10 + 8 + 3 = 35. Thus, the UMD Offense did not transition to a Rebound 35 times.\n</reasoning>\n<answer>35</answer>",
+  "process_time_seconds": 4.110873,
+  "processed_at": "2025-05-13 19:50:19"
+}

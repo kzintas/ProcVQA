@@ -1,0 +1,14 @@
+{
+  "index": 234,
+  "question_id": "q_234",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_25.png",
+  "question": "How many total made shots were made by both teams?",
+  "true_answer": "30",
+  "llm_answer": "13",
+  "is_correct": false,
+  "reasoning": "- For UNC:\n        - There is a path from \"UNC Offense\" to \"Made Shot\" with a count of 2.\n      - For UMD:\n        - There are two paths leading to \"Made Shot\":\n          - One from \"UMD Offense\" with a count of 8.\n          - Another from \"Made Free Throw\" with a count of 3.\n      - Summing up all the made shots:\n        - UNC: 2\n        - UMD: 8 + 3 = 11\n        - Total: 2 + 11 = 13",
+  "full_response": "1. **Relevant Elements:**\n   - Nodes labeled \"Made Shot\" for both teams.\n   - Links connecting these nodes to their respective exits.\n\n2. <reasoning>\n      - For UNC:\n        - There is a path from \"UNC Offense\" to \"Made Shot\" with a count of 2.\n      - For UMD:\n        - There are two paths leading to \"Made Shot\":\n          - One from \"UMD Offense\" with a count of 8.\n          - Another from \"Made Free Throw\" with a count of 3.\n      - Summing up all the made shots:\n        - UNC: 2\n        - UMD: 8 + 3 = 11\n        - Total: 2 + 11 = 13\n   </reasoning>\n\n3. <answer>13</answer>",
+  "process_time_seconds": 8.704747,
+  "processed_at": "2025-05-16 20:00:59"
+}

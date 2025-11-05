@@ -1,0 +1,14 @@
+{
+  "index": 6,
+  "question_id": "q_6",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/CoreFlow/emergency_dataset/msp_10.png",
+  "question": "How many patients died after arriving at Emergency?",
+  "true_answer": "36",
+  "llm_answer": "36",
+  "is_correct": true,
+  "reasoning": "To determine the number of patients who died after arriving at Emergency, we need to follow the pathway from \"Arrival\" to \"Die\". \n\n1. Start at the \"Arrival\" node.\n2. Follow the link labeled \"62\" to the \"Emergency\" node.\n3. From \"Emergency\", there is a link labeled \"36\" leading to the \"Die\" node.\n\nThe label next to the link between \"Emergency\" and \"Die\" is \"36\", which indicates that 36 patients died after arriving at Emergency.",
+  "full_response": "<answer>36</answer>\n\n<reasoning>\nTo determine the number of patients who died after arriving at Emergency, we need to follow the pathway from \"Arrival\" to \"Die\". \n\n1. Start at the \"Arrival\" node.\n2. Follow the link labeled \"62\" to the \"Emergency\" node.\n3. From \"Emergency\", there is a link labeled \"36\" leading to the \"Die\" node.\n\nThe label next to the link between \"Emergency\" and \"Die\" is \"36\", which indicates that 36 patients died after arriving at Emergency.\n</reasoning>",
+  "process_time_seconds": 4.886007,
+  "processed_at": "2025-05-16 20:06:36"
+}

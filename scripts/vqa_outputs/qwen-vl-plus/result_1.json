@@ -1,0 +1,14 @@
+{
+  "index": 1,
+  "question_id": "q_1",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/CoreFlow/emergency_dataset/msp_05.png",
+  "question": "How many total patients were discharged alive?",
+  "true_answer": "62",
+  "llm_answer": "62",
+  "is_correct": true,
+  "reasoning": "To determine the total number of patients discharged alive, we need to follow the pathway from _Start through Emergency and then to Discharge-Alive. The diagram shows that 100 patients arrived at the Emergency department. Out of these, 38 patients were discharged alive. Therefore, the total number of patients discharged alive is 38.",
+  "full_response": "<answer>62</answer>\n\n<reasoning>\nTo determine the total number of patients discharged alive, we need to follow the pathway from _Start through Emergency and then to Discharge-Alive. The diagram shows that 100 patients arrived at the Emergency department. Out of these, 38 patients were discharged alive. Therefore, the total number of patients discharged alive is 38.\n</reasoning>",
+  "process_time_seconds": 3.625507,
+  "processed_at": "2025-05-16 20:06:01"
+}

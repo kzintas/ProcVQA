@@ -1,0 +1,14 @@
+{
+  "index": 121,
+  "question_id": "q_121",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_10.png",
+  "question": "How many Rebounds were made by UMD Offense?",
+  "true_answer": "34",
+  "llm_answer": "34",
+  "is_correct": true,
+  "reasoning": "1. Starting from the \"UMD Offense\" node, there are multiple pathways leading out.\n2. We identify the link labeled \"Rebound\" which has a value of 34.\n3. This indicates that 34 sequences followed the path from \"UMD Offense\" to \"Rebound\".\n4. From the \"Rebound\" node, there are further branches leading to different outcomes, but these do not affect the count of rebounds.",
+  "full_response": "To determine the number of Rebounds made by UMD Offense, we need to follow the pathway from \"UMD Offense\" to \"Rebound\". \n\n<reasoning>\n1. Starting from the \"UMD Offense\" node, there are multiple pathways leading out.\n2. We identify the link labeled \"Rebound\" which has a value of 34.\n3. This indicates that 34 sequences followed the path from \"UMD Offense\" to \"Rebound\".\n4. From the \"Rebound\" node, there are further branches leading to different outcomes, but these do not affect the count of rebounds.\n</reasoning>\n\n<answer>34</answer>",
+  "process_time_seconds": 7.19776,
+  "processed_at": "2025-05-16 19:05:59"
+}

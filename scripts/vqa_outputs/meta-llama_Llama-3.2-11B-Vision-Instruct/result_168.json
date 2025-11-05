@@ -1,0 +1,14 @@
+{
+  "index": 168,
+  "question_id": "q_168",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_10.png",
+  "question": "How many rebounds were made after UMD Offense?",
+  "true_answer": "34",
+  "llm_answer": 9,
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "**Relevant Elements:**\n\n*   The node-link diagram shows the sequence of events in a basketball game.\n*   The diagram includes nodes representing different events, such as shots, rebounds, and turnovers.\n*   The links between nodes indicate the sequence of events.\n*   The diagram also includes labels showing the number of sequences following each path.\n\n**Thought Process and Calculations:**\n\n1.  Identify the node representing UMD Offense.\n2.  Look for the links connected to the UMD Offense node that represent rebounds.\n3.  Count the number of rebounds made after UMD Offense.\n\n**Answer:**\n\n<answer>9</answer>\n\nThe diagram shows that there are 9 rebounds made after UMD Offense.",
+  "process_time_seconds": 8.930749,
+  "processed_at": "2025-05-17 07:30:27"
+}

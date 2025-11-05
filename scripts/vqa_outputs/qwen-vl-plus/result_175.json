@@ -1,0 +1,14 @@
+{
+  "index": 175,
+  "question_id": "q_175",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_15.png",
+  "question": "How many rebounds were made after UMD Offense?",
+  "true_answer": "34",
+  "llm_answer": "15",
+  "is_correct": false,
+  "reasoning": "To determine the number of rebounds made after UMD Offense, we need to follow the pathway from UMD Offense to Rebound. According to the diagram:\n- The link from UMD Offense to Rebound has a label of 23.\n- This indicates that there are 23 sequences where a rebound was made immediately after UMD Offense.\n\nTherefore, the answer is 15, as shown by the numeric label next to the link from UMD Offense to Rebound.",
+  "full_response": "<answer>15</answer>\n\n<reasoning>\nTo determine the number of rebounds made after UMD Offense, we need to follow the pathway from UMD Offense to Rebound. According to the diagram:\n- The link from UMD Offense to Rebound has a label of 23.\n- This indicates that there are 23 sequences where a rebound was made immediately after UMD Offense.\n\nTherefore, the answer is 15, as shown by the numeric label next to the link from UMD Offense to Rebound.\n</reasoning>",
+  "process_time_seconds": 2.736774,
+  "processed_at": "2025-05-16 20:28:49"
+}

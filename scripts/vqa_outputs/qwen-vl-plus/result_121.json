@@ -1,0 +1,14 @@
+{
+  "index": 121,
+  "question_id": "q_121",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_10.png",
+  "question": "How many Rebounds were made by UMD Offense?",
+  "true_answer": "34",
+  "llm_answer": "15",
+  "is_correct": false,
+  "reasoning": "To determine the number of Rebounds made by UMD Offense, we need to follow the pathway from Start to UMD Offense and then to Rebound. According to the diagram:\n- The Start node leads directly to UNC Offense.\n- From UNC Offense, there is a link labeled \"69\" leading to UMD Offense.\n- From UMD Offense, there is a link labeled \"34\" leading to Rebound.\n\nThe label next to the link from UMD Offense to Rebound is \"15,\" which indicates that 15 Rebounds were made by UMD Offense.",
+  "full_response": "<answer>15</answer>\n\n<reasoning>\nTo determine the number of Rebounds made by UMD Offense, we need to follow the pathway from Start to UMD Offense and then to Rebound. According to the diagram:\n- The Start node leads directly to UNC Offense.\n- From UNC Offense, there is a link labeled \"69\" leading to UMD Offense.\n- From UMD Offense, there is a link labeled \"34\" leading to Rebound.\n\nThe label next to the link from UMD Offense to Rebound is \"15,\" which indicates that 15 Rebounds were made by UMD Offense.\n</reasoning>",
+  "process_time_seconds": 5.249249,
+  "processed_at": "2025-05-16 20:22:00"
+}

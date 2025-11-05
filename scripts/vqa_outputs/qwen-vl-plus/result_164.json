@@ -1,0 +1,14 @@
+{
+  "index": 164,
+  "question_id": "q_164",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_05.png",
+  "question": "How many missed shots were before UMD Offense?",
+  "true_answer": "24",
+  "llm_answer": "15",
+  "is_correct": false,
+  "reasoning": "To determine the number of missed shots before UMD Offense, we need to trace the pathways leading to UMD Offense. \n\n1. Start at _Start.\n2. Follow the path labeled \"Rebound\" to reach UNC Offense.\n3. From UNC Offense, follow the path labeled \"Missed Shot\" to reach Made Free Throw.\n4. Continue along the path labeled \"Turnover\" to reach UMD Offense.\n\nThe label next to the link from Missed Shot to Turnover is \"24\". This indicates that there were 24 sequences where a missed shot was followed by a turnover before reaching UMD Offense.\n\nTherefore, the number of missed shots before UMD Offense is 24.",
+  "full_response": "<answer>15</answer>\n\n<reasoning>\nTo determine the number of missed shots before UMD Offense, we need to trace the pathways leading to UMD Offense. \n\n1. Start at _Start.\n2. Follow the path labeled \"Rebound\" to reach UNC Offense.\n3. From UNC Offense, follow the path labeled \"Missed Shot\" to reach Made Free Throw.\n4. Continue along the path labeled \"Turnover\" to reach UMD Offense.\n\nThe label next to the link from Missed Shot to Turnover is \"24\". This indicates that there were 24 sequences where a missed shot was followed by a turnover before reaching UMD Offense.\n\nTherefore, the number of missed shots before UMD Offense is 24.\n</reasoning>",
+  "process_time_seconds": 7.155211,
+  "processed_at": "2025-05-16 20:27:34"
+}

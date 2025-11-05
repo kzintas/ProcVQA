@@ -1,0 +1,14 @@
+{
+  "index": 127,
+  "question_id": "q_127",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_10.png",
+  "question": "How many total Fouls were made by UMD Offense?",
+  "true_answer": "10",
+  "llm_answer": "10",
+  "is_correct": true,
+  "reasoning": "1. From the \"UMD Offense\" node, there are multiple pathways leading to different events.\n2. We identify the link labeled \"10\" that connects \"UMD Offense\" directly to \"Foul\".\n3. This indicates that 10 sequences involve a Foul immediately following UMD Offense.\n4. There are no other pathways from \"UMD Offense\" that lead to \"Foul\" indirectly or through other events.",
+  "full_response": "To determine the total number of Fouls made by UMD Offense, we need to follow the pathway from \"UMD Offense\" to \"Foul\". \n\n<reasoning>\n1. From the \"UMD Offense\" node, there are multiple pathways leading to different events.\n2. We identify the link labeled \"10\" that connects \"UMD Offense\" directly to \"Foul\".\n3. This indicates that 10 sequences involve a Foul immediately following UMD Offense.\n4. There are no other pathways from \"UMD Offense\" that lead to \"Foul\" indirectly or through other events.\n</reasoning>\n\n<answer>10</answer>",
+  "process_time_seconds": 7.298356,
+  "processed_at": "2025-05-16 19:06:51"
+}

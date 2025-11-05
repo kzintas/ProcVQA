@@ -1,0 +1,14 @@
+{
+  "index": 137,
+  "question_id": "q_137",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many Rebounds were made by UMD Offense?",
+  "true_answer": "34",
+  "llm_answer": "34",
+  "is_correct": true,
+  "reasoning": "1. I located the node labeled 'UMD Offense'.\n2. I examined the links originating from the 'UMD Offense' node. There are three outgoing links: one to 'Rebound', one to 'Missed Shot', and one to '_Exit'.\n3. I identified the link specifically connecting 'UMD Offense' to 'Rebound'.\n4. I read the numeric label associated with this link, which is '34'. This number represents the count of sequences that followed this specific path.",
+  "full_response": "<reasoning>\n1. I located the node labeled 'UMD Offense'.\n2. I examined the links originating from the 'UMD Offense' node. There are three outgoing links: one to 'Rebound', one to 'Missed Shot', and one to '_Exit'.\n3. I identified the link specifically connecting 'UMD Offense' to 'Rebound'.\n4. I read the numeric label associated with this link, which is '34'. This number represents the count of sequences that followed this specific path.\n</reasoning>\n<answer>34</answer>",
+  "process_time_seconds": 2.86476,
+  "processed_at": "2025-05-14 21:04:18"
+}

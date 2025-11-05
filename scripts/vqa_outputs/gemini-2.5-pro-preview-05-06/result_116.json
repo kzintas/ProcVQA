@@ -1,0 +1,14 @@
+{
+  "index": 116,
+  "question_id": "q_116",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_05.png",
+  "question": "How many shots were missed immediately after UMD Offense?",
+  "true_answer": "14",
+  "llm_answer": "14",
+  "is_correct": true,
+  "reasoning": "1.  **Identify the starting node:** The question asks about events immediately after \"UMD Offense\". So, the \"UMD Offense\" node is our starting point.\n2.  **Locate the \"UMD Offense\" node:** In the diagram, \"UMD Offense\" is located below \"UNC Offense\".\n3.  **Identify outgoing links from \"UMD Offense\":** From the \"UMD Offense\" node, there are several outgoing links:\n    *   A link to \"Rebound\" with a value of 34.\n    *   A link to \"Missed Shot\" with a value of 14.\n    *   A link to \"Foul\" with a value of 10.\n    *   A link to \"Made Shot\" with a value of 8.\n    *   A link to \"\\_Exit\" with a value of 3.\n4.  **Find the specific event \"Missed Shot\":** We are interested in how many shots were \"missed\" immediately after \"UMD Offense\".\n5.  **Read the value on the link:** The link connecting \"UMD Offense\" directly to \"Missed Shot\" has a numeric label of 14. This indicates that 14 sequences went from \"UMD Offense\" to \"Missed Shot\".",
+  "full_response": "<reasoning>\n1.  **Identify the starting node:** The question asks about events immediately after \"UMD Offense\". So, the \"UMD Offense\" node is our starting point.\n2.  **Locate the \"UMD Offense\" node:** In the diagram, \"UMD Offense\" is located below \"UNC Offense\".\n3.  **Identify outgoing links from \"UMD Offense\":** From the \"UMD Offense\" node, there are several outgoing links:\n    *   A link to \"Rebound\" with a value of 34.\n    *   A link to \"Missed Shot\" with a value of 14.\n    *   A link to \"Foul\" with a value of 10.\n    *   A link to \"Made Shot\" with a value of 8.\n    *   A link to \"\\_Exit\" with a value of 3.\n4.  **Find the specific event \"Missed Shot\":** We are interested in how many shots were \"missed\" immediately after \"UMD Offense\".\n5.  **Read the value on the link:** The link connecting \"UMD Offense\" directly to \"Missed Shot\" has a numeric label of 14. This indicates that 14 sequences went from \"UMD Offense\" to \"Missed Shot\".\n</reasoning>\n<answer>14</answer>",
+  "process_time_seconds": 8.123268,
+  "processed_at": "2025-05-15 02:43:19"
+}

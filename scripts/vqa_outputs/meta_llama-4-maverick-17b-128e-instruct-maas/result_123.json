@@ -1,0 +1,15 @@
+{
+  "index": 123,
+  "question_id": "q_123",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_10.png",
+  "question": "How many times did UMD Offense not transition to a Rebound?",
+  "true_answer": "35",
+  "llm_answer": "35",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "To determine how many times UMD Offense did not transition to a Rebound, we need to analyze the node-link diagram.\n\n1. **Identify Relevant Elements**: The relevant elements in this visualization are the nodes and links related to \"UMD Offense\" and its subsequent transitions.\n\n2. **Analyze Transitions from UMD Offense**: The node \"UMD Offense\" has four outgoing links representing different possible next events: \"Rebound,\" \"Missed Shot,\" \"Foul,\" and \"Made Shot.\" The counts associated with these transitions are 34 (Rebound), 14 (Missed Shot), 10 (Foul), and 8 (Made Shot), with an additional path labeled '3' that directly leads to \"_Exit\" under \"Made Shot\".\n\n3. **Calculate Non-Rebound Transitions**: To find out how many times UMD Offense did not transition to a Rebound, we need to sum the counts of all other transitions from \"UMD Offense.\"\n   - Missed Shot: 14\n   - Foul: 10\n   - Made Shot: 8 + 3 = 11 (since the '3' is part of the \"Made Shot\" path)\n\n4. **Sum Non-Rebound Transitions**: \n   - Total non-Rebound transitions = 14 (Missed Shot) + 10 (Foul) + 11 (Made Shot) = 35\n\n5. **Conclusion**: UMD Offense did not transition to a Rebound 35 times.\n\nThe final answer is: <answer>35</answer>",
+  "process_time_seconds": 3.812149,
+  "processed_at": "2025-05-15 17:36:41",
+  "model": "meta/llama-4-maverick-17b-128e-instruct-maas"
+}

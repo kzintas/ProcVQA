@@ -1,0 +1,14 @@
+{
+  "index": 89,
+  "question_id": "q_89",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_15.png",
+  "question": "How many patients went to the Floor after the ICU?",
+  "true_answer": "23",
+  "llm_answer": "50",
+  "is_correct": false,
+  "reasoning": "1. **Identify relevant nodes and links:** The question asks about the path from \"ICU\" to \"Floor\".\n2. **Locate the \"ICU\" node:** Find the \"ICU\" node in the diagram. There are two \"ICU\" nodes.\n3. **Trace the outgoing links from \"ICU\":** From the first \"ICU\" node (left side), there is a link to \"Floor\" with a label of \"23\". From the second \"ICU\" node (right side), there is a link to \"Floor\" with a label of \"27\".\n4. **Sum the counts:** Add the counts on the links going from \"ICU\" to \"Floor\": 23 + 27 = 50.",
+  "full_response": "Here's an analysis of the node-link diagram to determine the number of patients who went to the Floor after the ICU:\n\n<reasoning>\n1. **Identify relevant nodes and links:** The question asks about the path from \"ICU\" to \"Floor\".\n2. **Locate the \"ICU\" node:** Find the \"ICU\" node in the diagram. There are two \"ICU\" nodes.\n3. **Trace the outgoing links from \"ICU\":** From the first \"ICU\" node (left side), there is a link to \"Floor\" with a label of \"23\". From the second \"ICU\" node (right side), there is a link to \"Floor\" with a label of \"27\".\n4. **Sum the counts:** Add the counts on the links going from \"ICU\" to \"Floor\": 23 + 27 = 50.\n</reasoning>\n\n<answer>50</answer>",
+  "process_time_seconds": 79.088524,
+  "processed_at": "2025-05-14 22:30:09"
+}

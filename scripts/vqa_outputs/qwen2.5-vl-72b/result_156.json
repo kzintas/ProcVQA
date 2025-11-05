@@ -1,0 +1,14 @@
+{
+  "index": 156,
+  "question_id": "q_156",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_30.png",
+  "question": "How many shots were missed immediately after UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": "34",
+  "is_correct": false,
+  "reasoning": "- A rebound typically occurs when a shot is missed, as it represents the act of gaining possession of the ball after a missed shot.\n      - The link from \"UMD Offense\" to \"Rebound\" with a count of 34 suggests that there were 34 instances where a shot was missed immediately after UMD's offense.\n      - The link to \"_Exit\" does not indicate a missed shot but rather an end to the sequence without a rebound, so it is not relevant to the question.",
+  "full_response": "1. **Relevant Elements:**\n   - The node \"UMD Offense\" is connected to two subsequent nodes: \"Rebound\" and \"_Exit\".\n   - The link from \"UMD Offense\" to \"Rebound\" has a count of 34.\n   - The link from \"UMD Offense\" to \"_Exit\" has a count of 35.\n\n2. <reasoning>\n      - A rebound typically occurs when a shot is missed, as it represents the act of gaining possession of the ball after a missed shot.\n      - The link from \"UMD Offense\" to \"Rebound\" with a count of 34 suggests that there were 34 instances where a shot was missed immediately after UMD's offense.\n      - The link to \"_Exit\" does not indicate a missed shot but rather an end to the sequence without a rebound, so it is not relevant to the question.\n   </reasoning>\n\n3. <answer>34</answer>",
+  "process_time_seconds": 12.453717,
+  "processed_at": "2025-05-16 19:49:30"
+}

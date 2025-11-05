@@ -1,0 +1,14 @@
+{
+  "index": 111,
+  "question_id": "q_111",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_30.png",
+  "question": "How many total patients were discharged alive after going to the Floor?",
+  "true_answer": "20",
+  "llm_answer": "23",
+  "is_correct": false,
+  "reasoning": "To determine the total number of patients discharged alive after going to the Floor, we need to follow the pathway from _Start through Arrival to Floor and then to Discharge-Alive. \n\n1. Start at _Start.\n2. Follow the orange link labeled 24 to Arrival.\n3. Continue with the green link labeled 23 to Floor.\n4. Finally, take the pink link labeled 20 to Discharge-Alive.\n\nAdding these numbers together: 24 (Arrival) + 23 (Floor) + 20 (Discharge-Alive) = 67.\n\nHowever, since the question asks for the total number of patients discharged alive after going to the Floor, we only consider the last step in the sequence, which is Discharge-Alive. Therefore, the correct answer is 20 patients.",
+  "full_response": "<answer>23</answer>\n\n<reasoning>\nTo determine the total number of patients discharged alive after going to the Floor, we need to follow the pathway from _Start through Arrival to Floor and then to Discharge-Alive. \n\n1. Start at _Start.\n2. Follow the orange link labeled 24 to Arrival.\n3. Continue with the green link labeled 23 to Floor.\n4. Finally, take the pink link labeled 20 to Discharge-Alive.\n\nAdding these numbers together: 24 (Arrival) + 23 (Floor) + 20 (Discharge-Alive) = 67.\n\nHowever, since the question asks for the total number of patients discharged alive after going to the Floor, we only consider the last step in the sequence, which is Discharge-Alive. Therefore, the correct answer is 20 patients.\n</reasoning>",
+  "process_time_seconds": 7.477586,
+  "processed_at": "2025-05-16 20:20:18"
+}

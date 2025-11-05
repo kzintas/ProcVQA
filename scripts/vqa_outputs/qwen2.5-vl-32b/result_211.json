@@ -1,0 +1,14 @@
+{
+  "index": 211,
+  "question_id": "q_211",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_10.png",
+  "question": "How many total missed shots occur after UNC Offense but not after UMD Offense?",
+  "true_answer": "21",
+  "llm_answer": "36",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "To answer the question, we need to carefully analyze the node-link diagram and count the number of \"Missed Shot\" events that occur after \"UNC Offense\" but not after \"UMD Offense.\"\n\n### Step 1: Identify all \"Missed Shot\" events\nWe will look for all nodes labeled \"Missed Shot\" in the diagram and note their positions relative to \"UNC Offense\" and \"UMD Offense.\"\n\n#### Pathways starting with UNC Offense:\n1. **Path 1 (Top left):**\n   - Start \u2192 UNC Offense \u2192 Missed Shot \u2192 UMD Offense \u2192 Rebound \u2192 _Exit\n   - Missed Shot count: 7\n\n2. **Path 2 (Second from top):**\n   - Start \u2192 UNC Offense \u2192 Missed Shot \u2192 UMD Offense \u2192 Rebound \u2192 Made Shot \u2192 UMD Offense \u2192 Missed Shot \u2192 Rebound \u2192 _Exit\n   - Missed Shot count: 14 (two occurrences)\n\n3. **Path 3 (Third from top):**\n   - Start \u2192 UNC Offense \u2192 Missed Shot \u2192 UMD Offense \u2192 Foul \u2192 Made Free Throw \u2192 UMD Offense \u2192 Made Shot \u2192 UMD Offense \u2192 Missed Shot \u2192 Rebound \u2192 _Exit\n   - Missed Shot count: 15 (two occurrences)\n\n#### Pathways starting with UMD Offense:\n1. **Path 4 (Fourth from top):**\n   - Start \u2192 UNC Offense \u2192 Jump Ball \u2192 UMD Offense \u2192 Made Shot \u2192 UMD Offense \u2192 Missed Shot \u2192 Rebound \u2192 _Exit\n   - Missed Shot count: 7\n\n### Step 2: Count missed shots after UNC Offense but not after UMD Offense\nFrom the identified pathways:\n- In Path 1, there is 1 \"Missed Shot\" after UNC Offense.\n- In Path 2, there are 2 \"Missed Shot\" events after UNC Offense.\n- In Path 3, there are 2 \"Missed Shot\" events after UNC Offense.\n- In Path 4, the \"Missed Shot\" occurs after UMD Offense, so it is not counted.\n\nSumming up the missed shots after UNC Offense but not after UMD Offense:\n- Path 1: 7\n- Path 2: 14\n- Path 3: 15\n\nTotal missed shots after UNC Offense but not after UMD Offense:\n\\[ 7 + 14 + 15 = 36 \\]\n\n### Final Answer:\n<answer>36</answer>",
+  "process_time_seconds": 11.443416,
+  "processed_at": "2025-05-16 21:25:27"
+}

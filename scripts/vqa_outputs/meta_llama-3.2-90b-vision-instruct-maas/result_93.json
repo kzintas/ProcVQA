@@ -1,0 +1,15 @@
+{
+  "index": 93,
+  "question_id": "q_93",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_20.png",
+  "question": "How many total patients were discharged alive?",
+  "true_answer": "57",
+  "llm_answer": "57",
+  "is_correct": true,
+  "reasoning": "To determine the total number of patients discharged alive, we need to identify all the nodes and links related to discharge-alive events in the diagram. \n\n1. **Identify Discharge-Alive Nodes**: There are two nodes labeled \"Discharge-Alive\" in the diagram. One is connected to the \"_Exit\" node with a count of 20, and the other is connected to the \"_Exit\" node with a count of 37.\n\n2. **Calculate Total Discharged Alive**: To find the total number of patients discharged alive, we add the counts from both discharge-alive nodes. total_discharged_alive = 20 + 37 = 57\n\nTherefore, the total number of patients discharged alive is 57.",
+  "full_response": "<reasoning>\nTo determine the total number of patients discharged alive, we need to identify all the nodes and links related to discharge-alive events in the diagram. \n\n1. **Identify Discharge-Alive Nodes**: There are two nodes labeled \"Discharge-Alive\" in the diagram. One is connected to the \"_Exit\" node with a count of 20, and the other is connected to the \"_Exit\" node with a count of 37.\n\n2. **Calculate Total Discharged Alive**: To find the total number of patients discharged alive, we add the counts from both discharge-alive nodes. total_discharged_alive = 20 + 37 = 57\n\nTherefore, the total number of patients discharged alive is 57.\n</reasoning>\n<answer>57</answer>",
+  "process_time_seconds": 7.829219,
+  "processed_at": "2025-05-17 06:20:48",
+  "model": "meta/llama-3.2-90b-vision-instruct-maas"
+}

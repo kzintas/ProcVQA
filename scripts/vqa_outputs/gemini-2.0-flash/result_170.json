@@ -1,0 +1,14 @@
+{
+  "index": 170,
+  "question_id": "q_170",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_10.png",
+  "question": "How many made shots were after UNC Offense but before UMD offense?",
+  "true_answer": "22",
+  "llm_answer": "22",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "1. The question asks about \"made shots\" that occur after \"UNC Offense\" and before \"UMD Offense\".\n2. I need to find the path that starts at \"UNC Offense\", goes through \"Made Shot\" and then ends at \"UMD Offense\".\n3. The link between \"UNC Offense\" and \"Made Shot\" has a value of 22.\n4. The link between \"Made Shot\" and \"UMD Offense\" has a value of 22.\n5. Therefore, the number of \"made shots\" after \"UNC Offense\" but before \"UMD Offense\" is 22.\n\n<answer>22</answer>",
+  "process_time_seconds": 3.249369,
+  "processed_at": "2025-05-13 19:54:15"
+}

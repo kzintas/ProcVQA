@@ -1,0 +1,14 @@
+{
+  "index": 139,
+  "question_id": "q_139",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many times did UMD Offense not transition to a Rebound?",
+  "true_answer": "35",
+  "llm_answer": "35",
+  "is_correct": true,
+  "reasoning": "1. Identify the total number of sequences starting from UMD Offense: 34 + 14 + 21 = 69.\n2. Identify the number of sequences leading to Rebound: 34.\n3. Calculate the number of sequences not leading to Rebound: 69 - 34 = 35.",
+  "full_response": "To determine how many times UMD Offense did not transition to a Rebound, we need to look at the pathways from UMD Offense that do not lead to Rebound. \n\nFrom UMD Offense:\n- 34 sequences lead to Rebound.\n- 14 sequences lead directly to Missed Shot and then to _Exit.\n- 21 sequences lead directly to _Exit.\n\nThe sequences that do not go to Rebound are those that go to Missed Shot (14) and those that go directly to _Exit (21).\n\n<reasoning>\n1. Identify the total number of sequences starting from UMD Offense: 34 + 14 + 21 = 69.\n2. Identify the number of sequences leading to Rebound: 34.\n3. Calculate the number of sequences not leading to Rebound: 69 - 34 = 35.\n</reasoning>\n\n<answer>35</answer>",
+  "process_time_seconds": 7.147868,
+  "processed_at": "2025-05-16 19:08:10"
+}

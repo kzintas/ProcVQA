@@ -1,0 +1,15 @@
+{
+  "index": 239,
+  "question_id": "q_239",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_30.png",
+  "question": "How many total missed shots occur after UNC Offense but before UMD Offense?",
+  "true_answer": "23",
+  "llm_answer": null,
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "The node-link diagram shows the sequence of events in a basketball game. The question asks for the total number of missed shots that occur after UNC Offense but before UMD Offense.\n\nTo answer this question, we need to follow the pathways through the diagram and count the number of missed shots that meet the specified criteria.\n\nThe diagram shows that there are two pathways that start with UNC Offense and end with UMD Offense. The first pathway has a missed shot with a count of 2, and the second pathway has a missed shot with a count of 14.\n\nTherefore, the total number of missed shots that occur after UNC Offense but before UMD Offense is 2 + 14 = 16.\n\n**Answer:** 16",
+  "process_time_seconds": 7.419175,
+  "processed_at": "2025-05-17 06:42:59",
+  "model": "meta/llama-3.2-90b-vision-instruct-maas"
+}

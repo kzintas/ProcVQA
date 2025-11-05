@@ -1,0 +1,14 @@
+{
+  "index": 164,
+  "question_id": "q_164",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_05.png",
+  "question": "How many missed shots were before UMD Offense?",
+  "true_answer": "24",
+  "llm_answer": "15",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "To answer the question, we need to identify the number of \"Missed Shot\" events that occur before the \"UMD Offense\" node in the diagram. Let's break this down step by step:\n\n### 1. Identify the \"UMD Offense\" node\nThe \"UMD Offense\" node is clearly labeled in the diagram. It is positioned below the \"UNC Offense\" node and has multiple outgoing links.\n\n### 2. Trace the pathways leading to \"UMD Offense\"\nWe need to examine the links that lead to the \"UMD Offense\" node and identify any \"Missed Shot\" events that occur before it.\n\n#### Pathway 1: From \"Rebound\" to \"UMD Offense\"\n- The \"Rebound\" node has a link to \"UMD Offense\" with a count of 27.\n- Before reaching \"Rebound,\" there is a \"Missed Shot\" node with a count of 15.\n- This \"Missed Shot\" node is directly connected to \"Rebound.\"\n\n#### Pathway 2: From \"Turnover\" to \"UMD Offense\"\n- The \"Turnover\" node has a link to \"UMD Offense\" with a count of 24.\n- Before reaching \"Turnover,\" there is no \"Missed Shot\" node directly connected to it.\n\n#### Pathway 3: From \"Made Free Throw\" to \"UMD Offense\"\n- The \"Made Free Throw\" node has a link to \"UMD Offense\" with a count of 8.\n- Before reaching \"Made Free Throw,\" there is no \"Missed Shot\" node directly connected to it.\n\n### 3. Count the \"Missed Shot\" events\nFrom the analysis above:\n- The only \"Missed Shot\" event that occurs before \"UMD Offense\" is the one with a count of 15, which is connected to \"Rebound.\"\n\n### 4. Summarize the findings\nThe total number of \"Missed Shot\" events before \"UMD Offense\" is 15.\n\n### Final Answer:\n<answer>15</answer>",
+  "process_time_seconds": 13.625042,
+  "processed_at": "2025-05-16 21:17:35"
+}

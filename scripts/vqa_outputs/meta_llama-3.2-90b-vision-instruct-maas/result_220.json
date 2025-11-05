@@ -1,0 +1,15 @@
+{
+  "index": 220,
+  "question_id": "q_220",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_15.png",
+  "question": "How many total made shots were made by both teams?",
+  "true_answer": "31",
+  "llm_answer": "29",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "The node-link diagram shows the sequences of events in a basketball game. The relevant elements for this question are the \"Made Shot\" nodes and their corresponding values.\n\nThe diagram shows two \"Made Shot\" nodes, one for each team. The UNC Offense made 20 shots, and the UMD Offense made 9 shots. To find the total number of made shots, we add these values together:\n\n20 (UNC Offense) + 9 (UMD Offense) = 29\n\nTherefore, the total number of made shots made by both teams is 29.\n\n<answer>29</answer>",
+  "process_time_seconds": 6.160001,
+  "processed_at": "2025-05-17 06:40:07",
+  "model": "meta/llama-3.2-90b-vision-instruct-maas"
+}

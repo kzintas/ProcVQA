@@ -1,0 +1,14 @@
+{
+  "index": 167,
+  "question_id": "q_167",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_05.png",
+  "question": "How many steals occurred after UMD Offense?",
+  "true_answer": "4",
+  "llm_answer": "4",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "<answer>4</answer>\n\n## Reasoning\nTo determine the number of steals that occurred after UMD Offense, we need to follow the pathway from UMD Offense to the node labeled \"Steal.\" \n\n1. Start at the node labeled \"UMD Offense.\"\n2. Follow the link with a label of \"7\" leading to the node labeled \"Foul.\"\n3. Continue following the links until you reach the node labeled \"Steal.\"\n\nThe link from \"Steal\" has a numeric label of 4, indicating that there were 4 steals after UMD Offense.",
+  "process_time_seconds": 15.637277,
+  "processed_at": "2025-05-16 20:28:07"
+}

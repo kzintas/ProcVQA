@@ -1,0 +1,14 @@
+{
+  "index": 191,
+  "question_id": "q_191",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_25.png",
+  "question": "How many made shots were after UNC Offense but before UMD offense?",
+  "true_answer": "22",
+  "llm_answer": "22",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "1. Identify the nodes and links involved:\n    - We are interested in the sequences from \"UNC Offense\" to \"Made Shot\" to \"UMD Offense\".\n\n2. Trace the path and extract relevant values:\n    - From \"UNC Offense\" to \"Made Shot\", the link has a value of 22.\n    - From \"Made Shot\" to \"UMD Offense\", the link has a value of 22.\n    - Therefore, the number of \"Made Shot\" events between \"UNC Offense\" and \"UMD Offense\" is 22.\n\n<answer>22</answer>",
+  "process_time_seconds": 2.517272,
+  "processed_at": "2025-05-13 20:14:51"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 91,
+  "question_id": "q_91",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_15.png",
+  "question": "How many patients went to the ICU after the Floor?",
+  "true_answer": "24",
+  "llm_answer": "24",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "<reason>\nThe user wants to find the number of sequences that transitioned from the 'Floor' event to the 'ICU' event.\nI need to examine the diagram to locate a directed link originating from a node labeled 'Floor' and terminating at a node labeled 'ICU'.\nScanning the different pathways shown:\n- The first pathway goes `Arrival` -> `Emergency` -> `ICU` -> `Die`. No Floor to ICU transition here.\n- The second pathway goes `Arrival` -> `Emergency` -> `Discharge-Alive`. No Floor to ICU transition here.\n- The third pathway goes `Arrival` -> `Emergency` -> `ICU` -> `Floor` -> `Discharge-Alive`. There is an ICU to Floor link (23), but no Floor to ICU link.\n- The fourth pathway goes `Arrival` -> `Emergency` -> `Floor` -> `ICU` -> `Die`. There is a link from 'Floor' to 'ICU' in this pathway. The numeric label next to this link indicates the number of sequences following this transition. This number is 24.\nTherefore, 24 sequences represent patients who went to the ICU after being on the Floor.\n</reason>\n<answer>24</answer>",
+  "process_time_seconds": 5.237995,
+  "processed_at": "2025-05-14 21:00:35"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 21,
+  "question_id": "q_21",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/CoreFlow/emergency_dataset/msp_20.png",
+  "question": "How many patients went to the ICU after Emrgency?",
+  "true_answer": "62",
+  "llm_answer": "62",
+  "is_correct": true,
+  "reasoning": "I examined the node-link diagram to find the transition from 'Emergency' to 'ICU'.\nI located the node labeled 'Emergency' and the node labeled 'ICU'.\nThere is a directed link connecting 'Emergency' to 'ICU'.\nThe numerical label associated with this link is 62.\nThis number represents the count of sequences that follow the path from 'Emergency' to 'ICU'.\nTherefore, 62 patients went to the ICU after Emergency.",
+  "full_response": "<reasoning>\nI examined the node-link diagram to find the transition from 'Emergency' to 'ICU'.\nI located the node labeled 'Emergency' and the node labeled 'ICU'.\nThere is a directed link connecting 'Emergency' to 'ICU'.\nThe numerical label associated with this link is 62.\nThis number represents the count of sequences that follow the path from 'Emergency' to 'ICU'.\nTherefore, 62 patients went to the ICU after Emergency.\n</reasoning>\n<answer>62</answer>",
+  "process_time_seconds": 2.808415,
+  "processed_at": "2025-05-14 20:54:24"
+}

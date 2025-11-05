@@ -1,0 +1,14 @@
+{
+  "index": 58,
+  "question_id": "q_58",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/SentenTree/emergency_dataset/msp_20.png",
+  "question": "How many total patients were discharged alive after going to the Floor?",
+  "true_answer": "24",
+  "llm_answer": "62",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "### Relevant Elements:\n- The starting point is labeled as `_Start` with 100 patients.\n- From `_Start`, there's a link to `Arrival` with 100 patients.\n- From `Arrival`, there's a link to `Emergency`.\n- From `Emergency`, there are two paths: one to `Floor` and another to `Discharge-Alive`.\n\n### Reasoning:\n1. Start at `_Start` with 100 patients.\n2. Follow the path from `_Start` to `Arrival` which has 100 patients.\n3. From `Arrival`, the path splits into two: one to `Emergency` and another to `Discharge-Alive`. \n4. The path to `Emergency` further splits into two: one to `Floor` and another to `Discharge-Alive`.\n5. The path to `Floor` leads directly to `Discharge-Alive` with 24 patients.\n6. The path to `Discharge-Alive` from `Emergency` has 38 patients.\n\nThe total number of patients discharged alive after going to the Floor is the sum of patients who went directly from `Floor` to `Discharge-Alive` and those who went via `Emergency` to `Discharge-Alive`.\n\n### Calculation:\n- Patients from `Floor` to `Discharge-Alive`: 24\n- Patients from `Emergency` to `Discharge-Alive`: 38\n\nTotal = 24 + 38 = 62\n\n### Final Answer:\n<answer>62</answer>",
+  "process_time_seconds": 54.673743,
+  "processed_at": "2025-05-15 03:18:38"
+}

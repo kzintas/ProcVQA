@@ -1,0 +1,14 @@
+{
+  "index": 0,
+  "question_id": "q_0",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/CoreFlow/emergency_dataset/msp_05.png",
+  "question": "How many patients died after arriving at Emergency?",
+  "true_answer": "36",
+  "llm_answer": "36",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "### Relevant Elements:\n- The node labeled \"Arrival\" at the top.\n- The link from \"Arrival\" to \"ICU\" with a value of 62.\n- The link from \"ICU\" to \"Die\" with a value of 36.\n\n### Reasoning:\n1. Start at the \"Arrival\" node, which represents the beginning of the sequence.\n2. Follow the pathway from \"Arrival\" to \"ICU\". This pathway has a value of 62, indicating 62 patients proceed to ICU.\n3. From \"ICU\", there is a link to \"Die\" with a value of 36. This means out of the 62 patients who reached ICU, 36 patients died.\n\n### Final Answer:\n<answer>36</answer>",
+  "process_time_seconds": 35.686455,
+  "processed_at": "2025-05-15 02:44:08"
+}

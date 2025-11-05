@@ -1,0 +1,14 @@
+{
+  "index": 189,
+  "question_id": "q_189",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_25.png",
+  "question": "How many rebounds were made after UMD Offense?",
+  "true_answer": "34",
+  "llm_answer": "24",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "### Relevant Elements:\n- The node labeled \"Rebound\" is connected to the node labeled \"UMD Offense.\"\n- The link between these two nodes has a numeric label of 24.\n\n### Reasoning:\n1. Identify the pathway from \"UMD Offense\" to \"Rebound.\" This is indicated by the link connecting these two nodes.\n2. Check the numeric label on this link, which represents the count of sequences following this path.\n3. The numeric label on the link is 24, indicating that 24 sequences follow this path.\n\n### Final Answer:\n<answer>24</answer>",
+  "process_time_seconds": 21.652681,
+  "processed_at": "2025-05-15 04:47:05"
+}

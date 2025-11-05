@@ -1,0 +1,15 @@
+{
+  "index": 235,
+  "question_id": "q_235",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_25.png",
+  "question": "How many total missed shots were made by both teams?",
+  "true_answer": "40",
+  "llm_answer": "57",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "The node-link diagram shows the sequences of events in a basketball game. The relevant elements for this question are the \"Missed Shot\" nodes and their corresponding link widths.\n\nThere are three \"Missed Shot\" nodes in the diagram:\n\n*   One with a link width of 19, which is connected to the \"UNC Offense\" node.\n*   One with a link width of 19, which is connected to the \"UMD Offense\" node.\n*   One with a link width of 19, which is connected to the \"UMD Offense\" node.\n\nThe link widths represent the number of sequences following that path. Therefore, the total number of missed shots made by both teams is the sum of the link widths of the \"Missed Shot\" nodes:\n\n19 + 19 + 19 = 57\n\nHowever, the question asks for the total number of missed shots made by both teams, not the total number of sequences. Since each sequence represents one missed shot, the total number of missed shots is equal to the total number of sequences.\n\nTherefore, the final answer is:\n\n<answer>57</answer>",
+  "process_time_seconds": 10.704385,
+  "processed_at": "2025-05-17 06:42:25",
+  "model": "meta/llama-3.2-90b-vision-instruct-maas"
+}

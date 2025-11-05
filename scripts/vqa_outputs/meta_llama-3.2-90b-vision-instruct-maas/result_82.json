@@ -1,0 +1,15 @@
+{
+  "index": 82,
+  "question_id": "q_82",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_10.png",
+  "question": "How many patients went to the Floor after the ICU?",
+  "true_answer": "23",
+  "llm_answer": null,
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "The node-link diagram shows the sequence of events for patients in a hospital. The diagram is divided into different sections, each representing a different event or location. The events are connected by directed links, which indicate the flow of patients between different locations.\n\nTo answer the question, we need to identify the number of patients who went to the Floor after the ICU. We can do this by following the links from the ICU to the Floor.\n\nFrom the diagram, we can see that there are two links from the ICU to the Floor. The first link has a label of 23, indicating that 23 patients went from the ICU to the Floor. The second link has a label of 24, indicating that 24 patients went from the ICU to the Floor.\n\nTherefore, the total number of patients who went to the Floor after the ICU is 23 + 24 = 47.\n\n**Answer:** 47",
+  "process_time_seconds": 8.614019,
+  "processed_at": "2025-05-17 06:19:10",
+  "model": "meta/llama-3.2-90b-vision-instruct-maas"
+}

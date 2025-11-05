@@ -1,0 +1,14 @@
+{
+  "index": 123,
+  "question_id": "q_123",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_10.png",
+  "question": "How many times did UMD Offense not transition to a Rebound?",
+  "true_answer": "35",
+  "llm_answer": "34",
+  "is_correct": false,
+  "reasoning": "To determine how many times UMD Offense did not transition to a Rebound, we need to look at the pathways from UMD Offense. The diagram shows that there are 34 links leading away from UMD Offense. Among these, 15 links lead to Made Shot and 9 links lead to Missed Shot. Therefore, the number of times UMD Offense did not transition to a Rebound is the total number of links minus the sum of the links leading to Made Shot and Missed Shot.\n\nTotal links from UMD Offense = 34\nLinks to Made Shot = 15\nLinks to Missed Shot = 9\n\nNumber of times UMD Offense did not transition to a Rebound = Total links - (Links to Made Shot + Links to Missed Shot)\n= 34 - (15 + 9)\n= 34 - 24\n= 10\n\nSo, UMD Offense did not transition to a Rebound 10 times.",
+  "full_response": "<answer>34</answer>\n\n<reasoning>\nTo determine how many times UMD Offense did not transition to a Rebound, we need to look at the pathways from UMD Offense. The diagram shows that there are 34 links leading away from UMD Offense. Among these, 15 links lead to Made Shot and 9 links lead to Missed Shot. Therefore, the number of times UMD Offense did not transition to a Rebound is the total number of links minus the sum of the links leading to Made Shot and Missed Shot.\n\nTotal links from UMD Offense = 34\nLinks to Made Shot = 15\nLinks to Missed Shot = 9\n\nNumber of times UMD Offense did not transition to a Rebound = Total links - (Links to Made Shot + Links to Missed Shot)\n= 34 - (15 + 9)\n= 34 - 24\n= 10\n\nSo, UMD Offense did not transition to a Rebound 10 times.\n</reasoning>",
+  "process_time_seconds": 7.067418,
+  "processed_at": "2025-05-16 20:22:11"
+}

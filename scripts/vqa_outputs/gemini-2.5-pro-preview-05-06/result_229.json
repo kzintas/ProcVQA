@@ -1,0 +1,14 @@
+{
+  "index": 229,
+  "question_id": "q_229",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_20.png",
+  "question": "How many free throws were made by UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": "indeterminate",
+  "is_correct": true,
+  "reasoning": "1.  The question asks for the number of free throws made by UMD Offense.\n2.  I need to find a node or a sequence of nodes in the diagram that represents \"Free Throw\" and is attributed to \"UMD Offense\".\n3.  I examine all the nodes in the diagram. The nodes present are: \"_Start\", \"UNC Offense\", \"Jump Ball\", \"Missed Shot\", \"Made Shot\", \"_Exit\", \"Rebound\", \"UMD Offense\", and \"Foul\".\n4.  There is no node labeled \"Free Throw\" in the diagram.\n5.  Since the event \"Free Throw\" is not represented as a node in this visualization, I cannot determine how many free throws were made by UMD Offense.",
+  "full_response": "<reasoning>\n1.  The question asks for the number of free throws made by UMD Offense.\n2.  I need to find a node or a sequence of nodes in the diagram that represents \"Free Throw\" and is attributed to \"UMD Offense\".\n3.  I examine all the nodes in the diagram. The nodes present are: \"_Start\", \"UNC Offense\", \"Jump Ball\", \"Missed Shot\", \"Made Shot\", \"_Exit\", \"Rebound\", \"UMD Offense\", and \"Foul\".\n4.  There is no node labeled \"Free Throw\" in the diagram.\n5.  Since the event \"Free Throw\" is not represented as a node in this visualization, I cannot determine how many free throws were made by UMD Offense.\n</reasoning>\n<answer>indeterminate</answer>",
+  "process_time_seconds": 5.159209,
+  "processed_at": "2025-05-15 03:40:42"
+}

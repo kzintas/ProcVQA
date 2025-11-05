@@ -1,0 +1,14 @@
+{
+  "index": 99,
+  "question_id": "q_99",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_25.png",
+  "question": "How many patients died after arriving at Emergency?",
+  "true_answer": "30",
+  "llm_answer": "12",
+  "is_correct": false,
+  "reasoning": "To determine the number of patients who died after arriving at Emergency, we need to follow the pathway from \"Arrival\" to \"Emergency\" and then to \"Die.\"\n\n1. Start at the \"Arrival\" node.\n2. Follow the link labeled \"37\" to the \"Emergency\" node.\n3. From the \"Emergency\" node, follow the link labeled \"12\" to the \"Die\" node.\n\nThe link from \"Emergency\" to \"Die\" has a label of \"12,\" which indicates that 12 patients died after arriving at Emergency.",
+  "full_response": "<answer>12</answer>\n\n<reasoning>\nTo determine the number of patients who died after arriving at Emergency, we need to follow the pathway from \"Arrival\" to \"Emergency\" and then to \"Die.\"\n\n1. Start at the \"Arrival\" node.\n2. Follow the link labeled \"37\" to the \"Emergency\" node.\n3. From the \"Emergency\" node, follow the link labeled \"12\" to the \"Die\" node.\n\nThe link from \"Emergency\" to \"Die\" has a label of \"12,\" which indicates that 12 patients died after arriving at Emergency.\n</reasoning>",
+  "process_time_seconds": 7.182132,
+  "processed_at": "2025-05-16 20:18:52"
+}

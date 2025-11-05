@@ -1,0 +1,14 @@
+{
+  "index": 207,
+  "question_id": "q_207",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_05.png",
+  "question": "How many total missed shots were made by both teams?",
+  "true_answer": "42",
+  "llm_answer": "42",
+  "is_correct": true,
+  "reasoning": "The question asks for the total number of \"Missed Shot\" events. I need to find all instances of \"Missed Shot\" in the diagram and sum their corresponding counts.\n- The first \"Missed Shot\" has a count of 7.\n- The second \"Missed Shot\" has a count of 14.\n- The third \"Missed Shot\" has a count of 6.\n- The fourth \"Missed Shot\" has a count of 15.\nAdding these values: 7 + 14 + 6 + 15 = 42",
+  "full_response": "1.  **Identify missed shots:** Locate all nodes labeled \"Missed Shot\".\n2.  **Extract counts:** Note the numeric label next to each \"Missed Shot\" node, representing the count of sequences that include that event.\n3.  **Sum the counts:** Add up all the individual counts to get the total number of missed shots.\n\nHere's the breakdown:\n*   Missed Shot with count 7\n*   Missed Shot with count 14\n*   Missed Shot with count 6\n*   Missed Shot with count 15\n\n<reasoning>\nThe question asks for the total number of \"Missed Shot\" events. I need to find all instances of \"Missed Shot\" in the diagram and sum their corresponding counts.\n- The first \"Missed Shot\" has a count of 7.\n- The second \"Missed Shot\" has a count of 14.\n- The third \"Missed Shot\" has a count of 6.\n- The fourth \"Missed Shot\" has a count of 15.\nAdding these values: 7 + 14 + 6 + 15 = 42\n</reasoning>\n<answer>42</answer>",
+  "process_time_seconds": 5.061493,
+  "processed_at": "2025-05-13 19:56:07"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 113,
+  "question_id": "q_113",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_05.png",
+  "question": "How many total Rebounds were made by UMD Offense?",
+  "true_answer": "34",
+  "llm_answer": "34",
+  "is_correct": true,
+  "reasoning": "1.  **Identify the starting node:** The question asks about rebounds made by \"UMD Offense\". So, we start by locating the \"UMD Offense\" node in the diagram.\n2.  **Trace paths from \"UMD Offense\":** From the \"UMD Offense\" node, there are several outgoing links:\n    *   A link to \"Rebound\" with a label of 34.\n    *   A link to \"Missed Shot\" with a label of 14.\n    *   A link to \"Foul\" with a label of 10.\n    *   A link to \"Made Shot\" with a label of 8.\n    *   A link to \"_Exit\" with a label of 3.\n3.  **Find the specific event:** We are interested in \"Rebounds\". The link from \"UMD Offense\" to \"Rebound\" has a numeric label of 34.\n4.  **Interpret the value:** This label indicates that 34 sequences went from \"UMD Offense\" directly to \"Rebound\".\n5.  **Conclusion:** Therefore, UMD Offense made a total of 34 Rebounds.",
+  "full_response": "<reasoning>\n1.  **Identify the starting node:** The question asks about rebounds made by \"UMD Offense\". So, we start by locating the \"UMD Offense\" node in the diagram.\n2.  **Trace paths from \"UMD Offense\":** From the \"UMD Offense\" node, there are several outgoing links:\n    *   A link to \"Rebound\" with a label of 34.\n    *   A link to \"Missed Shot\" with a label of 14.\n    *   A link to \"Foul\" with a label of 10.\n    *   A link to \"Made Shot\" with a label of 8.\n    *   A link to \"_Exit\" with a label of 3.\n3.  **Find the specific event:** We are interested in \"Rebounds\". The link from \"UMD Offense\" to \"Rebound\" has a numeric label of 34.\n4.  **Interpret the value:** This label indicates that 34 sequences went from \"UMD Offense\" directly to \"Rebound\".\n5.  **Conclusion:** Therefore, UMD Offense made a total of 34 Rebounds.\n</reasoning>\n<answer>34</answer>",
+  "process_time_seconds": 7.301961,
+  "processed_at": "2025-05-15 02:42:52"
+}

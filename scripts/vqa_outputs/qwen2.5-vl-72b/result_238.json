@@ -1,0 +1,14 @@
+{
+  "index": 238,
+  "question_id": "q_238",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_30.png",
+  "question": "How many times did a jump ball occur after UNC Offense?",
+  "true_answer": "1",
+  "llm_answer": "0",
+  "is_correct": false,
+  "reasoning": "- There is only one instance of a \"Jump Ball\" node in the diagram.\n   - This \"Jump Ball\" node is connected to a \"_Start\" node with a value of 1.\n   - The \"Jump Ball\" node is not connected to any \"UNC Offense\" node, meaning it did not occur after UNC Offense.",
+  "full_response": "1. The relevant elements in the visualization are the nodes labeled \"Jump Ball\" and their connections to other nodes.\n2. <reasoning>\n   - There is only one instance of a \"Jump Ball\" node in the diagram.\n   - This \"Jump Ball\" node is connected to a \"_Start\" node with a value of 1.\n   - The \"Jump Ball\" node is not connected to any \"UNC Offense\" node, meaning it did not occur after UNC Offense.\n</reasoning>\n3. Since there is no connection between \"Jump Ball\" and \"UNC Offense\", the number of times a jump ball occurred after UNC Offense is zero.\n\n<answer>0</answer>",
+  "process_time_seconds": 7.529165,
+  "processed_at": "2025-05-16 20:01:33"
+}

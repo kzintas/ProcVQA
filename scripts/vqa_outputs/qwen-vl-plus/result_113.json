@@ -1,0 +1,14 @@
+{
+  "index": 113,
+  "question_id": "q_113",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_05.png",
+  "question": "How many total Rebounds were made by UMD Offense?",
+  "true_answer": "34",
+  "llm_answer": "14",
+  "is_correct": false,
+  "reasoning": "To determine the total number of Rebounds made by UMD Offense, we need to follow the pathway from Start to UMD Offense and then to Rebound. \n\n1. Start is connected to UNC Offense with 69 sequences.\n2. UNC Offense is connected to UMD Offense with 34 sequences.\n3. UMD Offense is connected to Rebound with 14 sequences.\n\nTherefore, the total number of Rebounds made by UMD Offense is 14.",
+  "full_response": "<answer>14</answer>\n\n<reasoning>\nTo determine the total number of Rebounds made by UMD Offense, we need to follow the pathway from Start to UMD Offense and then to Rebound. \n\n1. Start is connected to UNC Offense with 69 sequences.\n2. UNC Offense is connected to UMD Offense with 34 sequences.\n3. UMD Offense is connected to Rebound with 14 sequences.\n\nTherefore, the total number of Rebounds made by UMD Offense is 14.\n</reasoning>",
+  "process_time_seconds": 13.342101,
+  "processed_at": "2025-05-16 20:20:38"
+}

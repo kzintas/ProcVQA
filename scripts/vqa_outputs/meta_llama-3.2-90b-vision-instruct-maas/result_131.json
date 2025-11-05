@@ -1,0 +1,15 @@
+{
+  "index": 131,
+  "question_id": "q_131",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_15.png",
+  "question": "How many times did UMD Offense not transition to a Rebound?",
+  "true_answer": "35",
+  "llm_answer": "35",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "The node-link diagram shows the sequences of events in a basketball game. The UMD Offense node has three outgoing links: one to Rebound, one to Missed Shot, and one to Made Shot. The link to Rebound has a count of 34, indicating that 34 times the UMD Offense transitioned to a Rebound. The link to Missed Shot has a count of 14, indicating that 14 times the UMD Offense transitioned to a Missed Shot. The link to Made Shot has a count of 21, indicating that 21 times the UMD Offense transitioned to a Made Shot.\n\nTo find the number of times the UMD Offense did not transition to a Rebound, we need to subtract the count of the link to Rebound from the total count of the UMD Offense node. The total count of the UMD Offense node is 69, which is the sum of the counts of all its outgoing links. Therefore, the number of times the UMD Offense did not transition to a Rebound is:\n\n69 - 34 = 35\n\nSo, the UMD Offense did not transition to a Rebound 35 times.\n\n<answer>35</answer>",
+  "process_time_seconds": 11.119817,
+  "processed_at": "2025-05-17 06:25:58",
+  "model": "meta/llama-3.2-90b-vision-instruct-maas"
+}

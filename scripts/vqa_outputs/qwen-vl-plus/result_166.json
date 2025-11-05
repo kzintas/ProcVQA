@@ -1,0 +1,14 @@
+{
+  "index": 166,
+  "question_id": "q_166",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_05.png",
+  "question": "How many fouls were made after UNC Offense and before UMD offense? ",
+  "true_answer": "8",
+  "llm_answer": "5",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "<answer>5</answer>\n\n## Reasoning\nTo determine the number of fouls made after UNC Offense and before UMD offense, we need to follow the pathway from \"UNC Offense\" to \"Foul\" and then to \"UMD Offense\".\n\n1. Start at \"UNC Offense\".\n2. Follow the link labeled \"Foul\" which leads to another node.\n3. The next node is \"UMD Offense\".\n\nThe label next to the link between \"Foul\" and \"UMD Offense\" shows that there are 5 sequences where a foul was made after UNC Offense and before UMD offense.\n\nTherefore, the answer is <answer>5</answer>.",
+  "process_time_seconds": 8.982456,
+  "processed_at": "2025-05-16 20:27:51"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 81,
+  "question_id": "q_81",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_10.png",
+  "question": "How many patients went to the ICU after Emrgency?",
+  "true_answer": "35",
+  "llm_answer": "23",
+  "is_correct": false,
+  "reasoning": "- We need to find the number of patients who went from \"Emergency\" to \"ICU\".\n      - In the third pathway, we can see that 24 patients arrived at \"Emergency\".\n      - Out of these 24 patients, 23 went to \"ICU\", as indicated by the link width and the numeric label.\n      - Therefore, the number of patients who went to the ICU after Emergency is 23.",
+  "full_response": "1. **Relevant Elements:**\n   - The diagram shows four separate pathways.\n   - In the third pathway from the left, there is a sequence where patients go from \"Emergency\" to \"ICU\".\n   - The link between \"Emergency\" and \"ICU\" has a numeric label of 23.\n\n2. <reasoning>\n      - We need to find the number of patients who went from \"Emergency\" to \"ICU\".\n      - In the third pathway, we can see that 24 patients arrived at \"Emergency\".\n      - Out of these 24 patients, 23 went to \"ICU\", as indicated by the link width and the numeric label.\n      - Therefore, the number of patients who went to the ICU after Emergency is 23.\n   </reasoning>\n\n3. <answer>23</answer>",
+  "process_time_seconds": 8.337126,
+  "processed_at": "2025-05-16 19:37:49"
+}

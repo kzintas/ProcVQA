@@ -1,0 +1,14 @@
+{
+  "index": 115,
+  "question_id": "q_115",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_05.png",
+  "question": "How many times did UMD Offense not transition to a Rebound?",
+  "true_answer": "35",
+  "llm_answer": "32",
+  "is_correct": false,
+  "reasoning": "- We sum the counts of all paths from \"UMD Offense\" that do not lead to a \"Rebound\":\n        - Path to \"Missed Shot\": 14\n        - Path to \"Foul\": 10\n        - Path to \"Made Shot\": 8\n      - Total = 14 + 10 + 8 = 32",
+  "full_response": "1. **Relevant Elements:**\n   - The node \"UMD Offense\" is the starting point for this analysis.\n   - We need to consider all paths originating from \"UMD Offense\" that do not lead directly to a \"Rebound.\"\n   - The paths from \"UMD Offense\" are:\n     - To \"Missed Shot\" with a count of 14\n     - To \"Foul\" with a count of 10\n     - To \"Made Shot\" with a count of 8\n     - To \"Rebound\" with a count of 34 (this path is excluded as it leads to a Rebound)\n\n2. **Reasoning:**\n   <reasoning>\n      - We sum the counts of all paths from \"UMD Offense\" that do not lead to a \"Rebound\":\n        - Path to \"Missed Shot\": 14\n        - Path to \"Foul\": 10\n        - Path to \"Made Shot\": 8\n      - Total = 14 + 10 + 8 = 32\n   </reasoning>\n\n3. **Final Answer:**\n   <answer>32</answer>",
+  "process_time_seconds": 18.750614,
+  "processed_at": "2025-05-16 19:43:25"
+}

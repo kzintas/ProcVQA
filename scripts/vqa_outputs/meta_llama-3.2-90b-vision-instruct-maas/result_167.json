@@ -1,0 +1,15 @@
+{
+  "index": 167,
+  "question_id": "q_167",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_05.png",
+  "question": "How many steals occurred after UMD Offense?",
+  "true_answer": "4",
+  "llm_answer": null,
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "The node-link diagram shows the sequence of events in a basketball game. The question asks how many steals occurred after UMD Offense.\n\nTo answer this question, we need to follow the path from UMD Offense to the Steal node. The path is as follows:\n\nUMD Offense \u2192 Foul \u2192 _Exit \u2192 Missed Shot \u2192 Steal\n\nThe link width between UMD Offense and Foul is 7, which means that 7 sequences followed this path. The link width between Foul and _Exit is 4, which means that 4 sequences followed this path. The link width between _Exit and Missed Shot is 9, which means that 9 sequences followed this path. Finally, the link width between Missed Shot and Steal is 4, which means that 4 sequences followed this path.\n\nTherefore, the total number of steals that occurred after UMD Offense is 4.\n\n**Answer:** 4",
+  "process_time_seconds": 9.246947,
+  "processed_at": "2025-05-17 06:31:39",
+  "model": "meta/llama-3.2-90b-vision-instruct-maas"
+}

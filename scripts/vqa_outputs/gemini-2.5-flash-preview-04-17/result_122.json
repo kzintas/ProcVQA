@@ -1,0 +1,14 @@
+{
+  "index": 122,
+  "question_id": "q_122",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_10.png",
+  "question": "How many times did UMD Offense transition from UNC Offense?",
+  "true_answer": "69",
+  "llm_answer": "69",
+  "is_correct": true,
+  "reasoning": "The question asks for the number of times UMD Offense transitioned from UNC Offense. This corresponds to the number of sequences that move directly from the 'UNC Offense' node to the 'UMD Offense' node in the diagram. I need to find the link connecting these two nodes and read the numeric label associated with that link.\n\nLooking at the diagram, there is a link directly from 'UNC Offense' to 'UMD Offense'. The label next to this link is \"69\". This number indicates that 69 sequences transitioned from 'UNC Offense' to 'UMD Offense'.",
+  "full_response": "1.  The relevant nodes are 'UNC Offense' and 'UMD Offense'.\n2.  There is a directed link pointing from 'UNC Offense' to 'UMD Offense'.\n3.  The numeric label next to this link shows the count of sequences transitioning between these two nodes.\n\n<reasoning>\nThe question asks for the number of times UMD Offense transitioned from UNC Offense. This corresponds to the number of sequences that move directly from the 'UNC Offense' node to the 'UMD Offense' node in the diagram. I need to find the link connecting these two nodes and read the numeric label associated with that link.\n\nLooking at the diagram, there is a link directly from 'UNC Offense' to 'UMD Offense'. The label next to this link is \"69\". This number indicates that 69 sequences transitioned from 'UNC Offense' to 'UMD Offense'.\n</reasoning>\n<answer>69</answer>",
+  "process_time_seconds": 4.917117,
+  "processed_at": "2025-05-14 21:03:29"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 16,
+  "question_id": "q_16",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/CoreFlow/emergency_dataset/msp_15.png",
+  "question": "How many patients went to the Floor after the ICU?",
+  "true_answer": "24",
+  "llm_answer": "24",
+  "is_correct": true,
+  "reasoning": "The question asks for the number of patients who went from 'ICU' to 'Floor'.\nI need to find the link in the diagram that originates from the 'ICU' node and points to the 'Floor' node.\nAccording to the diagram, there is a link from 'ICU' to 'Floor' with the label '24'.\nThis number represents the count of sequences (patients) that followed this specific path.\nTherefore, 24 patients went to the Floor after the ICU.",
+  "full_response": "<reasoning>\nThe question asks for the number of patients who went from 'ICU' to 'Floor'.\nI need to find the link in the diagram that originates from the 'ICU' node and points to the 'Floor' node.\nAccording to the diagram, there is a link from 'ICU' to 'Floor' with the label '24'.\nThis number represents the count of sequences (patients) that followed this specific path.\nTherefore, 24 patients went to the Floor after the ICU.\n</reasoning>\n<answer>24</answer>",
+  "process_time_seconds": 2.267678,
+  "processed_at": "2025-05-14 21:18:56"
+}

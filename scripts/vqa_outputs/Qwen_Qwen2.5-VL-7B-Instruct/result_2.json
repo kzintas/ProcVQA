@@ -1,0 +1,14 @@
+{
+  "index": 2,
+  "question_id": "q_2",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/CoreFlow/emergency_dataset/msp_05.png",
+  "question": "How many patients got discharged alive directly after arriving at Emergency? ",
+  "true_answer": "38",
+  "llm_answer": "38",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "### Relevant Elements:\n- The starting point is labeled as \"_Start\" which leads to \"Arrival\".\n- From \"Arrival\", there are two paths leading to \"Emergency\" and \"Discharge-Alive\".\n- The link width between \"Arrival\" and \"Emergency\" is 62.\n- The link width between \"Arrival\" and \"Discharge-Alive\" is 38.\n\n### Reasoning:\n1. The question asks for the number of patients who got discharged alive directly after arriving at Emergency.\n2. The link from \"Arrival\" to \"Emergency\" has a value of 62, indicating 62 patients arrived at Emergency.\n3. The link from \"Arrival\" to \"Discharge-Alive\" has a value of 38, indicating 38 patients were discharged alive directly after arriving at Emergency.\n\n### Final Answer:\n<answer>38</answer>",
+  "process_time_seconds": 34.887062,
+  "processed_at": "2025-05-15 02:45:32"
+}

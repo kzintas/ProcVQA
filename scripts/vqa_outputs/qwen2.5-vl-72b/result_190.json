@@ -1,0 +1,14 @@
+{
+  "index": 190,
+  "question_id": "q_190",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_25.png",
+  "question": "How many times did UMD Offense transition from UNC Offense?",
+  "true_answer": "69",
+  "llm_answer": "46",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "1. **Relevant Elements:**\n   - The node \"UNC Offense\" is connected to two nodes: \"Made Shot\" and \"Missed Shot.\"\n   - The node \"UMD Offense\" is connected from both \"Made Shot\" and \"Missed Shot.\"\n   - The link widths and numeric labels indicate the number of sequences.\n\n2. **Reasoning:**\n   - From \"UNC Offense,\" there are 22 sequences leading to \"Made Shot\" and 24 sequences leading to \"Missed Shot.\"\n   - All sequences from \"Made Shot\" (22) and \"Missed Shot\" (24) transition to \"UMD Offense.\"\n   - Therefore, the total number of transitions from \"UNC Offense\" to \"UMD Offense\" is the sum of these sequences.\n   - Calculation: 22 + 24 = 46\n\n3. **Final Answer:**\n<answer>46</answer>",
+  "process_time_seconds": 8.178694,
+  "processed_at": "2025-05-16 19:54:21"
+}

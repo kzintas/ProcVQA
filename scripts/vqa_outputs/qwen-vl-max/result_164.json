@@ -1,0 +1,14 @@
+{
+  "index": 164,
+  "question_id": "q_164",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_05.png",
+  "question": "How many missed shots were before UMD Offense?",
+  "true_answer": "24",
+  "llm_answer": "15",
+  "is_correct": false,
+  "reasoning": "- Direct path: UNC Offense -> UMD Offense (27)\n- Indirect path: UNC Offense -> Rebound (23) -> Missed Shot (15)\n\nThe only occurrence of \"Missed Shot\" before reaching UMD Offense is on the indirect path, which happens 15 times.",
+  "full_response": "To determine how many missed shots occurred before UMD Offense, we need to trace the pathways leading from \"UNC Offense\" to \"UMD Offense\" and count the number of times \"Missed Shot\" appears along these paths.\n\n1. From \"UNC Offense,\" there are two main paths:\n   - One path goes directly to \"UMD Offense\" with a link value of 27.\n   - Another path goes through \"Rebound\" (23), then \"Missed Shot\" (15).\n\n2. The path through \"Missed Shot\" has a link value of 15, indicating that this sequence occurs 15 times.\n\n<reasoning>\n- Direct path: UNC Offense -> UMD Offense (27)\n- Indirect path: UNC Offense -> Rebound (23) -> Missed Shot (15)\n\nThe only occurrence of \"Missed Shot\" before reaching UMD Offense is on the indirect path, which happens 15 times.\n</reasoning>\n\n<answer>15</answer>",
+  "process_time_seconds": 10.624006,
+  "processed_at": "2025-05-16 19:11:22"
+}

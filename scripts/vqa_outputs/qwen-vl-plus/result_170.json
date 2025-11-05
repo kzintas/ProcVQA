@@ -1,0 +1,14 @@
+{
+  "index": 170,
+  "question_id": "q_170",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_10.png",
+  "question": "How many made shots were after UNC Offense but before UMD offense?",
+  "true_answer": "22",
+  "llm_answer": "22",
+  "is_correct": true,
+  "reasoning": "To find the number of made shots after UNC Offense but before UMD offense, we need to follow the pathway from \"Start\" through \"UNC Offense\" and then look for the node labeled \"Made Shot\" that leads to \"UMD Offense\".\n\n1. Start at the top node labeled \"Start\".\n2. Follow the link from \"Start\" to \"UNC Offense\". This link has a label of 69.\n3. From \"UNC Offense\", follow the link labeled \"Made Shot\" which leads to \"UMD Offense\". This link has a label of 22.\n\nTherefore, there are 22 made shots after UNC Offense but before UMD offense.",
+  "full_response": "<answer>22</answer>\n\n<reasoning>\nTo find the number of made shots after UNC Offense but before UMD offense, we need to follow the pathway from \"Start\" through \"UNC Offense\" and then look for the node labeled \"Made Shot\" that leads to \"UMD Offense\".\n\n1. Start at the top node labeled \"Start\".\n2. Follow the link from \"Start\" to \"UNC Offense\". This link has a label of 69.\n3. From \"UNC Offense\", follow the link labeled \"Made Shot\" which leads to \"UMD Offense\". This link has a label of 22.\n\nTherefore, there are 22 made shots after UNC Offense but before UMD offense.\n</reasoning>",
+  "process_time_seconds": 6.807339,
+  "processed_at": "2025-05-16 20:28:25"
+}

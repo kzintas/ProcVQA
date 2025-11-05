@@ -1,0 +1,14 @@
+{
+  "index": 200,
+  "question_id": "q_200",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_30.png",
+  "question": "How many total rebounds are there in the match?",
+  "true_answer": "34",
+  "llm_answer": "24",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "1. Identify the relevant elements:\nThe node \"Rebound\" and its outgoing link to \"_Exit\" are relevant. The numeric label on the link represents the number of rebounds.\n\n2. Describe the thought process:\nI need to find the node labeled \"Rebound\". Then, I need to read the number associated with the link coming out of that node to determine the number of rebounds. The number on that link is 24.\n\n3. Provide the final answer:\n<answer>24</answer>",
+  "process_time_seconds": 3.459385,
+  "processed_at": "2025-05-13 19:55:37"
+}

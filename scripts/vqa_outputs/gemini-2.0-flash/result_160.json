@@ -1,0 +1,14 @@
+{
+  "index": 160,
+  "question_id": "q_160",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_30.png",
+  "question": "How many free throws were made in total by UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": "indeterminate",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": " The question asks about the number of free throws made by UMD Offense.\n The node-link diagram shows the flow of events but does not explicitly mention free throws or the number of free throws made.\n Thus, I cannot determine the number of free throws made by UMD Offense from the image.\n \n <answer>indeterminate</answer>",
+  "process_time_seconds": 2.435249,
+  "processed_at": "2025-05-13 20:14:39"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 79,
+  "question_id": "q_79",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_10.png",
+  "question": "How many total patients were discharged alive?",
+  "true_answer": "57",
+  "llm_answer": null,
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "**Step 1: Identify the relevant elements in the visualization that inform the answer.**\n\nThe relevant elements are the nodes and links representing patients being discharged alive. In the diagram, there are two nodes labeled \"Discharge-Alive\" with corresponding links indicating the number of patients discharged alive.\n\n**Step 2: Describe the thought process and calculations in detail.**\n\nTo determine the total number of patients discharged alive, we need to analyze the nodes and links related to discharges. There are two nodes labeled \"Discharge-Alive\" with values 37 and 20. These values represent the number of patients discharged alive from each node.\n\n**Step 3: Calculate the total number of patients discharged alive.**\n\nTotal patients discharged alive = 37 + 20 = 57\n\n**Answer:** 57",
+  "process_time_seconds": 18.082188,
+  "processed_at": "2025-05-17 06:32:01"
+}

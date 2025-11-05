@@ -1,0 +1,14 @@
+{
+  "index": 111,
+  "question_id": "q_111",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_30.png",
+  "question": "How many total patients were discharged alive after going to the Floor?",
+  "true_answer": "20",
+  "llm_answer": "20",
+  "is_correct": true,
+  "reasoning": "- In the third column, we see a pathway where patients go from \"_Start\" to \"Arrival\" to \"Emergency\" and then split into two paths: one going to \"ICU\" and the other to \"Floor\".\n      - From the \"Floor\" node, there is a direct link to \"Discharge-Alive\" with a count of 20.\n      - This indicates that 20 patients who went to the Floor were discharged alive.",
+  "full_response": "1. **Relevant Elements:**\n   - The pathway involving the \"Floor\" node.\n   - The link from \"Floor\" to \"Discharge-Alive\".\n\n2. <reasoning>\n      - In the third column, we see a pathway where patients go from \"_Start\" to \"Arrival\" to \"Emergency\" and then split into two paths: one going to \"ICU\" and the other to \"Floor\".\n      - From the \"Floor\" node, there is a direct link to \"Discharge-Alive\" with a count of 20.\n      - This indicates that 20 patients who went to the Floor were discharged alive.\n</reasoning>\n\n<answer>20</answer>",
+  "process_time_seconds": 12.337777,
+  "processed_at": "2025-05-16 19:42:45"
+}

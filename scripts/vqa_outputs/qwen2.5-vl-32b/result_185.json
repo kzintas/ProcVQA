@@ -1,0 +1,14 @@
+{
+  "index": 185,
+  "question_id": "q_185",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many missed shots were before UMD Offense?",
+  "true_answer": "24",
+  "llm_answer": "24",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "### Step 1: Identify Relevant Elements\nTo answer the question, we need to focus on the following elements in the diagram:\n- The node labeled \"Missed Shot\" that leads to \"UMD Offense.\"\n- The link connecting \"Missed Shot\" to \"UMD Offense.\"\n- The numeric label on this link, which indicates the number of sequences following this path.\n\n### Step 2: Analyze the Pathway\n1. **Start of the Sequence**: The sequence begins at `_Start`, which has a total of 69 sequences.\n2. **First Split**: From `_Start`, there are two paths:\n   - One leads to \"Made Shot\" with 23 sequences.\n   - The other leads to \"Rebound\" with 46 sequences (calculated as 69 - 23).\n3. **Rebound Node**: From \"Rebound,\" there are two paths:\n   - One leads back to \"UNC Offense\" with 15 sequences.\n   - The other leads to \"Missed Shot\" with 31 sequences (calculated as 46 - 15).\n4. **Missed Shot Node**: From \"Missed Shot,\" there is a direct path to \"UMD Offense\" with 24 sequences.\n\n### Step 3: Interpret the Question\nThe question asks for the number of missed shots that occurred before \"UMD Offense.\" Based on the diagram:\n- The link directly connecting \"Missed Shot\" to \"UMD Offense\" has a label of **24**.\n- This value represents the number of sequences where a missed shot occurred, leading directly to \"UMD Offense.\"\n\n### Step 4: Final Calculation\nThe number of missed shots before \"UMD Offense\" is explicitly shown as **24** on the link connecting \"Missed Shot\" to \"UMD Offense.\"\n\n### Reasoning Summary\n- The diagram shows a clear pathway from \"Missed Shot\" to \"UMD Offense.\"\n- The numeric label on this link indicates the count of sequences following this path.\n- No additional calculations or interpretations are needed beyond what is explicitly shown.\n\n### Final Answer\n<answer>24</answer>",
+  "process_time_seconds": 8.708849,
+  "processed_at": "2025-05-16 21:21:18"
+}

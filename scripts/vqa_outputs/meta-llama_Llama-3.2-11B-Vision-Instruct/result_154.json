@@ -1,0 +1,14 @@
+{
+  "index": 154,
+  "question_id": "q_154",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_30.png",
+  "question": "How many times did UMD Offense transition from UNC Offense?",
+  "true_answer": "69",
+  "llm_answer": 2,
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "**Step 1: Identify the relevant elements in the visualization that inform the answer.**\n\nThe node-link diagram shows the flow of events between different nodes, with each node representing a specific event or action. The links between the nodes indicate the transitions between these events. In this case, we are interested in the transitions from UNC Offense to UMD Offense.\n\n**Step 2: Describe the thought process and calculations in detail.**\n\nLooking at the diagram, we can see that there are two links connecting UNC Offense to UMD Offense. These links represent the transitions from UNC Offense to UMD Offense. The number of times UMD Offense transitions from UNC Offense is equal to the number of links connecting these two nodes.\n\n**Step 3: Provide the final answer in the required format.**\n\nBased on the analysis, the final answer is:\n\n<answer>2</answer>\n\nThis indicates that UMD Offense transitions from UNC Offense twice.",
+  "process_time_seconds": 11.50713,
+  "processed_at": "2025-05-17 07:26:20"
+}

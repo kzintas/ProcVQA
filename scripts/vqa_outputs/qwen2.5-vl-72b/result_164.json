@@ -1,0 +1,14 @@
+{
+  "index": 164,
+  "question_id": "q_164",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_05.png",
+  "question": "How many missed shots were before UMD Offense?",
+  "true_answer": "24",
+  "llm_answer": "19",
+  "is_correct": false,
+  "reasoning": "- Starting from \"UNC Offense,\" we can see two paths that lead to a \"Missed Shot\":\n        1. UNC Offense -> Missed Shot (with a count of 15)\n        2. UNC Offense -> Foul -> Made Free Throw -> Missed Shot (with a count of 4)\n      - Adding these counts together gives us the total number of missed shots before UMD Offense.\n      - Calculation: 15 + 4 = 19",
+  "full_response": "1. **Identify the relevant elements:**\n   - The question asks about missed shots before UMD Offense.\n   - We need to focus on the pathway leading from UNC Offense to UMD Offense.\n\n2. <reasoning>\n      - Starting from \"UNC Offense,\" we can see two paths that lead to a \"Missed Shot\":\n        1. UNC Offense -> Missed Shot (with a count of 15)\n        2. UNC Offense -> Foul -> Made Free Throw -> Missed Shot (with a count of 4)\n      - Adding these counts together gives us the total number of missed shots before UMD Offense.\n      - Calculation: 15 + 4 = 19\n   </reasoning>\n\n3. <answer>19</answer>",
+  "process_time_seconds": 8.03846,
+  "processed_at": "2025-05-16 19:50:34"
+}

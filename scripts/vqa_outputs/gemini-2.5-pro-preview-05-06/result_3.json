@@ -1,0 +1,14 @@
+{
+  "index": 3,
+  "question_id": "q_3",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/CoreFlow/emergency_dataset/msp_05.png",
+  "question": "How many patients went to the ICU after Emrgency?",
+  "true_answer": "62",
+  "llm_answer": "62",
+  "is_correct": true,
+  "reasoning": "1.  The diagram shows the flow of patients through different stages of a hospital visit.\n2.  We start at the \"_Start\" node, with 100 sequences.\n3.  All 100 sequences proceed to \"Arrival\".\n4.  From \"Arrival\", all 100 sequences proceed to \"Emergency\".\n5.  From the \"Emergency\" node, there are two outgoing paths:\n    *   One path leads to the \"ICU\" node. The link connecting \"Emergency\" to \"ICU\" has a numeric label \"62\".\n    *   The other path leads to the \"Discharge-Alive\" node, with a numeric label \"38\".\n6.  The question asks how many patients went to the ICU after Emergency.\n7.  The link from \"Emergency\" directly to \"ICU\" indicates the number of patients who followed this specific sequence.\n8.  The value on this link is 62.",
+  "full_response": "<reasoning>\n1.  The diagram shows the flow of patients through different stages of a hospital visit.\n2.  We start at the \"_Start\" node, with 100 sequences.\n3.  All 100 sequences proceed to \"Arrival\".\n4.  From \"Arrival\", all 100 sequences proceed to \"Emergency\".\n5.  From the \"Emergency\" node, there are two outgoing paths:\n    *   One path leads to the \"ICU\" node. The link connecting \"Emergency\" to \"ICU\" has a numeric label \"62\".\n    *   The other path leads to the \"Discharge-Alive\" node, with a numeric label \"38\".\n6.  The question asks how many patients went to the ICU after Emergency.\n7.  The link from \"Emergency\" directly to \"ICU\" indicates the number of patients who followed this specific sequence.\n8.  The value on this link is 62.\n</reasoning>\n<answer>62</answer>",
+  "process_time_seconds": 7.729692,
+  "processed_at": "2025-05-15 01:12:26"
+}

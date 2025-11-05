@@ -1,0 +1,14 @@
+{
+  "index": 198,
+  "question_id": "q_198",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_30.png",
+  "question": "How many made shots were after UNC Offense?",
+  "true_answer": "22",
+  "llm_answer": "22",
+  "is_correct": true,
+  "reasoning": "1.  The question asks for the number of \"Made Shot\" events that occurred after \"UNC Offense\".\n2.  I locate the \"UNC Offense\" node in the diagram.\n3.  From the \"UNC Offense\" node, I look for a directed link pointing to a \"Made Shot\" node.\n4.  There is a link from \"UNC Offense\" to \"Made Shot\".\n5.  The numeric label next to this link indicates the number of sequences following this specific path.\n6.  The value on the link from \"UNC Offense\" to \"Made Shot\" is 22.\nTherefore, there were 22 made shots after UNC Offense.",
+  "full_response": "<reasoning>\n1.  The question asks for the number of \"Made Shot\" events that occurred after \"UNC Offense\".\n2.  I locate the \"UNC Offense\" node in the diagram.\n3.  From the \"UNC Offense\" node, I look for a directed link pointing to a \"Made Shot\" node.\n4.  There is a link from \"UNC Offense\" to \"Made Shot\".\n5.  The numeric label next to this link indicates the number of sequences following this specific path.\n6.  The value on the link from \"UNC Offense\" to \"Made Shot\" is 22.\nTherefore, there were 22 made shots after UNC Offense.\n</reasoning>\n<answer>22</answer>",
+  "process_time_seconds": 4.723405,
+  "processed_at": "2025-05-15 03:10:19"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 232,
+  "question_id": "q_232",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_25.png",
+  "question": "How many total missed shots occur after UNC Offense but before UMD Offense?",
+  "true_answer": "19",
+  "llm_answer": "19",
+  "is_correct": true,
+  "reasoning": "To find the total number of missed shots that occur after UNC Offense but before UMD Offense, we need to follow the pathway from \"UNC Offense\" to \"UMD Offense\" and count all the nodes labeled \"Missed Shot\" along this path.\n\n1. Start at \"UNC Offense\".\n2. Follow the link to \"Rebound\".\n3. Continue to \"Foul\".\n4. Next, go to \"Made Free Throw\".\n5. Finally, reach \"UMD Offense\".\n\nAlong this path, the nodes labeled \"Missed Shot\" are:\n- Missed Shot (after Rebound)\n- Missed Shot (after Foul)\n\nBoth of these missed shots occur after UNC Offense and before UMD Offense. Therefore, the total number of missed shots in this sequence is 19.",
+  "full_response": "<answer>19</answer>\n\n<reasoning>\nTo find the total number of missed shots that occur after UNC Offense but before UMD Offense, we need to follow the pathway from \"UNC Offense\" to \"UMD Offense\" and count all the nodes labeled \"Missed Shot\" along this path.\n\n1. Start at \"UNC Offense\".\n2. Follow the link to \"Rebound\".\n3. Continue to \"Foul\".\n4. Next, go to \"Made Free Throw\".\n5. Finally, reach \"UMD Offense\".\n\nAlong this path, the nodes labeled \"Missed Shot\" are:\n- Missed Shot (after Rebound)\n- Missed Shot (after Foul)\n\nBoth of these missed shots occur after UNC Offense and before UMD Offense. Therefore, the total number of missed shots in this sequence is 19.\n</reasoning>",
+  "process_time_seconds": 11.350489,
+  "processed_at": "2025-05-16 20:37:20"
+}

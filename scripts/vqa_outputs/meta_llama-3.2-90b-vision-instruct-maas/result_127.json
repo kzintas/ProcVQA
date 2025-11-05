@@ -1,0 +1,15 @@
+{
+  "index": 127,
+  "question_id": "q_127",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_10.png",
+  "question": "How many total Fouls were made by UMD Offense?",
+  "true_answer": "10",
+  "llm_answer": null,
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "The node-link diagram shows the sequences of events in a basketball game. The UMD Offense is represented by the node labeled \"UMD Offense\". The Fouls made by UMD Offense are represented by the links connecting the \"UMD Offense\" node to the \"Foul\" node.\n\nTo determine the total number of Fouls made by UMD Offense, we need to count the number of links connecting the \"UMD Offense\" node to the \"Foul\" node. There is only one link connecting the \"UMD Offense\" node to the \"Foul\" node, and it has a label of 10.\n\nTherefore, the total number of Fouls made by UMD Offense is 10.\n\n*Answer*: 10",
+  "process_time_seconds": 7.332156,
+  "processed_at": "2025-05-17 06:25:18",
+  "model": "meta/llama-3.2-90b-vision-instruct-maas"
+}

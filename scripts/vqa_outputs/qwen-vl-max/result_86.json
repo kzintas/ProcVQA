@@ -1,0 +1,14 @@
+{
+  "index": 86,
+  "question_id": "q_86",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_15.png",
+  "question": "How many total patients were discharged alive?",
+  "true_answer": "57",
+  "llm_answer": "37",
+  "is_correct": false,
+  "reasoning": "- Traced pathways from \"_Start\" and \"Emergency\" nodes.\n- Summed up all sequences ending at \"Discharge-Alive\".",
+  "full_response": "To determine the total number of patients discharged alive, I'll track the pathways leading to the \"Discharge-Alive\" node:\n\n1. From \"_Start\":\n   - 37 patients arrive.\n   - All 37 proceed to Emergency.\n   - Of these, 37 go to Discharge-Alive.\n\n2. From \"Emergency\":\n   - 37 patients from Arrival move here.\n   - All 37 proceed directly to Discharge-Alive.\n\nThus, the total number of patients discharged alive is the sum of all paths leading to \"Discharge-Alive\", which is 37.\n\n<reasoning>\n- Traced pathways from \"_Start\" and \"Emergency\" nodes.\n- Summed up all sequences ending at \"Discharge-Alive\".\n</reasoning>\n\n<answer>37</answer>",
+  "process_time_seconds": 6.678446,
+  "processed_at": "2025-05-16 19:00:58"
+}

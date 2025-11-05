@@ -1,0 +1,14 @@
+{
+  "index": 201,
+  "question_id": "q_201",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_30.png",
+  "question": "How many fouls were made after UNC Offense and before UMD offense? ",
+  "true_answer": "indeterminate",
+  "llm_answer": "indeterminate",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": " Based on the node-link diagram, I will identify the nodes and links between \"UNC Offense\" and \"UMD Offense\" and determine if any of the nodes represent fouls.\n The nodes between \"UNC Offense\" and \"UMD Offense\" are \"Made Shot\" and \"Missed Shot\". There is no \"Fouls\" event between \"UNC Offense\" and \"UMD Offense\".\n Therefore, the number of fouls made after UNC Offense and before UMD offense is indeterminate.\n\n<answer>indeterminate</answer>",
+  "process_time_seconds": 2.228512,
+  "processed_at": "2025-05-13 19:55:39"
+}

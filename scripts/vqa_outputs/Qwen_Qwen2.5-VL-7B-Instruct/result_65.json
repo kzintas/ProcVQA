@@ -1,0 +1,14 @@
+{
+  "index": 65,
+  "question_id": "q_65",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/SentenTree/emergency_dataset/msp_30.png",
+  "question": "How many patients died after arriving at Emergency?",
+  "true_answer": "36",
+  "llm_answer": "36",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "### Relevant Elements:\n- The node labeled \"Arrival\" has 100 patients.\n- From \"Arrival,\" there are two paths leading to \"Emergency.\"\n- One path leads to \"ICU\" with 62 patients.\n- Another path leads to \"Discharge-Alive\" with 38 patients.\n- From \"Arrival,\" there is also a direct path to \"Die\" with 36 patients.\n\n### Reasoning:\n1. Start at the node labeled \"_Start\" which has 100 patients.\n2. These 100 patients move to \"Arrival.\"\n3. From \"Arrival,\" 62 patients go to \"ICU.\"\n4. From \"Arrival,\" 38 patients go to \"Discharge-Alive.\"\n5. From \"Arrival,\" 36 patients go directly to \"Die.\"\n\nThe question asks specifically about the number of patients who died after arriving at \"Emergency.\" Since the path from \"Arrival\" to \"Die\" is the only direct route to \"Die\" and it is separate from the routes to \"ICU\" and \"Discharge-Alive,\" we can conclude that these 36 patients died after arriving at \"Emergency.\"\n\n### Final Answer:\n<answer>36</answer>",
+  "process_time_seconds": 43.181566,
+  "processed_at": "2025-05-15 03:22:53"
+}

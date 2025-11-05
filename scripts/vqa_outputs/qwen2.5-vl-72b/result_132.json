@@ -1,0 +1,14 @@
+{
+  "index": 132,
+  "question_id": "q_132",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_15.png",
+  "question": "How many shots were missed immediately after UMD Offense?",
+  "true_answer": "14",
+  "llm_answer": "21",
+  "is_correct": false,
+  "reasoning": "To determine how many shots were missed immediately after UMD Offense, we need to look at the direct links coming out of the \"UMD Offense\" node. There are two links: one leading to \"Rebound\" with a count of 34 and another leading to \"Missed Shot\" with a count of 21. Since the question specifically asks for the number of shots that were missed immediately after UMD Offense, we focus on the link leading to \"Missed Shot\". The numeric label on this link indicates the count of sequences following this path, which is 21.",
+  "full_response": "1. The relevant elements in the visualization are:\n   - The node labeled \"UMD Offense\"\n   - The link from \"UMD Offense\" to \"Missed Shot\"\n   - The numeric label on this link, which is 21\n\n2. <reasoning>\n   To determine how many shots were missed immediately after UMD Offense, we need to look at the direct links coming out of the \"UMD Offense\" node. There are two links: one leading to \"Rebound\" with a count of 34 and another leading to \"Missed Shot\" with a count of 21. Since the question specifically asks for the number of shots that were missed immediately after UMD Offense, we focus on the link leading to \"Missed Shot\". The numeric label on this link indicates the count of sequences following this path, which is 21.\n   </reasoning>\n\n3. <answer>21</answer>",
+  "process_time_seconds": 8.561625,
+  "processed_at": "2025-05-16 19:46:06"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 67,
+  "question_id": "q_67",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/SentenTree/emergency_dataset/msp_30.png",
+  "question": "How many patients got discharged alive directly after arriving at Emergency? ",
+  "true_answer": "38",
+  "llm_answer": "38",
+  "is_correct": true,
+  "reasoning": "I examined the node-link diagram. The question asks for the number of patients who went directly from 'Emergency' to 'Discharge-Alive'. I located the 'Emergency' node and the 'Discharge-Alive' node. I found a directed link connecting 'Emergency' to 'Discharge-Alive'. The numerical label next to this link is 38. This number represents the count of sequences that follow this specific path directly.",
+  "full_response": "<reasoning>\nI examined the node-link diagram. The question asks for the number of patients who went directly from 'Emergency' to 'Discharge-Alive'. I located the 'Emergency' node and the 'Discharge-Alive' node. I found a directed link connecting 'Emergency' to 'Discharge-Alive'. The numerical label next to this link is 38. This number represents the count of sequences that follow this specific path directly.\n</reasoning>\n<answer>38</answer>",
+  "process_time_seconds": 2.993926,
+  "processed_at": "2025-05-14 21:19:57"
+}

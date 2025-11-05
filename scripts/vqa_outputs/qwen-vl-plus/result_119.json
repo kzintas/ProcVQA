@@ -1,0 +1,14 @@
+{
+  "index": 119,
+  "question_id": "q_119",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_05.png",
+  "question": "How many total Fouls were made by UMD Offense?",
+  "true_answer": "16",
+  "llm_answer": "14",
+  "is_correct": false,
+  "reasoning": "To determine the total number of Fouls made by UMD Offense, we need to follow the pathway from the Start node through the UMD Offense node and then look at the link labeled \"Foul\" leading to the Missed Shot node.\n\n1. Start -> UMD Offense (69 sequences)\n2. UMD Offense -> Foul (14 sequences)\n\nThe link from UMD Offense to Foul has a label of 14, which indicates that there are 14 sequences where UMD Offense results in a Foul before reaching the Missed Shot event.\n\nTherefore, the total number of Fouls made by UMD Offense is 14.",
+  "full_response": "<answer>14</answer>\n\n<reasoning>\nTo determine the total number of Fouls made by UMD Offense, we need to follow the pathway from the Start node through the UMD Offense node and then look at the link labeled \"Foul\" leading to the Missed Shot node.\n\n1. Start -> UMD Offense (69 sequences)\n2. UMD Offense -> Foul (14 sequences)\n\nThe link from UMD Offense to Foul has a label of 14, which indicates that there are 14 sequences where UMD Offense results in a Foul before reaching the Missed Shot event.\n\nTherefore, the total number of Fouls made by UMD Offense is 14.\n</reasoning>",
+  "process_time_seconds": 9.04858,
+  "processed_at": "2025-05-16 20:21:45"
+}

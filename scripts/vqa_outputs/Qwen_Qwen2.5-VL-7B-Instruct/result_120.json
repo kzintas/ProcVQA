@@ -1,0 +1,14 @@
+{
+  "index": 120,
+  "question_id": "q_120",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_05.png",
+  "question": "How many free throws were made in total by UMD Offense?",
+  "true_answer": "10",
+  "llm_answer": "8",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "To determine the total number of free throws made by UMD Offense, we need to follow the pathway from \"Start\" to \"Made Free Throw\" under the \"UMD Offense\" node.\n\n1. Start at the \"Start\" node, which has 69 sequences.\n2. Follow the link to \"UNC Offense,\" which has 69 sequences.\n3. From \"UNC Offense,\" there is a link to \"UMD Offense.\"\n4. Under \"UMD Offense,\" there is a link to \"Missed Shot\" with 14 sequences.\n5. From \"Missed Shot,\" there is a link to \"Foul\" with 10 sequences.\n6. From \"Foul,\" there is a link to \"Made Free Throw\" with 8 sequences.\n\nThe number of sequences leading directly from \"Foul\" to \"Made Free Throw\" is 8.\n\n<answer>8</answer>",
+  "process_time_seconds": 36.545154,
+  "processed_at": "2025-05-15 04:04:03"
+}

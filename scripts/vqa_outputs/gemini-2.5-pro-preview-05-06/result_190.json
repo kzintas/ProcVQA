@@ -1,0 +1,14 @@
+{
+  "index": 190,
+  "question_id": "q_190",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_25.png",
+  "question": "How many times did UMD Offense transition from UNC Offense?",
+  "true_answer": "69",
+  "llm_answer": "23",
+  "is_correct": false,
+  "reasoning": "1.  **Identify the starting node:** The question asks about transitions *from* \"UNC Offense\". I locate the \"UNC Offense\" node in the diagram.\n2.  **Identify the ending node:** The question asks about transitions *to* \"UMD Offense\". I locate the \"UMD Offense\" node in the diagram.\n3.  **Look for a direct link:** I check if there is a direct link (an arrow) from the \"UNC Offense\" node to the \"UMD Offense\" node.\n4.  **Read the link label:** There is indeed a direct link. The numeric label next to this link indicates the number of sequences that followed this specific path. The label on the link from \"UNC Offense\" directly to \"UMD Offense\" is 23.\n5.  **Conclusion:** This means that there were 23 instances where \"UMD Offense\" immediately followed \"UNC Offense\".",
+  "full_response": "<reasoning>\n1.  **Identify the starting node:** The question asks about transitions *from* \"UNC Offense\". I locate the \"UNC Offense\" node in the diagram.\n2.  **Identify the ending node:** The question asks about transitions *to* \"UMD Offense\". I locate the \"UMD Offense\" node in the diagram.\n3.  **Look for a direct link:** I check if there is a direct link (an arrow) from the \"UNC Offense\" node to the \"UMD Offense\" node.\n4.  **Read the link label:** There is indeed a direct link. The numeric label next to this link indicates the number of sequences that followed this specific path. The label on the link from \"UNC Offense\" directly to \"UMD Offense\" is 23.\n5.  **Conclusion:** This means that there were 23 instances where \"UMD Offense\" immediately followed \"UNC Offense\".\n</reasoning>\n<answer>23</answer>",
+  "process_time_seconds": 5.459661,
+  "processed_at": "2025-05-15 03:07:28"
+}

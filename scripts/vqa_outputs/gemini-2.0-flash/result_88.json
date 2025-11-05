@@ -1,0 +1,14 @@
+{
+  "index": 88,
+  "question_id": "q_88",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_15.png",
+  "question": "How many patients went to the ICU after Emrgency?",
+  "true_answer": "35",
+  "llm_answer": "59",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "1.  **Identify the relevant nodes:** We need to find the 'Emergency' node and the 'ICU' node.\n2.  **Identify the path:** We need to trace the links from the 'Emergency' node to the 'ICU' node.\n3.  **Extract the value:** The numeric label next to the link indicates the number of patients following that path.\n4.  **Locate the 'Emergency' Node:** There are four Emergency nodes.\n5.  **Locate the 'ICU' nodes that patients went to from an 'Emergency' node:**\n    *   The first 'Emergency' node has 12 patients who then went to the 'ICU'.\n    *   The second 'Emergency' node has no link to the 'ICU'.\n    *   The third 'Emergency' node has 24 patients who then went to the 'ICU'.\n    *   The fourth 'Emergency' node has no direct link to the 'ICU'.\n        Instead, there is a path of 27 patients from 'Emergency' to 'Floor', and then 24 of those patients went from 'Floor' to 'ICU'.\n6.  **Total number of patients to went to the ICU after 'Emergency':** 12 + 23 + 24 = 59\n\n**Final Answer:**\n```xml\n<answer>59</answer>\n```",
+  "process_time_seconds": 4.49041,
+  "processed_at": "2025-05-13 20:16:26"
+}

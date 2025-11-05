@@ -1,0 +1,14 @@
+{
+  "index": 121,
+  "question_id": "q_121",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_10.png",
+  "question": "How many Rebounds were made by UMD Offense?",
+  "true_answer": "34",
+  "llm_answer": "34",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "1. The question asks about the number of rebounds made by UMD Offense.\n2. I need to find the node labeled \"UMD Offense\" and the node labeled \"Rebound\" in the diagram.\n3. I see a link connecting \"UMD Offense\" to \"Rebound\", and the number beside this link is 34.\n4. Therefore, 34 rebounds were made by UMD Offense.\n\n<answer>34</answer>",
+  "process_time_seconds": 3.85774,
+  "processed_at": "2025-05-13 19:50:56"
+}

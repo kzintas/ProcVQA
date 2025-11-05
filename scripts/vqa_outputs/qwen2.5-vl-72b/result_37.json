@@ -1,0 +1,14 @@
+{
+  "index": 37,
+  "question_id": "q_37",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/SentenTree/emergency_dataset/msp_05.png",
+  "question": "How many patients were discharged alive directly after an Emrgency?",
+  "true_answer": "38",
+  "llm_answer": "38",
+  "is_correct": true,
+  "reasoning": "- We are looking for the number of patients discharged alive directly after an Emergency.\n      - From the diagram, we can see that there is a direct path from the \"Emergency\" node to the \"Discharge-Alive\" node.\n      - The link between these two nodes has a count of 38.\n      - This means that 38 patients were discharged alive immediately following their time in the Emergency.",
+  "full_response": "1. **Relevant Elements**: \n   - The nodes: _Start, Arrival, Emergency, Discharge-Alive\n   - The links and their counts: 100 from Arrival to Emergency, 38 from Emergency to Discharge-Alive\n\n2. <reasoning>\n      - We are looking for the number of patients discharged alive directly after an Emergency.\n      - From the diagram, we can see that there is a direct path from the \"Emergency\" node to the \"Discharge-Alive\" node.\n      - The link between these two nodes has a count of 38.\n      - This means that 38 patients were discharged alive immediately following their time in the Emergency.\n   </reasoning>\n\n3. <answer>38</answer>",
+  "process_time_seconds": 7.278608,
+  "processed_at": "2025-05-16 19:31:07"
+}

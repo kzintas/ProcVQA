@@ -1,0 +1,14 @@
+{
+  "index": 141,
+  "question_id": "q_141",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many shots were made directly after a Rebound?",
+  "true_answer": "15",
+  "llm_answer": "15",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "### Step 1: Identify Relevant Elements\n- The node labeled **Rebound** is a key point in the diagram.\n- From the **Rebound** node, there are two outgoing links:\n  1. A link to the node **Made Shot** with a count of **15**.\n  2. A link to the node **_Exit** with a count of **19**.\n\n### Step 2: Analyze the Question\nThe question asks for the number of shots made directly after a Rebound. This corresponds to the link from the **Rebound** node to the **Made Shot** node.\n\n### Step 3: Extract the Relevant Count\n- The link from **Rebound** to **Made Shot** has a count of **15**.\n\n### Step 4: Verify and Conclude\n- The count of **15** represents the number of sequences where a shot was made directly after a Rebound.\n- No other paths from the **Rebound** node lead to a \"Made Shot\" event.\n\n### Final Answer:\n<answer>15</answer>",
+  "process_time_seconds": 7.72739,
+  "processed_at": "2025-05-16 21:13:31"
+}

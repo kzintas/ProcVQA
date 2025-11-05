@@ -1,0 +1,14 @@
+{
+  "index": 31,
+  "question_id": "q_31",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/CoreFlow/emergency_dataset/msp_30.png",
+  "question": "How many patients got discharged alive directly after arriving at Emergency? ",
+  "true_answer": "38",
+  "llm_answer": "38",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "### Relevant Elements:\n- The starting point is labeled as \"_Start\" with 100 patients.\n- From \"_Start\", there is a link to \"Arrival\" with 100 patients.\n- From \"Arrival\", there are two pathways: one leading to \"ICU\" and another to \"Discharge-Alive\".\n- The pathway to \"Discharge-Alive\" has a label of 38.\n\n### Reasoning:\n1. The total number of patients arriving at the Emergency department is 100.\n2. Out of these 100 patients, 62 go to the ICU.\n3. The remaining patients, which is 100 - 62 = 38, must have been discharged alive since there are no other pathways from \"Arrival\" except for \"ICU\" and \"Discharge-Alive\".\n\n### Final Answer:\n<answer>38</answer>",
+  "process_time_seconds": 34.249009,
+  "processed_at": "2025-05-15 03:02:28"
+}

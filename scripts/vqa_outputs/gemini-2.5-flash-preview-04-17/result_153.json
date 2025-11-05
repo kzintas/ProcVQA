@@ -1,0 +1,14 @@
+{
+  "index": 153,
+  "question_id": "q_153",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_30.png",
+  "question": "How many Rebounds were made by UMD Offense?",
+  "true_answer": "34",
+  "llm_answer": "34",
+  "is_correct": true,
+  "reasoning": "1.  I need to find the number of times the event \"Rebound\" occurred immediately after the event \"UMD Offense\".\n2.  I located the node labeled \"UMD Offense\" in the diagram.\n3.  I examined the directed links originating from the \"UMD Offense\" node.\n4.  One link from \"UMD Offense\" leads to the node labeled \"Rebound\".\n5.  The numeric label next to this link is 34.\n6.  This label indicates that 34 sequences transitioned directly from \"UMD Offense\" to \"Rebound\". This corresponds to the number of Rebounds that occurred following UMD Offense in this dataset.",
+  "full_response": "<reasoning>\n1.  I need to find the number of times the event \"Rebound\" occurred immediately after the event \"UMD Offense\".\n2.  I located the node labeled \"UMD Offense\" in the diagram.\n3.  I examined the directed links originating from the \"UMD Offense\" node.\n4.  One link from \"UMD Offense\" leads to the node labeled \"Rebound\".\n5.  The numeric label next to this link is 34.\n6.  This label indicates that 34 sequences transitioned directly from \"UMD Offense\" to \"Rebound\". This corresponds to the number of Rebounds that occurred following UMD Offense in this dataset.\n</reasoning>\n<answer>34</answer>",
+  "process_time_seconds": 4.472344,
+  "processed_at": "2025-05-14 21:05:41"
+}

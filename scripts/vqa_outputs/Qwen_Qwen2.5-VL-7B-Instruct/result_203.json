@@ -1,0 +1,14 @@
+{
+  "index": 203,
+  "question_id": "q_203",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_05.png",
+  "question": "How many times did a jump ball occur after UNC Offense?",
+  "true_answer": "1",
+  "llm_answer": "1",
+  "is_correct": true,
+  "reasoning": "To determine how many times a jump ball occurred after UNC Offense, I'll follow these steps:\n\n1. Locate the \"UNC Offense\" node in the diagram.\n2. Trace the pathway from \"UNC Offense\" to find any link labeled \"Jump Ball\".\n3. Check the numeric label on the link connecting \"UNC Offense\" to \"Jump Ball\".\n\nFollowing these steps:\n1. The \"UNC Offense\" node is at the top left of the diagram.\n2. There is a link from \"UNC Offense\" to \"Jump Ball\".\n3. The numeric label on this link is 1.\n\nTherefore, a jump ball occurred 1 time after UNC Offense.",
+  "full_response": "<reasoning>\nTo determine how many times a jump ball occurred after UNC Offense, I'll follow these steps:\n\n1. Locate the \"UNC Offense\" node in the diagram.\n2. Trace the pathway from \"UNC Offense\" to find any link labeled \"Jump Ball\".\n3. Check the numeric label on the link connecting \"UNC Offense\" to \"Jump Ball\".\n\nFollowing these steps:\n1. The \"UNC Offense\" node is at the top left of the diagram.\n2. There is a link from \"UNC Offense\" to \"Jump Ball\".\n3. The numeric label on this link is 1.\n\nTherefore, a jump ball occurred 1 time after UNC Offense.\n</reasoning>\n<answer>1</answer>",
+  "process_time_seconds": 51.753972,
+  "processed_at": "2025-05-15 04:53:56"
+}

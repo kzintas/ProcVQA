@@ -1,0 +1,14 @@
+{
+  "index": 1,
+  "question_id": "q_1",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/CoreFlow/emergency_dataset/msp_05.png",
+  "question": "How many total patients were discharged alive?",
+  "true_answer": "62",
+  "llm_answer": "38",
+  "is_correct": false,
+  "reasoning": "1. Start with 100 patients at the \"Start\" node.\n2. 62 patients move to the \"Emergency\" node.\n3. 36 patients move to the \"ICU\" node.\n4. 36 patients move to the \"Die\" node.\n5. 24 patients move to the \"Floor\" node.\n6. 38 patients move to the \"Discharge-Alive\" node.\n7. Sum the patients who move to the \"Discharge-Alive\" node: 38.",
+  "full_response": "xml\n<reasoning>\n1. Start with 100 patients at the \"Start\" node.\n2. 62 patients move to the \"Emergency\" node.\n3. 36 patients move to the \"ICU\" node.\n4. 36 patients move to the \"Die\" node.\n5. 24 patients move to the \"Floor\" node.\n6. 38 patients move to the \"Discharge-Alive\" node.\n7. Sum the patients who move to the \"Discharge-Alive\" node: 38.\n</reasoning>\n<answer>38</answer>",
+  "process_time_seconds": 50.665553,
+  "processed_at": "2025-05-15 18:02:23"
+}

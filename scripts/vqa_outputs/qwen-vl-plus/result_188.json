@@ -1,0 +1,14 @@
+{
+  "index": 188,
+  "question_id": "q_188",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many steals occurred after UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": "0",
+  "is_correct": false,
+  "reasoning": "To determine the number of steals after UMD Offense, we need to follow the pathway from UMD Offense to _Exit. \n\n1. Start at UMD Offense.\n2. Follow the link labeled \"Rebound\" which leads to Rebound.\n3. From Rebound, there is a link labeled \"Missed Shot\" leading to Missed Shot.\n4. There is no direct link from Missed Shot to _Exit that would indicate a steal.\n\nSince there are no links or pathways indicating a steal after UMD Offense, the answer is 0.",
+  "full_response": "<answer>0</answer>\n\n<reasoning>\nTo determine the number of steals after UMD Offense, we need to follow the pathway from UMD Offense to _Exit. \n\n1. Start at UMD Offense.\n2. Follow the link labeled \"Rebound\" which leads to Rebound.\n3. From Rebound, there is a link labeled \"Missed Shot\" leading to Missed Shot.\n4. There is no direct link from Missed Shot to _Exit that would indicate a steal.\n\nSince there are no links or pathways indicating a steal after UMD Offense, the answer is 0.\n</reasoning>",
+  "process_time_seconds": 11.88213,
+  "processed_at": "2025-05-16 20:30:39"
+}

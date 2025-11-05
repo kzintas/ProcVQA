@@ -1,0 +1,14 @@
+{
+  "index": 67,
+  "question_id": "q_67",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/SentenTree/emergency_dataset/msp_30.png",
+  "question": "How many patients got discharged alive directly after arriving at Emergency? ",
+  "true_answer": "38",
+  "llm_answer": "38",
+  "is_correct": true,
+  "reasoning": "- The question asks for the number of patients discharged alive directly after arriving at Emergency.\n      - From the diagram, we can see that there is a direct path from \"Emergency\" to \"Discharge-Alive.\"\n      - The link connecting these two nodes has a numeric label of 38, indicating that 38 sequences follow this path.\n      - No other paths lead directly from \"Emergency\" to \"Discharge-Alive,\" so this is the only relevant pathway.\n      - Therefore, the number of patients who got discharged alive directly after arriving at Emergency is 38.",
+  "full_response": "1. **Relevant Elements:**\n   - The nodes \"Emergency,\" \"Discharge-Alive,\" and \"_Exit\" are relevant.\n   - The link between \"Emergency\" and \"Discharge-Alive\" with a count of 38 is crucial.\n\n2. <reasoning>\n      - The question asks for the number of patients discharged alive directly after arriving at Emergency.\n      - From the diagram, we can see that there is a direct path from \"Emergency\" to \"Discharge-Alive.\"\n      - The link connecting these two nodes has a numeric label of 38, indicating that 38 sequences follow this path.\n      - No other paths lead directly from \"Emergency\" to \"Discharge-Alive,\" so this is the only relevant pathway.\n      - Therefore, the number of patients who got discharged alive directly after arriving at Emergency is 38.\n   </reasoning>\n\n3. <answer>38</answer>",
+  "process_time_seconds": 8.542568,
+  "processed_at": "2025-05-16 19:35:46"
+}

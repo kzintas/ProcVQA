@@ -1,0 +1,14 @@
+{
+  "index": 140,
+  "question_id": "q_140",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many shots were missed immediately after UMD Offense?",
+  "true_answer": "14",
+  "llm_answer": "14",
+  "is_correct": true,
+  "reasoning": "1.  I need to find the number of sequences that go directly from the 'UMD Offense' node to the 'Missed Shot' node.\n2.  I located the 'UMD Offense' node in the middle of the diagram.\n3.  I observed the links originating from the 'UMD Offense' node. There are three outgoing links.\n4.  I followed each link to its destination node:\n    *   One link goes to 'Rebound'.\n    *   One link goes to 'Missed Shot'.\n    *   One link goes to '\\_Exit'.\n5.  The question asks for the number of sequences that went from 'UMD Offense' to 'Missed Shot'.\n6.  I found the link connecting 'UMD Offense' to 'Missed Shot'.\n7.  The numeric label next to this link is 14.\n8.  This number represents the count of sequences that followed this specific path immediately after 'UMD Offense'.\n9.  Therefore, 14 shots were missed immediately after UMD Offense.",
+  "full_response": "<reasoning>\n1.  I need to find the number of sequences that go directly from the 'UMD Offense' node to the 'Missed Shot' node.\n2.  I located the 'UMD Offense' node in the middle of the diagram.\n3.  I observed the links originating from the 'UMD Offense' node. There are three outgoing links.\n4.  I followed each link to its destination node:\n    *   One link goes to 'Rebound'.\n    *   One link goes to 'Missed Shot'.\n    *   One link goes to '\\_Exit'.\n5.  The question asks for the number of sequences that went from 'UMD Offense' to 'Missed Shot'.\n6.  I found the link connecting 'UMD Offense' to 'Missed Shot'.\n7.  The numeric label next to this link is 14.\n8.  This number represents the count of sequences that followed this specific path immediately after 'UMD Offense'.\n9.  Therefore, 14 shots were missed immediately after UMD Offense.\n</reasoning>\n<answer>14</answer>",
+  "process_time_seconds": 3.224046,
+  "processed_at": "2025-05-14 21:04:29"
+}

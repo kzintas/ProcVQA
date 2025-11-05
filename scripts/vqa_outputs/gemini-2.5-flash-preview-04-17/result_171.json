@@ -1,0 +1,14 @@
+{
+  "index": 171,
+  "question_id": "q_171",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_10.png",
+  "question": "How many missed shots were before UMD Offense?",
+  "true_answer": "24",
+  "llm_answer": "24",
+  "is_correct": true,
+  "reasoning": "1. Locate the \"UMD Offense\" node in the diagram.\n2. Identify the links that lead into the \"UMD Offense\" node. There are three incoming links to \"UMD Offense\".\n3. Examine the source node for each incoming link and its associated count:\n    - Link 1: From \"Made Shot\" to \"UMD Offense\" with a count of 22.\n    - Link 2: From \"Missed Shot\" to \"UMD Offense\" with a count of 24.\n    - Link 3: From \"Rebound\" to \"UMD Offense\" with a count of 15.\n4. The question asks for the number of missed shots *before* UMD Offense. This corresponds to the link originating from \"Missed Shot\" and ending at \"UMD Offense\".\n5. The link from \"Missed Shot\" to \"UMD Offense\" has a count of 24.\n\nTherefore, there were 24 missed shots before UMD Offense.",
+  "full_response": "<reasoning>\n1. Locate the \"UMD Offense\" node in the diagram.\n2. Identify the links that lead into the \"UMD Offense\" node. There are three incoming links to \"UMD Offense\".\n3. Examine the source node for each incoming link and its associated count:\n    - Link 1: From \"Made Shot\" to \"UMD Offense\" with a count of 22.\n    - Link 2: From \"Missed Shot\" to \"UMD Offense\" with a count of 24.\n    - Link 3: From \"Rebound\" to \"UMD Offense\" with a count of 15.\n4. The question asks for the number of missed shots *before* UMD Offense. This corresponds to the link originating from \"Missed Shot\" and ending at \"UMD Offense\".\n5. The link from \"Missed Shot\" to \"UMD Offense\" has a count of 24.\n\nTherefore, there were 24 missed shots before UMD Offense.\n</reasoning>\n<answer>24</answer>",
+  "process_time_seconds": 4.421313,
+  "processed_at": "2025-05-14 21:07:48"
+}

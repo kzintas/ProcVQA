@@ -1,0 +1,14 @@
+{
+  "index": 181,
+  "question_id": "q_181",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_15.png",
+  "question": "How many steals occurred after UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": "0",
+  "is_correct": false,
+  "reasoning": "The diagram does not show any path leading from \"UMD Offense\" to a \"Steal\" node. The only paths from \"UMD Offense\" lead to \"Rebound\" and \"_Exit,\" and neither of these paths include a \"Steal.\"",
+  "full_response": "To determine the number of steals that occurred after UMD Offense, we need to follow the pathways from the \"UMD Offense\" node and look for a specific node labeled \"Steal.\" \n\n1. From the \"UMD Offense\" node, there are two outgoing links:\n   - One leading to \"Rebound\" with a count of 34.\n   - Another leading to \"_Exit\" with a count of 35.\n\n2. Neither of these pathways leads directly to a \"Steal\" node. \n   \n3. Additionally, there is no other pathway originating from any other node that leads back to or intersects with a \"Steal\" node after \"UMD Offense.\"\n\n<reasoning>\nThe diagram does not show any path leading from \"UMD Offense\" to a \"Steal\" node. The only paths from \"UMD Offense\" lead to \"Rebound\" and \"_Exit,\" and neither of these paths include a \"Steal.\"\n</reasoning>\n\n<answer>0</answer>",
+  "process_time_seconds": 6.945381,
+  "processed_at": "2025-05-16 19:13:47"
+}

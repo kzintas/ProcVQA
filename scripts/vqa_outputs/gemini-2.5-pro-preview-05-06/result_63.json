@@ -1,0 +1,14 @@
+{
+  "index": 63,
+  "question_id": "q_63",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/SentenTree/emergency_dataset/msp_25.png",
+  "question": "How many patients went to the Floor after the ICU?",
+  "true_answer": "indeterminate",
+  "llm_answer": "0",
+  "is_correct": false,
+  "reasoning": "1.  **Identify the starting node:** The question asks about patients after \"ICU\". I locate the \"ICU\" node in the diagram.\n2.  **Examine outgoing links from ICU:** From the \"ICU\" node, there are two outgoing links:\n    *   One link goes to the \"Die\" node, with a value of 36.\n    *   Another link goes to the \"_Exit\" node, with a value of 26.\n3.  **Look for \"Floor\" node:** The question asks how many patients went to \"Floor\" after ICU. I scan the nodes directly following \"ICU\". Neither \"Die\" nor \"_Exit\" is \"Floor\".\n4.  **Conclusion:** Since there is no \"Floor\" node directly connected after the \"ICU\" node in the provided diagram, the number of patients who went to the Floor after ICU is 0 based on this visualization.",
+  "full_response": "<reasoning>\n1.  **Identify the starting node:** The question asks about patients after \"ICU\". I locate the \"ICU\" node in the diagram.\n2.  **Examine outgoing links from ICU:** From the \"ICU\" node, there are two outgoing links:\n    *   One link goes to the \"Die\" node, with a value of 36.\n    *   Another link goes to the \"_Exit\" node, with a value of 26.\n3.  **Look for \"Floor\" node:** The question asks how many patients went to \"Floor\" after ICU. I scan the nodes directly following \"ICU\". Neither \"Die\" nor \"_Exit\" is \"Floor\".\n4.  **Conclusion:** Since there is no \"Floor\" node directly connected after the \"ICU\" node in the provided diagram, the number of patients who went to the Floor after ICU is 0 based on this visualization.\n</reasoning>\n<answer>0</answer>",
+  "process_time_seconds": 5.022297,
+  "processed_at": "2025-05-15 01:29:07"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 239,
+  "question_id": "q_239",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_30.png",
+  "question": "How many total missed shots occur after UNC Offense but before UMD Offense?",
+  "true_answer": "23",
+  "llm_answer": "25",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "1. **Identify relevant nodes and links:**\n   - We need to find the number of \"Missed Shot\" events that occur after \"UNC Offense\" and before \"UMD Offense.\"\n   - We need to consider the connections between these nodes.\n\n2. **Trace the pathways:**\n   - In the first column, \"UNC Offense\" starts with a count of 2. Following the path, we see a \"Missed Shot\" with a count of 2. This is before any \"UMD Offense\" event.\n   - In the second column, \"UNC Offense\" starts with a count of 14. After it, there is a \"Rebound\". Then there is a \"Missed Shot\" node with a count of 14. After that there is a UMD Offense node with a count of 13. Therefore, the \"Missed Shot\" node with a count of 14 appears before \"UMD Offense\".\n   - In the fourth column, there is \"Rebound 5\", followed by a \"Foul 9\". After it we see two \"Made Free Throw\", then \"_Exit\". There is no \"Missed Shot\" and \"UMD Offense\" in this branch.\n   - In the fifth column, we see that after \"UNC Offense\", a \"Steal\" happens. Then \"UMD Offense\" and \"Made Shot\" happen. This branch does not have \"Missed Shot\".\n   - In the sixth column, we see \"UNC Offense\", then \"Missed Shot\" with count of 9, then \"UMD Offense\" with count of 8. In this branch, \"Missed Shot\" happens before \"UMD Offense\".\n   - In the last column, we see \"UNC Offense\" followed by \"Made Shot\", then \"UMD Offense\", and \"Missed Shot\". In this branch, \"Missed Shot\" happens after \"UMD Offense\".\n\n3. **Calculate the total:**\n   - The \"Missed Shot\" count in the first column is 2.\n   - The \"Missed Shot\" count in the second column is 14.\n   - The \"Missed Shot\" count in the sixth column is 9.\n   - Sum: 2 + 14 + 9 = 25.\n\n4. **Final Answer:**\n\n<answer>25</answer>",
+  "process_time_seconds": 6.592504,
+  "processed_at": "2025-05-13 20:29:26"
+}

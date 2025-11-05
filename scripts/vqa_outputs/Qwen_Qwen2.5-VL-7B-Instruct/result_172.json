@@ -1,0 +1,14 @@
+{
+  "index": 172,
+  "question_id": "q_172",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_10.png",
+  "question": "How many total rebounds are there in the match?",
+  "true_answer": "49",
+  "llm_answer": "39",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "### Relevant Elements:\n- The node \"Rebound\" appears twice in the diagram.\n- The link width represents the number of sequences following each path.\n\n### Thought Process:\n1. Identify the paths leading to \"Rebound\":\n   - From \"Made Shot\" to \"Rebound\": 24 sequences\n   - From \"Missed Shot\" to \"Rebound\": 15 sequences\n\n2. Sum the sequences for these paths:\n   - Total rebounds = 24 + 15 = 39\n\n### Final Answer:\n<answer>39</answer>",
+  "process_time_seconds": 21.296238,
+  "processed_at": "2025-05-15 04:32:56"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 0,
+  "question_id": "q_0",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/CoreFlow/emergency_dataset/msp_05.png",
+  "question": "How many patients died after arriving at Emergency?",
+  "true_answer": "36",
+  "llm_answer": "36",
+  "is_correct": true,
+  "reasoning": "1. From the \"Emergency\" node, there are two main pathways:\n   - One leading directly to \"Discharge-Alive\" with 38 sequences.\n   - Another leading to \"ICU\" with 62 sequences.\n\n2. From \"ICU\", there are three pathways:\n   - One leading to \"Die\" with 36 sequences.\n   - Another leading to \"Floor\" with 24 sequences.\n   - A third pathway leads back to \"Emergency\" with 2 sequences, which is not relevant for this question.\n\n3. The pathway from \"Emergency\" to \"ICU\" to \"Die\" represents patients who died after arriving at Emergency.",
+  "full_response": "To determine how many patients died after arriving at Emergency, we need to follow the pathways from \"Emergency\" to \"Die\". \n\n<reasoning>\n1. From the \"Emergency\" node, there are two main pathways:\n   - One leading directly to \"Discharge-Alive\" with 38 sequences.\n   - Another leading to \"ICU\" with 62 sequences.\n\n2. From \"ICU\", there are three pathways:\n   - One leading to \"Die\" with 36 sequences.\n   - Another leading to \"Floor\" with 24 sequences.\n   - A third pathway leads back to \"Emergency\" with 2 sequences, which is not relevant for this question.\n\n3. The pathway from \"Emergency\" to \"ICU\" to \"Die\" represents patients who died after arriving at Emergency.\n</reasoning>\n\n<answer>36</answer>",
+  "process_time_seconds": 9.109227,
+  "processed_at": "2025-05-16 18:50:17"
+}

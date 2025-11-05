@@ -1,0 +1,14 @@
+{
+  "index": 92,
+  "question_id": "q_92",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_20.png",
+  "question": "How many patients died after arriving at Emergency?",
+  "true_answer": "30",
+  "llm_answer": "12",
+  "is_correct": false,
+  "reasoning": "- The diagram shows a direct path from \"Arrival\" to \"Emergency\" with a count of 12.\n- From \"Emergency\", there is a link directly to \"Die\" also labeled with a count of 12.\n- This indicates all 12 patients who arrived and went through Emergency subsequently died.",
+  "full_response": "To determine how many patients died after arriving at Emergency, we need to follow the pathways from \"Arrival\" to \"Emergency\" and then track those that lead to \"Die\".\n\n1. From \"Arrival\", 12 sequences go to \"Emergency\".\n2. From \"Emergency\", 12 sequences go directly to \"Die\".\n\n<reasoning>\n- The diagram shows a direct path from \"Arrival\" to \"Emergency\" with a count of 12.\n- From \"Emergency\", there is a link directly to \"Die\" also labeled with a count of 12.\n- This indicates all 12 patients who arrived and went through Emergency subsequently died.\n</reasoning>\n\n<answer>12</answer>",
+  "process_time_seconds": 6.326523,
+  "processed_at": "2025-05-16 19:01:44"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 158,
+  "question_id": "q_158",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_30.png",
+  "question": "How many total shots were made by UMD offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": "69",
+  "is_correct": false,
+  "reasoning": "The diagram shows two pathways originating from the \"UMD Offense\" node:\n1. A path with a label '34' leading to \"Rebound\", indicating 34 sequences.\n2. Another path with a label '35' leading directly to \"_Exit\", indicating 35 sequences.\n\nAdding these together gives the total number of sequences (or shots) made by UMD offense.",
+  "full_response": "To determine the total number of shots made by UMD offense, we need to follow the pathways that start from \"UMD Offense\" and count the sequences leading to either a rebound or an exit. \n\nFrom the node \"UMD Offense\":\n- 34 sequences lead to \"Rebound\"\n- 35 sequences lead directly to \"_Exit\"\n\n<reasoning>\nThe diagram shows two pathways originating from the \"UMD Offense\" node:\n1. A path with a label '34' leading to \"Rebound\", indicating 34 sequences.\n2. Another path with a label '35' leading directly to \"_Exit\", indicating 35 sequences.\n\nAdding these together gives the total number of sequences (or shots) made by UMD offense.\n</reasoning>\n\n<answer>69</answer>",
+  "process_time_seconds": 7.838949,
+  "processed_at": "2025-05-16 19:10:25"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 235,
+  "question_id": "q_235",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_25.png",
+  "question": "How many total missed shots were made by both teams?",
+  "true_answer": "40",
+  "llm_answer": "21",
+  "is_correct": false,
+  "reasoning": "The question asks for the total number of missed shots. The diagram has two nodes labeled 'Missed Shot'. One has a value of 2 and the other has a value of 19. Summing these gives the total number of missed shots.\n2 + 19 = 21",
+  "full_response": "1.  **Identify relevant nodes:** The question asks about \"missed shots\", so I need to find all the nodes labeled \"Missed Shot\".\n2.  **Extract counts:** The diagram shows two \"Missed Shot\" nodes: one with a count of 2 and another with a count of 19.\n3.  **Calculate the total:** To find the total number of missed shots, I will sum the counts from each \"Missed Shot\" node: 2 + 19 = 21.\n\n<reasoning>\nThe question asks for the total number of missed shots. The diagram has two nodes labeled 'Missed Shot'. One has a value of 2 and the other has a value of 19. Summing these gives the total number of missed shots.\n2 + 19 = 21\n</reasoning>\n<answer>21</answer>",
+  "process_time_seconds": 4.366365,
+  "processed_at": "2025-05-13 19:58:10"
+}

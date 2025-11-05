@@ -1,0 +1,14 @@
+{
+  "index": 169,
+  "question_id": "q_169",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_10.png",
+  "question": "How many times did UMD Offense transition from UNC Offense?",
+  "true_answer": "69",
+  "llm_answer": "15",
+  "is_correct": false,
+  "reasoning": "1.  **Identify the starting node:** The question asks about transitions *from* \"UNC Offense\". So, the first step is to locate the \"UNC Offense\" node in the diagram.\n2.  **Identify the target node:** The question asks about transitions *to* \"UMD Offense\". So, the next step is to locate the \"UMD Offense\" node.\n3.  **Find the direct link:** Look for a directed link (an arrow, implied by the flow from top to bottom and the connecting line) that goes directly from the \"UNC Offense\" node to the \"UMD Offense\" node.\n4.  **Read the link value:** Once the direct link is found, read the numeric label associated with that link. In the diagram, there is a link connecting \"UNC Offense\" directly to \"UMD Offense\". The label on this link is \"15\".\n5.  **Conclusion:** This value represents the number of sequences where \"UMD Offense\" immediately followed \"UNC Offense\".",
+  "full_response": "<reasoning>\n1.  **Identify the starting node:** The question asks about transitions *from* \"UNC Offense\". So, the first step is to locate the \"UNC Offense\" node in the diagram.\n2.  **Identify the target node:** The question asks about transitions *to* \"UMD Offense\". So, the next step is to locate the \"UMD Offense\" node.\n3.  **Find the direct link:** Look for a directed link (an arrow, implied by the flow from top to bottom and the connecting line) that goes directly from the \"UNC Offense\" node to the \"UMD Offense\" node.\n4.  **Read the link value:** Once the direct link is found, read the numeric label associated with that link. In the diagram, there is a link connecting \"UNC Offense\" directly to \"UMD Offense\". The label on this link is \"15\".\n5.  **Conclusion:** This value represents the number of sequences where \"UMD Offense\" immediately followed \"UNC Offense\".\n</reasoning>\n<answer>15</answer>",
+  "process_time_seconds": 6.926678,
+  "processed_at": "2025-05-15 03:00:31"
+}

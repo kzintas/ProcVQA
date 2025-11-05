@@ -1,0 +1,14 @@
+{
+  "index": 221,
+  "question_id": "q_221",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_15.png",
+  "question": "How many total missed shots were made by both teams?",
+  "true_answer": "39",
+  "llm_answer": "39",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "To answer the question, we need to identify all the \"Missed Shot\" nodes in the diagram and sum the counts associated with them. Let's break this down step by step:\n\n### Step 1: Identify all \"Missed Shot\" nodes\nFrom the diagram, we can see the following \"Missed Shot\" nodes:\n1. **First \"Missed Shot\" node**:\n   - Located in the second column.\n   - Count: 2\n2. **Second \"Missed Shot\" node**:\n   - Located in the fourth column.\n   - Count: 25\n3. **Third \"Missed Shot\" node**:\n   - Located in the sixth column.\n   - Count: 12\n\n### Step 2: Sum the counts of all \"Missed Shot\" nodes\nNow, we add up the counts from all the \"Missed Shot\" nodes:\n- First \"Missed Shot\": 2\n- Second \"Missed Shot\": 25\n- Third \"Missed Shot\": 12\n\nTotal = 2 + 25 + 12 = 39\n\n### Step 3: Verify the counts\nEach \"Missed Shot\" node is clearly labeled with its count, and there are no other \"Missed Shot\" nodes in the diagram. Therefore, the sum of 39 is accurate.\n\n### Final Answer:\n<answer>39</answer>",
+  "process_time_seconds": 8.989118,
+  "processed_at": "2025-05-16 21:26:49"
+}

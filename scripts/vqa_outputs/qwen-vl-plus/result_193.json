@@ -1,0 +1,14 @@
+{
+  "index": 193,
+  "question_id": "q_193",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_25.png",
+  "question": "How many total rebounds are there in the match?",
+  "true_answer": "34",
+  "llm_answer": "24",
+  "is_correct": false,
+  "reasoning": "To determine the total number of rebounds in the match, we need to follow the pathway from the \"Rebound\" node to the \"_Exit\" node. \n\n1. Start at the \"Rebound\" node.\n2. Follow the link labeled \"24\" to the \"_Exit\" node.\n\nSince there is only one pathway leading from the \"Rebound\" node to the \"_Exit\" node and the label on this link is \"24\", it indicates that there are 24 rebounds in the match.",
+  "full_response": "<answer>24</answer>\n<reasoning>\nTo determine the total number of rebounds in the match, we need to follow the pathway from the \"Rebound\" node to the \"_Exit\" node. \n\n1. Start at the \"Rebound\" node.\n2. Follow the link labeled \"24\" to the \"_Exit\" node.\n\nSince there is only one pathway leading from the \"Rebound\" node to the \"_Exit\" node and the label on this link is \"24\", it indicates that there are 24 rebounds in the match.\n</reasoning>",
+  "process_time_seconds": 4.77433,
+  "processed_at": "2025-05-16 20:31:08"
+}

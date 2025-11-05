@@ -1,0 +1,14 @@
+{
+  "index": 155,
+  "question_id": "q_155",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_30.png",
+  "question": "How many times did UMD Offense not transition to a Rebound?",
+  "true_answer": "35",
+  "llm_answer": "35",
+  "is_correct": true,
+  "reasoning": "To determine how many times UMD Offense did not transition to a Rebound, we need to look at the link from UMD Offense to _Exit. According to the diagram, there are 35 sequences where UMD Offense transitions directly to _Exit without going through a Rebound. Therefore, the number of times UMD Offense does not transition to a Rebound is 35.",
+  "full_response": "<answer>35</answer>\n\n<reasoning>\nTo determine how many times UMD Offense did not transition to a Rebound, we need to look at the link from UMD Offense to _Exit. According to the diagram, there are 35 sequences where UMD Offense transitions directly to _Exit without going through a Rebound. Therefore, the number of times UMD Offense does not transition to a Rebound is 35.\n</reasoning>",
+  "process_time_seconds": 8.112981,
+  "processed_at": "2025-05-16 20:26:16"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 100,
+  "question_id": "q_100",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_25.png",
+  "question": "How many total patients were discharged alive?",
+  "true_answer": "57",
+  "llm_answer": "20",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "<answer>20</answer>\n\n## Reasoning\nTo determine the total number of patients discharged alive, we need to follow the pathway from \"Start\" to \"Discharge-Alive\" and then to \"_Exit\". \n\n1. Start: 37 patients\n2. Emergency: 37 patients (all start events are connected to emergency)\n3. Discharge-Alive: 37 patients (all emergency events are connected to discharge-alive)\n4. _Exit: 24 patients (all discharge-alive events are connected to exit)\n\nAdding these numbers together gives us a total of 20 patients who were discharged alive.",
+  "process_time_seconds": 10.008635,
+  "processed_at": "2025-05-16 20:19:03"
+}

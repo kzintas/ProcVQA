@@ -1,0 +1,14 @@
+{
+  "index": 13,
+  "question_id": "q_13",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/CoreFlow/emergency_dataset/msp_15.png",
+  "question": "How many total patients were discharged alive?",
+  "true_answer": "62",
+  "llm_answer": "62",
+  "is_correct": true,
+  "reasoning": "To determine the total number of patients discharged alive, we need to follow the pathway from _Start through Emergency and then to Discharge-Alive. \n\n1. Start at _Start with 100 patients.\n2. Move to Emergency with 100 patients.\n3. From Emergency, there are two pathways: one leading to ICU and another leading directly to Discharge-Alive.\n\n   - The pathway to ICU has 62 patients.\n   - The direct pathway to Discharge-Alive has 38 patients.\n\n4. Summing these values gives us the total number of patients who were discharged alive:\n   \\( 62 + 38 = 100 \\)\n\nTherefore, the total number of patients discharged alive is 100.",
+  "full_response": "<answer>62</answer>\n\n<reasoning>\nTo determine the total number of patients discharged alive, we need to follow the pathway from _Start through Emergency and then to Discharge-Alive. \n\n1. Start at _Start with 100 patients.\n2. Move to Emergency with 100 patients.\n3. From Emergency, there are two pathways: one leading to ICU and another leading directly to Discharge-Alive.\n\n   - The pathway to ICU has 62 patients.\n   - The direct pathway to Discharge-Alive has 38 patients.\n\n4. Summing these values gives us the total number of patients who were discharged alive:\n   \\( 62 + 38 = 100 \\)\n\nTherefore, the total number of patients discharged alive is 100.\n</reasoning>",
+  "process_time_seconds": 10.482957,
+  "processed_at": "2025-05-16 20:07:26"
+}

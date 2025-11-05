@@ -1,0 +1,14 @@
+{
+  "index": 198,
+  "question_id": "q_198",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_30.png",
+  "question": "How many made shots were after UNC Offense?",
+  "true_answer": "22",
+  "llm_answer": "23",
+  "is_correct": false,
+  "reasoning": "To determine the number of made shots after UNC Offense, we need to follow the pathway from \"UNC Offense\" to \"Made Shot\" in the diagram. \n\n1. Start at \"UNC Offense\".\n2. Follow the link labeled \"22\" to \"Made Shot\".\n\nThe label next to the link between \"UNC Offense\" and \"Made Shot\" is \"22\", which indicates that there are 22 sequences where a made shot occurred immediately after an UNC Offense.\n\nTherefore, the answer is 23 made shots after UNC Offense.",
+  "full_response": "<answer>23</answer>\n\n<reasoning>\nTo determine the number of made shots after UNC Offense, we need to follow the pathway from \"UNC Offense\" to \"Made Shot\" in the diagram. \n\n1. Start at \"UNC Offense\".\n2. Follow the link labeled \"22\" to \"Made Shot\".\n\nThe label next to the link between \"UNC Offense\" and \"Made Shot\" is \"22\", which indicates that there are 22 sequences where a made shot occurred immediately after an UNC Offense.\n\nTherefore, the answer is 23 made shots after UNC Offense.\n</reasoning>",
+  "process_time_seconds": 7.922516,
+  "processed_at": "2025-05-16 20:31:48"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 243,
+  "question_id": "q_243",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_30.png",
+  "question": "How many free throws were made by UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": "indeterminate",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "### Reasoning:\nTo determine the number of free throws made by UMD Offense, we need to follow the pathway from \"Start\" to \"Made Free Throw\" for UMD Offense.\n\n1. From the \"Start\" node, there is a link labeled \"14\" leading to \"UNC Offense\".\n2. From \"UNC Offense\", there is a link labeled \"12\" leading to \"Rebound\".\n3. From \"Rebound\", there is a link labeled \"5\" leading to \"Made Free Throw\".\n\nThe link from \"Rebound\" to \"Made Free Throw\" is labeled \"5\". This means that 5 sequences of events lead from \"Rebound\" to \"Made Free Throw\".\n\nSince the question asks specifically about \"Made Free Throw\" for UMD Offense, we need to identify if there's a separate pathway for UMD Offense. However, the diagram does not show any direct link from \"Rebound\" to \"Made Free Throw\" for UMD Offense; it only shows a link from \"Rebound\" to \"Made Free Throw\" for UNC Offense.\n\nTherefore, the number of free throws made by UMD Offense cannot be determined from the given diagram.\n\n### Final Answer:\n<answer>indeterminate</answer>",
+  "process_time_seconds": 71.633434,
+  "processed_at": "2025-05-15 05:30:26"
+}

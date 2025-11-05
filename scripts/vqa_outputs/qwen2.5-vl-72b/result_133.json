@@ -1,0 +1,14 @@
+{
+  "index": 133,
+  "question_id": "q_133",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_15.png",
+  "question": "How many shots were made directly after a Rebound?",
+  "true_answer": "15",
+  "llm_answer": "15",
+  "is_correct": true,
+  "reasoning": "- The question asks for the number of shots made directly after a Rebound.\n      - From the diagram, we can see that there is only one path from \"Rebound\" to \"Made Shot\".\n      - The link between \"Rebound\" and \"Made Shot\" has a value of 15, indicating that 15 sequences followed this path.\n      - No other paths exist from \"Rebound\" to \"Made Shot\", so the count of 15 represents all the shots made directly after a rebound.",
+  "full_response": "1. **Relevant Elements:**\n   - The node \"Rebound\" is connected to the node \"Made Shot\" with a link labeled 15.\n   - There are no other paths from \"Rebound\" leading directly to \"Made Shot\".\n\n2. <reasoning>\n      - The question asks for the number of shots made directly after a Rebound.\n      - From the diagram, we can see that there is only one path from \"Rebound\" to \"Made Shot\".\n      - The link between \"Rebound\" and \"Made Shot\" has a value of 15, indicating that 15 sequences followed this path.\n      - No other paths exist from \"Rebound\" to \"Made Shot\", so the count of 15 represents all the shots made directly after a rebound.\n   </reasoning>\n\n3. <answer>15</answer>",
+  "process_time_seconds": 8.142433,
+  "processed_at": "2025-05-16 19:46:14"
+}

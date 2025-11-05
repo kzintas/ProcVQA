@@ -1,0 +1,14 @@
+{
+  "index": 181,
+  "question_id": "q_181",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_15.png",
+  "question": "How many steals occurred after UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": "0",
+  "is_correct": false,
+  "reasoning": "To determine the number of steals after UMD Offense, we need to follow the pathway from UMD Offense to _Exit. The diagram shows that there is a direct link from UMD Offense to Rebound with a label of 34. However, there is no further link from Rebound to _Exit, indicating that there are no subsequent events following Rebound. Therefore, there were no steals after UMD Offense.",
+  "full_response": "<answer>0</answer>\n\n<reasoning>\nTo determine the number of steals after UMD Offense, we need to follow the pathway from UMD Offense to _Exit. The diagram shows that there is a direct link from UMD Offense to Rebound with a label of 34. However, there is no further link from Rebound to _Exit, indicating that there are no subsequent events following Rebound. Therefore, there were no steals after UMD Offense.\n</reasoning>",
+  "process_time_seconds": 3.859569,
+  "processed_at": "2025-05-16 20:29:40"
+}

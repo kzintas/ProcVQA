@@ -1,0 +1,14 @@
+{
+  "index": 185,
+  "question_id": "q_185",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many missed shots were before UMD Offense?",
+  "true_answer": "24",
+  "llm_answer": "24",
+  "is_correct": true,
+  "reasoning": "The question asks for the number of missed shots that occurred before UMD Offense. In the node-link diagram, events are represented by nodes, and the flow of sequences is shown by directed links. The number on a link indicates how many sequences followed that specific path between the two connected nodes. To find the number of missed shots before UMD Offense, I need to find the link that originates from the \"Missed Shot\" node and points to the \"UMD Offense\" node.\n\n1. Locate the node labeled \"UMD Offense\".\n2. Examine the incoming links to the \"UMD Offense\" node. There are incoming links from \"Made Shot\", \"Missed Shot\", and \"UNC Offense\".\n3. Identify the incoming link that originates specifically from the \"Missed Shot\" node.\n4. Read the numerical label associated with this link. The link from \"Missed Shot\" to \"UMD Offense\" has the label '24'.\n\nThis label '24' represents the number of sequences where a \"Missed Shot\" event was directly followed by a \"UMD Offense\" event. Therefore, there were 24 missed shots before UMD Offense in these sequences.",
+  "full_response": "<reasoning>\nThe question asks for the number of missed shots that occurred before UMD Offense. In the node-link diagram, events are represented by nodes, and the flow of sequences is shown by directed links. The number on a link indicates how many sequences followed that specific path between the two connected nodes. To find the number of missed shots before UMD Offense, I need to find the link that originates from the \"Missed Shot\" node and points to the \"UMD Offense\" node.\n\n1. Locate the node labeled \"UMD Offense\".\n2. Examine the incoming links to the \"UMD Offense\" node. There are incoming links from \"Made Shot\", \"Missed Shot\", and \"UNC Offense\".\n3. Identify the incoming link that originates specifically from the \"Missed Shot\" node.\n4. Read the numerical label associated with this link. The link from \"Missed Shot\" to \"UMD Offense\" has the label '24'.\n\nThis label '24' represents the number of sequences where a \"Missed Shot\" event was directly followed by a \"UMD Offense\" event. Therefore, there were 24 missed shots before UMD Offense in these sequences.\n</reasoning>\n<answer>24</answer>",
+  "process_time_seconds": 3.653091,
+  "processed_at": "2025-05-14 21:20:34"
+}

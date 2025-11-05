@@ -1,0 +1,14 @@
+{
+  "index": 184,
+  "question_id": "q_184",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many made shots were after UNC Offense but before UMD offense?",
+  "true_answer": "22",
+  "llm_answer": "22",
+  "is_correct": true,
+  "reasoning": "The relevant pathway starts at the \"UNC Offense\" node and follows the link with a value of 22 to the \"Made Shot\" node. This indicates 22 sequences where a made shot happened right after an UNC offense and before any UMD offense.",
+  "full_response": "To determine the number of made shots that occurred after UNC Offense but before UMD offense, we need to follow the pathways in the diagram:\n\n1. Start at the \"UNC Offense\" node.\n2. Look for a link leading from \"UNC Offense\" to \"Made Shot.\"\n3. The link from \"UNC Offense\" to \"Made Shot\" has a value of 22.\n\nThis means there were 22 sequences where a made shot occurred immediately after an UNC offense event and before any UMD offense event.\n\n<reasoning>\nThe relevant pathway starts at the \"UNC Offense\" node and follows the link with a value of 22 to the \"Made Shot\" node. This indicates 22 sequences where a made shot happened right after an UNC offense and before any UMD offense.\n</reasoning>\n\n<answer>22</answer>",
+  "process_time_seconds": 7.921746,
+  "processed_at": "2025-05-16 19:14:14"
+}

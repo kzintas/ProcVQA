@@ -1,0 +1,14 @@
+{
+  "index": 124,
+  "question_id": "q_124",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_10.png",
+  "question": "How many shots were missed immediately after UMD Offense?",
+  "true_answer": "14",
+  "llm_answer": "14",
+  "is_correct": true,
+  "reasoning": "The user is asking for the count of sequences that transition directly from \"UMD Offense\" to \"Missed Shot\".\nI need to find the node labeled \"UMD Offense\".\nThen, I need to look for a link originating from the \"UMD Offense\" node that points to a node labeled \"Missed Shot\".\nI will read the numerical label associated with that specific link.\nThe diagram shows a node \"UMD Offense\". There is a directed link from \"UMD Offense\" to \"Missed Shot\". This link has the numeric label '14'. This label represents the number of sequences that followed this specific path.\nTherefore, 14 shots were missed immediately after UMD Offense.",
+  "full_response": "<reasoning>\nThe user is asking for the count of sequences that transition directly from \"UMD Offense\" to \"Missed Shot\".\nI need to find the node labeled \"UMD Offense\".\nThen, I need to look for a link originating from the \"UMD Offense\" node that points to a node labeled \"Missed Shot\".\nI will read the numerical label associated with that specific link.\nThe diagram shows a node \"UMD Offense\". There is a directed link from \"UMD Offense\" to \"Missed Shot\". This link has the numeric label '14'. This label represents the number of sequences that followed this specific path.\nTherefore, 14 shots were missed immediately after UMD Offense.\n</reasoning>\n<answer>14</answer>",
+  "process_time_seconds": 3.695905,
+  "processed_at": "2025-05-14 21:03:38"
+}

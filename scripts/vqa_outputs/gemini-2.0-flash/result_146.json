@@ -1,0 +1,14 @@
+{
+  "index": 146,
+  "question_id": "q_146",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_25.png",
+  "question": "How many times did UMD Offense transition from UNC Offense?",
+  "true_answer": "69",
+  "llm_answer": "69",
+  "is_correct": true,
+  "reasoning": "The node-link diagram shows a sequence of events. I need to find the number of times 'UNC Offense' is directly followed by 'UMD Offense'. The link directly connecting these two nodes has the numeric label of 69. Therefore, 'UMD Offense' transitioned from 'UNC Offense' 69 times.",
+  "full_response": "1.  The question asks about transitions from 'UNC Offense' to 'UMD Offense'.\n2.  I need to find the link connecting 'UNC Offense' to 'UMD Offense' and its associated value.\n3.  The diagram shows a link from 'UNC Offense' to 'UMD Offense' with a value of 69.\n\n<reasoning>\nThe node-link diagram shows a sequence of events. I need to find the number of times 'UNC Offense' is directly followed by 'UMD Offense'. The link directly connecting these two nodes has the numeric label of 69. Therefore, 'UMD Offense' transitioned from 'UNC Offense' 69 times.</reasoning>\n<answer>69</answer>",
+  "process_time_seconds": 3.459592,
+  "processed_at": "2025-05-13 19:52:15"
+}

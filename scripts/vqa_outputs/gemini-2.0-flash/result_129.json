@@ -1,0 +1,14 @@
+{
+  "index": 129,
+  "question_id": "q_129",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_15.png",
+  "question": "How many Rebounds were made by UMD Offense?",
+  "true_answer": "34",
+  "llm_answer": "34",
+  "is_correct": true,
+  "reasoning": "The question is how many Rebounds were made by UMD Offense. I need to identify the number of connections between UMD Offense and Rebound. The visualization shows that there is a directed link from \"UMD Offense\" to \"Rebound\" with a numeric label of \"34\". Therefore, the number of rebounds made by UMD Offense is 34.",
+  "full_response": "1. The question asks about the number of rebounds that followed UMD Offense.\n2. The node labeled \"UMD Offense\" has a link to the node labeled \"Rebound\" with the numeric label \"34\".\n3. This indicates that there were 34 rebounds following the UMD Offense.\n\n<reasoning>\nThe question is how many Rebounds were made by UMD Offense. I need to identify the number of connections between UMD Offense and Rebound. The visualization shows that there is a directed link from \"UMD Offense\" to \"Rebound\" with a numeric label of \"34\". Therefore, the number of rebounds made by UMD Offense is 34.\n</reasoning>\n<answer>34</answer>",
+  "process_time_seconds": 3.577402,
+  "processed_at": "2025-05-13 20:30:19"
+}

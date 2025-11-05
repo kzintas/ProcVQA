@@ -1,0 +1,14 @@
+{
+  "index": 182,
+  "question_id": "q_182",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many rebounds were made after UMD Offense?",
+  "true_answer": "34",
+  "llm_answer": "15",
+  "is_correct": false,
+  "reasoning": "To determine the number of rebounds made after UMD Offense, we need to follow the pathway from UMD Offense to Rebound. \n\nStarting at UMD Offense:\n- There is a link leading to Made Shot with a label of 22.\n- From Made Shot, there are two paths: one to Missed Shot with a label of 24 and another to Rebound with a label of 15.\n\nSince the question asks for the number of rebounds made after UMD Offense, we follow the path that leads directly to Rebound. The label on this link is 15, indicating that 15 rebounds were made after UMD Offense.\n\nTherefore, the answer is 15 rebounds.",
+  "full_response": "<answer>15</answer>\n\n<reasoning>\nTo determine the number of rebounds made after UMD Offense, we need to follow the pathway from UMD Offense to Rebound. \n\nStarting at UMD Offense:\n- There is a link leading to Made Shot with a label of 22.\n- From Made Shot, there are two paths: one to Missed Shot with a label of 24 and another to Rebound with a label of 15.\n\nSince the question asks for the number of rebounds made after UMD Offense, we follow the path that leads directly to Rebound. The label on this link is 15, indicating that 15 rebounds were made after UMD Offense.\n\nTherefore, the answer is 15 rebounds.\n</reasoning>",
+  "process_time_seconds": 7.550121,
+  "processed_at": "2025-05-16 20:29:48"
+}

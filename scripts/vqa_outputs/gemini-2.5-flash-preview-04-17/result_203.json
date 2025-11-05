@@ -1,0 +1,14 @@
+{
+  "index": 203,
+  "question_id": "q_203",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_05.png",
+  "question": "How many times did a jump ball occur after UNC Offense?",
+  "true_answer": "1",
+  "llm_answer": "1",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "<reason>\nThe user is asking for the number of times a 'Jump Ball' event followed a 'UNC Offense' event. I need to examine the directed links in the diagram that originate from a node labeled 'UNC Offense' and terminate at a node labeled 'Jump Ball'.\n\n1.  Scan the diagram for nodes labeled 'UNC Offense'.\n2.  From each 'UNC Offense' node, look for outgoing links.\n3.  Check if any outgoing link points to a node labeled 'Jump Ball'.\n4.  If such a link exists, read the numeric label associated with that link. This label represents the count of sequences that followed this specific path.\n\nLooking at the diagram:\n- In the first column, 'UNC Offense' (7) is followed by 'Missed Shot' (7).\n- In the second column, 'UNC Offense' (14) is followed by 'Rebound' (14).\n- In the third column, 'UNC Offense' (4) is followed by 'Rebound' (1), 'Turnover' (2), and implicitly 'UMD Offense' (1). No 'Jump Ball'.\n- In the fourth column, 'UNC Offense' (4) has outgoing links to 'Jump Ball' (1) and 'Foul' (3).\n- In the fifth column, 'UNC Offense' (15) is followed by 'Foul' (15).\n- In the sixth column, 'UNC Offense' (25) is followed by 'Made Shot' (21) and 'Missed Shot' (4).\n\nThe only path from 'UNC Offense' to 'Jump Ball' is found in the fourth column, with a link value of 1.\n</reason>\n<answer>1</answer>",
+  "process_time_seconds": 7.408708,
+  "processed_at": "2025-05-14 21:10:38"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 140,
+  "question_id": "q_140",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many shots were missed immediately after UMD Offense?",
+  "true_answer": "14",
+  "llm_answer": "14",
+  "is_correct": true,
+  "reasoning": "The question asks about the count of \"Missed Shot\" nodes that immediately follow \"UMD Offense\". The visualization shows three links coming out of \"UMD Offense\" to \"Rebound\" (34), \"Missed Shot\" (14) and \"_Exit\" (21). The link connecting \"UMD Offense\" to \"Missed Shot\" has a count of 14, so that is the answer.",
+  "full_response": "1. The question asks about the number of shots missed immediately after the UMD Offense.\n2. I need to look for the links that go out of the UMD Offense node.\n3. The diagram shows three links going out of UMD Offense to Rebound (34), Missed Shot (14), and _Exit (21).\n4. The question is about the Missed Shot, so the answer is 14.\n\n<reasoning>\nThe question asks about the count of \"Missed Shot\" nodes that immediately follow \"UMD Offense\". The visualization shows three links coming out of \"UMD Offense\" to \"Rebound\" (34), \"Missed Shot\" (14) and \"_Exit\" (21). The link connecting \"UMD Offense\" to \"Missed Shot\" has a count of 14, so that is the answer.\n</reasoning>\n<answer>14</answer>",
+  "process_time_seconds": 4.174408,
+  "processed_at": "2025-05-13 19:51:55"
+}

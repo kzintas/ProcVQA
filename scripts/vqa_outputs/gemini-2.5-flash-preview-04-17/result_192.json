@@ -1,0 +1,14 @@
+{
+  "index": 192,
+  "question_id": "q_192",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_25.png",
+  "question": "How many missed shots were before UMD Offense?",
+  "true_answer": "24",
+  "llm_answer": "24",
+  "is_correct": true,
+  "reasoning": "1. I need to find the number of sequences where a 'Missed Shot' event is followed by a 'UMD Offense' event.\n2. I locate the node labeled 'Missed Shot' and the node labeled 'UMD Offense' in the diagram.\n3. I look for a directed link connecting the 'Missed Shot' node to the 'UMD Offense' node.\n4. I find a link going from 'Missed Shot' to 'UMD Offense'.\n5. I read the numeric label associated with this specific link, which is 24.\n6. This label indicates that 24 sequences transition directly from 'Missed Shot' to 'UMD Offense'.\n7. Therefore, based on the visualization, there were 24 missed shots before UMD Offense.",
+  "full_response": "<reasoning>1. I need to find the number of sequences where a 'Missed Shot' event is followed by a 'UMD Offense' event.\n2. I locate the node labeled 'Missed Shot' and the node labeled 'UMD Offense' in the diagram.\n3. I look for a directed link connecting the 'Missed Shot' node to the 'UMD Offense' node.\n4. I find a link going from 'Missed Shot' to 'UMD Offense'.\n5. I read the numeric label associated with this specific link, which is 24.\n6. This label indicates that 24 sequences transition directly from 'Missed Shot' to 'UMD Offense'.\n7. Therefore, based on the visualization, there were 24 missed shots before UMD Offense.</reasoning>\n<answer>24</answer>",
+  "process_time_seconds": 3.111928,
+  "processed_at": "2025-05-14 21:09:34"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 101,
+  "question_id": "q_101",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_25.png",
+  "question": "How many patients got discharged alive directly after arriving at Emergency? ",
+  "true_answer": "37",
+  "llm_answer": "37",
+  "is_correct": true,
+  "reasoning": "- In the first diagram, there is no direct path from \"Emergency\" to \"Discharge-Alive\". Instead, it goes through \"ICU\" and then \"Die\".\n      - In the second diagram, there is a direct path from \"Emergency\" to \"Discharge-Alive\" with a count of 37.\n      - The third and fourth diagrams do not show a direct path from \"Emergency\" to \"Discharge-Alive\".\n      - Therefore, the only pathway that matches the criteria is in the second diagram with a count of 37.",
+  "full_response": "1. **Relevant Elements:**\n   - The node labeled \"Emergency\" is the starting point for this analysis.\n   - We need to look for a direct path from \"Emergency\" to \"Discharge-Alive\".\n\n2. <reasoning>\n      - In the first diagram, there is no direct path from \"Emergency\" to \"Discharge-Alive\". Instead, it goes through \"ICU\" and then \"Die\".\n      - In the second diagram, there is a direct path from \"Emergency\" to \"Discharge-Alive\" with a count of 37.\n      - The third and fourth diagrams do not show a direct path from \"Emergency\" to \"Discharge-Alive\".\n      - Therefore, the only pathway that matches the criteria is in the second diagram with a count of 37.\n   </reasoning>\n\n3. <answer>37</answer>",
+  "process_time_seconds": 9.106885,
+  "processed_at": "2025-05-16 19:40:47"
+}

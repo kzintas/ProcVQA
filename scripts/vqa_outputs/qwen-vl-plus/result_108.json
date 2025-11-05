@@ -1,0 +1,14 @@
+{
+  "index": 108,
+  "question_id": "q_108",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_30.png",
+  "question": "How many patients got discharged alive directly after arriving at Emergency? ",
+  "true_answer": "37",
+  "llm_answer": "37",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "<answer>37</answer>\n\n## Reasoning\nTo determine the number of patients who got discharged alive directly after arriving at Emergency, we need to follow the pathway from \"Arrival\" to \"Emergency\" and then to \"Discharge-Alive\". \n\n1. Start at the \"Arrival\" node.\n2. Follow the link labeled with the number 12 to the \"Emergency\" node.\n3. From the \"Emergency\" node, follow the link labeled with the number 37 to the \"Discharge-Alive\" node.\n\nThe link width between \"Emergency\" and \"Discharge-Alive\" is 37, which indicates that there are 37 sequences where patients got discharged alive directly after arriving at Emergency. Therefore, the answer is 37.",
+  "process_time_seconds": 5.385928,
+  "processed_at": "2025-05-16 20:20:02"
+}

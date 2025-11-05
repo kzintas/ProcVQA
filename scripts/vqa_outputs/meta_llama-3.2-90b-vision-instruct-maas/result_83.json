@@ -1,0 +1,15 @@
+{
+  "index": 83,
+  "question_id": "q_83",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_10.png",
+  "question": "How many total patients were discharged alive after going to the Floor?",
+  "true_answer": "20",
+  "llm_answer": null,
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "The node-link diagram shows the sequence of events for patients in a hospital. The diagram is divided into different sections, each representing a different event or location. The events are connected by directed links, which indicate the flow of patients between different locations.\n\nTo answer the question, we need to identify the patients who were discharged alive after going to the Floor. We can do this by following the links from the Floor to the Discharge-Alive event.\n\nFrom the diagram, we can see that there are two links from the Floor to the Discharge-Alive event. The first link has a label of 20, indicating that 20 patients were discharged alive after going to the Floor. The second link has a label of 24, indicating that 24 patients were discharged alive after going to the Floor.\n\nTherefore, the total number of patients who were discharged alive after going to the Floor is 20 + 24 = 44.\n\n**Answer:** 44",
+  "process_time_seconds": 9.843331,
+  "processed_at": "2025-05-17 06:19:20",
+  "model": "meta/llama-3.2-90b-vision-instruct-maas"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 76,
+  "question_id": "q_76",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_05.png",
+  "question": "How many total patients were discharged alive after going to the Floor?",
+  "true_answer": "20",
+  "llm_answer": "20",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": " The question asks about patients discharged alive after going to the floor.\n1. Looking at the diagram, there is one path that includes both \"Floor\" and \"Discharge-Alive\". Specifically, the column with \"_Start:24\", \"Arrival:24\", \"Emergency:24\" then branches to \"ICU:23\", and then to \"Floor:23\", and then to \"Discharge-Alive:20\".\n2. The link that goes from \"Floor\" to \"Discharge-Alive\" has a value of 20, meaning 20 patients who visited the Floor were discharged alive.\n<answer>20</answer>",
+  "process_time_seconds": 3.519629,
+  "processed_at": "2025-05-13 19:47:02"
+}

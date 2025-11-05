@@ -1,0 +1,14 @@
+{
+  "index": 110,
+  "question_id": "q_110",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_30.png",
+  "question": "How many patients went to the Floor after the ICU?",
+  "true_answer": "23",
+  "llm_answer": "23",
+  "is_correct": true,
+  "reasoning": "1. The question asks for the number of patients who went to the floor after the ICU.\n2. Looking at the diagram, there's a pathway from _Start to Arrival to Emergency to ICU to Floor to _Exit, with a count of 23.\n3. The link between the ICU and Floor nodes has a numeric label of 23.",
+  "full_response": "1.  **Identify relevant nodes and links:**\n    *   I need to find the number of patients who went from \"ICU\" to \"Floor\".\n    *   There is a path that includes both nodes \"ICU\" and \"Floor\".\n2.  **Trace the path and extract the value:**\n    *   Starting from \"_Start\" (27) to \"Arrival\" (27) to \"Emergency\" (27) to \"Floor\" (27) to \"ICU\" (24) to \"Die _Exit\" (18)\n    *   Starting from \"_Start\" (24) to \"Arrival\" (24) to \"Emergency\" (24) to \"ICU\" (23) to \"Floor\" (23)\n    *   The link that connects \"ICU\" to \"Floor\" has a value of 23.\n\n```xml\n<reasoning>\n1. The question asks for the number of patients who went to the floor after the ICU.\n2. Looking at the diagram, there's a pathway from _Start to Arrival to Emergency to ICU to Floor to _Exit, with a count of 23.\n3. The link between the ICU and Floor nodes has a numeric label of 23.\n</reasoning>\n```\n<answer>23</answer>",
+  "process_time_seconds": 4.602189,
+  "processed_at": "2025-05-13 19:50:02"
+}

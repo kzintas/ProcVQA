@@ -1,0 +1,15 @@
+{
+  "index": 222,
+  "question_id": "q_222",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_15.png",
+  "question": "How many free throws were made by UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": "9",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "The node-link diagram shows the sequence of events in a basketball game. The relevant elements for this question are the nodes labeled \"Made Free Throw\" and \"UMD Offense\". \n\nThe node \"Made Free Throw\" has a value of 12, indicating that 12 free throws were made. However, this does not specify which team made these free throws. \n\nTo determine how many free throws were made by UMD Offense, we need to look at the links connecting the \"Made Free Throw\" node to the \"UMD Offense\" node. There is no direct link between these two nodes, but there is a link from the \"Made Free Throw\" node to the \"UMD Offense\" node with a value of 9. This indicates that 9 free throws were made by UMD Offense.\n\nTherefore, the final answer is:\n\n<answer>9</answer>",
+  "process_time_seconds": 9.360715,
+  "processed_at": "2025-05-17 06:40:25",
+  "model": "meta/llama-3.2-90b-vision-instruct-maas"
+}

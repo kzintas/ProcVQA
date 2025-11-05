@@ -1,0 +1,14 @@
+{
+  "index": 186,
+  "question_id": "q_186",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many total rebounds are there in the match?",
+  "true_answer": "49",
+  "llm_answer": "15",
+  "is_correct": false,
+  "reasoning": "To determine the total number of rebounds in the match, we need to count all the nodes labeled \"Rebound\" and their corresponding links.\n\n1. Start at the node labeled \"Start.\"\n2. Follow the link labeled \"Rebound\" to the next node.\n3. Count the number of times the label \"Rebound\" appears along the pathways.\n\nFrom the diagram:\n- The first rebound is from the \"Made Shot\" event.\n- The second rebound is from the \"Missed Shot\" event.\n- The third rebound is from the \"UMD Offense\" event.\n\nSo, there are a total of 3 rebounds in the match.",
+  "full_response": "<answer>15</answer>\n<reasoning>\nTo determine the total number of rebounds in the match, we need to count all the nodes labeled \"Rebound\" and their corresponding links.\n\n1. Start at the node labeled \"Start.\"\n2. Follow the link labeled \"Rebound\" to the next node.\n3. Count the number of times the label \"Rebound\" appears along the pathways.\n\nFrom the diagram:\n- The first rebound is from the \"Made Shot\" event.\n- The second rebound is from the \"Missed Shot\" event.\n- The third rebound is from the \"UMD Offense\" event.\n\nSo, there are a total of 3 rebounds in the match.\n</reasoning>",
+  "process_time_seconds": 4.697604,
+  "processed_at": "2025-05-16 20:30:16"
+}

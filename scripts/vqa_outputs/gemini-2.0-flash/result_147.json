@@ -1,0 +1,14 @@
+{
+  "index": 147,
+  "question_id": "q_147",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_25.png",
+  "question": "How many times did UMD Offense not transition to a Rebound?",
+  "true_answer": "35",
+  "llm_answer": "35",
+  "is_correct": true,
+  "reasoning": "The diagram shows that UMD Offense transitions to either Rebound or _Exit. We are asked to find the number of times that UMD Offense did *not* go to Rebound. This corresponds to the number of times that UMD Offense goes to _Exit. The link from UMD Offense to _Exit has a numeric label of 35. Therefore, UMD Offense did not transition to Rebound 35 times.",
+  "full_response": "1.  **Identify the nodes:** The relevant nodes are \"UMD Offense\", \"Rebound\", and \"\\_Exit\".\n2.  **Identify the links:** There are two links originating from \"UMD Offense\". One goes to \"Rebound\" with a count of 34, and the other goes to \"\\_Exit\" with a count of 35.\n3.  **Determine the count:** The question asks for the number of times \"UMD Offense\" *did not* transition to \"Rebound\". This is represented by the link from \"UMD Offense\" to \"\\_Exit\", which has a count of 35.\n\n<reasoning>\nThe diagram shows that UMD Offense transitions to either Rebound or _Exit. We are asked to find the number of times that UMD Offense did *not* go to Rebound. This corresponds to the number of times that UMD Offense goes to _Exit. The link from UMD Offense to _Exit has a numeric label of 35. Therefore, UMD Offense did not transition to Rebound 35 times.</reasoning>\n<answer>35</answer>",
+  "process_time_seconds": 3.277582,
+  "processed_at": "2025-05-13 19:52:19"
+}

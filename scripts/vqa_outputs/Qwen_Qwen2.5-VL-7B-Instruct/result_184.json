@@ -1,0 +1,14 @@
+{
+  "index": 184,
+  "question_id": "q_184",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many made shots were after UNC Offense but before UMD offense?",
+  "true_answer": "22",
+  "llm_answer": "24",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "### Relevant Elements:\n- The node labeled \"UNC Offense\" is at the top.\n- The node labeled \"Made Shot\" is directly below \"UNC Offense\".\n- The node labeled \"UMD Offense\" is below \"Made Shot\".\n\n### Thought Process:\n1. Identify the pathway from \"UNC Offense\" to \"Made Shot\". This is indicated by the link width of 22.\n2. Confirm that there are no other pathways from \"UNC Offense\" to \"UMD Offense\" or any other node before \"Made Shot\".\n3. The link width between \"Made Shot\" and \"UMD Offense\" is 24.\n\n### Calculation:\nThe number of made shots after \"UNC Offense\" but before \"UMD Offense\" is the value associated with the link between \"Made Shot\" and \"UMD Offense\", which is 24.\n\n<answer>24</answer>",
+  "process_time_seconds": 32.99314,
+  "processed_at": "2025-05-15 04:44:40"
+}

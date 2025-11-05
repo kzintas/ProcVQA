@@ -1,0 +1,14 @@
+{
+  "index": 0,
+  "question_id": "q_0",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/CoreFlow/emergency_dataset/msp_05.png",
+  "question": "How many patients died after arriving at Emergency?",
+  "true_answer": "36",
+  "llm_answer": "98",
+  "is_correct": false,
+  "reasoning": "1. Identify the pathway from Emergency to Die:\n   - Emergency to ICU: 62 sequences\n   - ICU to Die: 36 sequences\n\n2. Sum the sequences from Emergency to Die:\n   - Total sequences from Emergency to Die = 62 (Emergency to ICU) + 36 (ICU to Die) = 98 sequences",
+  "full_response": "xml\n<reasoning>\n1. Identify the pathway from Emergency to Die:\n   - Emergency to ICU: 62 sequences\n   - ICU to Die: 36 sequences\n\n2. Sum the sequences from Emergency to Die:\n   - Total sequences from Emergency to Die = 62 (Emergency to ICU) + 36 (ICU to Die) = 98 sequences\n</reasoning>\n<answer>98</answer>",
+  "process_time_seconds": 32.610901,
+  "processed_at": "2025-05-15 18:01:32"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 232,
+  "question_id": "q_232",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_25.png",
+  "question": "How many total missed shots occur after UNC Offense but before UMD Offense?",
+  "true_answer": "19",
+  "llm_answer": "19",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "To answer the question, we need to identify all pathways in the diagram where \"Missed Shot\" occurs after \"UNC Offense\" but before \"UMD Offense.\" Let's break this down step by step:\n\n### Step 1: Identify the relevant sections of the diagram\n- We are looking for sequences where:\n  1. The sequence starts with \"UNC Offense.\"\n  2. A \"Missed Shot\" occurs after \"UNC Offense.\"\n  3. The sequence includes \"UMD Offense\" later in the pathway.\n  \n### Step 2: Analyze each branch starting from \"UNC Offense\"\n#### Branch 1: Top-left section\n- **Pathway**: `_Start` \u2192 `UNC Offense` (2) \u2192 `Jump Ball` (1) \u2192 `Missed Shot` (2) \u2192 `Made Shot` (2) \u2192 `_Exit`\n  - Here, \"Missed Shot\" occurs after \"UNC Offense,\" but there is no \"UMD Offense\" in this pathway. This does not meet the criteria.\n\n#### Branch 2: Second column from the left\n- **Pathway**: `_Start` \u2192 `UNC Offense` (19) \u2192 `Rebound` (19) \u2192 `Missed Shot` (19) \u2192 `UMD Offense` (17) \u2192 `Rebound` (15) \u2192 `Made Shot` (8) \u2192 `_Exit`\n  - Here, \"Missed Shot\" (19) occurs after \"UNC Offense\" and before \"UMD Offense.\" This meets the criteria.\n\n#### Branch 3: Third column from the left\n- **Pathway**: `_Start` \u2192 `UNC Offense` (12) \u2192 `Foul` (12) \u2192 `Made Free Throw` (11) \u2192 `UMD Offense` (10) \u2192 `Made Free Throw` (3) \u2192 `_Exit`\n  - There is no \"Missed Shot\" in this pathway. This does not meet the criteria.\n\n#### Branch 4: Fourth column from the left\n- **Pathway**: `_Start` \u2192 `UNC Offense` (8) \u2192 `Turnover` (5) \u2192 `UMD Offense` (7) \u2192 `_Exit`\n  - There is no \"Missed Shot\" in this pathway. This does not meet the criteria.\n\n#### Branch 5: Rightmost column\n- **Pathway**: `_Start` \u2192 `UNC Offense` (28) \u2192 `Made Shot` (20) \u2192 `UMD Offense` (25) \u2192 `Missed Shot` (19) \u2192 `_Exit`\n  - Here, \"Missed Shot\" (19) occurs after \"UMD Offense,\" not before it. This does not meet the criteria.\n\n### Step 3: Summarize the findings\n- The only pathway that meets the criteria is the second column from the left, where \"Missed Shot\" (19) occurs after \"UNC Offense\" and before \"UMD Offense.\"\n\n### Final Answer\n<answer>19</answer>",
+  "process_time_seconds": 12.673077,
+  "processed_at": "2025-05-16 21:29:28"
+}

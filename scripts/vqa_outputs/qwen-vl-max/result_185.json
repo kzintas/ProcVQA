@@ -1,0 +1,14 @@
+{
+  "index": 185,
+  "question_id": "q_185",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many missed shots were before UMD Offense?",
+  "true_answer": "24",
+  "llm_answer": "24",
+  "is_correct": true,
+  "reasoning": "- Start with 69 sequences.\n- 23 sequences go directly to UMD Offense.\n- Remaining 46 sequences split: 22 to Made Shot, 24 to Missed Shot.\n- All 24 sequences that miss a shot end up at UMD Offense.",
+  "full_response": "To determine how many missed shots occurred before UMD Offense, we need to follow the pathways from \"Start\" to \"UMD Offense\" and count the number of sequences that involve a missed shot.\n\n1. From \"Start,\" 69 sequences begin.\n2. Of these, 23 sequences go directly to \"UMD Offense.\"\n3. The remaining 46 sequences (69 - 23) branch off into other events.\n4. Among these 46 sequences:\n   - 22 sequences lead to \"Made Shot.\"\n   - 24 sequences lead to \"Missed Shot.\"\n5. All 24 sequences that miss a shot eventually reach \"UMD Offense.\"\n\n<reasoning>\n- Start with 69 sequences.\n- 23 sequences go directly to UMD Offense.\n- Remaining 46 sequences split: 22 to Made Shot, 24 to Missed Shot.\n- All 24 sequences that miss a shot end up at UMD Offense.\n</reasoning>\n\n<answer>24</answer>",
+  "process_time_seconds": 10.480709,
+  "processed_at": "2025-05-16 19:14:24"
+}

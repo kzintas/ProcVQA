@@ -1,0 +1,14 @@
+{
+  "index": 125,
+  "question_id": "q_125",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_10.png",
+  "question": "How many shots were made directly after a Rebound?",
+  "true_answer": "15",
+  "llm_answer": "15",
+  "is_correct": true,
+  "reasoning": "1.  First, I locate the node labeled \"UMD Offense\".\n2.  From \"UMD Offense\", there is a link to \"Rebound\" with a value of 34. This means 34 sequences proceed to a \"Rebound\" event.\n3.  Next, I examine the \"Rebound\" node and its outgoing links.\n4.  There are three outgoing links from \"Rebound\":\n    *   One link goes to \"Made Shot\" with a value of 15.\n    *   One link goes to \"Missed Shot\" with a value of 9.\n    *   One link goes to \"_Exit\" with a value of 10.\n5.  The question asks how many shots were made *directly after* a Rebound. This corresponds to the link from \"Rebound\" to \"Made Shot\".\n6.  The value on the link from \"Rebound\" to \"Made Shot\" is 15.",
+  "full_response": "<reasoning>\n1.  First, I locate the node labeled \"UMD Offense\".\n2.  From \"UMD Offense\", there is a link to \"Rebound\" with a value of 34. This means 34 sequences proceed to a \"Rebound\" event.\n3.  Next, I examine the \"Rebound\" node and its outgoing links.\n4.  There are three outgoing links from \"Rebound\":\n    *   One link goes to \"Made Shot\" with a value of 15.\n    *   One link goes to \"Missed Shot\" with a value of 9.\n    *   One link goes to \"_Exit\" with a value of 10.\n5.  The question asks how many shots were made *directly after* a Rebound. This corresponds to the link from \"Rebound\" to \"Made Shot\".\n6.  The value on the link from \"Rebound\" to \"Made Shot\" is 15.\n</reasoning>\n<answer>15</answer>",
+  "process_time_seconds": 7.545094,
+  "processed_at": "2025-05-15 02:46:16"
+}

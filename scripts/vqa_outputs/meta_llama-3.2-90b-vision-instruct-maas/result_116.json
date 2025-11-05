@@ -1,0 +1,15 @@
+{
+  "index": 116,
+  "question_id": "q_116",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_05.png",
+  "question": "How many shots were missed immediately after UMD Offense?",
+  "true_answer": "14",
+  "llm_answer": null,
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "**Step 1: Identify the relevant elements in the visualization.**\n\n*   The node \"UMD Offense\" is located at the top of the diagram.\n*   There are two links connected to the node \"UMD Offense\", one labeled \"Missed Shot\" and the other labeled \"Foul\".\n\n**Step 2: Describe the thought process and calculations clearly step-by-step.**\n\n*   The link labeled \"Missed Shot\" has a numeric label of 14, indicating that 14 shots were missed immediately after UMD Offense.\n*   The link labeled \"Foul\" has a numeric label of 6, indicating that 6 fouls were committed immediately after UMD Offense.\n\n**Step 3: Provide the final answer.**\n\n*   The number of shots missed immediately after UMD Offense is 14.\n\n**Answer:** 14",
+  "process_time_seconds": 8.082774,
+  "processed_at": "2025-05-17 06:24:02",
+  "model": "meta/llama-3.2-90b-vision-instruct-maas"
+}

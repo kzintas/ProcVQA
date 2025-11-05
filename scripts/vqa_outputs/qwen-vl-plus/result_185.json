@@ -1,0 +1,14 @@
+{
+  "index": 185,
+  "question_id": "q_185",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many missed shots were before UMD Offense?",
+  "true_answer": "24",
+  "llm_answer": "24",
+  "is_correct": true,
+  "reasoning": "To determine the number of missed shots before UMD Offense, we need to follow the pathway from Start to Missed Shot and then to UMD Offense.\n\n1. Start -> Missed Shot: There is a link with a label \"Missed Shot\" leading directly from Start to Missed Shot.\n2. Missed Shot -> UMD Offense: There is another link with a label \"UMD Offense\" leading from Missed Shot to UMD Offense.\n\nThe label next to the link between Missed Shot and UMD Offense shows that there are 22 sequences following this path. Therefore, there were 22 missed shots before UMD Offense.",
+  "full_response": "<answer>24</answer>\n\n<reasoning>\nTo determine the number of missed shots before UMD Offense, we need to follow the pathway from Start to Missed Shot and then to UMD Offense.\n\n1. Start -> Missed Shot: There is a link with a label \"Missed Shot\" leading directly from Start to Missed Shot.\n2. Missed Shot -> UMD Offense: There is another link with a label \"UMD Offense\" leading from Missed Shot to UMD Offense.\n\nThe label next to the link between Missed Shot and UMD Offense shows that there are 22 sequences following this path. Therefore, there were 22 missed shots before UMD Offense.\n</reasoning>",
+  "process_time_seconds": 5.000513,
+  "processed_at": "2025-05-16 20:30:11"
+}

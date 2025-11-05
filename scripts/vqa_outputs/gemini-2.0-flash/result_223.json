@@ -1,0 +1,14 @@
+{
+  "index": 223,
+  "question_id": "q_223",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_15.png",
+  "question": "How many shots were made by only the UNC offense?",
+  "true_answer": "22",
+  "llm_answer": "20",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "1.  **Identify relevant elements:** We need to find all instances of \"Made Shot\" that are directly preceded by \"UNC Offense.\"\n\n2.  **Trace pathways and count:**\n    *   Starting from the left, we see \"UNC Offense\" with a count of 2. It leads to \"Missed Shot\". Therefore, we don't count this path. \n    *   In the middle, \"UNC Offense\" with a count of 26 leads to \"Rebound\" and \"Missed Shot\". Therefore, we don't count this path.\n    *   Fourth Column, \"UNC Offense\" with count 21, leads to \"Made Shot\" with count 20, so we count this one.\n    *   Fifth Column, \"UNC Offense\" with count 7, leads to \"Turnover\", so we don't count this one.\n\n3.  **Sum up the counts:** We found one path \"UNC Offense\" -> \"Made Shot\" with count of 20.\n\n4.  **Final Answer:** The total number of shots made by the UNC offense is 20.\n\n<answer>20</answer>",
+  "process_time_seconds": 4.072079,
+  "processed_at": "2025-05-13 19:57:18"
+}

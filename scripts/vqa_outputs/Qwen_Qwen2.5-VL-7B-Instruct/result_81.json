@@ -1,0 +1,14 @@
+{
+  "index": 81,
+  "question_id": "q_81",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_10.png",
+  "question": "How many patients went to the ICU after Emrgency?",
+  "true_answer": "35",
+  "llm_answer": "12",
+  "is_correct": false,
+  "reasoning": "To determine how many patients went to the ICU after Emergency, we need to follow the pathway from \"Emergency\" to \"ICU\". \n\n1. From the diagram, we see that there is a link from \"Emergency\" to \"ICU\".\n2. The width of this link represents the number of sequences following this path.\n3. The numeric label next to this link is 12.\n\nTherefore, the number of patients who went to the ICU after Emergency is 12.",
+  "full_response": "<reasoning>\nTo determine how many patients went to the ICU after Emergency, we need to follow the pathway from \"Emergency\" to \"ICU\". \n\n1. From the diagram, we see that there is a link from \"Emergency\" to \"ICU\".\n2. The width of this link represents the number of sequences following this path.\n3. The numeric label next to this link is 12.\n\nTherefore, the number of patients who went to the ICU after Emergency is 12.\n</reasoning>\n<answer>12</answer>",
+  "process_time_seconds": 42.56872,
+  "processed_at": "2025-05-15 03:33:48"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 121,
+  "question_id": "q_121",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_10.png",
+  "question": "How many Rebounds were made by UMD Offense?",
+  "true_answer": "34",
+  "llm_answer": "24",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "### Relevant Elements:\n- The node labeled \"Rebound\" is connected to \"Made Shot\" and \"Missed Shot\".\n- The link width from \"Rebound\" to \"Made Shot\" is 15.\n- The link width from \"Rebound\" to \"Missed Shot\" is 9.\n\n### Reasoning:\nTo determine the total number of Rebounds made by UMD Offense, we need to sum the counts associated with each pathway leading from \"Rebound\". In this case, there are two pathways:\n1. From \"Rebound\" to \"Made Shot\" with a count of 15.\n2. From \"Rebound\" to \"Missed Shot\" with a count of 9.\n\nThe total number of Rebounds made by UMD Offense is the sum of these two counts.\n\n<answer>24</answer>",
+  "process_time_seconds": 31.767497,
+  "processed_at": "2025-05-15 04:04:35"
+}

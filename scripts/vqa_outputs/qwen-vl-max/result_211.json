@@ -1,0 +1,14 @@
+{
+  "index": 211,
+  "question_id": "q_211",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_10.png",
+  "question": "How many total missed shots occur after UNC Offense but not after UMD Offense?",
+  "true_answer": "21",
+  "llm_answer": "15",
+  "is_correct": false,
+  "reasoning": "The diagram shows two main pathways starting from \"UNC Offense\". The first pathway directly leads to \"Missed Shot\" with a count of 7. The second pathway goes through \"Rebound\" (14) and then to \"Missed Shot\" (14). For \"UMD Offense\", there is only one pathway leading to \"Missed Shot\" with a count of 6. By subtracting the count of missed shots after UMD Offense from those after UNC Offense, we get the total missed shots occurring after UNC Offense but not after UMD Offense.",
+  "full_response": "To determine the total number of missed shots that occur after UNC Offense but not after UMD Offense, we need to follow the pathways from \"UNC Offense\" and \"UMD Offense\" nodes:\n\n1. **From UNC Offense:**\n   - There are two paths leading from \"UNC Offense\":\n     - One path leads directly to \"Missed Shot\" with a count of 7.\n     - Another path goes through \"Rebound\" (14) then to \"Missed Shot\" (14).\n\n2. **From UMD Offense:**\n   - There is one path leading from \"UMD Offense\":\n     - This path leads to \"Missed Shot\" with a count of 6.\n\n3. **Calculation:**\n   - Total missed shots after UNC Offense: 7 (direct) + 14 (through Rebound) = 21.\n   - Missed shots after UMD Offense: 6.\n\n4. **Subtraction:**\n   - Subtract the missed shots after UMD Offense from those after UNC Offense:\n     - 21 (after UNC Offense) - 6 (after UMD Offense) = 15.\n\n<reasoning>\nThe diagram shows two main pathways starting from \"UNC Offense\". The first pathway directly leads to \"Missed Shot\" with a count of 7. The second pathway goes through \"Rebound\" (14) and then to \"Missed Shot\" (14). For \"UMD Offense\", there is only one pathway leading to \"Missed Shot\" with a count of 6. By subtracting the count of missed shots after UMD Offense from those after UNC Offense, we get the total missed shots occurring after UNC Offense but not after UMD Offense.\n</reasoning>\n\n<answer>15</answer>",
+  "process_time_seconds": 16.726832,
+  "processed_at": "2025-05-16 19:18:23"
+}

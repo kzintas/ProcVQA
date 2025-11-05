@@ -1,0 +1,14 @@
+{
+  "index": 82,
+  "question_id": "q_82",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_10.png",
+  "question": "How many patients went to the Floor after the ICU?",
+  "true_answer": "23",
+  "llm_answer": "23",
+  "is_correct": true,
+  "reasoning": "The user is asking to count the number of sequences that transition directly from the 'ICU' node to the 'Floor' node.\nI need to find the link that originates from the 'ICU' node and ends at the 'Floor' node and read the numeric label associated with that link.\nExamining the diagram, I see a path starting from `_Start` with 24 sequences that goes through `Arrival` (24), `Emergency` (24), `ICU` (23), and then to `Floor` (23).\nThe link between `ICU` and `Floor` in this pathway has a label of 23. This represents 23 sequences that went from ICU to Floor.\nThere is another path involving ICU and Floor (`Emergency` (27) -> `Floor` (27) -> `ICU` (24)), but this is Floor to ICU, not the other way around.\nTherefore, the number of patients who went from ICU to Floor is 23.",
+  "full_response": "<reasoning>\nThe user is asking to count the number of sequences that transition directly from the 'ICU' node to the 'Floor' node.\nI need to find the link that originates from the 'ICU' node and ends at the 'Floor' node and read the numeric label associated with that link.\nExamining the diagram, I see a path starting from `_Start` with 24 sequences that goes through `Arrival` (24), `Emergency` (24), `ICU` (23), and then to `Floor` (23).\nThe link between `ICU` and `Floor` in this pathway has a label of 23. This represents 23 sequences that went from ICU to Floor.\nThere is another path involving ICU and Floor (`Emergency` (27) -> `Floor` (27) -> `ICU` (24)), but this is Floor to ICU, not the other way around.\nTherefore, the number of patients who went from ICU to Floor is 23.\n</reasoning>\n<answer>23</answer>",
+  "process_time_seconds": 5.969106,
+  "processed_at": "2025-05-14 20:59:26"
+}

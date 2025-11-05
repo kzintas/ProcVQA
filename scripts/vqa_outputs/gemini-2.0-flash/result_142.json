@@ -1,0 +1,14 @@
+{
+  "index": 142,
+  "question_id": "q_142",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many total shots were made by UMD offense?",
+  "true_answer": "15",
+  "llm_answer": "15",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "1. **Identify relevant elements:**\n   - The node \"UMD Offense\".\n   - The path from \"UMD Offense\" to \"Rebound\" labeled with \"34\".\n   - The path from \"Rebound\" to \"Made Shot\" labeled with \"15\".\n   - The path from \"UMD Offense\" to \"Missed Shot\" labeled with \"14\".\n\n2. **Reasoning:**\n   - The question asks about shots made by the UMD offense.\n   - The sequences start from UMD Offense, and there are two clear outcomes related to shots: \"Rebound\" and \"Missed Shot.\"\n   - The path \"UMD Offense\" -> \"Rebound\" indicates that a shot was attempted and a rebound occurred. The number of such sequences is 34.\n   - The path \"Rebound\" -> \"Made Shot\" indicates the rebound was followed by a made shot with 15 sequences.\n   - The path \"UMD Offense\" -> \"Missed Shot\" indicates the UMD offense missed their shot with 14 sequences.\n   - Since we are looking for shots made by the UMD offense, it must have been those that went to \"Rebound\" then to \"Made Shot\".\n   - Therefore, the total number of made shots is 15.\n\n3. **Final Answer:**\n   <answer>15</answer>",
+  "process_time_seconds": 3.992263,
+  "processed_at": "2025-05-13 19:52:03"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 177,
+  "question_id": "q_177",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_15.png",
+  "question": "How many made shots were after UNC Offense but before UMD offense?",
+  "true_answer": "22",
+  "llm_answer": "22",
+  "is_correct": true,
+  "reasoning": "- The question asks for the number of made shots that occurred after UNC Offense and before UMD Offense.\n      - In the diagram, there is a direct path from \"UNC Offense\" to \"Made Shot\" with a count of 22.\n      - This same path continues from \"Made Shot\" to \"UMD Offense\" with the same count of 22.\n      - Since the link count remains consistent between these nodes, it indicates that all 22 made shots following UNC Offense lead directly to UMD Offense.",
+  "full_response": "1. **Relevant Elements:**\n   - Nodes: \"UNC Offense\", \"Made Shot\", \"UMD Offense\"\n   - Links and their counts:\n     - From \"UNC Offense\" to \"Made Shot\": 22\n     - From \"Made Shot\" to \"UMD Offense\": 22\n\n2. <reasoning>\n      - The question asks for the number of made shots that occurred after UNC Offense and before UMD Offense.\n      - In the diagram, there is a direct path from \"UNC Offense\" to \"Made Shot\" with a count of 22.\n      - This same path continues from \"Made Shot\" to \"UMD Offense\" with the same count of 22.\n      - Since the link count remains consistent between these nodes, it indicates that all 22 made shots following UNC Offense lead directly to UMD Offense.\n   </reasoning>\n\n3. <answer>22</answer>",
+  "process_time_seconds": 8.743288,
+  "processed_at": "2025-05-16 19:52:31"
+}

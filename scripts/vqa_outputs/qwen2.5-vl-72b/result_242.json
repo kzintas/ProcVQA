@@ -1,0 +1,14 @@
+{
+  "index": 242,
+  "question_id": "q_242",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_30.png",
+  "question": "How many total missed shots were made by both teams?",
+  "true_answer": "43",
+  "llm_answer": "42",
+  "is_correct": false,
+  "reasoning": "- In the first column, there is 1 \"Missed Shot\".\n      - In the second column, there are 14 \"Missed Shots\".\n      - In the third column, there are no \"Missed Shots\".\n      - In the fourth column, there are no \"Missed Shots\".\n      - In the fifth column, there are 9 \"Missed Shots\".\n      - In the sixth column, there are 6 \"Missed Shots\".\n      - In the seventh column, there are 12 \"Missed Shots\".\n\n      Adding these values together: 1 + 14 + 0 + 0 + 9 + 6 + 12 = 42",
+  "full_response": "1. **Identify the relevant elements:**\n   - The nodes labeled \"Missed Shot\" are relevant to this question.\n   - We need to sum the values associated with these nodes.\n\n2. <reasoning>\n      - In the first column, there is 1 \"Missed Shot\".\n      - In the second column, there are 14 \"Missed Shots\".\n      - In the third column, there are no \"Missed Shots\".\n      - In the fourth column, there are no \"Missed Shots\".\n      - In the fifth column, there are 9 \"Missed Shots\".\n      - In the sixth column, there are 6 \"Missed Shots\".\n      - In the seventh column, there are 12 \"Missed Shots\".\n\n      Adding these values together: 1 + 14 + 0 + 0 + 9 + 6 + 12 = 42\n   </reasoning>\n\n3. <answer>42</answer>",
+  "process_time_seconds": 9.70158,
+  "processed_at": "2025-05-16 20:02:14"
+}

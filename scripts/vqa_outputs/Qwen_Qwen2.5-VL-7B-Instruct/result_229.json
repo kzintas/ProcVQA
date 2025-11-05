@@ -1,0 +1,14 @@
+{
+  "index": 229,
+  "question_id": "q_229",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_20.png",
+  "question": "How many free throws were made by UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": "indeterminate",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "### Reasoning:\nTo determine the number of free throws made by UMD Offense, we need to follow the pathway from \"Start\" to \"Made Shot\" for UMD Offense.\n\n1. From the \"Start\" node, there's a link to \"UNC Offense\" with 19 sequences.\n2. From \"UNC Offense,\" there's a link to \"Rebound\" with 19 sequences.\n3. From \"Rebound,\" there's a link to \"Missed Shot\" with 19 sequences.\n4. From \"Missed Shot,\" there's a link to \"UMD Offense\" with 17 sequences.\n5. From \"UMD Offense,\" there's a link to \"Made Shot\" with 7 sequences.\n\nThe pathway from \"Start\" to \"Made Shot\" for UMD Offense is as follows:\n- Start -> UNC Offense -> Rebound -> Missed Shot -> UMD Offense -> Made Shot\n\nThe number of sequences along this pathway is the sum of the individual sequence counts along each link, which is 19 + 19 + 19 + 17 + 7 = 72.\n\nHowever, the question specifically asks about the number of free throws made by UMD Offense, but the diagram does not provide any information about free throws being made. The \"Made Shot\" node represents successful field goals, not free throws.\n\n### Final Answer:\n<answer>indeterminate</answer>",
+  "process_time_seconds": 78.34224,
+  "processed_at": "2025-05-15 05:17:16"
+}

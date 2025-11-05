@@ -1,0 +1,14 @@
+{
+  "index": 68,
+  "question_id": "q_68",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/SentenTree/emergency_dataset/msp_30.png",
+  "question": "How many patients went to the ICU after Emrgency?",
+  "true_answer": "62",
+  "llm_answer": "62",
+  "is_correct": true,
+  "reasoning": "1.  **Identify the starting node:** The question asks about patients going to ICU *after* Emergency. So, the starting node for this specific query is \"Emergency\".\n2.  **Identify the destination node:** The question specifies \"ICU\" as the destination.\n3.  **Locate the link:** Find the link that directly connects the \"Emergency\" node to the \"ICU\" node.\n4.  **Read the value on the link:** The numeric label on the link from \"Emergency\" to \"ICU\" indicates the number of sequences (patients in this context) that followed this path. The diagram shows a link from \"Emergency\" to \"ICU\" with the value \"62\".",
+  "full_response": "<reasoning>\n1.  **Identify the starting node:** The question asks about patients going to ICU *after* Emergency. So, the starting node for this specific query is \"Emergency\".\n2.  **Identify the destination node:** The question specifies \"ICU\" as the destination.\n3.  **Locate the link:** Find the link that directly connects the \"Emergency\" node to the \"ICU\" node.\n4.  **Read the value on the link:** The numeric label on the link from \"Emergency\" to \"ICU\" indicates the number of sequences (patients in this context) that followed this path. The diagram shows a link from \"Emergency\" to \"ICU\" with the value \"62\".\n</reasoning>\n<answer>62</answer>",
+  "process_time_seconds": 4.611274,
+  "processed_at": "2025-05-15 01:29:37"
+}

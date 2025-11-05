@@ -1,0 +1,14 @@
+{
+  "index": 187,
+  "question_id": "q_187",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many fouls were made after UNC Offense and before UMD offense? ",
+  "true_answer": "indeterminate",
+  "llm_answer": "indeterminate",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "The provided node-link diagram does not contain any information about fouls. Therefore, I cannot determine the number of fouls made after UNC Offense and before UMD offense.\n\n<answer>indeterminate</answer>",
+  "process_time_seconds": 2.144261,
+  "processed_at": "2025-05-13 19:55:08"
+}

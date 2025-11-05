@@ -1,0 +1,14 @@
+{
+  "index": 129,
+  "question_id": "q_129",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_15.png",
+  "question": "How many Rebounds were made by UMD Offense?",
+  "true_answer": "34",
+  "llm_answer": "34",
+  "is_correct": true,
+  "reasoning": "The question asks for the number of Rebounds made by UMD Offense. The diagram shows a node labeled \"UMD Offense\". There is a directed edge from \"UMD Offense\" to \"Rebound\". The number next to this edge is 34. This indicates that in 34 sequences, the event \"Rebound\" followed the event \"UMD Offense\". Therefore, 34 rebounds were made by UMD Offense.",
+  "full_response": "1.  Locate the node \"UMD Offense\".\n2.  Identify the directed link originating from \"UMD Offense\" and terminating at the \"Rebound\" node.\n3.  Read the numeric label associated with this specific link. The label is \"34\". This label represents the number of sequences that transitioned from \"UMD Offense\" to \"Rebound\".\n\n<reasoning>The question asks for the number of Rebounds made by UMD Offense. The diagram shows a node labeled \"UMD Offense\". There is a directed edge from \"UMD Offense\" to \"Rebound\". The number next to this edge is 34. This indicates that in 34 sequences, the event \"Rebound\" followed the event \"UMD Offense\". Therefore, 34 rebounds were made by UMD Offense.</reasoning>\n<answer>34</answer>",
+  "process_time_seconds": 3.668397,
+  "processed_at": "2025-05-14 21:21:41"
+}

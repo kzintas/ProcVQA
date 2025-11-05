@@ -1,0 +1,14 @@
+{
+  "index": 4,
+  "question_id": "q_4",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/CoreFlow/emergency_dataset/msp_05.png",
+  "question": "How many patients went to the Floor after the ICU?",
+  "true_answer": "24",
+  "llm_answer": "24",
+  "is_correct": true,
+  "reasoning": "1. Identify the relevant pathways:\n   - From ICU, there are two possible paths: ICU to Floor and ICU to Die.\n   - We need to determine how many patients went from ICU to Floor.\n\n2. Analyze the link from ICU to Floor:\n   - The link from ICU to Floor has a numeric label of 24.\n\n3. Interpret the numeric label:\n   - The numeric label next to the link from ICU to Floor indicates the number of sequences following that path.\n   - Therefore, 24 patients went from ICU to Floor.",
+  "full_response": "xml\n<reasoning>\n1. Identify the relevant pathways:\n   - From ICU, there are two possible paths: ICU to Floor and ICU to Die.\n   - We need to determine how many patients went from ICU to Floor.\n\n2. Analyze the link from ICU to Floor:\n   - The link from ICU to Floor has a numeric label of 24.\n\n3. Interpret the numeric label:\n   - The numeric label next to the link from ICU to Floor indicates the number of sequences following that path.\n   - Therefore, 24 patients went from ICU to Floor.\n</reasoning>\n<answer>24</answer>",
+  "process_time_seconds": 39.59867,
+  "processed_at": "2025-05-15 18:04:03"
+}

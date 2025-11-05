@@ -1,0 +1,14 @@
+{
+  "index": 30,
+  "question_id": "q_30",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/CoreFlow/emergency_dataset/msp_30.png",
+  "question": "How many total patients were discharged alive?",
+  "true_answer": "38",
+  "llm_answer": "38",
+  "is_correct": true,
+  "reasoning": "The diagram shows the flow of patients through a series of events. The question asks for the total number of patients discharged alive.\n1.  I start at the 'Start' node, which has 100 sequences originating from it.\n2.  All 100 sequences flow to the 'Arrival' node.\n3.  From 'Arrival', all 100 sequences flow to the 'Emergency' node.\n4.  From 'Emergency', the flow splits into two paths: one to 'ICU' with 62 sequences and another to 'Discharge-Alive' with 38 sequences.\n5.  The 'Discharge-Alive' node has 38 sequences leading to it, and then to '_Exit'.\nTherefore, the total number of patients discharged alive is 38.",
+  "full_response": "Here's my analysis of the node-link diagram to determine the number of patients discharged alive:\n\n<reasoning>\nThe diagram shows the flow of patients through a series of events. The question asks for the total number of patients discharged alive.\n1.  I start at the 'Start' node, which has 100 sequences originating from it.\n2.  All 100 sequences flow to the 'Arrival' node.\n3.  From 'Arrival', all 100 sequences flow to the 'Emergency' node.\n4.  From 'Emergency', the flow splits into two paths: one to 'ICU' with 62 sequences and another to 'Discharge-Alive' with 38 sequences.\n5.  The 'Discharge-Alive' node has 38 sequences leading to it, and then to '_Exit'.\nTherefore, the total number of patients discharged alive is 38.\n</reasoning>\n\n<answer>38</answer>",
+  "process_time_seconds": 80.19529,
+  "processed_at": "2025-05-14 21:09:22"
+}

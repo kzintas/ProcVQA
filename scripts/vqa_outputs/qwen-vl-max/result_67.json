@@ -1,0 +1,14 @@
+{
+  "index": 67,
+  "question_id": "q_67",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/SentenTree/emergency_dataset/msp_30.png",
+  "question": "How many patients got discharged alive directly after arriving at Emergency? ",
+  "true_answer": "38",
+  "llm_answer": "38",
+  "is_correct": true,
+  "reasoning": "1. Starting from the \"Arrival\" node, there are 100 sequences.\n2. From \"Arrival\", all 100 sequences move to the \"Emergency\" node.\n3. At \"Emergency\", the sequences split into two paths:\n   - 62 sequences go to \"ICU\".\n   - 38 sequences go directly to \"Discharge-Alive\".\n4. The question asks for patients who were discharged alive directly after arriving at Emergency, which corresponds to the path that does not involve ICU.\n5. Therefore, the number of patients who got discharged alive directly after arriving at Emergency is the number on the link leading from \"Emergency\" to \"Discharge-Alive\", which is 38.",
+  "full_response": "To determine how many patients got discharged alive directly after arriving at Emergency, we need to follow the pathways from \"Arrival\" to \"Discharge-Alive\". \n\n<reasoning>\n1. Starting from the \"Arrival\" node, there are 100 sequences.\n2. From \"Arrival\", all 100 sequences move to the \"Emergency\" node.\n3. At \"Emergency\", the sequences split into two paths:\n   - 62 sequences go to \"ICU\".\n   - 38 sequences go directly to \"Discharge-Alive\".\n4. The question asks for patients who were discharged alive directly after arriving at Emergency, which corresponds to the path that does not involve ICU.\n5. Therefore, the number of patients who got discharged alive directly after arriving at Emergency is the number on the link leading from \"Emergency\" to \"Discharge-Alive\", which is 38.\n</reasoning>\n\n<answer>38</answer>",
+  "process_time_seconds": 6.789779,
+  "processed_at": "2025-05-16 18:58:16"
+}

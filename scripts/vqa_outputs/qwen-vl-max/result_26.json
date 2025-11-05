@@ -1,0 +1,14 @@
+{
+  "index": 26,
+  "question_id": "q_26",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/CoreFlow/emergency_dataset/msp_25.png",
+  "question": "How many patients got discharged alive directly after arriving at Emergency? ",
+  "true_answer": "38",
+  "llm_answer": "38",
+  "is_correct": true,
+  "reasoning": "1. Starting from the \"Emergency\" node, there are two pathways: one leading to \"ICU\" and another leading to \"Discharge-Alive\".\n2. The link from \"Emergency\" to \"Discharge-Alive\" is labeled with the number 38.\n3. This indicates that 38 patients followed this direct path from Emergency to Discharge-Alive without going through ICU.",
+  "full_response": "To determine how many patients got discharged alive directly after arriving at Emergency, we need to follow the pathway from \"Emergency\" to \"Discharge-Alive\". \n\n<reasoning>\n1. Starting from the \"Emergency\" node, there are two pathways: one leading to \"ICU\" and another leading to \"Discharge-Alive\".\n2. The link from \"Emergency\" to \"Discharge-Alive\" is labeled with the number 38.\n3. This indicates that 38 patients followed this direct path from Emergency to Discharge-Alive without going through ICU.\n</reasoning>\n\n<answer>38</answer>",
+  "process_time_seconds": 5.765434,
+  "processed_at": "2025-05-16 18:53:15"
+}

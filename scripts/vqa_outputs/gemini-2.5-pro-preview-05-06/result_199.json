@@ -1,0 +1,14 @@
+{
+  "index": 199,
+  "question_id": "q_199",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_30.png",
+  "question": "How many missed shots were before UMD Offense?",
+  "true_answer": "24",
+  "llm_answer": "24",
+  "is_correct": true,
+  "reasoning": "1.  **Identify the relevant nodes:** The question asks about \"Missed Shot\" events occurring before \"UMD Offense\". We need to locate the \"Missed Shot\" node and the \"UMD Offense\" node in the diagram.\n2.  **Find the path from \"Missed Shot\" to \"UMD Offense\":** The diagram shows a directed link from the \"Missed Shot\" node directly to the \"UMD Offense\" node. This indicates that \"Missed Shot\" can occur immediately before \"UMD Offense\".\n3.  **Read the value on the link:** The numeric label on the link connecting \"Missed Shot\" to \"UMD Offense\" indicates the number of sequences where \"Missed Shot\" was followed by \"UMD Offense\". This value is \"24\".\n\nTherefore, there were 24 missed shots that occurred immediately before UMD Offense.",
+  "full_response": "<reasoning>\n1.  **Identify the relevant nodes:** The question asks about \"Missed Shot\" events occurring before \"UMD Offense\". We need to locate the \"Missed Shot\" node and the \"UMD Offense\" node in the diagram.\n2.  **Find the path from \"Missed Shot\" to \"UMD Offense\":** The diagram shows a directed link from the \"Missed Shot\" node directly to the \"UMD Offense\" node. This indicates that \"Missed Shot\" can occur immediately before \"UMD Offense\".\n3.  **Read the value on the link:** The numeric label on the link connecting \"Missed Shot\" to \"UMD Offense\" indicates the number of sequences where \"Missed Shot\" was followed by \"UMD Offense\". This value is \"24\".\n\nTherefore, there were 24 missed shots that occurred immediately before UMD Offense.\n</reasoning>\n<answer>24</answer>",
+  "process_time_seconds": 7.498254,
+  "processed_at": "2025-05-15 03:10:26"
+}

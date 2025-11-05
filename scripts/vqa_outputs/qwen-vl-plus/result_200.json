@@ -1,0 +1,14 @@
+{
+  "index": 200,
+  "question_id": "q_200",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_30.png",
+  "question": "How many total rebounds are there in the match?",
+  "true_answer": "34",
+  "llm_answer": "24",
+  "is_correct": false,
+  "reasoning": "To determine the total number of rebounds in the match, we need to follow the pathway from the \"Rebound\" node to the \"_Exit\" node. \n\n1. Start at the \"Rebound\" node.\n2. Follow the link labeled \"24\" leading to the \"Made Shot\" node.\n3. Continue along the link labeled \"24\" to the \"Missed Shot\" node.\n4. Finally, follow the link labeled \"24\" to the \"_Exit\" node.\n\nBy adding up all the links that lead to the \"_Exit\" node, we find that there are a total of 24 rebounds in the match.",
+  "full_response": "<answer>24</answer>\n<reasoning>\nTo determine the total number of rebounds in the match, we need to follow the pathway from the \"Rebound\" node to the \"_Exit\" node. \n\n1. Start at the \"Rebound\" node.\n2. Follow the link labeled \"24\" leading to the \"Made Shot\" node.\n3. Continue along the link labeled \"24\" to the \"Missed Shot\" node.\n4. Finally, follow the link labeled \"24\" to the \"_Exit\" node.\n\nBy adding up all the links that lead to the \"_Exit\" node, we find that there are a total of 24 rebounds in the match.\n</reasoning>",
+  "process_time_seconds": 4.216532,
+  "processed_at": "2025-05-16 20:31:56"
+}

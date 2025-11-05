@@ -1,0 +1,14 @@
+{
+  "index": 231,
+  "question_id": "q_231",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_25.png",
+  "question": "How many times did a jump ball occur after UNC Offense?",
+  "true_answer": "1",
+  "llm_answer": "1",
+  "is_correct": true,
+  "reasoning": "- In the first column, we see \"UNC Offense\" with a value of 2.\n      - Directly below \"UNC Offense\", there is a \"Jump Ball\" node with a value of 1.\n      - This indicates that out of the 2 sequences starting with \"UNC Offense\", 1 sequence led to a \"Jump Ball\".\n      - No other columns show a \"Jump Ball\" following \"UNC Offense\".",
+  "full_response": "1. **Identify the relevant elements:** \n   - The question asks about a \"Jump Ball\" occurring after \"UNC Offense\".\n   - We need to find a pathway where \"UNC Offense\" is followed by \"Jump Ball\".\n\n2. <reasoning>\n      - In the first column, we see \"UNC Offense\" with a value of 2.\n      - Directly below \"UNC Offense\", there is a \"Jump Ball\" node with a value of 1.\n      - This indicates that out of the 2 sequences starting with \"UNC Offense\", 1 sequence led to a \"Jump Ball\".\n      - No other columns show a \"Jump Ball\" following \"UNC Offense\".\n   </reasoning>\n\n3. Based on the analysis, the final answer is: <answer>1</answer>",
+  "process_time_seconds": 8.336287,
+  "processed_at": "2025-05-16 20:00:31"
+}

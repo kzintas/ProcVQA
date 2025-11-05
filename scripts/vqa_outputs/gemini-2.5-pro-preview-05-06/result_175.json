@@ -1,0 +1,14 @@
+{
+  "index": 175,
+  "question_id": "q_175",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_15.png",
+  "question": "How many rebounds were made after UMD Offense?",
+  "true_answer": "34",
+  "llm_answer": "34",
+  "is_correct": true,
+  "reasoning": "1.  **Identify the starting node:** The question asks about events *after* \"UMD Offense\". So, I locate the \"UMD Offense\" node in the diagram.\n2.  **Identify the target event:** The question asks for the number of \"rebounds\". So, I look for a \"Rebound\" node that follows \"UMD Offense\".\n3.  **Trace the path:** I look for a directed link from \"UMD Offense\" to a \"Rebound\" node.\n4.  **Find the count:** There is a link from \"UMD Offense\" to \"Rebound\". The numeric label on this link is 34.\n5.  This means that 34 sequences went from \"UMD Offense\" directly to \"Rebound\".",
+  "full_response": "<reasoning>\n1.  **Identify the starting node:** The question asks about events *after* \"UMD Offense\". So, I locate the \"UMD Offense\" node in the diagram.\n2.  **Identify the target event:** The question asks for the number of \"rebounds\". So, I look for a \"Rebound\" node that follows \"UMD Offense\".\n3.  **Trace the path:** I look for a directed link from \"UMD Offense\" to a \"Rebound\" node.\n4.  **Find the count:** There is a link from \"UMD Offense\" to \"Rebound\". The numeric label on this link is 34.\n5.  This means that 34 sequences went from \"UMD Offense\" directly to \"Rebound\".\n</reasoning>\n<answer>34</answer>",
+  "process_time_seconds": 7.897338,
+  "processed_at": "2025-05-15 03:03:23"
+}

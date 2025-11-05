@@ -1,0 +1,14 @@
+{
+  "index": 73,
+  "question_id": "q_73",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_05.png",
+  "question": "How many patients got discharged alive directly after arriving at Emergency? ",
+  "true_answer": "37",
+  "llm_answer": "57",
+  "is_correct": false,
+  "reasoning": "- In the first pathway (leftmost), all 12 patients who arrived at \"Emergency\" went to \"ICU\" and then died. No one was discharged alive directly from \"Emergency.\"\n      - In the second pathway, all 37 patients who arrived at \"Emergency\" were discharged alive directly after arriving at \"Emergency.\"\n      - In the third pathway, out of 24 patients who arrived at \"Emergency,\" 20 were discharged alive directly after arriving at \"Emergency.\"\n      - In the fourth pathway, all 27 patients who arrived at \"Emergency\" went to \"Floor\" or \"ICU\" and did not get discharged alive directly from \"Emergency.\"\n\n      Therefore, the total number of patients discharged alive directly after arriving at \"Emergency\" is 37 + 20 = 57.",
+  "full_response": "1. **Relevant Elements:**\n   - The diagram shows four separate pathways.\n   - We need to focus on the pathway where patients arrive at \"Emergency\" and are then discharged alive.\n\n2. <reasoning>\n      - In the first pathway (leftmost), all 12 patients who arrived at \"Emergency\" went to \"ICU\" and then died. No one was discharged alive directly from \"Emergency.\"\n      - In the second pathway, all 37 patients who arrived at \"Emergency\" were discharged alive directly after arriving at \"Emergency.\"\n      - In the third pathway, out of 24 patients who arrived at \"Emergency,\" 20 were discharged alive directly after arriving at \"Emergency.\"\n      - In the fourth pathway, all 27 patients who arrived at \"Emergency\" went to \"Floor\" or \"ICU\" and did not get discharged alive directly from \"Emergency.\"\n\n      Therefore, the total number of patients discharged alive directly after arriving at \"Emergency\" is 37 + 20 = 57.\n   </reasoning>\n\n3. <answer>57</answer>",
+  "process_time_seconds": 10.729838,
+  "processed_at": "2025-05-16 19:36:34"
+}

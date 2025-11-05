@@ -1,0 +1,14 @@
+{
+  "index": 165,
+  "question_id": "q_165",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_05.png",
+  "question": "How many total rebounds are there in the match?",
+  "true_answer": "53",
+  "llm_answer": "35",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "### Reasoning:\nTo determine the total number of rebounds in the match, we need to sum up the number of times the \"Rebound\" event occurs as an outcome of other events.\n\nFrom the diagram:\n- The \"Rebound\" event appears as a direct outcome of \"Missed Shot\" with 15 occurrences.\n- The \"Rebound\" event also appears as a direct outcome of \"Turnover\" with 7 occurrences.\n- The \"Rebound\" event appears as a direct outcome of \"Foul\" with 4 occurrences.\n- The \"Rebound\" event appears as a direct outcome of \"Made Free Throw\" with 9 occurrences.\n\nSumming these values gives us the total number of rebounds.\n\n### Calculation:\n15 (from Missed Shot) + 7 (from Turnover) + 4 (from Foul) + 9 (from Made Free Throw) = 35\n\n### Final Answer:\n<answer>35</answer>",
+  "process_time_seconds": 39.218215,
+  "processed_at": "2025-05-15 04:30:11"
+}

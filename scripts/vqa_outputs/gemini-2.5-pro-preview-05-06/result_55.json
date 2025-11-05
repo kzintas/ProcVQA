@@ -1,0 +1,14 @@
+{
+  "index": 55,
+  "question_id": "q_55",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/SentenTree/emergency_dataset/msp_20.png",
+  "question": "How many patients were discharged alive directly after an Emrgency?",
+  "true_answer": "38",
+  "llm_answer": "38",
+  "is_correct": true,
+  "reasoning": "1.  The question asks for the number of patients who were discharged alive *directly* after an Emergency.\n2.  First, locate the \"Emergency\" node in the diagram.\n3.  Next, examine the links that originate from the \"Emergency\" node. These represent the events that directly follow \"Emergency\".\n4.  There are three direct pathways from \"Emergency\":\n    *   One path goes to \"Floor\" with a count of 21.\n    *   Another path goes to \"ICU\" with a count of 41.\n    *   A third path goes to \"Discharge-Alive\" with a count of 38.\n5.  The question specifically asks for patients discharged alive *directly* after \"Emergency\". The link from \"Emergency\" to \"Discharge-Alive\" represents this scenario.\n6.  The numeric label on this link is 38.\n7.  Therefore, 38 patients were discharged alive directly after an Emergency.",
+  "full_response": "<reasoning>\n1.  The question asks for the number of patients who were discharged alive *directly* after an Emergency.\n2.  First, locate the \"Emergency\" node in the diagram.\n3.  Next, examine the links that originate from the \"Emergency\" node. These represent the events that directly follow \"Emergency\".\n4.  There are three direct pathways from \"Emergency\":\n    *   One path goes to \"Floor\" with a count of 21.\n    *   Another path goes to \"ICU\" with a count of 41.\n    *   A third path goes to \"Discharge-Alive\" with a count of 38.\n5.  The question specifically asks for patients discharged alive *directly* after \"Emergency\". The link from \"Emergency\" to \"Discharge-Alive\" represents this scenario.\n6.  The numeric label on this link is 38.\n7.  Therefore, 38 patients were discharged alive directly after an Emergency.\n</reasoning>\n<answer>38</answer>",
+  "process_time_seconds": 6.468014,
+  "processed_at": "2025-05-15 01:27:35"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 158,
+  "question_id": "q_158",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_30.png",
+  "question": "How many total shots were made by UMD offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": "indeterminate",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "1. The question asks for the number of shots made by UMD offense.\n2. The graph shows that 69 sequences went from \"_Start\" to \"UNC Offense\", 69 sequences went from \"UNC Offense\" to \"UMD Offense\".\n3. The \"UMD Offense\" node splits into two outgoing links. One link leads to \"Rebound\" with a value of 34, and the other link leads to \"_Exit\" with a value of 35.\n4. It can be inferred that from the \"UMD Offense\", 34 sequences went to \"Rebound\", and 35 went to \"_Exit\". These are all possible outcomes after the UMD offense.\n5. Therefore, the total number of shots made by UMD offense is the sum of the sequences that went to Rebound and the sequences that went to _Exit, which is 34+35 = 69.\n\n<answer>indeterminate</answer>",
+  "process_time_seconds": 3.278183,
+  "processed_at": "2025-05-13 19:53:08"
+}

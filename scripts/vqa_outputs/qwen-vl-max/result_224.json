@@ -1,0 +1,14 @@
+{
+  "index": 224,
+  "question_id": "q_224",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_20.png",
+  "question": "How many times did a jump ball occur after UNC Offense?",
+  "true_answer": "1",
+  "llm_answer": "0",
+  "is_correct": false,
+  "reasoning": "The diagram shows multiple pathways starting from \"UNC Offense,\" but none of these pathways lead directly to \"Jump Ball.\" The only pathway from \"UNC Offense\" goes through other events like \"Rebound\" and \"Missed Shot\" before reaching an exit or another event.",
+  "full_response": "To determine how many times a jump ball occurred after UNC Offense, I'll follow these steps:\n\n1. Identify the node labeled \"UNC Offense\" and trace all paths leading from it.\n2. Look for any path that leads directly to a node labeled \"Jump Ball.\"\n\nFrom the visualization:\n- There is one instance of \"UNC Offense\" at the top with a value of 19.\n- From this \"UNC Offense,\" there are multiple pathways, but none of them lead directly to \"Jump Ball.\"\n\nSince there is no direct link from \"UNC Offense\" to \"Jump Ball,\" we can conclude that a jump ball did not occur immediately after UNC Offense.\n\n<reasoning>\nThe diagram shows multiple pathways starting from \"UNC Offense,\" but none of these pathways lead directly to \"Jump Ball.\" The only pathway from \"UNC Offense\" goes through other events like \"Rebound\" and \"Missed Shot\" before reaching an exit or another event.\n</reasoning>\n\n<answer>0</answer>",
+  "process_time_seconds": 7.759687,
+  "processed_at": "2025-05-16 19:20:09"
+}

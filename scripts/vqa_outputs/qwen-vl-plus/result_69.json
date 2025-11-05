@@ -1,0 +1,14 @@
+{
+  "index": 69,
+  "question_id": "q_69",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/SentenTree/emergency_dataset/msp_30.png",
+  "question": "How many patients went to the Floor after the ICU?",
+  "true_answer": "indeterminate",
+  "llm_answer": "36",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "<answer>36</answer>\n\n<reasoning>\nTo determine the number of patients who went to the Floor after the ICU, we need to follow the pathway from the \"ICU\" node to the \"Floor\" node. \n\n1. Start at the \"Start\" node.\n2. Follow the link labeled \"Arrival\" to the \"Emergency\" node.\n3. From the \"Emergency\" node, there are two outgoing links: one labeled \"ICU\" and another labeled \"Discharge-Alive\".\n4. The link labeled \"ICU\" has a numeric label of 62, indicating that 62 patients went to the ICU.\n5. Since the question asks for the number of patients who went to the Floor after the ICU, we look at the link from the \"ICU\" node to the \"Floor\" node.\n6. The link from the \"ICU\" node to the \"Floor\" node has a numeric label of 36, indicating that 36 patients went to the Floor after the ICU.\n\nTherefore, the answer is 36 patients.",
+  "process_time_seconds": 8.872024,
+  "processed_at": "2025-05-16 20:14:59"
+}

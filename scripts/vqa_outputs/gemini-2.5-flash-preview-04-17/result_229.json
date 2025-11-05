@@ -1,0 +1,14 @@
+{
+  "index": 229,
+  "question_id": "q_229",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_20.png",
+  "question": "How many free throws were made by UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": "indeterminate",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "<reason>The user wants to know the number of free throws made by UMD Offense.\nI examined the nodes and links in the diagram.\nI located the \"UMD Offense\" nodes.\nI looked for subsequent nodes that indicate a made shot.\nIn the second column, the path UMD Offense -> Made Shot exists, showing 7 sequences.\nHowever, the diagram only has a generic \"Made Shot\" node and does not differentiate between different types of made shots (e.g., field goals, free throws).\nSince there is no specific node or information indicating free throws, I cannot determine the number of free throws from this visualization.</reason>\n<answer>indeterminate</answer>",
+  "process_time_seconds": 5.205066,
+  "processed_at": "2025-05-14 21:15:24"
+}

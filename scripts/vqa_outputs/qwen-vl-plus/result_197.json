@@ -1,0 +1,14 @@
+{
+  "index": 197,
+  "question_id": "q_197",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_30.png",
+  "question": "How many times did UMD Offense transition from UNC Offense?",
+  "true_answer": "69",
+  "llm_answer": "22",
+  "is_correct": false,
+  "reasoning": "To determine how many times UMD Offense transitioned from UNC Offense, we need to follow the pathway from \"UNC Offense\" to \"UMD Offense\" in the diagram. \n\n1. Start at the node labeled \"UNC Offense.\"\n2. Follow the directed link labeled \"24\" leading to the node labeled \"Made Shot.\"\n3. From \"Made Shot,\" there is a link labeled \"22\" pointing to \"UMD Offense.\"\n\nThe link width between \"UNC Offense\" and \"Made Shot\" is 24, indicating that this sequence occurs 24 times. The link width between \"Made Shot\" and \"UMD Offense\" is 22, indicating that this sequence occurs 22 times.\n\nTherefore, the total number of times UMD Offense transitions from UNC Offense is 22.",
+  "full_response": "<answer>22</answer>\n\n<reasoning>\nTo determine how many times UMD Offense transitioned from UNC Offense, we need to follow the pathway from \"UNC Offense\" to \"UMD Offense\" in the diagram. \n\n1. Start at the node labeled \"UNC Offense.\"\n2. Follow the directed link labeled \"24\" leading to the node labeled \"Made Shot.\"\n3. From \"Made Shot,\" there is a link labeled \"22\" pointing to \"UMD Offense.\"\n\nThe link width between \"UNC Offense\" and \"Made Shot\" is 24, indicating that this sequence occurs 24 times. The link width between \"Made Shot\" and \"UMD Offense\" is 22, indicating that this sequence occurs 22 times.\n\nTherefore, the total number of times UMD Offense transitions from UNC Offense is 22.\n</reasoning>",
+  "process_time_seconds": 15.639046,
+  "processed_at": "2025-05-16 20:31:40"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 196,
+  "question_id": "q_196",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_30.png",
+  "question": "How many rebounds were made after UMD Offense?",
+  "true_answer": "34",
+  "llm_answer": "34",
+  "is_correct": true,
+  "reasoning": "1.  Identify the node labeled \"UMD Offense\". This node represents the start of the UMD offense phase in the sequences.\n2.  Identify the node labeled \"Rebound\". This is the event we are interested in counting after \"UMD Offense\".\n3.  Look for a directed link originating from the \"UMD Offense\" node and pointing to the \"Rebound\" node. There is such a link.\n4.  Read the numerical label associated with this specific link. The label on the link from \"UMD Offense\" to \"Rebound\" is \"34\".\n5.  This number \"34\" represents the number of sequences that transitioned directly from \"UMD Offense\" to \"Rebound\". Therefore, 34 rebounds were made after UMD Offense in these sequences.",
+  "full_response": "<reasoning>\n1.  Identify the node labeled \"UMD Offense\". This node represents the start of the UMD offense phase in the sequences.\n2.  Identify the node labeled \"Rebound\". This is the event we are interested in counting after \"UMD Offense\".\n3.  Look for a directed link originating from the \"UMD Offense\" node and pointing to the \"Rebound\" node. There is such a link.\n4.  Read the numerical label associated with this specific link. The label on the link from \"UMD Offense\" to \"Rebound\" is \"34\".\n5.  This number \"34\" represents the number of sequences that transitioned directly from \"UMD Offense\" to \"Rebound\". Therefore, 34 rebounds were made after UMD Offense in these sequences.\n</reasoning>\n<answer>34</answer>",
+  "process_time_seconds": 5.06675,
+  "processed_at": "2025-05-14 21:09:59"
+}

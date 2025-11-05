@@ -1,0 +1,14 @@
+{
+  "index": 237,
+  "question_id": "q_237",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_25.png",
+  "question": "How many shots were made by only the UNC offense?",
+  "true_answer": "22",
+  "llm_answer": "22",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "1.  **Identify relevant nodes:** We are looking for 'Made Shot' nodes that were preceded by a 'UNC Offense' node.\n2.  **Trace paths:**\n    *   In the first column, there is a path: '_Start' -> 'UNC Offense' (count 2) -> 'Jump Ball' (count 1) and another '_Start' -> 'UNC Offense' (count 2) -> 'Missed Shot' (count 2) and '_Start' -> 'UNC Offense' (count 2) -> 'Made Shot' (count 2).\n    *   In the second column, there is no Made Shot node from the UNC Offense node.\n    *   In the third column, there is no Made Shot node from the UNC Offense node.\n    *   In the fourth column, there is no Made Shot node from the UNC Offense node.\n    *   In the fifth column, there is a path '_Start' -> 'UNC Offense' (count 28) -> 'Made Shot' (count 20).\n\n3.  **Total Made Shots from UNC Offense:** The diagram shows two distinct paths leading from 'UNC Offense' to 'Made Shot'. The first path occurs when '_Start' -> 'UNC Offense' (count 2) -> 'Made Shot' (count 2). The second path occurs when '_Start' -> 'UNC Offense' (count 28) -> 'Made Shot' (count 20). Thus, the total made shots from UNC Offense is 2 + 20 = 22.\n\n**Final Answer:**\n<answer>22</answer>",
+  "process_time_seconds": 4.739211,
+  "processed_at": "2025-05-13 19:58:20"
+}

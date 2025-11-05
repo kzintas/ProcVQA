@@ -1,0 +1,14 @@
+{
+  "index": 117,
+  "question_id": "q_117",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_05.png",
+  "question": "How many shots were made directly after a Rebound?",
+  "true_answer": "15",
+  "llm_answer": "6",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "To determine how many shots were made directly after a Rebound, we need to follow the pathway from \"Rebound\" to \"Made Shot\".\n\n1. Identify the \"Rebound\" node.\n2. Look for an outgoing link from \"Rebound\".\n3. Check if there is a link leading to \"Made Shot\".\n4. Observe the label on the link connecting \"Rebound\" to \"Made Shot\".\n\nThe link from \"Rebound\" to \"Made Shot\" has a label of 6.\n\n<answer>6</answer>",
+  "process_time_seconds": 22.7883,
+  "processed_at": "2025-05-15 04:02:33"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 161,
+  "question_id": "q_161",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_05.png",
+  "question": "How many rebounds were made after UMD Offense?",
+  "true_answer": "34",
+  "llm_answer": "27",
+  "is_correct": false,
+  "reasoning": "1.  **Locate the 'UMD Offense' node:** The 'UMD Offense' node is found in the middle section of the diagram.\n2.  **Identify outgoing links from 'UMD Offense':** From the 'UMD Offense' node, there are several outgoing links to subsequent events.\n3.  **Find links leading to a 'Rebound' node:** We need to find a link that goes from 'UMD Offense' directly to a 'Rebound' node.\n    *   There is a link going from 'UMD Offense' to a 'Rebound' node on the left side.\n4.  **Read the value on the identified link:** The numeric label on the link connecting 'UMD Offense' to this 'Rebound' node is 27.\n5.  **Conclusion:** This value (27) represents the number of times a rebound occurred immediately after UMD Offense.",
+  "full_response": "<reasoning>\n1.  **Locate the 'UMD Offense' node:** The 'UMD Offense' node is found in the middle section of the diagram.\n2.  **Identify outgoing links from 'UMD Offense':** From the 'UMD Offense' node, there are several outgoing links to subsequent events.\n3.  **Find links leading to a 'Rebound' node:** We need to find a link that goes from 'UMD Offense' directly to a 'Rebound' node.\n    *   There is a link going from 'UMD Offense' to a 'Rebound' node on the left side.\n4.  **Read the value on the identified link:** The numeric label on the link connecting 'UMD Offense' to this 'Rebound' node is 27.\n5.  **Conclusion:** This value (27) represents the number of times a rebound occurred immediately after UMD Offense.\n</reasoning>\n<answer>27</answer>",
+  "process_time_seconds": 10.866547,
+  "processed_at": "2025-05-15 02:53:10"
+}

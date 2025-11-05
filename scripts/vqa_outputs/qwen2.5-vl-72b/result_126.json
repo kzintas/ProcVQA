@@ -1,0 +1,14 @@
+{
+  "index": 126,
+  "question_id": "q_126",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_10.png",
+  "question": "How many total shots were made by UMD offense?",
+  "true_answer": "23",
+  "llm_answer": "23",
+  "is_correct": true,
+  "reasoning": "- From \"UMD Offense,\" there are two direct paths leading to \"Made Shot\":\n        - One path has a count of 8.\n      - Another path goes through \"Rebound\" and then splits:\n        - From \"Rebound,\" one path leads to \"Made Shot\" with a count of 15.\n      - Summing these counts gives the total number of made shots by UMD offense.\n      - Calculation: 8 (direct) + 15 (via Rebound) = 23",
+  "full_response": "1. **Relevant Elements:**\n   - The node \"UMD Offense\" branches out to various events.\n   - We need to focus on paths that lead to a \"Made Shot.\"\n\n2. <reasoning>\n      - From \"UMD Offense,\" there are two direct paths leading to \"Made Shot\":\n        - One path has a count of 8.\n      - Another path goes through \"Rebound\" and then splits:\n        - From \"Rebound,\" one path leads to \"Made Shot\" with a count of 15.\n      - Summing these counts gives the total number of made shots by UMD offense.\n      - Calculation: 8 (direct) + 15 (via Rebound) = 23\n   </reasoning>\n\n3. <answer>23</answer>",
+  "process_time_seconds": 7.712961,
+  "processed_at": "2025-05-16 19:45:04"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 109,
+  "question_id": "q_109",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_30.png",
+  "question": "How many patients went to the ICU after Emrgency?",
+  "true_answer": "35",
+  "llm_answer": "12",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "### Relevant Elements:\n- The node labeled \"Emergency\" is at the top of the leftmost pathway.\n- The link from \"Emergency\" leads to \"ICU\".\n- The numeric label on this link is 12.\n\n### Reasoning:\n1. Identify the starting point: The \"Emergency\" node represents the beginning of the pathway.\n2. Follow the link from \"Emergency\" to determine the next event: The link points to \"ICU\".\n3. Check the numeric label on the link: The label is 12, which indicates the number of patients who proceed from \"Emergency\" to \"ICU\".\n\n### Final Answer:\n<answer>12</answer>",
+  "process_time_seconds": 46.993055,
+  "processed_at": "2025-05-15 03:57:42"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 110,
+  "question_id": "q_110",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_30.png",
+  "question": "How many patients went to the Floor after the ICU?",
+  "true_answer": "23",
+  "llm_answer": "23",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "### Relevant Elements:\n- The node \"ICU\" is connected to the node \"Floor\" via a link labeled \"23\".\n- The link width corresponds to the number of sequences.\n\n### Reasoning:\n1. Identify the pathway from \"ICU\" to \"Floor\". This is indicated by the link connecting these two nodes.\n2. The label on this link is \"23\", which represents the number of sequences following this path.\n\n### Final Answer:\n<answer>23</answer>",
+  "process_time_seconds": 40.241253,
+  "processed_at": "2025-05-15 03:58:23"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 82,
+  "question_id": "q_82",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_10.png",
+  "question": "How many patients went to the Floor after the ICU?",
+  "true_answer": "23",
+  "llm_answer": "20",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "To answer the question, let's analyze the node-link diagram step by step:\n\n### 1. Identify the relevant nodes and links:\n- We need to focus on the pathway from the **ICU** node to the **Floor** node.\n- The **ICU** node is connected to other nodes, and we need to determine how many sequences lead from ICU to Floor.\n\n### 2. Examine the ICU node:\n- There are two instances of the **ICU** node in the diagram:\n  - One with 12 patients (leftmost branch).\n  - Another with 23 patients (middle branch).\n\n### 3. Trace the paths from ICU to Floor:\n- **Leftmost branch (12 patients):**\n  - From the ICU node (12 patients), the path leads directly to the **Die** node.\n  - There is no link from this ICU node to the Floor node.\n  - Therefore, 0 patients from this branch go to the Floor.\n\n- **Middle branch (23 patients):**\n  - From the ICU node (23 patients), there is a link to the **Floor** node.\n  - The link width and label indicate that 20 patients go from ICU to Floor.\n  - The remaining 3 patients (23 - 20) go to the **Discharge-Alive** node.\n\n### 4. Summarize the findings:\n- Only the middle branch has a connection from ICU to Floor.\n- The number of patients going from ICU to Floor is explicitly labeled as 20.\n\n### Final Answer:\n<answer>20</answer>",
+  "process_time_seconds": 7.606585,
+  "processed_at": "2025-05-16 21:02:29"
+}

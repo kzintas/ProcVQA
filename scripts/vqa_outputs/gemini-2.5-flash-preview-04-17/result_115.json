@@ -1,0 +1,14 @@
+{
+  "index": 115,
+  "question_id": "q_115",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_05.png",
+  "question": "How many times did UMD Offense not transition to a Rebound?",
+  "true_answer": "35",
+  "llm_answer": "35",
+  "is_correct": true,
+  "reasoning": "1.  I identified the node labeled 'UMD Offense'.\n2.  I examined all the outgoing links from the 'UMD Offense' node to determine the subsequent events and their counts.\n3.  The outgoing links from 'UMD Offense' lead to the following nodes with their corresponding counts:\n    *   'Rebound' (34)\n    *   'Missed Shot' (14)\n    *   'Foul' (10)\n    *   '_Exit' (8)\n    *   '_Exit' (3)\n4.  The question asks for the number of times 'UMD Offense' did *not* transition to 'Rebound'.\n5.  This corresponds to the sum of the counts for all outgoing links from 'UMD Offense' *except* the link going to 'Rebound'.\n6.  The counts for the non-Rebound transitions are 14 (to Missed Shot), 10 (to Foul), 8 (to _Exit), and 3 (to _Exit).\n7.  I calculated the sum: 14 + 10 + 8 + 3 = 35.",
+  "full_response": "<reasoning>\n1.  I identified the node labeled 'UMD Offense'.\n2.  I examined all the outgoing links from the 'UMD Offense' node to determine the subsequent events and their counts.\n3.  The outgoing links from 'UMD Offense' lead to the following nodes with their corresponding counts:\n    *   'Rebound' (34)\n    *   'Missed Shot' (14)\n    *   'Foul' (10)\n    *   '_Exit' (8)\n    *   '_Exit' (3)\n4.  The question asks for the number of times 'UMD Offense' did *not* transition to 'Rebound'.\n5.  This corresponds to the sum of the counts for all outgoing links from 'UMD Offense' *except* the link going to 'Rebound'.\n6.  The counts for the non-Rebound transitions are 14 (to Missed Shot), 10 (to Foul), 8 (to _Exit), and 3 (to _Exit).\n7.  I calculated the sum: 14 + 10 + 8 + 3 = 35.\n</reasoning>\n<answer>35</answer>",
+  "process_time_seconds": 5.809794,
+  "processed_at": "2025-05-14 21:03:03"
+}

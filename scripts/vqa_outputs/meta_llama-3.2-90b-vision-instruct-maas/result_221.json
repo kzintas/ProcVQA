@@ -1,0 +1,15 @@
+{
+  "index": 221,
+  "question_id": "q_221",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_15.png",
+  "question": "How many total missed shots were made by both teams?",
+  "true_answer": "39",
+  "llm_answer": "27",
+  "is_correct": false,
+  "reasoning": "The total number of missed shots is the sum of the counts of the two \"Missed Shot\" nodes.\nTotal Missed Shots = Count of First \"Missed Shot\" Node + Count of Second \"Missed Shot\" Node\nTotal Missed Shots = 2 + 25\nTotal Missed Shots = 27",
+  "full_response": "The node-link diagram shows the sequences of events in a basketball game. The relevant elements for this question are the \"Missed Shot\" nodes and their corresponding counts.\n\nThere are two \"Missed Shot\" nodes, one for each team. The first \"Missed Shot\" node has a count of 2, and the second \"Missed Shot\" node has a count of 25. To find the total number of missed shots, we need to add these two counts together.\n\n<reasoning>\nThe total number of missed shots is the sum of the counts of the two \"Missed Shot\" nodes.\nTotal Missed Shots = Count of First \"Missed Shot\" Node + Count of Second \"Missed Shot\" Node\nTotal Missed Shots = 2 + 25\nTotal Missed Shots = 27\n</reasoning>\n\n<answer>27</answer>",
+  "process_time_seconds": 8.317597,
+  "processed_at": "2025-05-17 06:40:15",
+  "model": "meta/llama-3.2-90b-vision-instruct-maas"
+}

@@ -1,0 +1,15 @@
+{
+  "index": 63,
+  "question_id": "q_63",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/SentenTree/emergency_dataset/msp_25.png",
+  "question": "How many patients went to the Floor after the ICU?",
+  "true_answer": "indeterminate",
+  "llm_answer": "26",
+  "is_correct": false,
+  "reasoning": "To determine the number of patients who went to the Floor after the ICU, we need to analyze the node-link diagram. The diagram shows that 26 patients went from the ICU to the Floor. Therefore, the number of patients who went to the Floor after the ICU is 26.",
+  "full_response": "<reasoning>\nTo determine the number of patients who went to the Floor after the ICU, we need to analyze the node-link diagram. The diagram shows that 26 patients went from the ICU to the Floor. Therefore, the number of patients who went to the Floor after the ICU is 26.\n</reasoning>\n<answer>26</answer>",
+  "process_time_seconds": 3.747782,
+  "processed_at": "2025-05-17 06:16:30",
+  "model": "meta/llama-3.2-90b-vision-instruct-maas"
+}

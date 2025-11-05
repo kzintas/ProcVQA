@@ -1,0 +1,14 @@
+{
+  "index": 234,
+  "question_id": "q_234",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_25.png",
+  "question": "How many total made shots were made by both teams?",
+  "true_answer": "30",
+  "llm_answer": "30",
+  "is_correct": true,
+  "reasoning": "The question asks for the total number of made shots. I can identify 3 instances of 'Made Shot' in the diagram with the values 2, 8 and 20 respectively. Summing these will provide the answer to the question. The sum is 2 + 8 + 20 = 30.",
+  "full_response": "1.  Identify made shot events: The visualization displays two distinct \"Made Shot\" events.\n2.  Locate the values associated with these events:\n    *   One \"Made Shot\" event has a value of 2.\n    *   Another \"Made Shot\" event has a value of 8.\n    *   A third \"Made Shot\" event has a value of 20.\n3.  Calculate the total: Sum the values to determine the total number of made shots: 2 + 8 + 20 = 30\n\n<reasoning>\nThe question asks for the total number of made shots. I can identify 3 instances of 'Made Shot' in the diagram with the values 2, 8 and 20 respectively. Summing these will provide the answer to the question. The sum is 2 + 8 + 20 = 30.\n</reasoning>\n<answer>30</answer>",
+  "process_time_seconds": 4.769375,
+  "processed_at": "2025-05-13 19:58:06"
+}

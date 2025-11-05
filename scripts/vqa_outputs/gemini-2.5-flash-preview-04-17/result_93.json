@@ -1,0 +1,14 @@
+{
+  "index": 93,
+  "question_id": "q_93",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_20.png",
+  "question": "How many total patients were discharged alive?",
+  "true_answer": "57",
+  "llm_answer": "57",
+  "is_correct": true,
+  "reasoning": "The question asks for the total number of patients who were discharged alive.\nI need to locate all nodes in the diagram labeled 'Discharge-Alive'.\nThere are two 'Discharge-Alive' nodes shown in the diagram.\n1. The first 'Discharge-Alive' node is in the second column from the left. The number associated with this node and the outgoing link to '_Exit' is 37. This indicates 37 patients followed this sequence ending in Discharge-Alive.\n2. The second 'Discharge-Alive' node is in the third column from the left. The number associated with this node is 20. The preceding node is 'Floor' with 23 sequences, and the following node is '_Exit' with 24 sequences in this column. The count 20 associated with the 'Discharge-Alive' node indicates that 20 patients were discharged alive through this path (from Floor).\n\nTo find the total number of patients discharged alive, I sum the counts associated with each 'Discharge-Alive' node.\nTotal discharged alive = Count for Discharge-Alive (Column 2) + Count for Discharge-Alive (Column 3)\nTotal discharged alive = 37 + 20\nTotal discharged alive = 57",
+  "full_response": "<reasoning>\nThe question asks for the total number of patients who were discharged alive.\nI need to locate all nodes in the diagram labeled 'Discharge-Alive'.\nThere are two 'Discharge-Alive' nodes shown in the diagram.\n1. The first 'Discharge-Alive' node is in the second column from the left. The number associated with this node and the outgoing link to '_Exit' is 37. This indicates 37 patients followed this sequence ending in Discharge-Alive.\n2. The second 'Discharge-Alive' node is in the third column from the left. The number associated with this node is 20. The preceding node is 'Floor' with 23 sequences, and the following node is '_Exit' with 24 sequences in this column. The count 20 associated with the 'Discharge-Alive' node indicates that 20 patients were discharged alive through this path (from Floor).\n\nTo find the total number of patients discharged alive, I sum the counts associated with each 'Discharge-Alive' node.\nTotal discharged alive = Count for Discharge-Alive (Column 2) + Count for Discharge-Alive (Column 3)\nTotal discharged alive = 37 + 20\nTotal discharged alive = 57\n</reasoning>\n<answer>57</answer>",
+  "process_time_seconds": 6.373052,
+  "processed_at": "2025-05-14 21:00:57"
+}

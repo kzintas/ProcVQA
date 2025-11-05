@@ -1,0 +1,14 @@
+{
+  "index": 199,
+  "question_id": "q_199",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_30.png",
+  "question": "How many missed shots were before UMD Offense?",
+  "true_answer": "24",
+  "llm_answer": "24",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "### Step 1: Identify Relevant Elements\n- The diagram shows a sequence of events starting from `_Start` and ending at `_Exit`.\n- Events are connected by directed links, and the width of each link is proportional to the number of sequences following that path.\n- Numeric labels on the links indicate the exact count of sequences for each path.\n- The question asks specifically about the number of \"Missed Shot\" events that occurred before the \"UMD Offense\" event.\n\n### Step 2: Analyze the Pathways\n1. **Starting Point (`_Start`)**:\n   - From `_Start`, there are two paths leading to \"UNC Offense\":\n     - One path has a count of **69**.\n\n2. **UNC Offense**:\n   - From \"UNC Offense,\" there are two possible outcomes:\n     - \"Made Shot\" with a count of **22**.\n     - \"Missed Shot\" with a count of **24**.\n\n3. **Focus on \"Missed Shot\"**:\n   - The question is concerned with the \"Missed Shot\" event, which leads directly to \"UMD Offense.\"\n   - The link from \"Missed Shot\" to \"UMD Offense\" has a count of **24**.\n\n4. **UMD Offense**:\n   - From \"UMD Offense,\" there are two possible outcomes:\n     - \"Rebound\" with a count of **34**.\n     - `_Exit` with a count of **22**.\n   - However, these outcomes are not relevant to the question since we are only interested in the number of \"Missed Shot\" events before \"UMD Offense.\"\n\n### Step 3: Reasoning\n- The question asks for the number of \"Missed Shot\" events that occurred before \"UMD Offense.\"\n- From the diagram, we can see that the \"Missed Shot\" event directly leads to \"UMD Offense.\"\n- The count of sequences following the \"Missed Shot\" path is explicitly labeled as **24**.\n\n### Final Answer\n<answer>24</answer>",
+  "process_time_seconds": 8.460021,
+  "processed_at": "2025-05-16 21:23:05"
+}

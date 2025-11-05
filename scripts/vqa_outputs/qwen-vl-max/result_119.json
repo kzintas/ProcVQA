@@ -1,0 +1,14 @@
+{
+  "index": 119,
+  "question_id": "q_119",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_05.png",
+  "question": "How many total Fouls were made by UMD Offense?",
+  "true_answer": "16",
+  "llm_answer": "10",
+  "is_correct": false,
+  "reasoning": "1. From \"UMD Offense\", there are two pathways leading to \"Foul\":\n   - One pathway has a link count of 6.\n   - Another pathway has a link count of 4.\n\n2. Summing these values gives us the total number of Fouls:\n   6 + 4 = 10",
+  "full_response": "To determine the total number of Fouls made by UMD Offense, we need to follow the pathways that lead from \"UMD Offense\" to \"Foul\". \n\n<reasoning>\n1. From \"UMD Offense\", there are two pathways leading to \"Foul\":\n   - One pathway has a link count of 6.\n   - Another pathway has a link count of 4.\n\n2. Summing these values gives us the total number of Fouls:\n   6 + 4 = 10\n</reasoning> \n<answer>10</answer>",
+  "process_time_seconds": 5.767169,
+  "processed_at": "2025-05-16 19:05:45"
+}

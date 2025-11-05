@@ -1,0 +1,14 @@
+{
+  "index": 234,
+  "question_id": "q_234",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_25.png",
+  "question": "How many total made shots were made by both teams?",
+  "true_answer": "30",
+  "llm_answer": "28",
+  "is_correct": false,
+  "reasoning": "To determine the total number of made shots by both teams, we need to count the nodes labeled \"Made Shot\" and their corresponding numeric labels.\n\n1. For UNC Offense, there are 2 instances of \"Made Shot\" with a label of 8.\n2. For UMD Offense, there are 3 instances of \"Made Shot\" with a label of 20.\n\nAdding these together: \\(8 + 20 = 28\\).\n\nTherefore, the total number of made shots by both teams is 28.",
+  "full_response": "<answer>28</answer>\n\n<reasoning>\nTo determine the total number of made shots by both teams, we need to count the nodes labeled \"Made Shot\" and their corresponding numeric labels.\n\n1. For UNC Offense, there are 2 instances of \"Made Shot\" with a label of 8.\n2. For UMD Offense, there are 3 instances of \"Made Shot\" with a label of 20.\n\nAdding these together: \\(8 + 20 = 28\\).\n\nTherefore, the total number of made shots by both teams is 28.\n</reasoning>",
+  "process_time_seconds": 5.398199,
+  "processed_at": "2025-05-16 20:37:41"
+}

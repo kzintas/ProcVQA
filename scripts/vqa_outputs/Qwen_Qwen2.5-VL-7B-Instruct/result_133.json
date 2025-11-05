@@ -1,0 +1,14 @@
+{
+  "index": 133,
+  "question_id": "q_133",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_15.png",
+  "question": "How many shots were made directly after a Rebound?",
+  "true_answer": "15",
+  "llm_answer": "15",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "### Relevant Elements:\n- The node \"Rebound\" has two outgoing links labeled \"Made Shot\" and \"_Exit\".\n- The link width between \"Rebound\" and \"Made Shot\" is 15.\n\n### Reasoning:\n1. Identify the node \"Rebound\" which represents a rebound event.\n2. From \"Rebound\", there are two possible paths: \"Made Shot\" and \"_Exit\".\n3. The link width between \"Rebound\" and \"Made Shot\" is 15, indicating the number of sequences that follow this path.\n4. The link width between \"Rebound\" and \"_Exit\" is 19, but we are only interested in the \"Made Shot\" path for the question.\n\n### Final Answer:\n<answer>15</answer>",
+  "process_time_seconds": 28.680852,
+  "processed_at": "2025-05-15 04:10:29"
+}

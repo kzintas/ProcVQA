@@ -1,0 +1,14 @@
+{
+  "index": 148,
+  "question_id": "q_148",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_25.png",
+  "question": "How many shots were missed immediately after UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": "34",
+  "is_correct": false,
+  "reasoning": "The question asks how many shots were missed immediately after UMD Offense. The diagram shows that the sequences split from \"UMD Offense\" to \"Rebound\" (34) and to \"_Exit\" (35). Shots are missed when the sequence goes to \"Rebound\". Therefore the number of shots missed after UMD Offense is 34.",
+  "full_response": "1.  Identify the node: The node labeled 'UMD Offense' is the starting point.\n2.  Identify the outgoing links: From the 'UMD Offense' node, there are two outgoing links. One link goes to 'Rebound' with a value of 34 and the other link goes to '_Exit' with a value of 35.\n3.  Interpret the question: The question asks about shots missed after 'UMD Offense'. The link to 'Rebound' indicates a missed shot, while the link to '_Exit' directly represents a successful shot or other exit event.\n4.  Extract answer: The number of sequences that proceed from 'UMD Offense' to 'Rebound' is 34.\n\n<reasoning>\nThe question asks how many shots were missed immediately after UMD Offense. The diagram shows that the sequences split from \"UMD Offense\" to \"Rebound\" (34) and to \"_Exit\" (35). Shots are missed when the sequence goes to \"Rebound\". Therefore the number of shots missed after UMD Offense is 34.\n</reasoning>\n<answer>34</answer>",
+  "process_time_seconds": 3.525749,
+  "processed_at": "2025-05-13 19:52:22"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 157,
+  "question_id": "q_157",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_30.png",
+  "question": "How many shots were made directly after a Rebound?",
+  "true_answer": "indeterminate",
+  "llm_answer": "34",
+  "is_correct": false,
+  "reasoning": "1. The \"Rebound\" node has one outgoing link leading back to \"_Exit\".\n2. The numeric label next to this link is 34.\n3. This indicates that there are 34 sequences where a Rebound is immediately followed by an exit, which in this context likely represents a shot being made.",
+  "full_response": "To determine how many shots were made directly after a Rebound, we need to follow the pathways from the \"Rebound\" node. \n\n<reasoning>\n1. The \"Rebound\" node has one outgoing link leading back to \"_Exit\".\n2. The numeric label next to this link is 34.\n3. This indicates that there are 34 sequences where a Rebound is immediately followed by an exit, which in this context likely represents a shot being made.\n</reasoning>\n\n<answer>34</answer>",
+  "process_time_seconds": 4.384888,
+  "processed_at": "2025-05-16 19:10:18"
+}

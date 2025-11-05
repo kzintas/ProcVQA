@@ -1,0 +1,14 @@
+{
+  "index": 138,
+  "question_id": "q_138",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many times did UMD Offense transition from UNC Offense?",
+  "true_answer": "69",
+  "llm_answer": "69",
+  "is_correct": true,
+  "reasoning": "1.  The question asks for the number of times UMD Offense transitioned from UNC Offense. This means we need to find a direct link from the \"UNC Offense\" node to the \"UMD Offense\" node.\n2.  Looking at the diagram, we can see the node labeled \"_Start\" at the top.\n3.  Below \"_Start\", there is a node labeled \"UNC Offense\". A link connects \"_Start\" to \"UNC Offense\" with a label \"69\".\n4.  Below \"UNC Offense\", there is a node labeled \"UMD Offense\".\n5.  There is a directed link from \"UNC Offense\" to \"UMD Offense\".\n6.  The numeric label on this link, indicating the number of sequences following this path, is \"69\".\n7.  Therefore, UMD Offense transitioned from UNC Offense 69 times.",
+  "full_response": "<reasoning>\n1.  The question asks for the number of times UMD Offense transitioned from UNC Offense. This means we need to find a direct link from the \"UNC Offense\" node to the \"UMD Offense\" node.\n2.  Looking at the diagram, we can see the node labeled \"_Start\" at the top.\n3.  Below \"_Start\", there is a node labeled \"UNC Offense\". A link connects \"_Start\" to \"UNC Offense\" with a label \"69\".\n4.  Below \"UNC Offense\", there is a node labeled \"UMD Offense\".\n5.  There is a directed link from \"UNC Offense\" to \"UMD Offense\".\n6.  The numeric label on this link, indicating the number of sequences following this path, is \"69\".\n7.  Therefore, UMD Offense transitioned from UNC Offense 69 times.\n</reasoning>\n<answer>69</answer>",
+  "process_time_seconds": 4.998911,
+  "processed_at": "2025-05-15 02:48:21"
+}

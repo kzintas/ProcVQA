@@ -1,0 +1,14 @@
+{
+  "index": 244,
+  "question_id": "q_244",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_30.png",
+  "question": "How many shots were made by only the UNC offense?",
+  "true_answer": "19",
+  "llm_answer": null,
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "**Step 1: Identify the relevant elements in the visualization that inform the answer.**\n\nThe node-link diagram shows various events, including shots made by the UNC offense. The relevant elements for this question are the nodes and links representing shots made by the UNC offense.\n\n**Step 2: Describe the thought process and calculations in detail.**\n\nTo determine the number of shots made by only the UNC offense, we need to analyze the nodes and links representing shots made by the UNC offense. We can see that there are several nodes and links representing shots made by the UNC offense, including:\n\n*   A node labeled \"Made Shot\" with a value of 14\n*   A node labeled \"Made Free Throw\" with a value of 10\n*   A node labeled \"Made Shot\" with a value of 6\n*   A node labeled \"Made Shot\" with a value of 7\n*   A node labeled \"Made Shot\" with a value of 12\n\nWe can also see that there are several links connecting these nodes, indicating that these shots were made by the UNC offense.\n\n**Step 3: Provide the final answer in the required format.**\n\nBased on the analysis, we can conclude that the UNC offense made a total of 14 + 10 + 6 + 7 + 12 = 49 shots.\n\n**Answer:** 49",
+  "process_time_seconds": 16.110853,
+  "processed_at": "2025-05-17 12:53:43"
+}

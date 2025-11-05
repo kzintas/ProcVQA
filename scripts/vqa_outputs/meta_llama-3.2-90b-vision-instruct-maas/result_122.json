@@ -1,0 +1,15 @@
+{
+  "index": 122,
+  "question_id": "q_122",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_10.png",
+  "question": "How many times did UMD Offense transition from UNC Offense?",
+  "true_answer": "69",
+  "llm_answer": "69",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "**Step 1: Identify the relevant elements in the visualization.**\n\n*   The node \"UNC Offense\" is connected to the node \"UMD Offense\" with a link labeled \"69\".\n*   The link width is proportional to the number of sequences following that path.\n\n**Step 2: Describe the thought process and calculations clearly step-by-step.**\n\n*   The link between \"UNC Offense\" and \"UMD Offense\" has a label of \"69\", indicating that there are 69 sequences that transition from \"UNC Offense\" to \"UMD Offense\".\n\n**Step 3: Provide the final answer in the required format.**\n\n*   The final answer is: <answer>69</answer>",
+  "process_time_seconds": 7.020204,
+  "processed_at": "2025-05-17 06:24:46",
+  "model": "meta/llama-3.2-90b-vision-instruct-maas"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 236,
+  "question_id": "q_236",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_25.png",
+  "question": "How many free throws were made by UMD Offense?",
+  "true_answer": "3",
+  "llm_answer": "3",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "### Reasoning:\nTo determine the number of free throws made by UMD Offense, we need to follow the pathway from \"Start\" to \"Made Free Throw\" for UMD Offense.\n\n1. From the \"Start\" node, there is a link to \"UNC Offense\" with 19 sequences.\n2. From \"UNC Offense,\" there is a link to \"Rebound\" with 19 sequences.\n3. From \"Rebound,\" there is a link to \"Missed Shot\" with 19 sequences.\n4. From \"Missed Shot,\" there is a link to \"Made Free Throw\" with 11 sequences.\n5. From \"Made Free Throw,\" there is a link to \"_Exit\" with 10 sequences.\n\nThe pathway from \"Start\" to \"Made Free Throw\" for UMD Offense involves the same sequence as described above but with different counts. Specifically, the link from \"Rebound\" to \"Missed Shot\" for UMD Offense has 17 sequences, and the link from \"Missed Shot\" to \"Made Free Throw\" has 3 sequences.\n\nThus, the total number of free throws made by UMD Offense is the sum of these sequences.\n\n### Final Answer:\n<answer>3</answer>",
+  "process_time_seconds": 72.679829,
+  "processed_at": "2025-05-15 05:24:01"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 94,
+  "question_id": "q_94",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_20.png",
+  "question": "How many patients got discharged alive directly after arriving at Emergency? ",
+  "true_answer": "37",
+  "llm_answer": "20",
+  "is_correct": false,
+  "reasoning": "The diagram shows that 37 patients move from \"Arrival\" to \"Emergency\". Out of these, 20 patients proceed directly to \"Discharge-Alive\". This pathway indicates the sequence of events for patients who arrived, went through the emergency department, and were subsequently discharged alive.",
+  "full_response": "To determine how many patients got discharged alive directly after arriving at Emergency, we need to follow the pathways from \"Arrival\" to \"Emergency\" and then to \"Discharge-Alive\".\n\n1. From \"Arrival\", 37 patients moved to \"Emergency\".\n2. From \"Emergency\", 20 patients were discharged alive.\n\nTherefore, the number of patients who got discharged alive directly after arriving at Emergency is 20.\n\n<reasoning>\nThe diagram shows that 37 patients move from \"Arrival\" to \"Emergency\". Out of these, 20 patients proceed directly to \"Discharge-Alive\". This pathway indicates the sequence of events for patients who arrived, went through the emergency department, and were subsequently discharged alive.\n</reasoning>\n\n<answer>20</answer>",
+  "process_time_seconds": 8.333993,
+  "processed_at": "2025-05-16 19:01:59"
+}

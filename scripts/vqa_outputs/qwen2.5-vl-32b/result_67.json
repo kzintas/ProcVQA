@@ -1,0 +1,14 @@
+{
+  "index": 67,
+  "question_id": "q_67",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/SentenTree/emergency_dataset/msp_30.png",
+  "question": "How many patients got discharged alive directly after arriving at Emergency? ",
+  "true_answer": "38",
+  "llm_answer": "38",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "To answer the question, let's analyze the node-link diagram step by step:\n\n1. **Identify the starting point**: The sequence begins at `_Start`, which has 100 patients moving to `Arrival`.\n\n2. **Follow the pathway to Emergency**: All 100 patients from `Arrival` proceed to `Emergency`.\n\n3. **Examine the branching at Emergency**:\n   - From `Emergency`, there are two paths:\n     - One path leads to `ICU` with 62 patients.\n     - The other path leads directly to `Discharge-Alive` with 38 patients.\n\n4. **Focus on the direct discharge path**: The question asks specifically about patients who were discharged alive directly after arriving at `Emergency`. This corresponds to the link from `Emergency` to `Discharge-Alive`.\n\n5. **Count the patients on the direct discharge path**: The link from `Emergency` to `Discharge-Alive` is labeled with the number 38, indicating that 38 patients followed this path.\n\n### Reasoning\n- The diagram shows a clear division of patients at the `Emergency` node.\n- The branch leading directly to `Discharge-Alive` represents patients who were discharged alive without going through the ICU.\n- The label on this branch (38) explicitly indicates the number of patients who took this direct path.\n\n### Final Answer\n<answer>38</answer>",
+  "process_time_seconds": 6.350198,
+  "processed_at": "2025-05-16 21:00:17"
+}

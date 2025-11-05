@@ -1,0 +1,14 @@
+{
+  "index": 123,
+  "question_id": "q_123",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_10.png",
+  "question": "How many times did UMD Offense not transition to a Rebound?",
+  "true_answer": "35",
+  "llm_answer": "35",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "To answer the question, we need to analyze the pathways from the \"UMD Offense\" node and determine how many times it did not transition to a \"Rebound.\"\n\n### Step 1: Identify the total number of sequences starting from \"UMD Offense\"\n- The link from \"_Start\" to \"UNC Offense\" has a count of 69.\n- The link from \"UNC Offense\" to \"UMD Offense\" also has a count of 69.\n- Therefore, there are 69 sequences starting from \"UMD Offense.\"\n\n### Step 2: Identify the number of sequences transitioning to \"Rebound\"\n- From \"UMD Offense,\" there is a link labeled \"34\" leading to \"Rebound.\"\n- This means 34 sequences transitioned from \"UMD Offense\" to \"Rebound.\"\n\n### Step 3: Calculate the number of sequences that did not transition to \"Rebound\"\n- Total sequences starting from \"UMD Offense\": 69\n- Sequences transitioning to \"Rebound\": 34\n- Sequences not transitioning to \"Rebound\": \\( 69 - 34 = 35 \\)\n\n### Step 4: Verify other pathways from \"UMD Offense\"\n- From \"UMD Offense,\" there are other links:\n  - To \"Missed Shot\": 14 sequences\n  - To \"Foul\": 8 sequences\n  - To \"Made Shot\": 3 sequences\n- These pathways confirm that the remaining sequences (35) did not go to \"Rebound.\"\n\n### Final Answer:\n<answer>35</answer>",
+  "process_time_seconds": 7.685924,
+  "processed_at": "2025-05-16 21:10:44"
+}

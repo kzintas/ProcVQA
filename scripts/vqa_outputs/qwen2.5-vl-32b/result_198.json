@@ -1,0 +1,14 @@
+{
+  "index": 198,
+  "question_id": "q_198",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_30.png",
+  "question": "How many made shots were after UNC Offense?",
+  "true_answer": "22",
+  "llm_answer": "22",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "### Step 1: Identify Relevant Elements\n- The diagram shows a sequence of events starting from `_Start` and ending at `_Exit`.\n- The node labeled \"UNC Offense\" is the first decision point after `_Start`.\n- From \"UNC Offense,\" there are two outgoing links:\n  - One leads to \"Made Shot\" with a link width and label indicating 22 sequences.\n  - The other leads to \"Missed Shot\" with a link width and label indicating 24 sequences.\n\n### Step 2: Analyze the Question\nThe question asks for the number of \"made shots\" that occurred after \"UNC Offense.\" This corresponds to the number of sequences that followed the path from \"UNC Offense\" to \"Made Shot.\"\n\n### Step 3: Extract the Required Value\n- The link from \"UNC Offense\" to \"Made Shot\" is explicitly labeled with the value **22**.\n- This value represents the number of sequences where a made shot occurred after UNC Offense.\n\n### Step 4: Verify Completeness\n- The diagram clearly shows the flow of sequences, and the value for the \"Made Shot\" path is unambiguous.\n- There are no hidden or indirect paths that could affect this count.\n\n### Final Answer\n<answer>22</answer>",
+  "process_time_seconds": 5.647981,
+  "processed_at": "2025-05-16 21:22:56"
+}

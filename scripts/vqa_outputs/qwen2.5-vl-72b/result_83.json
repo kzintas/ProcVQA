@@ -1,0 +1,14 @@
+{
+  "index": 83,
+  "question_id": "q_83",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_10.png",
+  "question": "How many total patients were discharged alive after going to the Floor?",
+  "true_answer": "20",
+  "llm_answer": "20",
+  "is_correct": true,
+  "reasoning": "- In the third column, 23 patients go from \"Emergency\" to \"Floor\".\n      - From \"Floor\", 20 patients are discharged alive (\"Discharge-Alive\").\n      - There is no other pathway in the diagram that involves \"Floor\" leading to \"Discharge-Alive\".\n      - Therefore, the number of patients discharged alive after going to the Floor is 20.",
+  "full_response": "1. **Relevant Elements:**\n   - The diagram shows pathways involving the \"Floor\" node.\n   - We need to focus on sequences that pass through \"Floor\" and end with \"Discharge-Alive\".\n\n2. <reasoning>\n      - In the third column, 23 patients go from \"Emergency\" to \"Floor\".\n      - From \"Floor\", 20 patients are discharged alive (\"Discharge-Alive\").\n      - There is no other pathway in the diagram that involves \"Floor\" leading to \"Discharge-Alive\".\n      - Therefore, the number of patients discharged alive after going to the Floor is 20.\n   </reasoning>\n\n3. <answer>20</answer>",
+  "process_time_seconds": 7.286019,
+  "processed_at": "2025-05-16 19:38:05"
+}

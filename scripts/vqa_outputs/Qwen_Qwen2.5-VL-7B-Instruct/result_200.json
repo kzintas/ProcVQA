@@ -1,0 +1,14 @@
+{
+  "index": 200,
+  "question_id": "q_200",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_30.png",
+  "question": "How many total rebounds are there in the match?",
+  "true_answer": "34",
+  "llm_answer": "24",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "### Relevant Elements:\n- The node labeled \"Rebound\" has a link leading to \"_Exit\".\n- The label on this link is 24.\n\n### Reasoning:\n1. The node labeled \"Rebound\" represents an event where a rebound occurs.\n2. The link from \"Rebound\" to \"_Exit\" indicates the continuation of the sequence after a rebound.\n3. The label on this link, 24, signifies the number of times this sequence occurs.\n\n### Final Answer:\n<answer>24</answer>",
+  "process_time_seconds": 18.593879,
+  "processed_at": "2025-05-15 04:51:49"
+}

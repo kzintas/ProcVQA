@@ -1,0 +1,15 @@
+{
+  "index": 66,
+  "question_id": "q_66",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/SentenTree/emergency_dataset/msp_30.png",
+  "question": "How many total patients were discharged alive?",
+  "true_answer": "38",
+  "llm_answer": "38",
+  "is_correct": true,
+  "reasoning": "To determine the total number of patients discharged alive, we need to follow the pathway from the \"Start\" node to the \"Discharge-Alive\" node. \n\n1. The \"Start\" node has a value of 100, indicating that 100 patients started the process. \n2. The link from \"Start\" to \"Arrival\" also has a value of 100, meaning all 100 patients arrived. \n3. From \"Arrival\" to \"Emergency\", the link value is 100, showing that all 100 patients went into emergency. \n4. The link from \"Emergency\" to \"ICU\" has a value of 62, and the link from \"Emergency\" to \"Discharge-Alive\" has a value of 38. This means 62 patients went to ICU and 38 patients were discharged alive directly from emergency. \n5. Since the question asks for the total number of patients discharged alive, we only consider the pathway leading directly to \"Discharge-Alive\" from \"Emergency\" and any other direct discharges. There are no other direct discharges shown in the diagram. \n\nTherefore, the total number of patients discharged alive is 38.",
+  "full_response": "<reasoning>\nTo determine the total number of patients discharged alive, we need to follow the pathway from the \"Start\" node to the \"Discharge-Alive\" node. \n\n1. The \"Start\" node has a value of 100, indicating that 100 patients started the process. \n2. The link from \"Start\" to \"Arrival\" also has a value of 100, meaning all 100 patients arrived. \n3. From \"Arrival\" to \"Emergency\", the link value is 100, showing that all 100 patients went into emergency. \n4. The link from \"Emergency\" to \"ICU\" has a value of 62, and the link from \"Emergency\" to \"Discharge-Alive\" has a value of 38. This means 62 patients went to ICU and 38 patients were discharged alive directly from emergency. \n5. Since the question asks for the total number of patients discharged alive, we only consider the pathway leading directly to \"Discharge-Alive\" from \"Emergency\" and any other direct discharges. There are no other direct discharges shown in the diagram. \n\nTherefore, the total number of patients discharged alive is 38.\n</reasoning>\n\n<answer>38</answer>",
+  "process_time_seconds": 11.198291,
+  "processed_at": "2025-05-17 06:16:59",
+  "model": "meta/llama-3.2-90b-vision-instruct-maas"
+}

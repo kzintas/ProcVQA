@@ -1,0 +1,14 @@
+{
+  "index": 241,
+  "question_id": "q_241",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_30.png",
+  "question": "How many total made shots were made by both teams?",
+  "true_answer": "29",
+  "llm_answer": "29",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "1.  **Identify made shot events:** Locate all nodes labeled \"Made Shot\" in the diagram.\n2.  **Record values:** Note the count of sequences associated with each \"Made Shot\" node. These values are displayed next to the links leading to the \"Made Shot\" nodes.\n3.  **Sum the values:** Add up the counts from each \"Made Shot\" node to get the total number of made shots.\n\nHere's the breakdown:\n\n*   Made Shot (2)\n*   Made Shot (3)\n*   Made Shot (7)\n*   Made Shot (17)\n    \n2+3+7+17 = 29\n\n<answer>29</answer>",
+  "process_time_seconds": 3.544231,
+  "processed_at": "2025-05-13 19:58:36"
+}

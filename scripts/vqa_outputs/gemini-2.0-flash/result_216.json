@@ -1,0 +1,14 @@
+{
+  "index": 216,
+  "question_id": "q_216",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_10.png",
+  "question": "How many shots were made by only the UNC offense?",
+  "true_answer": "16",
+  "llm_answer": null,
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "1. **Identify relevant elements:** I need to find nodes labeled \"Made Shot\" that are directly preceded by \"UNC Offense\". I need to check each column.\n2. **Column 1:** No \"Made Shot\" node exists\n3. **Column 2:** No \"Made Shot\" node exists\n4. **Column 3:** There is no path where \"Made Shot\" is directly preceded by \"UNC Offense\"\n5. **Column 4:** The node \"Made Shot\" is preceded by \"UMD Offense\".\n6. **Column 5:** No \"Made Shot\" node exists\n\n Based on this analysis, it's impossible to determine how many shots were made following UNC Offense.\n",
+  "process_time_seconds": 3.628292,
+  "processed_at": "2025-05-13 19:56:46"
+}

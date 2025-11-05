@@ -1,0 +1,14 @@
+{
+  "index": 69,
+  "question_id": "q_69",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/SentenTree/emergency_dataset/msp_30.png",
+  "question": "How many patients went to the Floor after the ICU?",
+  "true_answer": "indeterminate",
+  "llm_answer": "indeterminate",
+  "is_correct": true,
+  "reasoning": "The question asks about patients going to the Floor after the ICU. However, in the provided node-link diagram:\n\n1. The nodes represent events such as Arrival, Emergency, ICU, Discharge-Alive, and Die.\n2. There is no node labeled \"Floor\" present in the diagram.\n3. The pathways show that from the ICU, 36 patients went to Die and 38 patients went to Discharge-Alive.\n4. Since there is no \"Floor\" node or any pathway leading to a \"Floor,\" it is impossible to determine how many patients went to the Floor after the ICU based on this visualization.",
+  "full_response": "<reasoning>\nThe question asks about patients going to the Floor after the ICU. However, in the provided node-link diagram:\n\n1. The nodes represent events such as Arrival, Emergency, ICU, Discharge-Alive, and Die.\n2. There is no node labeled \"Floor\" present in the diagram.\n3. The pathways show that from the ICU, 36 patients went to Die and 38 patients went to Discharge-Alive.\n4. Since there is no \"Floor\" node or any pathway leading to a \"Floor,\" it is impossible to determine how many patients went to the Floor after the ICU based on this visualization.\n\n</reasoning>\n<answer>indeterminate</answer>",
+  "process_time_seconds": 6.862126,
+  "processed_at": "2025-05-16 19:36:00"
+}

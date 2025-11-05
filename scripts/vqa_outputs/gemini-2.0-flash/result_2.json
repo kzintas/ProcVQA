@@ -1,0 +1,14 @@
+{
+  "index": 2,
+  "question_id": "q_2",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/CoreFlow/emergency_dataset/msp_05.png",
+  "question": "How many patients got discharged alive directly after arriving at Emergency? ",
+  "true_answer": "38",
+  "llm_answer": "38",
+  "is_correct": true,
+  "reasoning": "The question asks to find how many patients were discharged alive right after arriving at \"Emergency\". The node link diagram shows that \"Emergency\" splits into two paths, where one path directly leads to \"Discharge-Alive\" and the link between them has a value of 38. So, 38 patients got discharged alive directly after arriving at \"Emergency\".",
+  "full_response": "1. The question asks about patients discharged alive directly after 'Emergency'.\n2. I need to identify the path from 'Emergency' to 'Discharge-Alive'.\n3. There is a link between 'Emergency' and 'Discharge-Alive' with a value of 38.\n\n<reasoning>\nThe question asks to find how many patients were discharged alive right after arriving at \"Emergency\". The node link diagram shows that \"Emergency\" splits into two paths, where one path directly leads to \"Discharge-Alive\" and the link between them has a value of 38. So, 38 patients got discharged alive directly after arriving at \"Emergency\".</reasoning>\n<answer>38</answer>",
+  "process_time_seconds": 3.511515,
+  "processed_at": "2025-05-13 19:43:01"
+}

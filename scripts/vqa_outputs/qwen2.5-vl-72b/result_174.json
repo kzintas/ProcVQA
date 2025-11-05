@@ -1,0 +1,14 @@
+{
+  "index": 174,
+  "question_id": "q_174",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_10.png",
+  "question": "How many steals occurred after UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": "indeterminate",
+  "is_correct": true,
+  "reasoning": "The node-link diagram shows sequences of events in a basketball game between UNC and UMD. The question asks about steals after UMD Offense. However, there is no node or link labeled \"Steal\" in the diagram. The possible outcomes from UMD Offense are Made Shot, Missed Shot, Foul, and Rebound. Since there is no information about steals, it cannot be determined from this visualization.",
+  "full_response": "<reasoning>\nThe node-link diagram shows sequences of events in a basketball game between UNC and UMD. The question asks about steals after UMD Offense. However, there is no node or link labeled \"Steal\" in the diagram. The possible outcomes from UMD Offense are Made Shot, Missed Shot, Foul, and Rebound. Since there is no information about steals, it cannot be determined from this visualization.\n</reasoning>\n<answer>indeterminate</answer>",
+  "process_time_seconds": 5.505063,
+  "processed_at": "2025-05-16 19:52:07"
+}

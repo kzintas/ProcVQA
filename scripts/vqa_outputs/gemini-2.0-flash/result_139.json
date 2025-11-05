@@ -1,0 +1,14 @@
+{
+  "index": 139,
+  "question_id": "q_139",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many times did UMD Offense not transition to a Rebound?",
+  "true_answer": "35",
+  "llm_answer": "35",
+  "is_correct": true,
+  "reasoning": "The question asks the number of times that 'UMD Offense' did not lead to 'Rebound'. This means the total number of times the node 'UMD Offense' transitioned to other nodes, so we need to sum the counts on the edges from 'UMD Offense' to nodes other than 'Rebound'. The transitions from 'UMD Offense' are as follows: to 'Rebound' (34), to 'Missed Shot' (14), and to '_Exit' (21). Thus, the answer is 14 + 21 = 35.",
+  "full_response": "1. The node `UMD Offense` has three outgoing links.\n2. One goes to `Rebound` with a value of 34.\n3. One goes to `Missed Shot` with a value of 14.\n4. One goes to `_Exit` with a value of 21.\n5. We are asked the times where UMD Offense did not transition to Rebound. This means the sum of all other outgoing links: 14 + 21 = 35.\n\n<reasoning>\nThe question asks the number of times that 'UMD Offense' did not lead to 'Rebound'. This means the total number of times the node 'UMD Offense' transitioned to other nodes, so we need to sum the counts on the edges from 'UMD Offense' to nodes other than 'Rebound'. The transitions from 'UMD Offense' are as follows: to 'Rebound' (34), to 'Missed Shot' (14), and to '_Exit' (21). Thus, the answer is 14 + 21 = 35.</reasoning>\n<answer>35</answer>",
+  "process_time_seconds": 3.286815,
+  "processed_at": "2025-05-13 19:51:51"
+}

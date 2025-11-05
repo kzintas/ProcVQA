@@ -1,0 +1,14 @@
+{
+  "index": 186,
+  "question_id": "q_186",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many total rebounds are there in the match?",
+  "true_answer": "49",
+  "llm_answer": "30",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "### Relevant Elements:\n- The node labeled \"Rebound\" appears twice in the diagram.\n- There are two links leading to \"_Exit\" from \"Rebound\".\n- One link has a label of 15, and the other has no label but is implied to have a value of 15 as well.\n\n### Reasoning:\n1. Identify the \"Rebound\" nodes: There are two \"Rebound\" nodes in the diagram.\n2. Examine the links leading to \"_Exit\" from these \"Rebound\" nodes:\n   - One link from \"Rebound\" to \"_Exit\" has a label of 15.\n   - The other link also leads to \"_Exit\" and has an implied value of 15.\n3. Sum the values of the links leading to \"_Exit\" from \"Rebound\":\n   - 15 + 15 = 30\n\n### Final Answer:\n<answer>30</answer>",
+  "process_time_seconds": 33.288961,
+  "processed_at": "2025-05-15 04:45:34"
+}

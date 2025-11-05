@@ -1,0 +1,14 @@
+{
+  "index": 139,
+  "question_id": "q_139",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many times did UMD Offense not transition to a Rebound?",
+  "true_answer": "35",
+  "llm_answer": "14",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "To answer the question, we need to analyze the pathways from the \"UMD Offense\" node and determine how many times it did not transition to a \"Rebound.\"\n\n### Step 1: Identify the relevant nodes and links\n- The \"UMD Offense\" node has two outgoing links:\n  1. A link to the \"Rebound\" node with a count of **34**.\n  2. A link to the \"Missed Shot\" node with a count of **14**.\n\n### Step 2: Understand the question\nThe question asks how many times the \"UMD Offense\" did **not** transition to a \"Rebound.\" This means we need to focus on the pathway that does **not** lead to the \"Rebound\" node.\n\n### Step 3: Analyze the pathway that avoids \"Rebound\"\n- The only pathway from \"UMD Offense\" that does not lead to \"Rebound\" is the one leading to \"Missed Shot.\"\n- The count for this pathway is **14**.\n\n### Step 4: Verify the total sequences from \"UMD Offense\"\n- The total number of sequences starting from \"UMD Offense\" is the sum of the counts of all its outgoing links:\n  - To \"Rebound\": **34**\n  - To \"Missed Shot\": **14**\n  - Total: \\( 34 + 14 = 48 \\)\n\nThis confirms that the diagram is consistent, as the total sequences from \"UMD Offense\" match the incoming count (69) minus the sequences that transitioned to \"UNC Offense\" (21).\n\n### Step 5: Final Answer\nThe number of times \"UMD Offense\" did not transition to a \"Rebound\" is the count of the pathway leading to \"Missed Shot,\" which is **14**.\n\n<answer>14</answer>",
+  "process_time_seconds": 8.058958,
+  "processed_at": "2025-05-16 21:13:16"
+}

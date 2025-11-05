@@ -1,0 +1,14 @@
+{
+  "index": 118,
+  "question_id": "q_118",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_05.png",
+  "question": "How many total shots were made by UMD offense?",
+  "true_answer": "23",
+  "llm_answer": "8",
+  "is_correct": false,
+  "reasoning": "1. Locate the 'UMD Offense' node in the diagram.\n2. Identify the outgoing links from the 'UMD Offense' node. These represent the possible subsequent events.\n3. Look for a link leading to a node that indicates a shot was made. The diagram shows a node labeled 'Made Shot' directly connected from 'UMD Offense'.\n4. Read the numeric label on the link connecting 'UMD Offense' to 'Made Shot'. The label is 8.\n5. This number represents the count of sequences where the UMD Offense resulted in a Made Shot.\n6. Therefore, the total number of shots made by UMD offense, as shown in this diagram, is 8.",
+  "full_response": "<reasoning>\n1. Locate the 'UMD Offense' node in the diagram.\n2. Identify the outgoing links from the 'UMD Offense' node. These represent the possible subsequent events.\n3. Look for a link leading to a node that indicates a shot was made. The diagram shows a node labeled 'Made Shot' directly connected from 'UMD Offense'.\n4. Read the numeric label on the link connecting 'UMD Offense' to 'Made Shot'. The label is 8.\n5. This number represents the count of sequences where the UMD Offense resulted in a Made Shot.\n6. Therefore, the total number of shots made by UMD offense, as shown in this diagram, is 8.\n</reasoning>\n<answer>8</answer>",
+  "process_time_seconds": 3.448126,
+  "processed_at": "2025-05-14 21:03:12"
+}

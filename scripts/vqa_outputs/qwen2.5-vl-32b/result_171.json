@@ -1,0 +1,14 @@
+{
+  "index": 171,
+  "question_id": "q_171",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_10.png",
+  "question": "How many missed shots were before UMD Offense?",
+  "true_answer": "24",
+  "llm_answer": "24",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "To answer the question \"How many missed shots were before UMD Offense?\", let's analyze the diagram step by step:\n\n### 1. Identify the relevant elements:\n- The node labeled **\"Missed Shot\"** directly above **\"UMD Offense\"** is the one we are interested in.\n- The link connecting **\"Missed Shot\"** to **\"UMD Offense\"** has a numeric label of **24**.\n\n### 2. Understand the context:\n- The **\"Missed Shot\"** node represents an event where a shot was missed during UNC's offense.\n- The link from **\"Missed Shot\"** to **\"UMD Offense\"** indicates that after a missed shot, the sequence transitions to UMD's offense.\n- The number on the link (24) represents the count of sequences where this transition occurred.\n\n### 3. Reasoning:\n- The question asks for the number of missed shots that led to UMD's offense.\n- From the diagram, we can see that the link from **\"Missed Shot\"** to **\"UMD Offense\"** has a value of **24**.\n- This value directly corresponds to the number of sequences where a missed shot resulted in UMD taking possession and starting their offense.\n\n### 4. Final Answer:\nThe number of missed shots before UMD Offense is explicitly shown as **24** on the link connecting **\"Missed Shot\"** to **\"UMD Offense\"**.\n\n<answer>24</answer>",
+  "process_time_seconds": 25.835486,
+  "processed_at": "2025-05-16 21:19:25"
+}

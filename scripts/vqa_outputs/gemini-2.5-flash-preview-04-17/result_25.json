@@ -1,0 +1,14 @@
+{
+  "index": 25,
+  "question_id": "q_25",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/CoreFlow/emergency_dataset/msp_25.png",
+  "question": "How many total patients were discharged alive?",
+  "true_answer": "38",
+  "llm_answer": "38",
+  "is_correct": true,
+  "reasoning": "The question asks for the total number of patients discharged alive.\nI need to find the event node representing \"Discharge-Alive\" in the diagram.\nThe node labeled \"Discharge-Alive\" is located on the right side of the diagram.\nThe number of sequences reaching this node represents the number of patients who reached this state.\nThere is a link from the \"Emergency\" node to the \"Discharge-Alive\" node.\nThe numeric label on this link is 38.\nThis indicates that 38 sequences (patients) transitioned from the \"Emergency\" state to the \"Discharge-Alive\" state.\nFollowing the path further, there is a link from \"Discharge-Alive\" to \"\\_Exit\" with a label of 38, confirming that these 38 patients exited the process after being discharged alive.\nTherefore, the number of patients discharged alive is 38.",
+  "full_response": "<reasoning>\nThe question asks for the total number of patients discharged alive.\nI need to find the event node representing \"Discharge-Alive\" in the diagram.\nThe node labeled \"Discharge-Alive\" is located on the right side of the diagram.\nThe number of sequences reaching this node represents the number of patients who reached this state.\nThere is a link from the \"Emergency\" node to the \"Discharge-Alive\" node.\nThe numeric label on this link is 38.\nThis indicates that 38 sequences (patients) transitioned from the \"Emergency\" state to the \"Discharge-Alive\" state.\nFollowing the path further, there is a link from \"Discharge-Alive\" to \"\\_Exit\" with a label of 38, confirming that these 38 patients exited the process after being discharged alive.\nTherefore, the number of patients discharged alive is 38.\n</reasoning>\n<answer>38</answer>",
+  "process_time_seconds": 4.035241,
+  "processed_at": "2025-05-14 20:54:44"
+}

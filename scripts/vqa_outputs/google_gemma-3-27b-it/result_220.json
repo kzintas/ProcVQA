@@ -1,0 +1,14 @@
+{
+  "index": 220,
+  "question_id": "q_220",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_15.png",
+  "question": "How many total made shots were made by both teams?",
+  "true_answer": "31",
+  "llm_answer": "22",
+  "is_correct": false,
+  "reasoning": "1. **Identify relevant nodes:** The question asks about \"made shots\". We need to find all nodes labeled \"Made Shot\".\n2. **Locate \"Made Shot\" nodes:** There are two \"Made Shot\" nodes in the diagram.\n3. **Determine the counts associated with each \"Made Shot\" node:**\n    - The first \"Made Shot\" node has a value of 20 associated with the incoming link from \"UMD Offense\".\n    - The second \"Made Shot\" node has a value of 2 associated with the incoming link from \"UNC Offense\".\n4. **Calculate the total:** Add the values associated with each \"Made Shot\" node: 20 + 2 = 22.",
+  "full_response": "Here's an analysis of the node-link diagram to determine the total number of made shots by both teams:\n\n<reasoning>\n1. **Identify relevant nodes:** The question asks about \"made shots\". We need to find all nodes labeled \"Made Shot\".\n2. **Locate \"Made Shot\" nodes:** There are two \"Made Shot\" nodes in the diagram.\n3. **Determine the counts associated with each \"Made Shot\" node:**\n    - The first \"Made Shot\" node has a value of 20 associated with the incoming link from \"UMD Offense\".\n    - The second \"Made Shot\" node has a value of 2 associated with the incoming link from \"UNC Offense\".\n4. **Calculate the total:** Add the values associated with each \"Made Shot\" node: 20 + 2 = 22.\n</reasoning>\n\n<answer>22</answer>",
+  "process_time_seconds": 74.615969,
+  "processed_at": "2025-05-15 01:40:57"
+}

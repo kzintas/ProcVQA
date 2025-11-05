@@ -1,0 +1,14 @@
+{
+  "index": 152,
+  "question_id": "q_152",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_25.png",
+  "question": "How many free throws were made in total by UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": "indeterminate",
+  "is_correct": true,
+  "reasoning": "The node-link diagram shows a sequence of events related to offenses by UNC and UMD, followed by outcomes like Rebound or Exit. However, there is no mention of free throws or any scoring events in the labels of the nodes or links. The diagram only indicates the flow of possession and outcomes but does not provide information about specific actions like free throws.",
+  "full_response": "<reasoning>\nThe node-link diagram shows a sequence of events related to offenses by UNC and UMD, followed by outcomes like Rebound or Exit. However, there is no mention of free throws or any scoring events in the labels of the nodes or links. The diagram only indicates the flow of possession and outcomes but does not provide information about specific actions like free throws.\n</reasoning>\n<answer>indeterminate</answer>",
+  "process_time_seconds": 10.96425,
+  "processed_at": "2025-05-16 19:48:55"
+}

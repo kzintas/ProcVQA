@@ -1,0 +1,14 @@
+{
+  "index": 176,
+  "question_id": "q_176",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_15.png",
+  "question": "How many times did UMD Offense transition from UNC Offense?",
+  "true_answer": "69",
+  "llm_answer": "23",
+  "is_correct": false,
+  "reasoning": "1.  I located the node labeled 'UNC Offense' and the node labeled 'UMD Offense' in the diagram.\n2.  I looked for a directed link connecting 'UNC Offense' to 'UMD Offense'.\n3.  I found a link originating from 'UNC Offense' and pointing towards 'UMD Offense'. This link is on the left side of the diagram, curving downwards from 'UNC Offense' to 'UMD Offense'.\n4.  I identified the numeric label associated with this specific link. The label is 23.\n5.  According to the instructions, this number indicates the count of sequences following this path, which represents the number of times the transition from 'UNC Offense' to 'UMD Offense' occurred.",
+  "full_response": "<reasoning>\n1.  I located the node labeled 'UNC Offense' and the node labeled 'UMD Offense' in the diagram.\n2.  I looked for a directed link connecting 'UNC Offense' to 'UMD Offense'.\n3.  I found a link originating from 'UNC Offense' and pointing towards 'UMD Offense'. This link is on the left side of the diagram, curving downwards from 'UNC Offense' to 'UMD Offense'.\n4.  I identified the numeric label associated with this specific link. The label is 23.\n5.  According to the instructions, this number indicates the count of sequences following this path, which represents the number of times the transition from 'UNC Offense' to 'UMD Offense' occurred.\n</reasoning>\n<answer>23</answer>",
+  "process_time_seconds": 3.478918,
+  "processed_at": "2025-05-14 21:08:28"
+}

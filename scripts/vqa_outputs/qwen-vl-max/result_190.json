@@ -1,0 +1,14 @@
+{
+  "index": 190,
+  "question_id": "q_190",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_25.png",
+  "question": "How many times did UMD Offense transition from UNC Offense?",
+  "true_answer": "69",
+  "llm_answer": "46",
+  "is_correct": false,
+  "reasoning": "The link from \"Made Shot\" to \"UMD Offense\" has a value of 22. \nThe link from \"Missed Shot\" to \"UMD Offense\" has a value of 24. \nTherefore, the total number of transitions from UNC Offense to UMD Offense is 22 + 24 = 46.",
+  "full_response": "To determine how many times UMD Offense transitioned from UNC Offense, we need to follow the pathways in the diagram:\n\n1. Start at the \"UNC Offense\" node.\n2. Look for links leading out of this node.\n3. There are two links: one labeled \"22\" leading to \"Made Shot\" and another labeled \"24\" leading to \"Missed Shot\".\n4. From both \"Made Shot\" and \"Missed Shot\", there are links leading to \"UMD Offense\".\n5. The link from \"Made Shot\" to \"UMD Offense\" is labeled \"22\".\n6. The link from \"Missed Shot\" to \"UMD Offense\" is labeled \"24\".\n\nAdding these values together gives us the total number of transitions from UNC Offense to UMD Offense:\n<reasoning>\nThe link from \"Made Shot\" to \"UMD Offense\" has a value of 22. \nThe link from \"Missed Shot\" to \"UMD Offense\" has a value of 24. \nTherefore, the total number of transitions from UNC Offense to UMD Offense is 22 + 24 = 46.\n</reasoning> \n<answer>46</answer>",
+  "process_time_seconds": 10.835378,
+  "processed_at": "2025-05-16 19:15:10"
+}

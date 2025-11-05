@@ -1,0 +1,15 @@
+{
+  "index": 140,
+  "question_id": "q_140",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many shots were missed immediately after UMD Offense?",
+  "true_answer": "14",
+  "llm_answer": "14",
+  "is_correct": true,
+  "reasoning": "The diagram clearly shows that the \"Missed Shot\" event occurs immediately after \"UMD Offense\" with a count of 14. This indicates that 14 sequences resulted in a missed shot right after UMD Offense.",
+  "full_response": "The node-link diagram shows sequences of events in a basketball game. To determine the number of shots missed immediately after UMD Offense, we need to examine the links emanating from the \"UMD Offense\" node.\n\nThe relevant elements in the visualization are:\n- The \"UMD Offense\" node\n- The links and their corresponding labels and counts emanating from \"UMD Offense\"\n\nUpon examining the diagram, we see that there are three links emanating from \"UMD Offense\":\n1. One link leads to \"Rebound\" with a count of 34.\n2. Another link leads to \"Missed Shot\" with a count of 14.\n3. The third link leads directly to \"_Exit\" with a count of 21.\n\nTo answer the question, we focus on the link that represents a \"Missed Shot\" immediately after \"UMD Offense\". The count associated with this link is 14.\n\n<reasoning>\nThe diagram clearly shows that the \"Missed Shot\" event occurs immediately after \"UMD Offense\" with a count of 14. This indicates that 14 sequences resulted in a missed shot right after UMD Offense.\n</reasoning>\n\n<answer>14</answer>",
+  "process_time_seconds": 3.643254,
+  "processed_at": "2025-05-15 17:37:52",
+  "model": "meta/llama-4-maverick-17b-128e-instruct-maas"
+}

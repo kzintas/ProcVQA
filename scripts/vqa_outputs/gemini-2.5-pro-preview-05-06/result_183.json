@@ -1,0 +1,14 @@
+{
+  "index": 183,
+  "question_id": "q_183",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many times did UMD Offense transition from UNC Offense?",
+  "true_answer": "69",
+  "llm_answer": "23",
+  "is_correct": false,
+  "reasoning": "1.  **Identify the starting node:** The question asks about transitions *from* \"UNC Offense\". So, \"UNC Offense\" is our starting node.\n2.  **Identify the target node:** The question asks about transitions *to* \"UMD Offense\". So, \"UMD Offense\" is our target node.\n3.  **Locate the direct link:** We need to find a direct link connecting \"UNC Offense\" to \"UMD Offense\".\n4.  **Examine the diagram:**\n    *   There is a node labeled \"UNC Offense\".\n    *   There is a node labeled \"UMD Offense\" below \"UNC Offense\".\n    *   There is a direct link from \"UNC Offense\" to \"UMD Offense\".\n5.  **Read the value on the link:** The numeric label on the link connecting \"UNC Offense\" directly to \"UMD Offense\" is 23.\n6.  **Conclusion:** This value represents the number of times UMD Offense transitioned directly from UNC Offense.",
+  "full_response": "<reasoning>\n1.  **Identify the starting node:** The question asks about transitions *from* \"UNC Offense\". So, \"UNC Offense\" is our starting node.\n2.  **Identify the target node:** The question asks about transitions *to* \"UMD Offense\". So, \"UMD Offense\" is our target node.\n3.  **Locate the direct link:** We need to find a direct link connecting \"UNC Offense\" to \"UMD Offense\".\n4.  **Examine the diagram:**\n    *   There is a node labeled \"UNC Offense\".\n    *   There is a node labeled \"UMD Offense\" below \"UNC Offense\".\n    *   There is a direct link from \"UNC Offense\" to \"UMD Offense\".\n5.  **Read the value on the link:** The numeric label on the link connecting \"UNC Offense\" directly to \"UMD Offense\" is 23.\n6.  **Conclusion:** This value represents the number of times UMD Offense transitioned directly from UNC Offense.\n</reasoning>\n<answer>23</answer>",
+  "process_time_seconds": 7.263277,
+  "processed_at": "2025-05-15 03:05:14"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 139,
+  "question_id": "q_139",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many times did UMD Offense not transition to a Rebound?",
+  "true_answer": "35",
+  "llm_answer": "14",
+  "is_correct": false,
+  "reasoning": "- To determine how many times UMD Offense did not transition to a Rebound, we need to focus on the paths that do not lead to \"Rebound.\"\n      - From the diagram, there is only one path from UMD Offense that does not lead to \"Rebound,\" which goes to \"Missed Shot.\"\n      - The count associated with this path is 14.\n      - Therefore, UMD Offense did not transition to a Rebound 14 times.",
+  "full_response": "1. **Relevant Elements:**\n   - The node \"UMD Offense\" has two outgoing links.\n   - One link leads to \"Rebound\" with a count of 34.\n   - The other link leads to \"Missed Shot\" with a count of 14.\n\n2. <reasoning>\n      - To determine how many times UMD Offense did not transition to a Rebound, we need to focus on the paths that do not lead to \"Rebound.\"\n      - From the diagram, there is only one path from UMD Offense that does not lead to \"Rebound,\" which goes to \"Missed Shot.\"\n      - The count associated with this path is 14.\n      - Therefore, UMD Offense did not transition to a Rebound 14 times.\n   </reasoning>\n\n3. <answer>14</answer>",
+  "process_time_seconds": 8.105422,
+  "processed_at": "2025-05-16 19:47:03"
+}

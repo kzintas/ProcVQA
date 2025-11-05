@@ -1,0 +1,14 @@
+{
+  "index": 217,
+  "question_id": "q_217",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_15.png",
+  "question": "How many times did a jump ball occur after UNC Offense?",
+  "true_answer": "1",
+  "llm_answer": "1",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "### Relevant Elements:\n- The node labeled \"Jump Ball\" is present.\n- There is a link from \"_Start\" to \"UNC Offense\".\n- The link width between \"_Start\" and \"UNC Offense\" is 13.\n\n### Reasoning:\n1. Identify the starting point: \"_Start\" is the initial state.\n2. Follow the pathway from \"_Start\" to \"UNC Offense\". The link width indicates the frequency of this transition.\n3. Check if there is any link from \"UNC Offense\" to \"Jump Ball\". The link width between \"UNC Offense\" and \"Jump Ball\" is 1.\n\n### Final Answer:\n<answer>1</answer>",
+  "process_time_seconds": 48.071281,
+  "processed_at": "2025-05-15 05:06:04"
+}

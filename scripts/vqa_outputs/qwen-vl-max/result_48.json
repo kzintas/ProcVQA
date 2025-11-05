@@ -1,0 +1,14 @@
+{
+  "index": 48,
+  "question_id": "q_48",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/SentenTree/emergency_dataset/msp_15.png",
+  "question": "How many total patients were discharged alive?",
+  "true_answer": "62",
+  "llm_answer": "62",
+  "is_correct": true,
+  "reasoning": "- Patients from Emergency directly to Discharge-Alive: 38\n- Patients from ICU to Floor to Discharge-Alive: 24\n- Total = 38 + 24 = 62",
+  "full_response": "To determine the total number of patients discharged alive, we need to follow the pathways that lead to the \"Discharge-Alive\" nodes.\n\n1. From the \"Emergency\" node:\n   - 38 patients go directly to \"Discharge-Alive\".\n   \n2. From the \"ICU\" node:\n   - 24 patients go to \"Floor\" and then to \"Discharge-Alive\".\n\nAdding these numbers together gives us the total number of patients discharged alive:\n\n<reasoning>\n- Patients from Emergency directly to Discharge-Alive: 38\n- Patients from ICU to Floor to Discharge-Alive: 24\n- Total = 38 + 24 = 62\n</reasoning>\n\n<answer>62</answer>",
+  "process_time_seconds": 7.498309,
+  "processed_at": "2025-05-16 18:55:50"
+}

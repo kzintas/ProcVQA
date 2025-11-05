@@ -1,0 +1,14 @@
+{
+  "index": 178,
+  "question_id": "q_178",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_15.png",
+  "question": "How many missed shots were before UMD Offense?",
+  "true_answer": "24",
+  "llm_answer": "24",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "1. The question asks about the number of Missed Shots before UMD Offense.\n2. I need to find the link between Missed Shot and UMD Offense.\n3. The number on that link is 24.\n\n<answer>24</answer>",
+  "process_time_seconds": 3.01891,
+  "processed_at": "2025-05-13 20:29:13"
+}

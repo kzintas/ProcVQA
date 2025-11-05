@@ -1,0 +1,14 @@
+{
+  "index": 238,
+  "question_id": "q_238",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_30.png",
+  "question": "How many times did a jump ball occur after UNC Offense?",
+  "true_answer": "1",
+  "llm_answer": "1",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "1. The question asks about the number of \"Jump Ball\" events that occurred after \"UNC Offense\".\n2. First, I identify \"UNC Offense\" events. There are 6 \"UNC Offense\" start nodes labeled with counts 2, 14, 12, 14, 9, and 18, respectively.\n3. I need to look at which of these \"UNC Offense\" events are followed by a \"Jump Ball\" event.\n4. I can see that the first \"UNC Offense\" event with a count of 2 is preceded by a \"_Start\" node with count 2, and it leads to a \"Jump Ball\" event with a count of 1.\n5. No other \"UNC Offense\" events lead to a \"Jump Ball\" event.\n6. Therefore, \"Jump Ball\" happened 1 time after \"UNC Offense\".\n\n<answer>1</answer>",
+  "process_time_seconds": 5.076909,
+  "processed_at": "2025-05-13 19:58:25"
+}

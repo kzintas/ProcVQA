@@ -1,0 +1,15 @@
+{
+  "index": 31,
+  "question_id": "q_31",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/CoreFlow/emergency_dataset/msp_30.png",
+  "question": "How many patients got discharged alive directly after arriving at Emergency? ",
+  "true_answer": "38",
+  "llm_answer": "38",
+  "is_correct": true,
+  "reasoning": "The diagram clearly shows that 38 patients were discharged alive directly after being at \"Emergency\". This is evident from the link between \"Emergency\" and \"Discharge-Alive\" which is labeled with 38.",
+  "full_response": "To determine the number of patients who got discharged alive directly after arriving at Emergency, we need to examine the node-link diagram carefully.\n\n1. **Identify Relevant Elements**: The relevant elements in this diagram are the nodes labeled \"Arrival\", \"Emergency\", and \"Discharge-Alive\". We also need to look at the links connecting these nodes.\n\n2. **Understand the Pathways**: The diagram shows that 100 patients start at \"_Start\" and arrive at \"Arrival\". All 100 patients then proceed to \"Emergency\".\n\n3. **Analyze the Links**: At \"Emergency\", the pathways diverge into two main branches: one leading to \"ICU\" with 62 patients and another leading directly to \"Discharge-Alive\" with 38 patients.\n\n4. **Determine the Number of Patients Discharged Alive Directly After Emergency**: The link from \"Emergency\" to \"Discharge-Alive\" is labeled with 38, indicating that 38 patients were discharged alive directly after being at \"Emergency\".\n\n5. **Conclusion**: Since the question asks for the number of patients who got discharged alive directly after arriving at Emergency, we can directly read this information from the diagram.\n\n<reasoning>\nThe diagram clearly shows that 38 patients were discharged alive directly after being at \"Emergency\". This is evident from the link between \"Emergency\" and \"Discharge-Alive\" which is labeled with 38.\n</reasoning>\n\n<answer>38</answer>",
+  "process_time_seconds": 3.579135,
+  "processed_at": "2025-05-15 17:29:23",
+  "model": "meta/llama-4-maverick-17b-128e-instruct-maas"
+}

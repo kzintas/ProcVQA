@@ -1,0 +1,14 @@
+{
+  "index": 69,
+  "question_id": "q_69",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/SentenTree/emergency_dataset/msp_30.png",
+  "question": "How many patients went to the Floor after the ICU?",
+  "true_answer": "indeterminate",
+  "llm_answer": "indeterminate",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": " Based on the provided node-link diagram, it is not possible to determine the number of patients who went to the Floor after the ICU. The diagram shows the following sequence: Emergency -> ICU -> Die -> _Exit, and Emergency -> Discharge-Alive -> _Exit. There is no node or link indicating a transition from ICU to the Floor.\n \n\n  The question mentions a \"Floor,\" but there's no Floor node in the diagram\n \n\n  Therefore, the answer cannot be determined from the visualization.\n \n\n <answer>indeterminate</answer>",
+  "process_time_seconds": 3.188428,
+  "processed_at": "2025-05-13 20:26:43"
+}

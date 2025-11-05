@@ -1,0 +1,14 @@
+{
+  "index": 214,
+  "question_id": "q_214",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_10.png",
+  "question": "How many total missed shots were made by both teams?",
+  "true_answer": "34",
+  "llm_answer": "34",
+  "is_correct": true,
+  "reasoning": "The question is asking for the total number of missed shots. I identified all the nodes named \"Missed Shot\" and added their values to get the total number of missed shots.",
+  "full_response": "1.  **Identify relevant elements:** The question asks for the total number of \"Missed Shot\" events. I need to find all nodes labeled \"Missed Shot\" and note their associated counts.\n2.  **Extract counts:**\n    *   The first \"Missed Shot\" node has a count of 7.\n    *   The second \"Missed Shot\" node has a count of 14.\n    *   The third \"Missed Shot\" node has a count of 6.\n    *    The fourth \"Missed Shot\" node has a count of 7.\n3.  **Calculate the total:** Sum the counts from all \"Missed Shot\" nodes: 7 + 14 + 6 + 7 = 34\n\n<reasoning>\nThe question is asking for the total number of missed shots. I identified all the nodes named \"Missed Shot\" and added their values to get the total number of missed shots.\n</reasoning>\n<answer>34</answer>",
+  "process_time_seconds": 4.104927,
+  "processed_at": "2025-05-13 19:56:40"
+}

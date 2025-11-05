@@ -1,0 +1,14 @@
+{
+  "index": 130,
+  "question_id": "q_130",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_15.png",
+  "question": "How many times did UMD Offense transition from UNC Offense?",
+  "true_answer": "69",
+  "llm_answer": "69",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "### Relevant Elements:\n- The node labeled \"Start\" has an arrow pointing to \"UNC Offense.\"\n- There is a link from \"UNC Offense\" to \"UMD Offense\" with a label of 69.\n\n### Thought Process:\n1. The \"Start\" node indicates the beginning of the sequence.\n2. From \"Start,\" there is a transition to \"UNC Offense.\"\n3. From \"UNC Offense,\" there is a transition to \"UMD Offense\" with a count of 69.\n\n### Calculation:\nThe count of transitions from \"UNC Offense\" to \"UMD Offense\" is directly provided as 69.\n\n### Final Answer:\n<answer>69</answer>",
+  "process_time_seconds": 26.659845,
+  "processed_at": "2025-05-15 04:09:07"
+}

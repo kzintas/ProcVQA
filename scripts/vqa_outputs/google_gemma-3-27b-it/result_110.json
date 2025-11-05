@@ -1,0 +1,14 @@
+{
+  "index": 110,
+  "question_id": "q_110",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_30.png",
+  "question": "How many patients went to the Floor after the ICU?",
+  "true_answer": "23",
+  "llm_answer": "47",
+  "is_correct": false,
+  "reasoning": "1. **Identify relevant nodes and links:** The question asks about the path from \"ICU\" to \"Floor\".\n2. **Trace the path:** There are two instances of the \"ICU\" node.\n    - The first \"ICU\" node (orange) has a link to \"Floor\" with a label of \"23\".\n    - The second \"ICU\" node (pink) has a link to \"Floor\" with a label of \"24\".\n3. **Sum the counts:** Add the number of sequences following each path: 23 + 24 = 47.",
+  "full_response": "Here's an analysis of the node-link diagram to determine the number of patients who went to the Floor after the ICU:\n\n<reasoning>\n1. **Identify relevant nodes and links:** The question asks about the path from \"ICU\" to \"Floor\".\n2. **Trace the path:** There are two instances of the \"ICU\" node.\n    - The first \"ICU\" node (orange) has a link to \"Floor\" with a label of \"23\".\n    - The second \"ICU\" node (pink) has a link to \"Floor\" with a label of \"24\".\n3. **Sum the counts:** Add the number of sequences following each path: 23 + 24 = 47.\n</reasoning>\n\n<answer>47</answer>",
+  "process_time_seconds": 67.191797,
+  "processed_at": "2025-05-14 23:11:45"
+}

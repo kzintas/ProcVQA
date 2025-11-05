@@ -1,0 +1,14 @@
+{
+  "index": 171,
+  "question_id": "q_171",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_10.png",
+  "question": "How many missed shots were before UMD Offense?",
+  "true_answer": "24",
+  "llm_answer": "24",
+  "is_correct": true,
+  "reasoning": "- There are two paths leading directly to \"UMD Offense\":\n        1. From \"Made Shot\" with a link value of 22.\n        2. From \"Missed Shot\" with a link value of 24.\n      - The question specifically asks for missed shots before UMD Offense.\n      - Therefore, we only consider the path from \"Missed Shot\" to \"UMD Offense\".\n      - The link value between \"Missed Shot\" and \"UMD Offense\" is 24.\n      - This indicates that there were 24 sequences where a missed shot occurred before UMD Offense.",
+  "full_response": "1. **Relevant Elements:**\n   - The node \"UMD Offense\" is the target point.\n   - We need to identify all paths leading to \"UMD Offense\".\n   - The nodes and links before \"UMD Offense\" are relevant.\n\n2. <reasoning>\n      - There are two paths leading directly to \"UMD Offense\":\n        1. From \"Made Shot\" with a link value of 22.\n        2. From \"Missed Shot\" with a link value of 24.\n      - The question specifically asks for missed shots before UMD Offense.\n      - Therefore, we only consider the path from \"Missed Shot\" to \"UMD Offense\".\n      - The link value between \"Missed Shot\" and \"UMD Offense\" is 24.\n      - This indicates that there were 24 sequences where a missed shot occurred before UMD Offense.\n</reasoning>\n\n3. <answer>24</answer>",
+  "process_time_seconds": 8.847409,
+  "processed_at": "2025-05-16 19:51:44"
+}

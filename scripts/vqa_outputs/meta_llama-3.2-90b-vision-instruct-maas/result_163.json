@@ -1,0 +1,15 @@
+{
+  "index": 163,
+  "question_id": "q_163",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_05.png",
+  "question": "How many made shots were after UNC Offense but before UMD offense?",
+  "true_answer": "23",
+  "llm_answer": "1",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "The node-link diagram shows the sequence of events in a basketball game. The question asks how many made shots were after UNC Offense but before UMD offense.\n\nTo answer this question, we need to follow the path from UNC Offense to UMD Offense and count the number of made shots along the way.\n\nThe path from UNC Offense to UMD Offense is as follows:\n\n*   UNC Offense\n*   Rebound\n*   Foul\n*   Made Shot\n*   Missed Shot\n*   Turnover\n*   Made Free Throw\n*   UMD Offense\n\nThere is only one made shot along this path, which is the made shot after the foul.\n\nTherefore, the answer to the question is:\n\n<answer>1</answer>",
+  "process_time_seconds": 7.552109,
+  "processed_at": "2025-05-17 06:31:08",
+  "model": "meta/llama-3.2-90b-vision-instruct-maas"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 171,
+  "question_id": "q_171",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_10.png",
+  "question": "How many missed shots were before UMD Offense?",
+  "true_answer": "24",
+  "llm_answer": "24",
+  "is_correct": true,
+  "reasoning": "The diagram shows two pathways leading to a \"Missed Shot\" node before reaching \"UMD Offense\":\n1. Directly from \"UNC Offense\" with 15 sequences.\n2. Indirectly via \"Rebound\" with 9 sequences.\nSumming these values: 15 + 9 = 24.",
+  "full_response": "To determine how many missed shots occurred before UMD Offense, we need to trace the pathways leading from \"UNC Offense\" to \"UMD Offense.\" \n\n- From \"UNC Offense,\" there are multiple paths:\n  - 15 sequences lead directly to \"Missed Shot.\"\n  - Another 9 sequences go through \"Rebound\" and then to \"Missed Shot.\"\n\nAdding these together gives us the total number of missed shots before UMD Offense.\n\n<reasoning>\nThe diagram shows two pathways leading to a \"Missed Shot\" node before reaching \"UMD Offense\":\n1. Directly from \"UNC Offense\" with 15 sequences.\n2. Indirectly via \"Rebound\" with 9 sequences.\nSumming these values: 15 + 9 = 24.\n</reasoning>\n\n<answer>24</answer>",
+  "process_time_seconds": 8.332486,
+  "processed_at": "2025-05-16 19:12:21"
+}

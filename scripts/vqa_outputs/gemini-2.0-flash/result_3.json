@@ -1,0 +1,14 @@
+{
+  "index": 3,
+  "question_id": "q_3",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/CoreFlow/emergency_dataset/msp_05.png",
+  "question": "How many patients went to the ICU after Emrgency?",
+  "true_answer": "62",
+  "llm_answer": "62",
+  "is_correct": true,
+  "reasoning": "The question asks about the number of patients who went to the ICU after the Emergency node. I need to find the link between Emergency and ICU and the number on that link, which represents the number of patients who went from Emergency to ICU. The diagram clearly shows a link from \"Emergency\" to \"ICU\" with the number 62 on it. Therefore, 62 patients went to the ICU after Emergency.",
+  "full_response": "1. The question asks about the number of patients who went to the ICU after the Emergency node.\n2. I will identify the link connecting the \"Emergency\" node to the \"ICU\" node and its corresponding value.\n3. The link connecting \"Emergency\" to \"ICU\" has the value 62.\n4. Therefore, 62 patients went to the ICU after Emergency.\n\n<reasoning>\nThe question asks about the number of patients who went to the ICU after the Emergency node. I need to find the link between Emergency and ICU and the number on that link, which represents the number of patients who went from Emergency to ICU. The diagram clearly shows a link from \"Emergency\" to \"ICU\" with the number 62 on it. Therefore, 62 patients went to the ICU after Emergency.\n</reasoning>\n<answer>62</answer>",
+  "process_time_seconds": 4.127488,
+  "processed_at": "2025-05-13 20:00:02"
+}

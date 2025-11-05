@@ -1,0 +1,14 @@
+{
+  "index": 56,
+  "question_id": "q_56",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/SentenTree/emergency_dataset/msp_20.png",
+  "question": "How many patients went to the ICU after Emrgency?",
+  "true_answer": "62",
+  "llm_answer": "41",
+  "is_correct": false,
+  "reasoning": "I need to find the link connecting the 'Emergency' node to the 'ICU' node.\nLocate the 'Emergency' node.\nLocate the 'ICU' node, which is below and to the left of 'Emergency'.\nIdentify the directed link going from 'Emergency' to 'ICU'.\nRead the numeric label associated with this specific link. The label is 41.\nThis number represents the count of sequences (patients) that followed this path.",
+  "full_response": "<reasoning>\nI need to find the link connecting the 'Emergency' node to the 'ICU' node.\nLocate the 'Emergency' node.\nLocate the 'ICU' node, which is below and to the left of 'Emergency'.\nIdentify the directed link going from 'Emergency' to 'ICU'.\nRead the numeric label associated with this specific link. The label is 41.\nThis number represents the count of sequences (patients) that followed this path.\n</reasoning>\n<answer>41</answer>",
+  "process_time_seconds": 2.609533,
+  "processed_at": "2025-05-14 20:57:29"
+}

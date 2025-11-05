@@ -1,0 +1,14 @@
+{
+  "index": 197,
+  "question_id": "q_197",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_30.png",
+  "question": "How many times did UMD Offense transition from UNC Offense?",
+  "true_answer": "69",
+  "llm_answer": "46",
+  "is_correct": false,
+  "reasoning": "The diagram shows that from \"UNC Offense\", there are two paths leading to \"UMD Offense\":\n- 22 sequences via \"Made Shot\"\n- 24 sequences via \"Missed Shot\"\n\nTherefore, the total number of transitions from UNC Offense to UMD Offense is 22 + 24 = 46.",
+  "full_response": "To determine how many times UMD Offense transitioned from UNC Offense, we need to follow the pathways in the diagram:\n\n1. Start at the \"UNC Offense\" node.\n2. Look for links leading out of this node.\n3. There are two links: one labeled \"22\" leading to \"Made Shot\" and another labeled \"24\" leading to \"Missed Shot\".\n4. From both \"Made Shot\" and \"Missed Shot\", there is a link labeled \"22\" leading to \"UMD Offense\".\n\nSumming up these values:\n- From \"Made Shot\": 22 sequences\n- From \"Missed Shot\": 24 sequences\n\nAdding these together gives us the total number of transitions from UNC Offense to UMD Offense.\n\n<reasoning>\nThe diagram shows that from \"UNC Offense\", there are two paths leading to \"UMD Offense\":\n- 22 sequences via \"Made Shot\"\n- 24 sequences via \"Missed Shot\"\n\nTherefore, the total number of transitions from UNC Offense to UMD Offense is 22 + 24 = 46.\n</reasoning>\n\n<answer>46</answer>",
+  "process_time_seconds": 7.777713,
+  "processed_at": "2025-05-16 19:16:11"
+}

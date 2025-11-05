@@ -1,0 +1,14 @@
+{
+  "index": 28,
+  "question_id": "q_28",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/CoreFlow/emergency_dataset/msp_25.png",
+  "question": "How many total patients were discharged alive after going to the Floor?",
+  "true_answer": "indeterminate",
+  "llm_answer": "indeterminate",
+  "is_correct": true,
+  "reasoning": "The user is asking for the number of patients who were discharged alive after going to the \"Floor\".\nI need to examine the provided node-link diagram to see if there is a node labeled \"Floor\".\nI can see the following nodes: \"\\_Start\", \"Arrival\", \"Emergency\", \"ICU\", \"Die\", \"Discharge-Alive\", and \"\\_Exit\".\nThere is no node labeled \"Floor\" in this diagram.\nTherefore, I cannot determine how many patients went to the Floor or how many were discharged alive after going there, as this information is not present in the visualization.",
+  "full_response": "<reasoning>\nThe user is asking for the number of patients who were discharged alive after going to the \"Floor\".\nI need to examine the provided node-link diagram to see if there is a node labeled \"Floor\".\nI can see the following nodes: \"\\_Start\", \"Arrival\", \"Emergency\", \"ICU\", \"Die\", \"Discharge-Alive\", and \"\\_Exit\".\nThere is no node labeled \"Floor\" in this diagram.\nTherefore, I cannot determine how many patients went to the Floor or how many were discharged alive after going there, as this information is not present in the visualization.\n</reasoning>\n<answer>indeterminate</answer>",
+  "process_time_seconds": 4.144906,
+  "processed_at": "2025-05-14 20:54:55"
+}

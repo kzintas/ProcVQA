@@ -1,0 +1,15 @@
+{
+  "index": 55,
+  "question_id": "q_55",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/SentenTree/emergency_dataset/msp_20.png",
+  "question": "How many patients were discharged alive directly after an Emrgency?",
+  "true_answer": "38",
+  "llm_answer": "38",
+  "is_correct": true,
+  "reasoning": "To determine the number of patients discharged alive directly after an Emergency, we need to follow the pathway from the \"Emergency\" node to the \"Discharge-Alive\" node.\n\n1. The \"Emergency\" node has two outgoing links: one to the \"Floor\" node and another to the \"ICU\" node.\n2. The link from \"Emergency\" to \"Floor\" has a count of 41, indicating that 41 patients were sent to the floor after an emergency.\n3. The link from \"Floor\" to \"Discharge-Alive\" has a count of 38, indicating that 38 patients were discharged alive directly after being on the floor.\n\nSince the question asks for the number of patients discharged alive directly after an emergency, we only consider the pathway from \"Emergency\" to \"Floor\" to \"Discharge-Alive\".\n\nTherefore, the number of patients discharged alive directly after an emergency is 38.",
+  "full_response": "<reasoning>\nTo determine the number of patients discharged alive directly after an Emergency, we need to follow the pathway from the \"Emergency\" node to the \"Discharge-Alive\" node.\n\n1. The \"Emergency\" node has two outgoing links: one to the \"Floor\" node and another to the \"ICU\" node.\n2. The link from \"Emergency\" to \"Floor\" has a count of 41, indicating that 41 patients were sent to the floor after an emergency.\n3. The link from \"Floor\" to \"Discharge-Alive\" has a count of 38, indicating that 38 patients were discharged alive directly after being on the floor.\n\nSince the question asks for the number of patients discharged alive directly after an emergency, we only consider the pathway from \"Emergency\" to \"Floor\" to \"Discharge-Alive\".\n\nTherefore, the number of patients discharged alive directly after an emergency is 38.\n</reasoning>\n\n<answer>38</answer>",
+  "process_time_seconds": 9.215179,
+  "processed_at": "2025-05-17 06:12:51",
+  "model": "meta/llama-3.2-90b-vision-instruct-maas"
+}

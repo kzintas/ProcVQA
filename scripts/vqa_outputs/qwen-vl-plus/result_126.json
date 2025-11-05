@@ -1,0 +1,14 @@
+{
+  "index": 126,
+  "question_id": "q_126",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_10.png",
+  "question": "How many total shots were made by UMD offense?",
+  "true_answer": "23",
+  "llm_answer": "14",
+  "is_correct": false,
+  "reasoning": "To determine the total number of shots made by UMD offense, we need to follow the pathway from _Start through UMD Offense and then to Made Shot. \n\n1. Start at _Start.\n2. Follow the link labeled \"UMD Offense\" which has a count of 69.\n3. From UMD Offense, follow the link labeled \"Made Shot\" which has a count of 14.\n\nAdding these two values together: \n69 (from UMD Offense) + 14 (Made Shot) = 83\n\nTherefore, the total number of shots made by UMD offense is 83.",
+  "full_response": "<answer>14</answer>\n\n<reasoning>\nTo determine the total number of shots made by UMD offense, we need to follow the pathway from _Start through UMD Offense and then to Made Shot. \n\n1. Start at _Start.\n2. Follow the link labeled \"UMD Offense\" which has a count of 69.\n3. From UMD Offense, follow the link labeled \"Made Shot\" which has a count of 14.\n\nAdding these two values together: \n69 (from UMD Offense) + 14 (Made Shot) = 83\n\nTherefore, the total number of shots made by UMD offense is 83.\n</reasoning>",
+  "process_time_seconds": 10.854491,
+  "processed_at": "2025-05-16 20:22:35"
+}

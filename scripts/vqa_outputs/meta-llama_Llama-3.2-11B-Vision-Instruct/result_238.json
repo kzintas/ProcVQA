@@ -1,0 +1,14 @@
+{
+  "index": 238,
+  "question_id": "q_238",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_30.png",
+  "question": "How many times did a jump ball occur after UNC Offense?",
+  "true_answer": "1",
+  "llm_answer": 2,
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "**Step 1: Identify the relevant elements in the visualization that inform the answer.**\n\nThe node-link diagram shows various events, including jump balls, rebounds, free throws, and other actions. To answer the question, we need to focus on the jump balls that occurred after UNC Offense.\n\n**Step 2: Describe the thought process and calculations in detail.**\n\nLooking at the diagram, we can see that there are two instances where a jump ball occurred after UNC Offense. These instances are represented by the \"Jump Ball\" nodes connected to the \"UNC Offense\" nodes.\n\n**Step 3: Provide the final answer in the required format.**\n\n<answer>2</answer>\n\nThe final answer is 2.",
+  "process_time_seconds": 8.956675,
+  "processed_at": "2025-05-17 12:51:25"
+}

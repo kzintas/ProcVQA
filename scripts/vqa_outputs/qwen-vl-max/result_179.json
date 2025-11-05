@@ -1,0 +1,14 @@
+{
+  "index": 179,
+  "question_id": "q_179",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_15.png",
+  "question": "How many total rebounds are there in the match?",
+  "true_answer": "49",
+  "llm_answer": "38",
+  "is_correct": false,
+  "reasoning": "- Identified two pathways involving rebounds:\n  - UNC Offense -> Rebound: 23 sequences\n  - UMD Offense -> Rebound: 15 sequences\n- Summing these values gives the total rebounds.",
+  "full_response": "To determine the total number of rebounds in the match, we need to identify all instances where a rebound occurs and sum their counts.\n\n1. The first rebound instance is after \"UNC Offense\" leading to \"Rebound\". There are 23 sequences here.\n2. Another rebound instance is after \"UMD Offense\" leading back to \"Rebound\". There are 15 sequences here.\n\n<reasoning>\n- Identified two pathways involving rebounds:\n  - UNC Offense -> Rebound: 23 sequences\n  - UMD Offense -> Rebound: 15 sequences\n- Summing these values gives the total rebounds.\n</reasoning>\n\n<answer>38</answer>",
+  "process_time_seconds": 6.514208,
+  "processed_at": "2025-05-16 19:13:33"
+}

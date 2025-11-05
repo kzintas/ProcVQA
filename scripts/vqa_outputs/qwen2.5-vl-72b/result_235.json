@@ -1,0 +1,14 @@
+{
+  "index": 235,
+  "question_id": "q_235",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_25.png",
+  "question": "How many total missed shots were made by both teams?",
+  "true_answer": "40",
+  "llm_answer": "38",
+  "is_correct": false,
+  "reasoning": "- For UNC Offense, there is a \"Missed Shot\" node with a value of 19.\n      - For UMD Offense, there is a \"Missed Shot\" node with a value of 19.\n      - To find the total missed shots by both teams, we add these values together: 19 + 19 = 38.",
+  "full_response": "1. **Identify the relevant elements:**\n   - The nodes labeled \"Missed Shot\" for both teams are relevant.\n   - The numeric labels next to these nodes indicate the count of missed shots.\n\n2. <reasoning>\n      - For UNC Offense, there is a \"Missed Shot\" node with a value of 19.\n      - For UMD Offense, there is a \"Missed Shot\" node with a value of 19.\n      - To find the total missed shots by both teams, we add these values together: 19 + 19 = 38.\n   </reasoning>\n\n3. <answer>38</answer>",
+  "process_time_seconds": 7.612658,
+  "processed_at": "2025-05-16 20:01:07"
+}

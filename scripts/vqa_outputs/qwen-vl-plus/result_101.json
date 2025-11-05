@@ -1,0 +1,14 @@
+{
+  "index": 101,
+  "question_id": "q_101",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_25.png",
+  "question": "How many patients got discharged alive directly after arriving at Emergency? ",
+  "true_answer": "37",
+  "llm_answer": "37",
+  "is_correct": true,
+  "reasoning": "To determine the number of patients who got discharged alive directly after arriving at Emergency, we need to follow the pathway from \"Arrival\" to \"Emergency\" and then to \"Discharge-Alive.\"\n\n1. Start at the \"Arrival\" node.\n2. Follow the link labeled with the number 12 from \"Arrival\" to \"Emergency.\"\n3. Continue along the path to the \"Discharge-Alive\" node.\n\nThe label next to the link between \"Emergency\" and \"Discharge-Alive\" is 37, indicating that there are 37 sequences where a patient gets discharged alive directly after arriving at Emergency.",
+  "full_response": "<answer>37</answer>\n\n<reasoning>\nTo determine the number of patients who got discharged alive directly after arriving at Emergency, we need to follow the pathway from \"Arrival\" to \"Emergency\" and then to \"Discharge-Alive.\"\n\n1. Start at the \"Arrival\" node.\n2. Follow the link labeled with the number 12 from \"Arrival\" to \"Emergency.\"\n3. Continue along the path to the \"Discharge-Alive\" node.\n\nThe label next to the link between \"Emergency\" and \"Discharge-Alive\" is 37, indicating that there are 37 sequences where a patient gets discharged alive directly after arriving at Emergency.\n</reasoning>",
+  "process_time_seconds": 6.781291,
+  "processed_at": "2025-05-16 20:19:09"
+}

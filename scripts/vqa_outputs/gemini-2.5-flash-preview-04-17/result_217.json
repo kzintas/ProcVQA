@@ -1,0 +1,14 @@
+{
+  "index": 217,
+  "question_id": "q_217",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_15.png",
+  "question": "How many times did a jump ball occur after UNC Offense?",
+  "true_answer": "1",
+  "llm_answer": "1",
+  "is_correct": true,
+  "reasoning": "1.  I am asked to find the number of times \"Jump Ball\" occurred immediately after \"UNC Offense\".\n2.  I examine the node-link diagram, which shows event sequences vertically (top to bottom).\n3.  I look for a node labeled \"UNC Offense\" followed by a directed link to a node labeled \"Jump Ball\".\n4.  In the first column, there is a node labeled \"UNC Offense\" at the second position.\n5.  Below this \"UNC Offense\" node, there is a node labeled \"Jump Ball\".\n6.  There is a link connecting the \"UNC Offense\" node to the \"Jump Ball\" node in the first column.\n7.  The numeric label next to this link is \"1\".\n8.  I check all other columns to see if the sequence \"UNC Offense\" followed by \"Jump Ball\" appears elsewhere. I do not find this specific sequence in any other column.\n9.  Therefore, the total number of times \"Jump Ball\" occurred after \"UNC Offense\" is the count on the single link representing this sequence.\n10. The count is 1.",
+  "full_response": "<reasoning>\n1.  I am asked to find the number of times \"Jump Ball\" occurred immediately after \"UNC Offense\".\n2.  I examine the node-link diagram, which shows event sequences vertically (top to bottom).\n3.  I look for a node labeled \"UNC Offense\" followed by a directed link to a node labeled \"Jump Ball\".\n4.  In the first column, there is a node labeled \"UNC Offense\" at the second position.\n5.  Below this \"UNC Offense\" node, there is a node labeled \"Jump Ball\".\n6.  There is a link connecting the \"UNC Offense\" node to the \"Jump Ball\" node in the first column.\n7.  The numeric label next to this link is \"1\".\n8.  I check all other columns to see if the sequence \"UNC Offense\" followed by \"Jump Ball\" appears elsewhere. I do not find this specific sequence in any other column.\n9.  Therefore, the total number of times \"Jump Ball\" occurred after \"UNC Offense\" is the count on the single link representing this sequence.\n10. The count is 1.\n</reasoning>\n<answer>1</answer>",
+  "process_time_seconds": 7.413995,
+  "processed_at": "2025-05-14 21:12:56"
+}

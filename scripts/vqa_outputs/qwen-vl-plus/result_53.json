@@ -1,0 +1,14 @@
+{
+  "index": 53,
+  "question_id": "q_53",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/SentenTree/emergency_dataset/msp_20.png",
+  "question": "How many patients died after arriving at Emergency?",
+  "true_answer": "36",
+  "llm_answer": "21",
+  "is_correct": false,
+  "reasoning": "To determine the number of patients who died after arriving at Emergency, we need to follow the pathway from \"Arrival\" to \"Emergency\" and then to \"Die\". \n\nStarting from \"Arrival\", there are 100 patients. From \"Emergency\", 21 patients proceed to \"Floor\". Out of these 21 patients, 24 eventually die. Therefore, the total number of patients who died after arriving at Emergency is 24.",
+  "full_response": "<answer>21</answer>\n\n<reasoning>\nTo determine the number of patients who died after arriving at Emergency, we need to follow the pathway from \"Arrival\" to \"Emergency\" and then to \"Die\". \n\nStarting from \"Arrival\", there are 100 patients. From \"Emergency\", 21 patients proceed to \"Floor\". Out of these 21 patients, 24 eventually die. Therefore, the total number of patients who died after arriving at Emergency is 24.\n</reasoning>",
+  "process_time_seconds": 9.927945,
+  "processed_at": "2025-05-16 20:13:04"
+}

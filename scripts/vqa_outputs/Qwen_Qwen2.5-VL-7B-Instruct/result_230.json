@@ -1,0 +1,14 @@
+{
+  "index": 230,
+  "question_id": "q_230",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_20.png",
+  "question": "How many shots were made by only the UNC offense?",
+  "true_answer": "28",
+  "llm_answer": "28",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "### Relevant Elements:\n- The node labeled \"Made Shot\" under \"UNC Offense\" has a link width indicating the number of sequences.\n- The numeric label next to this link is 28.\n\n### Reasoning:\n1. Identify the node \"Made Shot\" under \"UNC Offense\".\n2. Observe the link connecting \"Made Shot\" to another node.\n3. The numeric label next to this link is 28, which represents the count of sequences leading to the \"Made Shot\" node under \"UNC Offense\".\n\n### Final Answer:\n<answer>28</answer>",
+  "process_time_seconds": 43.932015,
+  "processed_at": "2025-05-15 05:18:00"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 200,
+  "question_id": "q_200",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_30.png",
+  "question": "How many total rebounds are there in the match?",
+  "true_answer": "34",
+  "llm_answer": "34",
+  "is_correct": true,
+  "reasoning": "- The question asks for the total number of rebounds in the match.\n      - In the diagram, there is only one path leading to the \"Rebound\" node from \"UMD Offense\".\n      - The numeric label on this link indicates the count of sequences that follow this path.\n      - Therefore, the value 34 represents the total number of rebounds in the match.",
+  "full_response": "1. **Identify the relevant elements:**\n   - The node \"Rebound\" is connected to the \"UMD Offense\" node.\n   - The link between \"UMD Offense\" and \"Rebound\" has a numeric label of 34.\n\n2. <reasoning>\n      - The question asks for the total number of rebounds in the match.\n      - In the diagram, there is only one path leading to the \"Rebound\" node from \"UMD Offense\".\n      - The numeric label on this link indicates the count of sequences that follow this path.\n      - Therefore, the value 34 represents the total number of rebounds in the match.\n   </reasoning>\n\n3. <answer>34</answer>",
+  "process_time_seconds": 7.065984,
+  "processed_at": "2025-05-16 19:55:39"
+}

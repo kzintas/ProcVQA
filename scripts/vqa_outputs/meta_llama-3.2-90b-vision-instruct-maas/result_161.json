@@ -1,0 +1,15 @@
+{
+  "index": 161,
+  "question_id": "q_161",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_05.png",
+  "question": "How many rebounds were made after UMD Offense?",
+  "true_answer": "34",
+  "llm_answer": null,
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "The node-link diagram shows the sequence of events in a basketball game. The question asks how many rebounds were made after UMD Offense.\n\nTo answer this question, we need to follow the path from UMD Offense to the Rebound node. There are two paths:\n\n1. UMD Offense \u2192 Turnover \u2192 Rebound\n2. UMD Offense \u2192 Made Free Throw \u2192 Rebound\n\nBoth paths lead to the Rebound node, which has a value of 4. This means that there were 4 rebounds made after UMD Offense.\n\n**Answer:** 4",
+  "process_time_seconds": 5.823996,
+  "processed_at": "2025-05-17 06:30:53",
+  "model": "meta/llama-3.2-90b-vision-instruct-maas"
+}

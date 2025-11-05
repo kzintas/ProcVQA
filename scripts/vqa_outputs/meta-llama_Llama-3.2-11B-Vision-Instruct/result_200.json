@@ -1,0 +1,14 @@
+{
+  "index": 200,
+  "question_id": "q_200",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_30.png",
+  "question": "How many total rebounds are there in the match?",
+  "true_answer": "34",
+  "llm_answer": null,
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "**Step 1: Identify the relevant elements in the visualization that inform the answer.**\n\nThe node-link diagram shows various events, including rebounds, with corresponding numerical labels indicating the count of each event. The relevant elements for this question are the nodes and links labeled \"Rebound\" and their associated numerical values.\n\n**Step 2: Describe the thought process and calculations in detail.**\n\nTo determine the total number of rebounds, we need to identify all the nodes and links labeled \"Rebound\" and sum up their numerical values.\n\n*   There are two nodes labeled \"Rebound\" with values 24 and 22.\n*   There is one link labeled \"Rebound\" with a value of 34.\n\n**Step 3: Calculate the total number of rebounds.**\n\nTotal Rebounds = 24 + 22 + 34 = 80\n\n**Answer:** 80",
+  "process_time_seconds": 10.372291,
+  "processed_at": "2025-05-17 07:38:16"
+}

@@ -1,0 +1,15 @@
+{
+  "index": 120,
+  "question_id": "q_120",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_05.png",
+  "question": "How many free throws were made in total by UMD Offense?",
+  "true_answer": "10",
+  "llm_answer": null,
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "The node-link diagram shows the sequences of events in a basketball game. The question asks for the total number of free throws made by UMD Offense.\n\nTo answer this question, we need to look at the nodes and links related to UMD Offense and free throws. The relevant nodes are \"Made Free Throw _Exit\" and \"Made Free Throw Exit\". The links between these nodes and the \"UMD Offense\" node represent the number of free throws made by UMD Offense.\n\nThe link between \"UMD Offense\" and \"Made Free Throw _Exit\" has a label of 6, indicating that 6 free throws were made by UMD Offense. The link between \"UMD Offense\" and \"Made Free Throw Exit\" has a label of 4, indicating that 4 free throws were made by UMD Offense.\n\nTherefore, the total number of free throws made by UMD Offense is 6 + 4 = 10.\n\n**Answer:** 10",
+  "process_time_seconds": 9.249278,
+  "processed_at": "2025-05-17 06:24:34",
+  "model": "meta/llama-3.2-90b-vision-instruct-maas"
+}

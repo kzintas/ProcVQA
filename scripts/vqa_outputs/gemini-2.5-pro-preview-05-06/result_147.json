@@ -1,0 +1,14 @@
+{
+  "index": 147,
+  "question_id": "q_147",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_25.png",
+  "question": "How many times did UMD Offense not transition to a Rebound?",
+  "true_answer": "35",
+  "llm_answer": "35",
+  "is_correct": true,
+  "reasoning": "1.  **Identify the 'UMD Offense' node:** The node labeled 'UMD Offense' is present in the diagram.\n2.  **Identify outgoing links from 'UMD Offense':** There are two outgoing links from 'UMD Offense':\n    *   One link goes to 'Rebound' with a value of 34. This means there were 34 sequences where 'UMD Offense' was followed by 'Rebound'.\n    *   Another link goes to '_Exit' with a value of 35. This means there were 35 sequences where 'UMD Offense' was followed by '_Exit'.\n3.  **Determine transitions *not* to 'Rebound':** The question asks how many times 'UMD Offense' did *not* transition to 'Rebound'. This corresponds to the sequences where 'UMD Offense' transitioned to any other node except 'Rebound'.\n4.  **Calculate the count:** From the outgoing links of 'UMD Offense', the only transition that is *not* to 'Rebound' is the one to '_Exit'. The count for this transition is explicitly given as 35.",
+  "full_response": "<reasoning>\n1.  **Identify the 'UMD Offense' node:** The node labeled 'UMD Offense' is present in the diagram.\n2.  **Identify outgoing links from 'UMD Offense':** There are two outgoing links from 'UMD Offense':\n    *   One link goes to 'Rebound' with a value of 34. This means there were 34 sequences where 'UMD Offense' was followed by 'Rebound'.\n    *   Another link goes to '_Exit' with a value of 35. This means there were 35 sequences where 'UMD Offense' was followed by '_Exit'.\n3.  **Determine transitions *not* to 'Rebound':** The question asks how many times 'UMD Offense' did *not* transition to 'Rebound'. This corresponds to the sequences where 'UMD Offense' transitioned to any other node except 'Rebound'.\n4.  **Calculate the count:** From the outgoing links of 'UMD Offense', the only transition that is *not* to 'Rebound' is the one to '_Exit'. The count for this transition is explicitly given as 35.\n</reasoning>\n<answer>35</answer>",
+  "process_time_seconds": 8.835599,
+  "processed_at": "2025-05-15 02:49:20"
+}

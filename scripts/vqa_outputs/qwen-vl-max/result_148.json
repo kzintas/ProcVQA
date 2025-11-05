@@ -1,0 +1,14 @@
+{
+  "index": 148,
+  "question_id": "q_148",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_25.png",
+  "question": "How many shots were missed immediately after UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": "34",
+  "is_correct": false,
+  "reasoning": "- Identified the \"UMD Offense\" node and its outgoing links.\n- Recognized that the link leading to \"Rebound\" represents missed shots.\n- Counted the value next to the link leading to \"Rebound.\"",
+  "full_response": "To determine how many shots were missed immediately after UMD Offense, we need to examine the pathways that follow the \"UMD Offense\" node. \n\nFrom the \"UMD Offense\" node, there are two outgoing links:\n1. One link leads to \"Rebound\" with a count of 34.\n2. The other link leads directly to \"_Exit\" with a count of 35.\n\nThe \"Rebound\" node indicates a missed shot since rebounds occur when a shot is not successful. Therefore, the number of shots missed immediately after UMD Offense is represented by the count on the link leading to \"Rebound.\"\n\n<reasoning>\n- Identified the \"UMD Offense\" node and its outgoing links.\n- Recognized that the link leading to \"Rebound\" represents missed shots.\n- Counted the value next to the link leading to \"Rebound.\"\n</reasoning>\n\n<answer>34</answer>",
+  "process_time_seconds": 6.429481,
+  "processed_at": "2025-05-16 19:09:20"
+}

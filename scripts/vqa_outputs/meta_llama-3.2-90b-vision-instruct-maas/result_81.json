@@ -1,0 +1,15 @@
+{
+  "index": 81,
+  "question_id": "q_81",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_10.png",
+  "question": "How many patients went to the ICU after Emrgency?",
+  "true_answer": "35",
+  "llm_answer": "12",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "The node-link diagram shows the sequence of events for patients in a hospital. The diagram is divided into different sections, each representing a different event or location. The events are connected by directed links, which indicate the flow of patients between different locations.\n\nTo answer the question, we need to follow the path of patients who went to the ICU after Emergency. We can start by looking at the \"Emergency\" node, which has two outgoing links: one to \"ICU\" and one to \"Floor\". The link to \"ICU\" has a label of \"12\", which indicates that 12 patients went to the ICU after Emergency.\n\nTherefore, the answer to the question is:\n\n<answer>12</answer>\n\nThis answer is based on the information provided in the node-link diagram, which shows the sequence of events for patients in a hospital. The diagram provides a clear and concise visual representation of the data, making it easy to follow the path of patients and answer questions about their journey.",
+  "process_time_seconds": 9.189563,
+  "processed_at": "2025-05-17 06:19:01",
+  "model": "meta/llama-3.2-90b-vision-instruct-maas"
+}

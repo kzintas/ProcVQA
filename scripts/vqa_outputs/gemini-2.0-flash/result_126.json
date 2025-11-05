@@ -1,0 +1,14 @@
+{
+  "index": 126,
+  "question_id": "q_126",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_10.png",
+  "question": "How many total shots were made by UMD offense?",
+  "true_answer": "23",
+  "llm_answer": "23",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "1. The question asks about the total number of shots made by UMD offense.\n2. I need to find all pathways from the 'UMD Offense' node that lead to a 'Made Shot' node, and sum the number of sequences following that path.\n3. From the 'UMD Offense' node, there is a direct link with value 8 to a 'Made Shot' node.\n4. From the 'UMD Offense' node, there is a link with value 34 to the 'Rebound' node. Then from the 'Rebound' node, there is a link with value 15 to a 'Made Shot' node.\n5. So the total number of 'Made Shot' are 8 + 15 = 23.\n\n<answer>23</answer>",
+  "process_time_seconds": 3.253429,
+  "processed_at": "2025-05-13 19:51:11"
+}

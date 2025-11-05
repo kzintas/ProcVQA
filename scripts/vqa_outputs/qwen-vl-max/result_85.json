@@ -1,0 +1,14 @@
+{
+  "index": 85,
+  "question_id": "q_85",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_15.png",
+  "question": "How many patients died after arriving at Emergency?",
+  "true_answer": "30",
+  "llm_answer": "18",
+  "is_correct": false,
+  "reasoning": "1. Start with the \"Arrival\" node.\n2. Follow the links to \"Emergency\":\n   - There are four pathways leading from \"Arrival\" to \"Emergency\" with counts 12, 37, 24, and 27.\n3. From \"Emergency\", trace the paths that lead to \"Die _Exit\":\n   - The pathway from \"Emergency\" to \"ICU\" to \"Die _Exit\" has a count of 18.\n   - No other direct path from \"Emergency\" leads to \"Die _Exit\".\n4. Sum the counts of all pathways leading from \"Arrival\" to \"Emergency\" and then to \"Die _Exit\":\n   - Total = 12 + 37 + 24 + 27 = 100 (total arrivals)\n   - Patients who died: 18",
+  "full_response": "To determine how many patients died after arriving at Emergency, we need to follow the pathways from \"Arrival\" through \"Emergency\" and then track how many of those sequences end in \"Die _Exit\".\n\n<reasoning>\n1. Start with the \"Arrival\" node.\n2. Follow the links to \"Emergency\":\n   - There are four pathways leading from \"Arrival\" to \"Emergency\" with counts 12, 37, 24, and 27.\n3. From \"Emergency\", trace the paths that lead to \"Die _Exit\":\n   - The pathway from \"Emergency\" to \"ICU\" to \"Die _Exit\" has a count of 18.\n   - No other direct path from \"Emergency\" leads to \"Die _Exit\".\n4. Sum the counts of all pathways leading from \"Arrival\" to \"Emergency\" and then to \"Die _Exit\":\n   - Total = 12 + 37 + 24 + 27 = 100 (total arrivals)\n   - Patients who died: 18\n</reasoning>\n\n<answer>18</answer>",
+  "process_time_seconds": 11.161926,
+  "processed_at": "2025-05-16 19:00:51"
+}

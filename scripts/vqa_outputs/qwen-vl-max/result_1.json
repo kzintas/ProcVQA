@@ -1,0 +1,14 @@
+{
+  "index": 1,
+  "question_id": "q_1",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/CoreFlow/emergency_dataset/msp_05.png",
+  "question": "How many total patients were discharged alive?",
+  "true_answer": "62",
+  "llm_answer": "62",
+  "is_correct": true,
+  "reasoning": "38 (directly from Emergency) + 24 (from ICU through Floor) = 62",
+  "full_response": "To determine the total number of patients discharged alive, we need to sum the counts of all pathways that lead to a \"Discharge-Alive\" node.\n\n1. From the \"Emergency\" node:\n   - 38 patients go directly to \"Discharge-Alive\".\n   \n2. From the \"ICU\" node:\n   - 24 patients go from ICU to \"Floor\", and then 24 of those go to \"Discharge-Alive\".\n\nSumming these values:\n<reasoning>\n38 (directly from Emergency) + 24 (from ICU through Floor) = 62\n</reasoning>\n\n<answer>62</answer>",
+  "process_time_seconds": 5.421088,
+  "processed_at": "2025-05-16 18:50:22"
+}

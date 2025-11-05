@@ -1,0 +1,14 @@
+{
+  "index": 167,
+  "question_id": "q_167",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_05.png",
+  "question": "How many steals occurred after UMD Offense?",
+  "true_answer": "4",
+  "llm_answer": "4",
+  "is_correct": true,
+  "reasoning": "1.  The question asks for the number of \"Steal\" events that occurred directly after \"UMD Offense\".\n2.  I locate the \"UMD Offense\" node in the diagram.\n3.  From the \"UMD Offense\" node, I examine the outgoing links to identify if any lead to a \"Steal\" node.\n4.  I observe a directed link from \"UMD Offense\" to \"Steal\".\n5.  The numeric label next to this link indicates the number of sequences following this specific path.\n6.  The label on the link from \"UMD Offense\" to \"Steal\" is \"4\".\n7.  Therefore, 4 steals occurred after UMD Offense.",
+  "full_response": "<reasoning>\n1.  The question asks for the number of \"Steal\" events that occurred directly after \"UMD Offense\".\n2.  I locate the \"UMD Offense\" node in the diagram.\n3.  From the \"UMD Offense\" node, I examine the outgoing links to identify if any lead to a \"Steal\" node.\n4.  I observe a directed link from \"UMD Offense\" to \"Steal\".\n5.  The numeric label next to this link indicates the number of sequences following this specific path.\n6.  The label on the link from \"UMD Offense\" to \"Steal\" is \"4\".\n7.  Therefore, 4 steals occurred after UMD Offense.\n</reasoning>\n<answer>4</answer>",
+  "process_time_seconds": 8.51423,
+  "processed_at": "2025-05-15 03:00:18"
+}

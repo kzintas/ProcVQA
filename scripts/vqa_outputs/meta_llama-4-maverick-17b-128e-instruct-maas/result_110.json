@@ -1,0 +1,15 @@
+{
+  "index": 110,
+  "question_id": "q_110",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_30.png",
+  "question": "How many patients went to the Floor after the ICU?",
+  "true_answer": "23",
+  "llm_answer": "23",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "To determine the number of patients who went to the Floor after the ICU, we need to examine the node-link diagram and identify the relevant pathways.\n\n1. **Identify Relevant Pathways**: The diagram shows four distinct pathways representing different sequences of events for patients. We need to look for pathways that include the sequence \"ICU\" followed by \"Floor\".\n\n2. **Examine Each Pathway**: \n   - The first pathway is: Arrival -> Emergency -> ICU -> Die -> Exit. The count associated with this pathway is 12.\n   - The second pathway is: Arrival -> Emergency -> Discharge-Alive -> Exit. The count associated with this pathway is 37.\n   - The third pathway is: Arrival -> Emergency -> ICU -> Floor -> Discharge-Alive -> Exit. The count associated with this pathway is 24, and specifically, 23 patients went from ICU to Floor.\n   - The fourth pathway is: Arrival -> Emergency -> Floor -> ICU -> Die -> Exit. The count associated with this pathway is 27, but it shows ICU after Floor, not Floor after ICU.\n\n3. **Analyze the Pathways for ICU to Floor Transition**: \n   - Only the third pathway shows a transition from \"ICU\" to \"Floor\". The count associated with this transition is 23.\n\n4. **Conclusion**: Based on the information provided in the diagram, 23 patients went to the Floor after being in the ICU.\n\nThe final answer is: <answer>23</answer>",
+  "process_time_seconds": 4.246757,
+  "processed_at": "2025-05-15 17:35:47",
+  "model": "meta/llama-4-maverick-17b-128e-instruct-maas"
+}

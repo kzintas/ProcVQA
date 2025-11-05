@@ -1,0 +1,14 @@
+{
+  "index": 112,
+  "question_id": "q_112",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_30.png",
+  "question": "How many patients went to the ICU after the Floor?",
+  "true_answer": "24",
+  "llm_answer": "23",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "### Relevant Elements:\n- The node \"Floor\" is present at the top level.\n- There is a link from \"Floor\" to \"ICU\".\n- The numeric label on this link is 23.\n\n### Reasoning:\n1. Identify the starting point: The \"Floor\" node represents the initial state where patients are located.\n2. Follow the pathway from \"Floor\" to determine the next destination.\n3. The link from \"Floor\" to \"ICU\" has a label of 23, which indicates the number of patients that transitioned from \"Floor\" to \"ICU\".\n\n### Final Answer:\n<answer>23</answer>",
+  "process_time_seconds": 46.326965,
+  "processed_at": "2025-05-15 04:00:09"
+}

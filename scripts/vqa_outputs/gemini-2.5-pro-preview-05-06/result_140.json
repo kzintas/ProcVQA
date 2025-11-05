@@ -1,0 +1,14 @@
+{
+  "index": 140,
+  "question_id": "q_140",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many shots were missed immediately after UMD Offense?",
+  "true_answer": "14",
+  "llm_answer": "14",
+  "is_correct": true,
+  "reasoning": "1.  **Identify the starting node:** The question asks about events immediately following \"UMD Offense\". I locate the \"UMD Offense\" node in the diagram.\n2.  **Identify the target node:** The question specifies \"shots were missed\". This corresponds to the \"Missed Shot\" node.\n3.  **Trace the link and find the value:** I look for a direct link from \"UMD Offense\" to \"Missed Shot\". I find such a link.\n4.  **Read the numeric label on the link:** The numeric label next to the link connecting \"UMD Offense\" to \"Missed Shot\" is 14. This number represents the count of sequences where \"UMD Offense\" is immediately followed by \"Missed Shot\".",
+  "full_response": "<reasoning>\n1.  **Identify the starting node:** The question asks about events immediately following \"UMD Offense\". I locate the \"UMD Offense\" node in the diagram.\n2.  **Identify the target node:** The question specifies \"shots were missed\". This corresponds to the \"Missed Shot\" node.\n3.  **Trace the link and find the value:** I look for a direct link from \"UMD Offense\" to \"Missed Shot\". I find such a link.\n4.  **Read the numeric label on the link:** The numeric label next to the link connecting \"UMD Offense\" to \"Missed Shot\" is 14. This number represents the count of sequences where \"UMD Offense\" is immediately followed by \"Missed Shot\".\n</reasoning>\n<answer>14</answer>",
+  "process_time_seconds": 6.218286,
+  "processed_at": "2025-05-15 02:48:36"
+}

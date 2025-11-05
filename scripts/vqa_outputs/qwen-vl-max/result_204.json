@@ -1,0 +1,14 @@
+{
+  "index": 204,
+  "question_id": "q_204",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_05.png",
+  "question": "How many total missed shots occur after UNC Offense but before UMD Offense?",
+  "true_answer": "21",
+  "llm_answer": "21",
+  "is_correct": true,
+  "reasoning": "The diagram shows two main pathways starting from \"UNC Offense\" that include \"Missed Shot\" before reaching \"UMD Offense\". By summing the counts on these links, we get the total number of missed shots in the specified sequence.",
+  "full_response": "To determine the total number of missed shots that occur after UNC Offense but before UMD Offense, we need to follow the pathways from \"UNC Offense\" nodes to \"UMD Offense\" nodes and count the occurrences of \"Missed Shot\" along these paths.\n\n1. Starting from the first \"UNC Offense\" node at the top:\n   - There is a direct link to \"Missed Shot\" with a count of 7.\n   - This \"Missed Shot\" then leads directly to \"_Exit\" with a count of 7.\n\n2. Moving to the second \"UNC Offense\" node:\n   - It links to \"Rebound\" (14), which then goes to \"Missed Shot\" (14).\n   - This \"Missed Shot\" also leads directly to \"_Exit\" (14).\n\n3. The third \"UNC Offense\" node:\n   - Links to \"Turnover\" (2), which does not lead to a \"Missed Shot\".\n   - Also links to \"UMD Offense\" (2) directly without passing through \"Missed Shot\".\n\n4. The fourth \"UNC Offense\" node:\n   - Leads to \"Jump Ball\" (1), which does not lead to a \"Missed Shot\".\n   - Also links to \"Foul\" (3), which does not lead to a \"Missed Shot\".\n\n5. The fifth \"UNC Offense\" node:\n   - Directly links to \"UMD Offense\" (15), bypassing \"Missed Shot\".\n\nSummarizing the counts:\n- From the first \"UNC Offense\": 7 missed shots\n- From the second \"UNC Offense\": 14 missed shots\n\n<reasoning>\nThe diagram shows two main pathways starting from \"UNC Offense\" that include \"Missed Shot\" before reaching \"UMD Offense\". By summing the counts on these links, we get the total number of missed shots in the specified sequence.\n</reasoning>\n\n<answer>21</answer>",
+  "process_time_seconds": 17.526623,
+  "processed_at": "2025-05-16 19:17:18"
+}

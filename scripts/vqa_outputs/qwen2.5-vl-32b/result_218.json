@@ -1,0 +1,14 @@
+{
+  "index": 218,
+  "question_id": "q_218",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_15.png",
+  "question": "How many total missed shots occur after UNC Offense but before UMD Offense?",
+  "true_answer": "25",
+  "llm_answer": "25",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "To answer the question, we need to identify all pathways in the diagram where \"Missed Shot\" occurs after \"UNC Offense\" but before \"UMD Offense.\" Let's break this down step by step:\n\n### Step 1: Identify the relevant pathways\n- We start from the node labeled \"_Start\" and follow the paths that lead to \"UNC Offense.\"\n- From \"UNC Offense,\" we look for any subsequent \"Missed Shot\" nodes.\n- We then ensure that these \"Missed Shot\" nodes are followed by a path leading to \"UMD Offense.\"\n\n### Step 2: Analyze the diagram\n#### Pathway 1:\n- Start at `_Start` (2 sequences) \u2192 `UNC Offense` (2 sequences) \u2192 `Jump Ball` (1 sequence) \u2192 `Missed Shot` (2 sequences).\n  - This pathway includes a \"Missed Shot\" after \"UNC Offense.\"\n  - However, it does not lead to \"UMD Offense\" but instead ends at `_Exit`.\n\n#### Pathway 2:\n- Start at `_Start` (13 sequences) \u2192 `UNC Offense` (13 sequences) \u2192 `Foul` (13 sequences) \u2192 `Made Shot` (2 sequences) \u2192 `_Exit`.\n  - This pathway does not include a \"Missed Shot.\"\n\n#### Pathway 3:\n- Start at `_Start` (26 sequences) \u2192 `UNC Offense` (26 sequences) \u2192 `Rebound` (26 sequences) \u2192 `Missed Shot` (25 sequences) \u2192 `UMD Offense` (9 sequences).\n  - This pathway includes a \"Missed Shot\" after \"UNC Offense\" and before \"UMD Offense.\"\n  - The count of sequences for this \"Missed Shot\" is 25.\n\n#### Pathway 4:\n- Start at `_Start` (21 sequences) \u2192 `UNC Offense` (21 sequences) \u2192 `Made Shot` (20 sequences) \u2192 `UMD Offense` (18 sequences).\n  - This pathway does not include a \"Missed Shot.\"\n\n#### Pathway 5:\n- Start at `_Start` (7 sequences) \u2192 `Turnover` (4 sequences) \u2192 `UMD Offense` (7 sequences).\n  - This pathway does not include a \"Missed Shot.\"\n\n### Step 3: Sum the counts of relevant \"Missed Shot\" nodes\n- From the analysis above, the only pathway that includes a \"Missed Shot\" after \"UNC Offense\" and before \"UMD Offense\" is Pathway 3.\n- The count of sequences for this \"Missed Shot\" is 25.\n\n### Final Answer:\n<answer>25</answer>",
+  "process_time_seconds": 11.636209,
+  "processed_at": "2025-05-16 21:26:27"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 171,
+  "question_id": "q_171",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_10.png",
+  "question": "How many missed shots were before UMD Offense?",
+  "true_answer": "24",
+  "llm_answer": "24",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "### Relevant Elements:\n- The node labeled \"Missed Shot\" is present.\n- There is a link from \"UNC Offense\" to \"Missed Shot\".\n- The label on this link is 24.\n\n### Reasoning:\n1. The node \"Missed Shot\" represents an event that occurs after a shot attempt.\n2. The link from \"UNC Offense\" to \"Missed Shot\" indicates that 24 sequences follow this pathway.\n3. This means there were 24 missed shots before the transition to UMD Offense.\n\n### Final Answer:\n<answer>24</answer>",
+  "process_time_seconds": 22.229545,
+  "processed_at": "2025-05-15 04:32:35"
+}

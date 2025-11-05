@@ -1,0 +1,14 @@
+{
+  "index": 172,
+  "question_id": "q_172",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_10.png",
+  "question": "How many total rebounds are there in the match?",
+  "true_answer": "49",
+  "llm_answer": "44",
+  "is_correct": false,
+  "reasoning": "1. Identified the question is about finding the total number of rebounds.\n2. Located the two nodes labeled \"Rebound\".\n3. Summed the incoming link values to the \"Rebound\" nodes: 9 + 8 + 27 = 44.",
+  "full_response": "1. The question asks about the total number of rebounds.\n2. I need to identify all the nodes labeled \"Rebound\" and sum the incoming link values to these nodes.\n3. There are two \"Rebound\" nodes. The first \"Rebound\" node has an incoming link with a value of 9 from \"UNC Offense\". The second \"Rebound\" node has an incoming link with a value of 8 from \"UMD Offense\". Also the second \"Rebound\" node has an incoming link with a value of 27 from \"\\_Exit\".\n4. The total number of rebounds is 9 + 8 + 27 = 44.\n\n<reasoning>\n1. Identified the question is about finding the total number of rebounds.\n2. Located the two nodes labeled \"Rebound\".\n3. Summed the incoming link values to the \"Rebound\" nodes: 9 + 8 + 27 = 44.\n</reasoning>\n<answer>44</answer>",
+  "process_time_seconds": 3.250236,
+  "processed_at": "2025-05-13 19:54:22"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 156,
+  "question_id": "q_156",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_30.png",
+  "question": "How many shots were missed immediately after UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": "35",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "### Reasoning:\n1. The diagram starts at the `_Start` node, which has 69 sequences leading to `UNC Offense`.\n2. From `UNC Offense`, there's a link to `UMD Offense` with 69 sequences.\n3. From `UMD Offense`, there are two paths: one to `Rebound` with 34 sequences and another to `_Exit` with 35 sequences.\n\nSince the question asks about \"shots missed immediately after UMD Offense,\" we need to consider the transitions directly from `UMD Offense`. The only immediate transition from `UMD Offense` is to `_Exit`, which represents missed shots.\n\n### Final Answer:\n<answer>35</answer>",
+  "process_time_seconds": 26.933624,
+  "processed_at": "2025-05-15 04:22:26"
+}

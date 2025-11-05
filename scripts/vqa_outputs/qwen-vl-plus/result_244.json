@@ -1,0 +1,14 @@
+{
+  "index": 244,
+  "question_id": "q_244",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_30.png",
+  "question": "How many shots were made by only the UNC offense?",
+  "true_answer": "19",
+  "llm_answer": "14",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "<answer>14</answer>\n\n## Reasoning\nTo determine the number of shots made by only the UNC offense, we need to identify all nodes labeled \"Made Shot\" and filter out those that are not connected to a node labeled \"UNC Offense.\" \n\n1. Look at the \"Made Shot\" nodes in the diagram.\n2. Identify which \"Made Shot\" nodes have no connection to any other event except \"UNC Offense.\"\n3. Count these isolated \"Made Shot\" nodes.\n\nFrom the diagram:\n- There are 7 \"Made Shot\" nodes with connections to \"UNC Offense.\"\n- There are 7 \"Made Shot\" nodes without any connections to other events.\n\nTherefore, there are 7 shots made by only the UNC offense.",
+  "process_time_seconds": 7.91644,
+  "processed_at": "2025-05-16 20:39:22"
+}

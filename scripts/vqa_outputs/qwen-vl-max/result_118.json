@@ -1,0 +1,14 @@
+{
+  "index": 118,
+  "question_id": "q_118",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_05.png",
+  "question": "How many total shots were made by UMD offense?",
+  "true_answer": "23",
+  "llm_answer": "43",
+  "is_correct": false,
+  "reasoning": "1. From the \"UMD Offense\" node, there are three main paths:\n   - Path 1: Directly to \"Made Shot\" (8 sequences)\n   - Path 2: To \"Missed Shot\" then \"Made Shot\" (14 + 15 = 29 sequences)\n   - Path 3: To \"Foul\" then \"Made Free Throw\" (6 sequences)\n\n2. Summing these up:\n   - Direct made shots: 8\n   - Made shots after missed shots: 29\n   - Made free throws after fouls: 6\n\n3. Total shots made = 8 + 29 + 6 = 43",
+  "full_response": "To determine the total number of shots made by UMD offense, we need to identify all pathways that lead to a \"Made Shot\" node from the \"UMD Offense\" node. \n\n<reasoning>\n1. From the \"UMD Offense\" node, there are three main paths:\n   - Path 1: Directly to \"Made Shot\" (8 sequences)\n   - Path 2: To \"Missed Shot\" then \"Made Shot\" (14 + 15 = 29 sequences)\n   - Path 3: To \"Foul\" then \"Made Free Throw\" (6 sequences)\n\n2. Summing these up:\n   - Direct made shots: 8\n   - Made shots after missed shots: 29\n   - Made free throws after fouls: 6\n\n3. Total shots made = 8 + 29 + 6 = 43\n</reasoning>\n\n<answer>43</answer>",
+  "process_time_seconds": 7.259075,
+  "processed_at": "2025-05-16 19:05:39"
+}

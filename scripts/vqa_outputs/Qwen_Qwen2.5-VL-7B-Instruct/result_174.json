@@ -1,0 +1,14 @@
+{
+  "index": 174,
+  "question_id": "q_174",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_10.png",
+  "question": "How many steals occurred after UMD Offense?",
+  "true_answer": "indeterminate",
+  "llm_answer": "indeterminate",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "To determine the number of steals that occurred after UMD Offense, we need to follow these steps:\n\n1. Identify the pathway from \"UMD Offense\" to \"Steal\".\n2. Check if there is any link labeled \"Steal\" coming out of \"UMD Offense\".\n3. If such a link exists, read the numeric label associated with it.\n\nLooking at the diagram:\n- There is no direct link from \"UMD Offense\" to \"Steal\".\n- The only links from \"UMD Offense\" are to \"Rebound\", \"Missed Shot\", and \"Foul\".\n\nSince there is no link labeled \"Steal\" coming out of \"UMD Offense\", the number of steals that occurred after UMD Offense cannot be determined from this diagram.\n\n<answer>indeterminate</answer>",
+  "process_time_seconds": 29.63124,
+  "processed_at": "2025-05-15 04:33:56"
+}

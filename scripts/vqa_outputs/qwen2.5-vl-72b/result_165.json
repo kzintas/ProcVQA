@@ -1,0 +1,14 @@
+{
+  "index": 165,
+  "question_id": "q_165",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_05.png",
+  "question": "How many total rebounds are there in the match?",
+  "true_answer": "53",
+  "llm_answer": "42",
+  "is_correct": false,
+  "reasoning": "- The first \"Rebound\" node is connected to \"UNC Offense\" with a link value of 9.\n      - The second \"Rebound\" node is connected to \"UMD Offense\" with a link value of 27.\n      - The third \"Rebound\" node is connected to \"Turnover\" with a link value of 6.\n      - To find the total number of rebounds, we sum these values: 9 + 27 + 6 = 42.",
+  "full_response": "1. **Identify the relevant elements:** \n   - The nodes labeled \"Rebound\" are the ones we need to focus on.\n   - There are three \"Rebound\" nodes in the diagram.\n\n2. <reasoning>\n      - The first \"Rebound\" node is connected to \"UNC Offense\" with a link value of 9.\n      - The second \"Rebound\" node is connected to \"UMD Offense\" with a link value of 27.\n      - The third \"Rebound\" node is connected to \"Turnover\" with a link value of 6.\n      - To find the total number of rebounds, we sum these values: 9 + 27 + 6 = 42.\n   </reasoning>\n\n3. <answer>42</answer>",
+  "process_time_seconds": 8.066443,
+  "processed_at": "2025-05-16 19:50:42"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 147,
+  "question_id": "q_147",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_25.png",
+  "question": "How many times did UMD Offense not transition to a Rebound?",
+  "true_answer": "35",
+  "llm_answer": "35",
+  "is_correct": true,
+  "reasoning": "The diagram shows two paths from UMD Offense: one to Rebound (34 sequences) and one directly to _Exit (35 sequences). The question asks for the number of times UMD Offense did not lead to Rebound, which is represented by the path directly to _Exit. Therefore, the count on this link, 35, is the answer.",
+  "full_response": "To determine how many times UMD Offense did not transition to a Rebound, we need to examine the pathways from UMD Offense. \n\n1. There are two outgoing links from UMD Offense:\n   - One link leads to Rebound with a count of 34.\n   - The other link leads directly to _Exit with a count of 35.\n\n2. The question asks for the number of times UMD Offense did not transition to Rebound. This corresponds to the pathway leading directly to _Exit.\n\n3. The count on the link from UMD Offense to _Exit is 35.\n\n<reasoning>\nThe diagram shows two paths from UMD Offense: one to Rebound (34 sequences) and one directly to _Exit (35 sequences). The question asks for the number of times UMD Offense did not lead to Rebound, which is represented by the path directly to _Exit. Therefore, the count on this link, 35, is the answer.\n</reasoning>\n\n<answer>35</answer>",
+  "process_time_seconds": 9.58886,
+  "processed_at": "2025-05-16 19:09:14"
+}

@@ -1,0 +1,14 @@
+{
+  "index": 80,
+  "question_id": "q_80",
+  "dataset": "Emergency_Department",
+  "image_path": "./Data/Sequence Synopsis/emergency_dataset/alpha_10.png",
+  "question": "How many patients got discharged alive directly after arriving at Emergency? ",
+  "true_answer": "37",
+  "llm_answer": "37",
+  "is_correct": true,
+  "reasoning": "- In the first pathway (leftmost), patients go from \"Emergency\" to \"ICU\" and then to \"Die,\" so this does not match our criteria.\n      - In the second pathway, all 37 patients go from \"Emergency\" directly to \"Discharge-Alive.\" This matches our criteria.\n      - In the third pathway, patients go from \"Emergency\" to either \"ICU\" or \"Floor\" before reaching \"Discharge-Alive,\" so this does not match our criteria.\n      - In the fourth pathway, patients go from \"Emergency\" to \"Floor\" and then to \"ICU\" before reaching \"Die,\" so this does not match our criteria.\n      - Therefore, the only pathway where patients are discharged alive directly after arriving at Emergency is the second one, with a count of 37.",
+  "full_response": "1. **Relevant Elements:**\n   - The diagram shows four separate pathways starting from \"_Start\" and \"Arrival.\"\n   - We need to focus on the pathway that goes directly from \"Emergency\" to \"Discharge-Alive.\"\n\n2. <reasoning>\n      - In the first pathway (leftmost), patients go from \"Emergency\" to \"ICU\" and then to \"Die,\" so this does not match our criteria.\n      - In the second pathway, all 37 patients go from \"Emergency\" directly to \"Discharge-Alive.\" This matches our criteria.\n      - In the third pathway, patients go from \"Emergency\" to either \"ICU\" or \"Floor\" before reaching \"Discharge-Alive,\" so this does not match our criteria.\n      - In the fourth pathway, patients go from \"Emergency\" to \"Floor\" and then to \"ICU\" before reaching \"Die,\" so this does not match our criteria.\n      - Therefore, the only pathway where patients are discharged alive directly after arriving at Emergency is the second one, with a count of 37.\n   </reasoning>\n\n3. <answer>37</answer>",
+  "process_time_seconds": 10.533468,
+  "processed_at": "2025-05-16 19:37:41"
+}

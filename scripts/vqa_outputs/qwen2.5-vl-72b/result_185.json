@@ -1,0 +1,14 @@
+{
+  "index": 185,
+  "question_id": "q_185",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many missed shots were before UMD Offense?",
+  "true_answer": "24",
+  "llm_answer": "24",
+  "is_correct": true,
+  "reasoning": "- From \"UNC Offense,\" there is a link labeled \"24\" going to \"Missed Shot.\"\n   - This indicates that 24 sequences resulted in a missed shot from UNC Offense.\n   - All these missed shots eventually lead to \"Rebound\" and then to \"UMD Offense.\"\n   - Therefore, the number of missed shots before UMD Offense is directly given by the link count from \"UNC Offense\" to \"Missed Shot.\"",
+  "full_response": "1. **Identify relevant elements:**\n   - The question asks about the number of missed shots before UMD Offense.\n   - The nodes and links related to this are:\n     - \"UNC Offense\" leading to \"Missed Shot\"\n     - \"Missed Shot\" leading to \"Rebound\"\n     - \"Rebound\" leading to \"UMD Offense\"\n\n2. <reasoning>\n   - From \"UNC Offense,\" there is a link labeled \"24\" going to \"Missed Shot.\"\n   - This indicates that 24 sequences resulted in a missed shot from UNC Offense.\n   - All these missed shots eventually lead to \"Rebound\" and then to \"UMD Offense.\"\n   - Therefore, the number of missed shots before UMD Offense is directly given by the link count from \"UNC Offense\" to \"Missed Shot.\"\n</reasoning>\n\n3. **Final Answer:**\n<answer>24</answer>",
+  "process_time_seconds": 9.974641,
+  "processed_at": "2025-05-16 19:53:41"
+}

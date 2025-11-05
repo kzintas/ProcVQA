@@ -1,0 +1,14 @@
+{
+  "index": 237,
+  "question_id": "q_237",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/Sequence Synopsis/umdvsunc_D2O_basketball/alpha_25.png",
+  "question": "How many shots were made by only the UNC offense?",
+  "true_answer": "22",
+  "llm_answer": "28",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "### Reasoning:\nTo determine how many shots were made by only the UNC offense, we need to follow these steps:\n\n1. Identify the total number of \"Made Shot\" events for UNC Offense.\n2. Ensure there are no other paths leading to \"Made Shot\" from any other team.\n\nFrom the diagram:\n- The \"Made Shot\" event for UNC Offense has a value of 28.\n\nSince there are no other paths leading to \"Made Shot\" from UMD Offense or any other team, the total number of \"Made Shot\" events for UNC Offense is 28.\n\n### Final Answer:\n<answer>28</answer>",
+  "process_time_seconds": 47.918779,
+  "processed_at": "2025-05-15 05:24:49"
+}

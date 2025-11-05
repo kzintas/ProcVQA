@@ -1,0 +1,14 @@
+{
+  "index": 182,
+  "question_id": "q_182",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many rebounds were made after UMD Offense?",
+  "true_answer": "34",
+  "llm_answer": "15 + 15 = 30",
+  "is_correct": false,
+  "reasoning": "No reasoning found",
+  "full_response": "To determine how many rebounds were made after UMD Offense, we need to follow the pathway from \"Start\" to \"Rebound\" via \"UMD Offense\".\n\n1. Start at the top node labeled \"_Start\".\n2. Follow the link to \"UNC Offense\" which has 69 sequences.\n3. From \"UNC Offense\", there are two paths:\n   - One to \"Made Shot\" with 22 sequences.\n   - One to \"Missed Shot\" with 24 sequences.\n4. From \"Made Shot\", there is a link to \"Rebound\" with 15 sequences.\n5. From \"Missed Shot\", there is a link to \"Rebound\" with 15 sequences.\n\nThe total number of rebounds made after UMD Offense is the sum of the sequences from \"Made Shot\" and \"Missed Shot\" to \"Rebound\".\n\n<answer>15 + 15 = 30</answer>",
+  "process_time_seconds": 36.726094,
+  "processed_at": "2025-05-15 04:43:36"
+}

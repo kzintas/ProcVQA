@@ -1,0 +1,14 @@
+{
+  "index": 113,
+  "question_id": "q_113",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/CoreFlow/umdvsunc_D2O_basketball/msp_05.png",
+  "question": "How many total Rebounds were made by UMD Offense?",
+  "true_answer": "34",
+  "llm_answer": "24",
+  "is_correct": false,
+  "reasoning": "- The link from Rebound to Made Shot has a value of 15.\n   - The link from Rebound to Missed Shot has a value of 9.\n   - To find the total number of rebounds, we sum these values: 15 + 9 = 24.",
+  "full_response": "1. **Identify the relevant elements:**\n   - The node \"Rebound\" is connected to UMD Offense.\n   - There are two links coming from Rebound: one leading to \"Made Shot\" and another to \"Missed Shot\".\n   - The link widths and numeric labels indicate the number of sequences.\n\n2. <reasoning>\n   - The link from Rebound to Made Shot has a value of 15.\n   - The link from Rebound to Missed Shot has a value of 9.\n   - To find the total number of rebounds, we sum these values: 15 + 9 = 24.\n   </reasoning>\n\n3. <answer>24</answer>",
+  "process_time_seconds": 7.304316,
+  "processed_at": "2025-05-16 19:43:00"
+}

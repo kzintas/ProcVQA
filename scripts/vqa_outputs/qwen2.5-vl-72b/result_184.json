@@ -1,0 +1,14 @@
+{
+  "index": 184,
+  "question_id": "q_184",
+  "dataset": "UMDvsUNC",
+  "image_path": "./Data/SentenTree/umdvsunc_D2O_basketball/msp_20.png",
+  "question": "How many made shots were after UNC Offense but before UMD offense?",
+  "true_answer": "22",
+  "llm_answer": "22",
+  "is_correct": true,
+  "reasoning": "No reasoning found",
+  "full_response": "1. **Relevant Elements:**\n   - Nodes: _Start, UNC Offense, Made Shot, UMD Offense, Rebound, Missed Shot, _Exit\n   - Links and their counts:\n     - _Start to UNC Offense: 69\n     - UNC Offense to Made Shot: 22\n     - UNC Offense to Missed Shot: 23\n     - Made Shot to UMD Offense: 22\n     - Missed Shot to Rebound: 24\n     - Rebound to UMD Offense: 34\n     - UMD Offense to Rebound: 22\n     - UMD Offense to _Exit: 22\n\n2. **Reasoning:**\n   - We need to find the number of \"Made Shot\" events that occur after \"UNC Offense\" and before \"UMD Offense.\"\n   - From the diagram, there is a direct path from \"UNC Offense\" to \"Made Shot\" with a count of 22.\n   - The \"Made Shot\" then directly leads to \"UMD Offense\" with the same count of 22.\n   - This indicates that all 22 \"Made Shot\" events after \"UNC Offense\" are followed by \"UMD Offense.\"\n\n3. **Final Answer:**\n<answer>22</answer>",
+  "process_time_seconds": 11.925546,
+  "processed_at": "2025-05-16 19:53:31"
+}
